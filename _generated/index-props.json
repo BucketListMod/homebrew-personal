@@ -1,47 +1,46 @@
 {
 	"adventure": {
-		"collection/Lion Forge; Rolled & Told #1.json": "collection",
-    "collection/Lion Forge; Rolled & Told #4.json": "collection"
+		"collection/Lion Forge; Rolled and Told 1.json": "collection",
+    "collection/Lion Forge; Rolled and Told 4.json": "collection"
 	},
 	"adventureData": {
-		"collection/Lion Forge; Rolled & Told #1.json": "collection",
-    "collection/Lion Forge; Rolled & Told #4.json": "collection"
+		"collection/Lion Forge; Rolled and Told 1.json": "collection",
+    "collection/Lion Forge; Rolled and Told 4.json": "collection"
 	},
 	"book": {
-		"collection/Lion Forge; Rolled & Told #1.json": "collection",
-    "collection/Lion Forge; Rolled & Told #4.json": "collection"
+		"collection/Lion Forge; Rolled and Told 1.json": "collection",
+    "collection/Lion Forge; Rolled and Told 4.json": "collection"
 	},
 	"bookData": {
-		"collection/Lion Forge; Rolled & Told #1.json": "collection",
-    "collection/Lion Forge; Rolled & Told #4.json": "collection"
+		"collection/Lion Forge; Rolled and Told 1.json": "collection",
+    "collection/Lion Forge; Rolled and Told 4.json": "collection"
 	},
 	"item": {
-		"collection/Lion Forge; Rolled & Told #1.json": "collection",
-    "collection/Lion Forge; Rolled & Told #4.json": "collection",
+		"collection/Lion Forge; Rolled and Told 1.json": "collection",
+    "collection/Lion Forge; Rolled and Told 4.json": "collection",
 		"collection/WotC; PATCH.json": "collection"
 	},
   "makebrewCreatureTrait": {
-    "makebrew/Modnar; Homebrew Traits.json": "makebrew",
     "makebrew/E.L. Thomas; Rolled and Told.json": "makebrew"
   },
 	"monster": {
-		"collection/Lion Forge; Rolled & Told #1.json": "collection",
-    "collection/Lion Forge; Rolled & Told #4.json": "collection"
+		"collection/Lion Forge; Rolled and Told 1.json": "collection",
+    "collection/Lion Forge; Rolled and Told 4.json": "collection"
 	},
 	"table": {
-		"collection/Lion Forge; Rolled & Told #1.json": "collection"
+		"collection/Lion Forge; Rolled and Told 1.json": "collection"
 	},
 	"object": {
-		"collection/Lion Forge; Rolled & Told #1.json": "collection",
-    "collection/Lion Forge; Rolled & Told #4.json": "collection"
+		"collection/Lion Forge; Rolled and Told 1.json": "collection",
+    "collection/Lion Forge; Rolled and Told 4.json": "collection"
 	},
 	"reward": {
 		"collection/WotC; PATCH.json": "collection"
 	},
 	"variantrule": {
-		"collection/Lion Forge; Rolled & Told #1.json": "collection"
+		"collection/Lion Forge; Rolled and Told 1.json": "collection"
 	},
 	"vehicle": {
-		"collection/Lion Forge; Rolled & Told #1.json": "collection"
+		"collection/Lion Forge; Rolled and Told 1.json": "collection"
 	}
 }
