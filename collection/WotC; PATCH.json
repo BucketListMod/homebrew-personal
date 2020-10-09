@@ -1,4 +1,19 @@
 {
+  "_meta": {
+    "sources": [
+      {
+        "json": "PATCH",
+        "abbreviation": "PTCH",
+        "full": "Official Sources Patch",
+        "authors": [
+          "Wizards of the Coast"
+        ],
+        "convertedBy": [
+          "BucketListMod#8973"
+        ]
+      }
+    ]
+  },
   "item": [
     {
       "name": "Rod of the Pact Keeper",
