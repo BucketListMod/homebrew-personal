@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "RolledTold",
+        "abbreviation": "RT",
+        "full": "Rolled & Told",
+        "authors": [
+          "E.L. Thomas"
+        ],
+        "convertedBy": [
+          "BucketListMod#8973"
+        ],
+        "version": "1.0.0",
+        "url": "https://rolledandtold.com",
+        "targetSchema": "1.0.0"
+      }
+    ],
+    "dateAdded": 1602285289,
+    "dateLastModified": 1602285289
+  },
+  "makebrewCreatureTrait": [
+    {
+      "name": "Minion",
+      "entries": [
+        "The <$name$> never suffers damage on an attack that causes half damage on a successful saving throw."
+      ],
+      "source": "RolledTold"
+    }
+  ]
+}
