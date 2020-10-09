@@ -21,7 +21,8 @@
 		"collection/WotC; PATCH.json": "collection"
 	},
   "makebrewCreatureTrait": {
-    "makebrew/Modnar; Homebrew Traits.json": "makebrew"
+    "makebrew/Modnar; Homebrew Traits.json": "makebrew",
+    "makebrew/E.L. Thomas; Rolled and Told.json": "makebrew"
   },
 	"monster": {
 		"collection/Lion Forge; Rolled & Told #1.json": "collection",
