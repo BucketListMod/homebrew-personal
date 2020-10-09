@@ -1,0 +1,6 @@
+{
+	"<dir>/<filename>":
+		{"a":<epoc_Time>,"m":<epoc_Time>},
+	"<dir>/<filename>":
+		{"a":<epoc_Time>,"m":<epoc_Time>}
+}
