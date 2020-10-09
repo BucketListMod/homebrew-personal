@@ -1,0 +1,2813 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "RolledTold4",
+        "abbreviation": "RT4",
+        "full": "Rolled & Told #4",
+        "authors": [
+          "E. L. Thomas",
+          "Kat Kruger"
+        ],
+        "convertedBy": [
+          "BucketListMod#8973"
+        ],
+        "version": "1.0.0",
+        "color": "605b97",
+        "url": "https://www.amazon.com/gp/product/B07MQ6RBMQ",
+        "targetSchema": "1.0.0"
+      }
+    ]
+  },
+  "item": [
+    {
+      "name": "Carafe of Endless Chocolate Drinks",
+      "source": "RolledTold4",
+      "page": 49,
+      "rarity": "uncommon",
+      "wondrous": true,
+      "weight": 1,
+      "entries": [
+        "The carafe sloshes when shaken, as if it contains liquid. The carafe weighs 1 pound. You can use an action to open the lid and speak one of the three command words, whereupon an amount of hot chocolate or cold chocolate milk (your choice) pours out of the flask. The chocolate stops pouring out at the start of your next turn. Choose from the following options: Tall (12 oz.), Grande (16 oz.), Venti (20 oz.)."
+      ]
+    },
+    {
+      "name": "Bottle stopper cork embossed with gold leaf and set with coral",
+      "source": "RolledTold4",
+      "page": 49,
+      "type": "$",
+      "rarity": "none",
+      "value": 75000,
+      "entries": []
+    },
+    {
+      "name": "Copper mug with garnet inlay",
+      "source": "RolledTold4",
+      "page": 49,
+      "type": "$",
+      "rarity": "none",
+      "value": 25000,
+      "entries": []
+    },
+    {
+      "name": "Silver ring set with moonstones",
+      "source": "RolledTold4",
+      "page": 49,
+      "type": "$",
+      "rarity": "none",
+      "value": 25000,
+      "entries": []
+    }
+  ],
+  "monster": [
+    {
+      "name": "Mama Yum-Yum Ogre Matron",
+      "shortName": "ogre matron",
+      "source": "RolledTold4",
+      "page": "22",
+      "size": "L",
+      "type": "giant",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 12,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "10d10 + 40",
+        "average": 95
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 20,
+      "dex": 8,
+      "con": 18,
+      "int": 8,
+      "wis": 12,
+      "cha": 10,
+      "skill": {
+        "intimidation": "+3",
+        "perception": "+4"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 13,
+      "languages": [
+        "Common",
+        "Giant"
+      ],
+      "cr": "5",
+      "trait": [
+        {
+          "name": "Big Mama Bellow {@recharge}",
+          "entries": [
+            "As a bonus action Mama Yum-Yum lets loose a fearsome bellow, and any non-ally creature within 100 ft. must make a {@dc 13} Wisdom saving throw. Creatures that fail are {@condition stunned} until the end of her next turn; those that succeed are {@condition frightened} until the end of their next turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Mama Yum-Yum makes two greatclub attacks."
+          ]
+        },
+        {
+          "name": "Greatclub",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Stomp and Squish {@recharge 5}",
+          "entries": [
+            "Mama Yum-Yum stomps her foot and forces all creatures within 5 ft. to succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}. Then Mama Yum-Yum gets to make an immediate greatclub attack with advantage against any {@condition prone} creatures within reach."
+          ]
+        }
+      ],
+      "legendaryActions": 3,
+      "legendary": [
+        {
+          "name": "Greatclub Attack",
+          "entries": [
+            "Mama Yum-Yum makes a greatclub melee attack."
+          ]
+        },
+        {
+          "name": "Mama Says",
+          "entries": [
+            "Mama Yum-Yum grants one ogre ally within 60 ft. that can see and hear her an immediate move or attack action."
+          ]
+        },
+        {
+          "name": "Mama's Little Helper (Costs 2 Actions)",
+          "entries": [
+            "Both Big Mama Bellow and Stomp and Squish recharge."
+          ]
+        },
+        {
+          "name": "One Tough Mama",
+          "entries": [
+            "Until the end of her next turn, Mama Yum-Yum becomes resistant to bludgeoning, piercing, and slashing damage from nonmagical weapons."
+          ]
+        }
+      ],
+      "environment": [
+        "arctic",
+        "coastal",
+        "desert",
+        "forest",
+        "grassland",
+        "hill",
+        "mountain",
+        "swamp",
+        "underdark"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "GI"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "prone"
+      ]
+    },
+    {
+      "name": "Ogre Maniac",
+      "shortName": true,
+      "source": "RolledTold4",
+      "page": "23",
+      "size": "L",
+      "type": "giant",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 11,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "9d10 + 36",
+        "average": 85
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 20,
+      "dex": 8,
+      "con": 18,
+      "int": 5,
+      "wis": 7,
+      "cha": 7,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 8,
+      "languages": [
+        "Common",
+        "Giant"
+      ],
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Aggressive",
+          "entries": [
+            "As a bonus action, the ogre maniac can move up to its speed towards a hostile creature that it can see."
+          ]
+        },
+        {
+          "name": "Reckless",
+          "entries": [
+            "At the start of its turn, the ogre maniac can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The ogre maniac makes two greataxe attacks."
+          ]
+        },
+        {
+          "name": "Greataxe",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}18 ({@damage 2d12 + 5}) slashing damage."
+          ]
+        }
+      ],
+      "environment": [
+        "arctic",
+        "coastal",
+        "desert",
+        "forest",
+        "grassland",
+        "hill",
+        "mountain",
+        "swamp",
+        "underdark"
+      ],
+      "traitTags": [
+        "Aggressive",
+        "Reckless"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "GI"
+      ],
+      "damageTags": [
+        "S"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    },
+    {
+      "name": "Sheriff Aubrey Griffinstoke",
+      "shortName": "sheriff",
+      "isNpc": true,
+      "source": "RolledTold4",
+      "page": "23",
+      "size": "M",
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "alignment": [
+        "L",
+        "G"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item chain shirt|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "6d8 + 6",
+        "average": 33
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 15,
+      "con": 12,
+      "int": 10,
+      "wis": 14,
+      "cha": 16,
+      "skill": {
+        "insight": "+4",
+        "investigation": "+2",
+        "perception": "+4",
+        "persuasion": "+5"
+      },
+      "passive": 14,
+      "languages": [
+        "Common",
+        "Halfling"
+      ],
+      "cr": "1",
+      "trait": [
+        {
+          "name": "Brave",
+          "entries": [
+            "The sheriff has advantage on all saving throws against being {@condition frightened}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The sheriff makes two melee or two ranged attacks."
+          ]
+        },
+        {
+          "name": "Greatsword",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) slashing damage."
+          ]
+        },
+        {
+          "name": "Longbow",
+          "entries": [
+            "{@atk rw} {@hit 4} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Sheriff Aubrey Griffinstoke is a tall, lean woman in her early thirties. She keeps her russet hair in tight braids to allow nothing to interfere with her vision or drawing her sword should the need arise. She dresses in a loos-fitting work shirt and sturdy trousers, a leather vest, and forester boots. When on duty, she adds a dwarf-made chain shirt and hip quiver to her normal back-mounted sword halter. She is well trained in the fighting arts, though she prefers to try and settle a conflict with words over steel.",
+          {
+            "entries": [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Ideal",
+                    "entries": [
+                      "The law doesn't bend, and neither do I."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Bond",
+                    "entries": [
+                      "I serve the good folk of Springkernel proudly."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Flaw",
+                    "entries": [
+                      "Fighting in the last resort."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "H"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MW",
+        "RNG",
+        "RW"
+      ]
+    },
+    {
+      "name": "Deputy Grubbs Dungshovel",
+      "shortName": "Deputy Grubbs",
+      "isNpc": true,
+      "source": "RolledTold4",
+      "page": "24",
+      "size": "S",
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "halfling, stout"
+        ]
+      },
+      "alignment": [
+        "L",
+        "G"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item studded leather armor|phb}",
+            "{@item shield|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "5d6 + 10",
+        "average": 27
+      },
+      "speed": {
+        "walk": 25
+      },
+      "str": 14,
+      "dex": 16,
+      "con": 14,
+      "int": 9,
+      "wis": 11,
+      "cha": 9,
+      "skill": {
+        "perception": "+4",
+        "stealth": "+4"
+      },
+      "passive": 12,
+      "resist": [
+        {
+          "resist": [
+            "poison"
+          ],
+          "note": "(Stout Resilience)"
+        }
+      ],
+      "languages": [
+        "Common",
+        "Halfling"
+      ],
+      "cr": "1",
+      "trait": [
+        {
+          "name": "Brave",
+          "entries": [
+            "The deputy has advantage on all saving throws against being {@condition frightened}."
+          ]
+        },
+        {
+          "name": "Lucky",
+          "entries": [
+            "When Deputy Grubbs rolls a 1 on the {@dice d20} for an attack roll, ability check, or saving throw, he can reroll the die, but must take the new roll."
+          ]
+        },
+        {
+          "name": "Halfling Nimbleness",
+          "entries": [
+            "Deputy Grubbs can move through the space of any creature that is of a size larger than he is."
+          ]
+        },
+        {
+          "name": "Stout Resillience",
+          "entries": [
+            "Deputy Grubbs has advantage on saving throws against poison, and he has resistance against poison damage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Grubbs makes two melee or two ranged attacks."
+          ]
+        },
+        {
+          "name": "Morningstar",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Shortbow",
+          "entries": [
+            "{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Grubbs is thickly built for a halfling. He always seems in a foul temper when dealing with any race larger than himself. He's surly and gruff, but loyal to a fault. His worn leathers and patched clothing seem to be always in need of a wash. He is never without his ridiculous tall hat that is decorated with several rat skulls and a turkey feather.",
+          {
+            "entries": [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Ideal",
+                    "entries": [
+                      "Don't much see a need for talk'in, I'd rather be a-do'n."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Bond",
+                    "entries": [
+                      "Sheriff, she points and I handle it!"
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Flaw",
+                    "entries": [
+                      "Don't give me no lip, tallstuff. I'll whoop an owlbear, so you ain't no bother!"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "H"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "miscTags": [
+        "MW",
+        "RNG",
+        "RW"
+      ]
+    },
+    {
+      "name": "Opossum Gristlepot",
+      "shortName": "Opossum",
+      "isNpc": true,
+      "source": "RolledTold4",
+      "page": "25",
+      "size": "S",
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "halfling, lightfoot"
+        ]
+      },
+      "alignment": [
+        "C",
+        "G"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item leather armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "8d6 + 8",
+        "average": 36
+      },
+      "speed": {
+        "walk": 25
+      },
+      "str": 11,
+      "dex": 18,
+      "con": 12,
+      "int": 12,
+      "wis": 14,
+      "cha": 12,
+      "skill": {
+        "animal handling": "+3",
+        "deception": "+3",
+        "nature": "+3",
+        "perception": "+4",
+        "stealth": "+6",
+        "survival": "+4"
+      },
+      "passive": 12,
+      "languages": [
+        "Common",
+        "Halfling"
+      ],
+      "cr": "1",
+      "trait": [
+        {
+          "name": "Brave",
+          "entries": [
+            "Opossum has advantage on all saving throws against being {@condition frightened}."
+          ]
+        },
+        {
+          "name": "Lucky",
+          "entries": [
+            "When Opossum rolls a 1 on a {@dice d20} for an attack roll, ability check, or saving throw, he can reroll the die, but must take the new roll."
+          ]
+        },
+        {
+          "name": "Halfling Nimbleness",
+          "entries": [
+            "Opossum can move through the space of any creature that is of a size larger than he is."
+          ]
+        },
+        {
+          "name": "Naturally Stealthy",
+          "entries": [
+            "Opossum can attempt to hide even when he is only obscured by a creature that is at least one size larger than him."
+          ]
+        },
+        {
+          "name": "Hunter's Strike (4/Day)",
+          "entries": [
+            "As a bonus action, Opossum can add {@dice 1d10} to his next damage roll with any weapon attack. If the target of the attack is a beast, then he can add {@dice 2d10} instead."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Opossum makes two melee or ranged attacks."
+          ]
+        },
+        {
+          "name": "Shortsword",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Shortbow",
+          "entries": [
+            "{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "A bandy old halfling who dresses in hunting leathers and a ratty fur vest he claims came from a worg hide, Opossum hires out as a hunter and pest control. Be it foxes after the chickens, or wild pigs or giant gophers messing with the crops, Opossum Gristlepot always gets his prey. He is quite friendly and talkative. He always has a hunting story that gives lessons for every situation… though most seem unbelievable.",
+          {
+            "entries": [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Ideal",
+                    "entries": [
+                      "I hunt critters. Don't matter if they walk, swim, fly, or crawl, I'll bring 'em down!"
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Bond",
+                    "entries": [
+                      "Springkernel is my patch of dirt and I'll not let anything mess with it."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Flaw",
+                    "entries": [
+                      "Ogres ya say? Well that reminds me of the time I tricked two cyclopes into poking each other's eyes out…"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "H"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "miscTags": [
+        "MW",
+        "RNG",
+        "RW"
+      ]
+    },
+    {
+      "name": "Animated Ice Sculpture",
+      "source": "RolledTold4",
+      "page": "(errata)",
+      "size": "M",
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "6d8 + 12",
+        "average": 39
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 10,
+      "con": 14,
+      "int": 1,
+      "wis": 3,
+      "cha": 1,
+      "senses": [
+        "blindsight 60 ft. (blind beyond this radius)"
+      ],
+      "passive": 6,
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks"
+        }
+      ],
+      "immune": [
+        "poison",
+        "psychic"
+      ],
+      "conditionImmune": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "paralyzed",
+        "petrified",
+        "poisoned"
+      ],
+      "cr": "1",
+      "trait": [
+        {
+          "name": "Antimagic Susceptibility",
+          "entries": [
+            "The animated ice sculpture is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the ice sculpture must succeed on a Constitution saving throw against the caster's spell DC or fall unconscious for 1 minute."
+          ]
+        },
+        {
+          "name": "False Appearance",
+          "entries": [
+            "While the animated ice sculpture remains motionless, it is indistinguishable from a normal sculpture."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The animated ice sculpture makes two melee slam attacks."
+          ]
+        },
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "traitTags": [
+        "Antimagic Susceptibility"
+      ],
+      "senseTags": [
+        "B"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "miscTags": [
+        "MW",
+        "RCH"
+      ]
+    },
+    {
+      "name": "Chocolate Golem",
+      "shortName": "golem",
+      "source": "RolledTold4",
+      "page": "(errata)",
+      "size": "M",
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        8
+      ],
+      "hp": {
+        "formula": "7d8 + 7",
+        "average": 38
+      },
+      "speed": {
+        "walk": 20
+      },
+      "str": 18,
+      "dex": 7,
+      "con": 12,
+      "int": 5,
+      "wis": 5,
+      "cha": 5,
+      "senses": [
+        "blindsight 60 ft. (blind beyond this radius)"
+      ],
+      "passive": 7,
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks"
+        }
+      ],
+      "immune": [
+        "poison",
+        "psychic"
+      ],
+      "vulnerable": [
+        "fire"
+      ],
+      "conditionImmune": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "paralyzed",
+        "petrified",
+        "poisoned"
+      ],
+      "languages": [
+        "understands the language of its creator",
+        "but can't speak"
+      ],
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Berserk",
+          "entries": [
+            "When the golem starts it turn with 15 hit points or fewer, roll a {@dice d6}. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its hit points.",
+            "The golem's creator, if within 60 feet of the berserk golem, can try to calm it by speaking firmly and persuasively. The golem must be able to hear its creator, who must take an action to make a {@dc 15} Charisma (Persuasion) check. If the check succeeds, the golem ceases being berserk. If it takes damage while still at 15 hit points or fewer, the golem might go berserk again."
+          ]
+        },
+        {
+          "name": "Aversion to Fire",
+          "entries": [
+            "If the golem takes fire damage, it has disadvantage on the attack rolls and ability checks until the end of its next turn."
+          ]
+        },
+        {
+          "name": "Immutable Form",
+          "entries": [
+            "The golem is immune to any spell or effect that would alter its form."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The golem has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Magic Weapons",
+          "entries": [
+            "The golem's weapon attacks are magical."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The golem makes two melee slam attacks."
+          ]
+        },
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "traitTags": [
+        "Immutable Form",
+        "Magic Weapons"
+      ],
+      "senseTags": [
+        "B"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "CS"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "miscTags": [
+        "MW",
+        "RCH"
+      ]
+    },
+    {
+      "name": "Disgruntled Wizard",
+      "shortName": "wizard",
+      "source": "RolledTold4",
+      "page": "(errata)",
+      "size": "M",
+      "type": "humanoid",
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        12
+      ],
+      "hp": {
+        "formula": "5d8",
+        "average": 22
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 9,
+      "dex": 14,
+      "con": 11,
+      "int": 17,
+      "wis": 12,
+      "cha": 11,
+      "skill": {
+        "arcana": "+5",
+        "history": "+5"
+      },
+      "passive": 11,
+      "languages": [
+        "any 1 (usually common)"
+      ],
+      "cr": "2",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "The wizard is a 4th-level spellcaster who uses Intelligence as their spellcasting ability (spell save {@dc 13}; +5 to hit with spell attacks). The wizard has the following wizard spells prepared:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell light}",
+                "{@spell mending}",
+                "{@spell shocking grasp}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell disguise self}",
+                "{@spell shield}",
+                "{@spell Tasha's hideous laughter}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell hold person}",
+                "{@spell misty step}"
+              ],
+              "slots": 3
+            }
+          },
+          "ability": "int",
+          "type": "spellcasting"
+        }
+      ],
+      "action": [
+        {
+          "name": "Quarterstaff",
+          "entries": [
+            "{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d8 - 1}) bludgeoning damage."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "spellcastingTags": [
+        "CW"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    }
+  ],
+  "book": [
+    {
+      "name": "Rolled & Told #4",
+      "id": "RolledTold4",
+      "source": "RolledTold4",
+      "author": "RolledTold4",
+      "published": "2019/2/19",
+      "coverUrl": "https://m.media-amazon.com/images/I/512Ky0E6hdL.jpg",
+      "contents": [
+        {
+          "name": "Main Adventure"
+        },
+        {
+          "name": "Adventure Craft",
+          "headers": [
+            "Obligatory Thug Attacks"
+          ]
+        },
+        {
+          "name": "Memorable Monsters",
+          "headers": [
+            "Befriending the Monster (in You)"
+          ]
+        },
+        {
+          "name": "Running the Game",
+          "headers": [
+            "How to Craft the Perfect Game"
+          ]
+        },
+        {
+          "name": "Mini Adventure"
+        },
+        {
+          "name": "House Rules",
+          "headers": [
+            "Spawn Mechanics"
+          ]
+        }
+      ]
+    }
+  ],
+  "bookData": [
+    {
+      "id": "RolledTold4",
+      "source": "RolledTold4",
+      "data": [
+        {
+          "type": "section",
+          "name": "Main Adventure",
+          "page": "6",
+          "entries": [
+            "{@adventure Mama Yum-Yum's Big Ole Birthday BBQ|MamaYumYum}",
+            "A marauding band of ogres has taken over a small town and plans to throw their chieftain a big feast—and all the town's villagers are on the menu!"
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Adventure Craft",
+          "page": "27",
+          "entries": [
+            "Tips and tricks for working obligatory thug attacks into every game session.",
+            {
+              "type": "entries",
+              "name": "Obligatory Thug Attacks",
+              "entries": [
+                "E.L. Thomas",
+                "Now I know the phrase \"obligatory thug attack\" does not sound all that thrilling. Well, in a roleplay session it is, and it can be so much more.",
+                "An obligatory thug attack is any combat, threat of combat, or skilled challenge encounter that is not super difficult or dangerous for the PCs (though they don't know that).",
+                "Such an encounter has tons of uses for a game master: It is an easy way to get an adventure started and a good way to liven up a slow session, without going too far off the storyline. They make a fine way to have reoccurring foes or enemies show up every few games to remind the player they still have unfinished business and a spectacular way to garner the attentions of distracted players. They are nice when an impromptu combat comes from some roleplaying. Best of all, they let the PCs show off and kick ass!",
+                "I always try to work at least one obligatory thug attack into every game session. Sometimes, my players do it for me and that is even better. As a GM, you have a lot to keep track of: rules, initiative order, spell durations, conditions, monster hit points, and all manner of stuff that makes the game keep rolling along. Because of all a GM has to do during a game session, sometimes you miss that the game is lagging, your players' attentions are wandering from the game, or it is just downright boring. That is when your players will usually go a bit rogue and stir things up and trigger an obligatory thug attack encounter.",
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "While running from the hip and coming up with player-generated combat can be difficult, it does make your game feel like more of a living world and less of a railroad. So, let your players have these moments."
+                  ]
+                },
+                "A few good examples of player-triggered obligatory thug attacks are:",
+                {
+                  "type": "list",
+                  "items": [
+                    "When one or more of the players try to intimidate or deceive their way out of/into trouble",
+                    "When they pick a fight or try to \"borrow\"/steal something",
+                    "When players go looking for impromptu sport (gambling, arm wrestling, drinking contests, archery contests, and the like"
+                  ]
+                },
+                "Such encounters are always fun, but most times must be run from the hip. It's a skill that is learned over time, though I'm sure there are those that can do it with ease the first time around. While running from the hip and coming up with player-generated combat can be difficult, it does make your game feel like more of a living world and less of a railroad. So, let your players have these moments.",
+                "While player-triggered ones can work themselves out (one way or another), I want to give you a few tricks and tips for purposely working obligatory thug attacks into every game session.",
+                {
+                  "type": "entries",
+                  "name": "Foe Foreshadowing",
+                  "page": "28",
+                  "entries": [
+                    "This is used to clue in or give a hint to your players as to what they might be up against. It could also give them a few clues as to what kind of threats are in the wilderness they are entering. It could even be a small scouting or hunting party of humanoids or giants, or a single {@creature worg} that is just an outlier for a whole pack.",
+                    "Foe Foreshadowing is also a good way to warn your players when they might be getting ready to enter an area or undertake a combat that is far beyond their abilities to handle or survive. That way, you don't have to give the old \"You guys might want to rethink this\" line. Just give them a taste of what's to come and let them make the decisions. Just because players are 2nd level, doesn't mean that every path they choose has a balanced encounter awaiting them to best. {@creature ogre||Ogres}, giants, {@creature orc} tribes, and dragons have to live somewhere. In a living world, it sometimes behooves characters to run, instead of fight. This way, you can slaughter them with a clear conscience and a \"What did you think the ogre meant by 'Me mates is gonna eat ya fer dis,' that he bleated before he died?\" or a \"Nobody forced you guys to charge into a cave you knew had ogres in it without scouting it out first. I mean the ogre you guys killed that was dragging the dead goat was headed someplace.\""
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Inadequate Ambush",
+                  "page": "29",
+                  "entries": [
+                    "This one feels dangerous to your players. An ambush will put them on their heels, but a push-over ambush keeps you from killing them in the process. It also lets the players think that the bad guys have either badly underestimated them, or it makes them feel totally tough when they turn the tables on the ambushers. It can be combined with Foe Foreshadowing or The Clue-by-Four to do double-duty tactical excitement and helpful info."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Paper Tigers",
+                  "entries": [
+                    "Time to make the PCs think they are in over their heads, with three or four times the number of foes they thought should be in the battle, because there are! Start with two full-stat foes you want to use, say {@creature gnoll||gnolls}—now we need a massive pack of these critters; that is where minions come in (use the {@creature gnoll} stat block but lower their AC by 2 and make them have only 1 hit point). Now you have 2 normal gnolls and 20 paper tiger or minion gnolls. When us a battle kicks off, your players will be more than worried when they are facing what looks like 22 gnolls! Facing down hordes of foes (even 1 hp foes) makes for epic battles, and even more so than an Inadequate Ambush. It makes all the players feel like heroes. It is a bit more dangerous, but way too cool not to use every couple of games."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "The Clue-by-Four",
+                  "entries": [
+                    "This is kind of like Foe Foreshadowing, but more to get your players thinking or fighting in the right direction to push the story along.",
+                    "Say you are running a game that involves taking on a cult—but the players have missed some important clue that would lead them to uncover that all the disappearances in own are due to the cult taking them, and the players all look bored, annoyed, or befuddled. Ambush them with some cultist. Not only will it get the table rolling, but the story will have advanced. Now they discover clues you insert: what the cult is all about. Perhaps an NPC they met earlier is one of the now dead cultists at the PCs' feet. Maybe the Clue-By-Four lets them know they are up against a cult. It lets them know where to start looking for the missing folk or at least pushes them onto the cult's trail in some way. That is hitting your players over the heads with a Clue-by-Four without having to blatantly tell them. This way they think they figured something out and you don't have to break the fort wall to tell them and railroad them as to what to do."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "The Warm-Up",
+                  "page": "30",
+                  "entries": [
+                    "The warm-up is a very good way to get the game started with some action.",
+                    "{@note Editor's Note: See {@book Running the Game|RolledTold3}—{@link Instant Action|https://www.rolledandtold.com/2018/11/28/running-the-game-instant-action/} in our November Issue! —Steenz}",
+                    "It gets all the players fully engaged, and, if they are not careful, takes a few resources—spell slots, magic item charges, potions, limited use feats, and abilities. I also like to use a warm-up attack right before the PCs face off with a big bad. Sure, it is cool to take out a pile of folks with a well-timed {@spell fireball}, but the party will be missing that 3rd-level spell slot when the {@creature lich} hurls their own {@spell fireball} an it is cast with a 9th-level spell slot. Sure could have used an extra {@spell counterspell} to stop that 20-ft. radius, {@damage 14d6} of fiery death coming at the party. So this is not only fun, but a way to teach your players resource conservation."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "There Will Be Blood",
+                  "entries": [
+                    "It's just what it says. Maybe the game session you planned is going to be or was heavy on roleplaying? Well, as a good GM you need to try and include everyone. The {@race half-orc} {@class barbarian} with the Charisma of 6 is not going to have much to do when the game is about negotiations. Sure, they can stand around and look menacing and be ready if things go bad, but if they don't you now have a player who came to your table and got to do little or nothing. I can tell you, that is far from cool. No matter how engaging you think your game or story is, a little combat is kind of a necessity in tabletop gaming. To that thought, this is where There Will Be Blood comes in. Start, slip in, or end a session with a short and easy combat. It doesn't take a pile of planning on your part, and it keeps everybody happy."
+                  ]
+                },
+                "Try them, you and your players will like them. These thug attacks give you an excuse to throw some \"Are you not entertained?\" {@i Gladiator}-style lines at your players. That, my fellow cheesy game masters, is GM gold!"
+              ]
+            },
+            {
+              "type": "inset",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "E.L. Thomas",
+                  "entries": [
+                    "is a game designer, author, and rabid gamer who has been crawling through graph paper dungeons for nearly four decades and has no desire to stop. He lives with his two spoiled dogs under the auspicious grace of his queenly wife."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Memorable Monsters",
+          "page": "32",
+          "entries": [
+            "Tactics for befriending monsters and other things you encounter on your adventure.",
+            {
+              "type": "entries",
+              "name": "Befriending the Monster (in You)",
+              "entries": [
+                "Jen Vaughn",
+                {
+                  "type": "entries",
+                  "name": "Maybe you’ve never moved cities or states, let alone schools. Consider playing role-playing games as adventuring into a new school with a new set of problems: where to sit at lunch, what after-school activity to sign up for, and whom to sit next to on the bus.",
+                  "entries": [
+                    "If you were approaching role-playing like a new school, you wouldn’t immediately pull out your sharp ruler and slash someone’s calves, would you? You would try to find a common subject, or in the case, a similar language to speak. Friends or allies can offer you even more than rummaging through the pockets of a swiftly-cooling corpse.",
+                    "What do friends offer you? They know where the good food is, have great stone collections, and know the good local bands. In tabletop games, they could be NPCs who join the group for a while, guide you to a lucrative side-quest, or help reunite a member of the group with a missing friend. There is no limit to what a friend can do for you, on and off table.",
+                    "And to be fair, there is a tactical reason to befriend aggressors and adventurers on your own quests: bodies add up. People are going to start looking for you. The easiest way to find an adventuring party is to follow the line of rotting corpses left in their wake. And that doesn’t seem very smart, does it?"
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Tactics for Befriending Monsters and Other Things You Encounter",
+                  "page": "33",
+                  "entries": [
+                    "(Also a heads-up for GMs who might not be expecting this. Monsters do not need to dwell in just dungeons, they can be around corners of cities, in the library, at the tavern. Humans aren’t the only ones who reside in cities within the realms.)",
+                    {
+                      "type": "entries",
+                      "name": "Disarm with Charm",
+                      "entries": [
+                        "Immediately compliment the approaching party. Is one goblin coming out of the forest wearing a bandana for a local sports team? Is that the most pearl-encrusted sword handle you have ever seen? Make up something or ask the GM to describe something—they’ll play along!"
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Ask for Directions",
+                      "entries": [
+                        "You don’t need to pull out your map—we’re not comparing compass roses, nor do we need directions to the dungeon or tower where you are heading. Ask the giants for the best off-the-beaten-path tavern for nibbles, vittles, and libations. These other adventurers and monsters don’t have to be antagonistic—they could even know of the best fantasy pizza in the realms from working there as a youngling (they still have the oven burn marks on their arms to prove it!)."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Be the Information Desk",
+                      "entries": [
+                        "You’ve been walking through this forest or beach for HOURS. Did you just encounter the angriest set of flying snakes behind you? And barely escaped with your lives? Let the lovely owlbears in your life know what’s coming up on their path; maybe you’ll be rewarded for your thoughtfulness."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Challenge them to a Dance-Off",
+                      "entries": [
+                        "If it’s obvious there MUST be a fight of some kind, try turning it into something less contact-heavy by challenging those pesky kobolds to a dance-off, push-up contest, or seeing who can sing high enough to shatter this crystal goblet your thief stole from the last tavern. What do the friends you’re playing with like? Think about that and how you can incorporate it into the fantasy realm."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Ask for the Manager",
+                      "entries": [
+                        "Okay, dear reader, I’m suggesting this almost jokingly but…MAYBE management doesn’t know their employed striges are looting on the side and harassing you in the forest OR this forest is full of unpaid interns who need someone to help them mobilize against management. You could be the catalyst for change for them."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "The easiest way to find an adventuring party is to follow the line of rotting corpses left in their wake. And that doesn’t seem very smart, does it?"
+                  ]
+                },
+                "These tips might also be useful to incorporate into gameplay, as sometimes a long, drawn out combat can become less and less fun. Could your in-game rendition of a pop song stop everyone from fighting? You won’t know until you try.",
+                "What does “monster” mean anyway? Something you don’t understand and can’t comprehend. And you can’t learn more if you kill before investigating and asking questions. A monster is a friend you haven’t met yet. Most monsters have unique society standards that can echo in your encounters—a gatherer goblin wouldn’t hurt a fly (or you) compared to the hunter goblins.",
+                "Should you and your adventuring party dispense with fighting, remember enemies offer you nothing but anger and the short path to dull weapons. I’m not suggesting you let your character die from kindness when you are up against a gnoll who will not speak to you and is continuously slashing at you. But given good rolls, you can knock others out instead of taking them out. Maybe they’re under a spell you haven’t detected or are acting out of fear for a kidnapped family member. You can always loot their passed-out body to learn more information (and snag a library card for whatever town they’re from—it’s HIGHLY useful).",
+                "Or once you have an enemy tied up, you are FREE to question them about the best tavern pizza pies on the Sword Coast.",
+                {
+                  "type": "entries",
+                  "name": "Monster Mediation",
+                  "page": "34",
+                  "entries": [
+                    "Maybe your adventuring party is at the right place, right time to see one set of monsters attacking a different species. It’s time to don the helm of mediation (made that one up!) and problem-solve.",
+                    {
+                      "type": "entries",
+                      "name": "1) Separate the Groups",
+                      "entries": [
+                        "You need to get them to stop fighting first or to cool everyone down if they are about to draw weapons. This is best done with the aforementioned tactics, namely jokes to dissolve some of the tension.",
+                        "In our example, a {@creature minotaur} keeps stealing pies from a {@creature kobold}, who puts them outside their cave to cool."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "2) Listen to Each Side",
+                      "entries": [
+                        "Get each group/person to state why they are upset, from beginning to end if possible. It doesn’t matter who goes first but one monster/person at a time.",
+                        "Do not let the kobold or minotaur argue or speak over each other."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "3) Restate the Case and the Positives",
+                      "entries": [
+                        "Sometimes hearing a problem in a third party’s words (someone who has little or nothing to gain from choosing a side) will turn a light on for one of the sides. It’s usually not that easy but it’s fun to dream. Focusing also on any positives is helpful.",
+                        "Hey, at least the kobold is making GOOD pies, right? The minotaur wouldn’t eat a garbage pie."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "4) Find the Middle",
+                      "entries": [
+                        "In most conflicts, there is a way to compromise. To meet in the middle so everyone leaves smiling, or at least not bleeding, broken, and dead. Does a flying monster keep stealing pies from a local baker? What are some possible solutions? Go ahead and write down three; we can look at them later.*"
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "5) Focus on the Future",
+                      "entries": [
+                        "This might be the hardest step, but what can the parties involved do differently in the future? Assigning blame won’t necessarily encourage change on the guilty party."
+                      ]
+                    },
+                    "Ready?",
+                    {
+                      "type": "list",
+                      "name": "*Okay, it’s later. Some options I came up with (maybe yours are similar!):",
+                      "items": [
+                        "Make the minotaur pay for the pies. This is not a great example, despite being simple and logical, because it doesn’t focus on the future. The minotaur might have been raised in an area where things not guarded are up for grabs.",
+                        "Have the minotaur supply items to be baked into pies. They can provide items that maybe a kobold would have never seen before!",
+                        "Get the kobold and minotaur to go deeper into business together. Turn the minotaur not into a supplier but a partner via a pie delivery service! Now the kobold is making pies for money too!"
+                      ]
+                    },
+                    "To encourage creativity and thinking outside the box, or in this case outside the dungeon: think monstrous. I’m a big proponent of not playing as a human in role-playing games. We wear so many masks and faces throughout our every day—this is FANTASY. Let’s start with maybe some big lower teeth poking out of our mouth, a set of horns, or glowing eyes. People might treat you differently, you may have to eat food differently, but this will help you adapt to new circumstances (in and out of game).",
+                    "Let’s be frank—as far as we know, most RPG manuals were written from the point of views of humans, ergo the default point of view IS human. Even if the lands are equally split between {@race human||humans}, {@race elf||elves}, {@race orc|ERLW|orcs}, {@race goblin|VGM|goblins}, {@race tiefling||tieflings}, etc., your GM will mostly likely operate under the idea of humans as default. Also, playing as a quote-unquote monster and putting yourself into their shoes (or horns) will give you insight to use when befriending the same species in the future.",
+                    "Which is why it’s so enriching and narratively fun to play as something else in the manual. I’m partial to demonic monsters like {@race tiefling||tieflings} (basically like {@creature gargoyle||gargoyles}, born from evil magicks). Sometimes I add a twist playing them as if they’ve escaped the limiting confines and expectations of their species. The play of nature vs nurture is a narrative thread you can all use! Think of if in the “real world” a friend grew up in a meat-eating household but wants to learn more about plant-based diets and experiment with making meals without meat. They are getting to play with their food (har har) and you can do the same at your tabletop game.",
+                    "For example: Playing as a {@race lizardfolk|VGM} or {@race dragonborn}, you aren’t biologically seeking the same types of things as warm-blooded creatures. You can even play into the ectothermic nature. Ectotherms cannot derive their own body heat and must absorb it from the sun or warm things like fire. During a short rest, you have to sunbathe to keep up your energy. Smack on some personality like dressing and acting in goth fashion (and hating the sun) while being a lizard-person and you have a lot of internal conflict to play with.",
+                    "A smooth-talking {@race elf} will get much further naturally in a conversation with politicians than a ham-and-cheese-fisted {@race orc|ERLW}, unless you pump up the charisma points when you level up. If we made a chart of playable monsters and characters in the game, we’d see all the same personality traits in humans are also in the monsters and vice versa. It is the extremes that traits are pushed to that are the base for said monsters. Or as I like to call them, friends."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "inset",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "Jen Vaughn",
+                  "entries": [
+                    "dual-classes as both a writer ({@i Goosebumps: Download and Die}) and an artist ({@i Teenage Wasteland}, many issues of {@i Rolled & Told}). When not playing 5th edition, Jen is RECORDING playing D&D with her all-ages podcast, {@i d20 Dames} (as a {@race tiefling}, of course)."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Running the Game",
+          "page": "38",
+          "entries": [
+            "Build a new level of depth to your game with these four foundational pillars.",
+            {
+              "type": "entries",
+              "name": "How to Craft the Perfect Game",
+              "entries": [
+                "Teo Acosta",
+                "A prayer to the old gods is whispered into a fist clutching a plastic icosahedron. The d20 bounces across the table covered in cups, snacks, miniatures, and notepaper. Six sets of eyes watch with bated breath. The die slowly topples onto its result: 19. A hit! Someone is cheering but you can't hear it over your own hurrah. The table shakes as the players rejoice and your face hurts from smiling. The adventure is over.",
+                "A d20 rolls across the table, half-thrown half-dropped. It bounces into a painted miniature and reveals a 10. A hit. The monster is defeated. The players have won. There is a pause, and someone says, \"Wait, what were we doing here again?\" The adventure is over.",
+                "Which of these tables will remember this night?",
+                "Which of these tables would you want to sit at?",
+                "I've spent a large portion of my life researching and crafting adventures. I've GMed hundreds of games over the years and have experienced both tables first hand. I've learned how to avoid bad GM habits and how to turn low-focus games into awesome adventures.",
+                "I believe there are four pillars of a good campaign. Plot, Thrill, Intrigue, and Satisfaction. WHAT? That doesn't make sense! What about about monsters? What about role play? WHAT ABOUT COMBAT!?! While these aspects are all part of the experience, I don't believe they are all the foundational pillars of a great adventure.",
+                "If given the opportunity, share a pint of ale (ginger ale for the youngins) with a white witch or greybeard. Ask them about their most memorable gaming war stories. I guarantee you the moment that have stayed with them were not the 5th turn of combat versus a {@creature red dragon}. It was most likely the sense of dread in the moment the rogue rolled a 2 on a search for traps, or the thrill of convincing a town that it was, in fact, infested with {@creature vampire||vampires} and not spooky-bitey-priests.",
+                "As a younger GM, I would learn about a new feature or some kind of puzzle and dream of someone presenting this encounter to me. My focus was building impossible amazing traps, insane encounters, bizarre puzzles and designing endless war campaigns. I would spend dozens of hours on every adventure creating the tiniest details to guide the players to slowly unravel the main arcs of the campaign. It was a perfect campaign.",
+                "It was a \"perfect\" campaign… for me.",
+                "Unfortunately, my players had different interest. The party would forget NPC names, lose track of goals, get hyper-focused on the wrong details, get stuck on riddles, or worse, one player would solve everything while the rest of the party floated by. I had crafted a water park for the players, but they didn't want to wait in line for the rides. I was focused on the events instead of how to get my players invested.",
+                "The easiest way to get your players invested is to build the campaign around them. A topic that is rarely discussed is the tone of an adventure. Some people want dark brooding grimdark adventures where everyone's a backstabbing villain; other people want a little dark but overall uplifting experience. Before starting your campaign it's wise to discuss the tone of the game with your party. It also helps to look at their lives outside of the campaign.",
+                "Sometimes people don't know that they need a fun, easy-peasy adventure. Don't set up a brutal moral-questioning adventure if some of your players are having a hard time with something in their everyday lives. Know the crowd.",
+                "How do you get players invested in the game? Here are some questions you can ask yourself while designing an adventure:",
+                {
+                  "type": "list",
+                  "items": [
+                    {
+                      "type": "item",
+                      "name": "PLOT:",
+                      "entry": "How do you hook your players into an engaging adventure?"
+                    },
+                    {
+                      "type": "item",
+                      "name": "THRILL:",
+                      "entry": "How do you make each adventure a thrilling experience?"
+                    },
+                    {
+                      "type": "item",
+                      "name": "INTRIGUE:",
+                      "entry": "How do we make the players excited for future adventures?"
+                    },
+                    {
+                      "type": "item",
+                      "name": "SATISFACTION:",
+                      "entry": "How do we make sure the players are fulfilled?"
+                    }
+                  ]
+                },
+                "Let's start at the top.",
+                {
+                  "type": "entries",
+                  "name": "Plot",
+                  "page": "39",
+                  "entries": [
+                    "How do you hook your players into an engaging adventure? \"What are your players' motivations?\" \"Why do they care?\" There is sort of an unspoken rule of collaborative gaming to be like: \"Whatever the adventure is, we'll do it because otherwise what are we doing today?\"",
+                    "BUT it is always better to have your player's characters have something invested in the adventure itself.",
+                    "There is no small answer to this. Try building a fun NPC to help give your players something to care about. A lovable underdog will usually help garner the empathy of the group. Once you have that, use it to its fullest. MAKE THEM FEEL!",
+                    "My most successful NPC came by accident. In an adventure the players were attacked by a group of {@creature goblin||goblins}, combat was nearly over, and one goblin was left. I had written some backstory for this area and wanted to add some spice to the mix, so I had him throw down his weapon and say how sorry he was. His tribe had been coerced into attacking travelers by a beast called The Wolf. The real hook was his persona. His name was \"Stomp\" and he spoke in a small, apologetic voice.",
+                    "What I didn't expect was the group to basically adopt him. They fed him, brushed his hair and had him lead them to his tribe where they liberated them from \"The Wolf\" (a level 7 {@race orc|VGM} {@class fighter}/jerk). They have Stomp a bunch of gold and a smooch on the forehead goodbye. The players often asked NPCs if they had heard any news from the goblin plains, specifically asking about Stomp, and often sent portions of their loot and supplies to his tribe.",
+                    "Stomp gave the players something to care about in this world."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Thrill",
+                  "page": "40",
+                  "entries": [
+                    "How do you make each adventure a thrilling experience?",
+                    "This is probably the most well-known pillar of table top gaming. What makes a thrilling game is a source of debate and friendly contention. I think it's important to acknowledge that sometimes the most thrilling experience is NOT combat. Sometimes it's coercing information out of a diplomat, flirting your way past a bouncer, or out-drinking a dwarven war party. Are you having trouble making your adventure thrilling? Here are some ideas that will help get started.",
+                    "Paint your group's party as false villains. did they save a town from burning OR did they start the fire and extort the village to put out the fire in exchange for gold?! another version of this is build a \"rival\" group of adventurers who your party gets mistaken for. How do they prove they AREN'T a group of {@creature bandit||bandits}? Make sure to design a plot point to eventually clear their name… unless they go evil.",
+                    "Make the party risk something important to them. Gold might excite an NPC but to a player gold, silver, and copper coins are just a number on their character sheet! When your players started making their characters, what where their characters' goals? Do they have a deed to their family's farm? Does a character have a dark or mysterious past? At character creation encourage your players to give their characters a secret they wouldn't like the rest of the party to know!",
+                    {
+                      "type": "insetReadaloud",
+                      "entries": [
+                        "Some people want dark brooding grimdark adventures where everyone's a backstabbing villain; other people want a little dark but overall uplifting experience. Before starting your campaign it's wise to discuss the tone of the game with your party."
+                      ]
+                    },
+                    "If you are intent on focusing on combat let me suggest one fun little trick! In one particularly action-based session the players had about 10 minutes to make it through a series of encounters. To make it more exciting, I put an actual timer on the table. The players had 10 real minutes to do what they had to do. I had never seen my players make decisions so quickly! While this is a fun mechanism, don't do it often. It may be too stressful for some people. I know several people who really appreciate how much time they can think about their new move."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Intrigue",
+                  "page": "41",
+                  "entries": [
+                    "How do we make players excited for future adventures?",
+                    "Recurring villains! Ancient prophecies! Looming disaster! Exposition! What will make your players stoked to come back to the table? What will they think about when they're on break from work? This doesn't need to be a literal villain. Sometimes a concept can be strong enough to keep your players curious. I consume a lot of media and often take notes of how much a film or book will hint at something before showing it. Have an upcoming spooky ice dungeon? Throw in some chilly dialog in your NPCs. Be subtle, but emphatic with your hints!",
+                    "Another method is to expand your focus on world building. Do the players travel to the same place frequently? Have their favorite NPCs grow over time. Magnar the Beautiful has opened his first barbershop! Stomp the Goblin has set up a trade route between his tribe and the town. The guard who runs the gate had a kid and named it after one of your players. Spend a little time on it, make a chart showing your progress. These kinds of moments give your world depth, which will have your players starting to ask questions like \"What else is happening in this world?\" which will excite them to explore and investigate your game every session!"
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Satisfaction",
+                  "page": "42",
+                  "entries": [
+                    "How do we make sure the players have a good time?",
+                    "In the game, make sure to reward your players. Cool moments are just as valuable as new weapons. Never steal a moment from them. If you have some dramatic twist in your adventure, think about how it would feel to the players. A slippery villain is VERY different from a stolen victory. Designing a hard adventure is very different than designing a mean one.",
+                    "A great way to ensure your players are satisfied is to set up goals for them to accomplish. When designing your adventures make sure you build easy- and hard-to-achieve goals. Set up the situation so they save the prince, but the kidnapper has escaped. You can only do this so many times before the players will assume they can't catch the kidnapper. An alternative route is to catch the kidnapper and find out they were hired! BUT BY WHOM?! That's up to you. NPC friendly backstabs can be fun, but don't break your player's trust.",
+                    "Out of game, you can usually tell how much fun a group has had at the end of a long day of gaming. Everyone's a little different in how they display their enjoyment. Don't fret if players don't throw confetti at you at the end of every adventure! I make a habit of doing a very casual small-post mortem. Encourage constructive criticism! \"Did you have fun? What was your favorite moment?\" If they had a bad time don't take it in a negative light. Failure is knowledge! Listen and learn from your mistakes. GMing is hard work!"
+                  ]
+                },
+                "5E is a conversation. You need to listen just as much as you talk. What do your players want? Are they having fun? What does their body language say? Know your players. Never be afraid to try new things. Go to the dollar store (or Halloween store if you're lucky) and pick up some fun props. Handing a fake ring in the real world when a player finds a cursed ring can be so fun! Trial and error is a great way to learn what your players like. Talk after an adventure. Most importantly, don't forget this is a game. Make sure everyone is having fun, including yourself.",
+                "Plot, Thrill, Intrigue, and Satisfaction! When you're building your adventure refer to these four pillars and I guarantee you will build a new level of depth to your game."
+              ]
+            },
+            {
+              "type": "inset",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "Teo Acosta",
+                  "entries": [
+                    "Is an LA-based cinematographer, story artist, and writer. His love of Dungeons & Dragons is only surpassed by his love of genre film!"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Mini Adventure",
+          "page": "48",
+          "entries": [
+            "{@adventure The Case of the Brutal Brunch|BrutalBrunch}",
+            "When several attendees of the 125th Annual Spellcasters' Association Conference wind up dead, the PCs must join the Criminal Spellcasting Investigation team to find the culprit."
+          ]
+        },
+        {
+          "type": "section",
+          "name": "House Rules",
+          "page": "50",
+          "entries": [
+            "Throw the rule book out the window and learn to use spawn mechanics in your adventures.",
+            {
+              "type": "entries",
+              "name": "Spawn Mechanics",
+              "entries": [
+                "E.L. Thomas",
+                "Now if you are new to playing the 5th edition of the world's most popular RPG, then this little tidbit of game mastery nonsense may not be for you. Though it should be! If you are a \"by the book\" kind of gamer, then this may not sound like anything you want in your game. Though you and your players are missing out. Now I can go on and on and tell every one of you that \"this may not be for you, but it really is\"… but I won't. Because if you don't use a bit of this rules-breaking mechanic in one of your play sessions, your game will be lesser for it. You need SPAWN MECHANICS in your life!",
+                "I will not pretend to have invented spawn mechanics. That was done way back in 1985 by Atari Games when they brough us Gauntlet, in all its massive standing cabinet, hack-and-slashing, \"Red Warrior needs food badly!\", \"Green Elf is about to die!\" 8-bit glory. For crusty old gamers like myself who have been rolling funky shaped dice and scratching crazy Gygaxian dungeons on graph paper since I was ten in 1981, Gauntlet showed me (to my players' chagrin and joy) that tides of enemies rolling towards you cannot only be cool, heroic, and fear inducing, but a needed component of my game.",
+                "If you need examples from folks far better than myself, you need to look no further than some of the movies that are so beloved by fans of our shared geeky ilk. The best example I can think of is Peter Jackson's version of Lord of the Rings. In Fellowship alone, Jackson gives us awesome examples of spawning monsters. He gives a tide of goblins along with their pet cave troll in the Mines of Moria scenes. We see our beloved heroes—backs to the wall, weapons at the ready—and a cave troll comes crashing into the tomb, a tide of rabid goblins in tow! If that doesn't blow your hair back, how about a mass horde of Uruk-hai orcs flooding through the hilly forest bellowing \"Find the Halfling!\" The battles are in-your-face furious, wild and glorious action. You can get the same effects at your game table with spawn mechanics.",
+                "To be up front and fully truthful, using spawn mechanics is not only disregarding every rule on building encounters in the rulebooks, but more so shooting them dead. This will make every rules-lawyer cringe and clutch their oh-so-manipulated core rulebooks to their chest and accuse you of blasphemy! Let them. Because sometimes you have to think (or in this case play) out of the box. Being a Game Master isn't always easy. Nor is the task of keeping your players engaged, entertained, and ready to come back next session for more. We sacred few who take up our screens and produce game after game of goodness for our players need all the help we can get. We need a bag of tricks to keep things from getting boring. Spawn mechanics are just one of the many crazy tricks I have collected over my nearly forty years of dungeon crafting and shoved into my bag of holding.",
+                "Let's lay out the basics of using spawn mechanics. I like to break it down into five simple categories: Trigger, Emanation, Generation, Duration, and Reward/Result.",
+                {
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "name": "Trigger",
+                      "entries": [
+                        "What causes the spawn. It could be something the PCs touch (a magically alarmed door or object), a roll the PCs failed (like say a failed {@skill Stealth} check), the area they are in (like breaking into or out of prison), or just being in the wrong place and time (interrupting a dark ritual in a cult's inner sanctum, or kicking in the wrong door and finding not a couple of {@creature bugbear||bugbears} on the other side, but thirty)."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Emanation",
+                      "entries": [
+                        "Where on the map or play area the spawning encounters start from as they enter the encounter."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Generation",
+                      "entries": [
+                        "How they spawn and how many are spawned at one time. Are they sent from another section of the adventure, spewed forth from a magical portal, or maybe just summoned or created by some infernal monster generator—like in our beloved Gauntlet? However or wherever they spawn from, it needs to be explained and we need to have a set way to determine how many show up at one time."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Duration",
+                      "entries": [
+                        "How long they keep spawning. Is it until a set number shows up, random dice rolls, or something that can be stopped in game—such as shutting down a magic portal? Or maybe it's until the PCs exit the area."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Reward/Result",
+                      "entries": [
+                        "What your players get for putting up with, thwarting, or merely surviving your spawn encounter. It could be simple XP or some other story element, goal, or loot, figuring XP is just a general guideline more than a hard and fast rule. Take the base XP of the monster you are planning to spawn and multiply it by 4 as base XP for your Spawner (x2 if you reduce or limit the monsters in some way, or if there's an advantageous reward from the PCs). Add 10% of the base XP (or +10 or +20 XP in our Spawner examples) bonus for each round the spawner is active, dependent on how nasty the monsters or situation is."
+                      ]
+                    }
+                  ]
+                },
+                "With these five factors in mind, let's throw together a few Encounter examples of spawning mechanics that you can just plug right into your game.",
+                "Firstly, how about one I like to call the Dinner Bell or Alarm Spawner. I use this kind of monster spawn if the PCs alert the bad guys to their presence—like if they are trying to sneak into or out of an area rife with threats. Or if they just kick in the door with a devil may care attitude without fully scouting out the battle beforehand. This one simulates all the bad guys converging and/or giving chase to the PCs.",
+                {
+                  "type": "entries",
+                  "name": "Goblin Tower Alarm Spawner",
+                  "page": "52",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "name": "Trigger: Failed Stealth Check",
+                      "entries": [
+                        "The PCs are spotted while trying to sneak through a massive goblin underground stronghold."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Emanation: Random",
+                      "entries": [
+                        "{@creature goblin||Goblins} come dashing in from every entrance and exit to the area the PCs are currently in."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Generation: Initiative Generation",
+                      "entries": [
+                        "Every round for the duration on Initiative 20 (losing ties), {@dice 1d4 + 1} {@creature goblin||Goblins} come running into the battle, trying to hurriedly ready their weapons and armor for battle. Give the goblins disadvantage on attack rolls and -2 AC, as they were ill-prepared having been in their own living space and not on guard for intruders. Also reduce the base goblin HP 7 to only HP 1 each."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Duration: Area",
+                      "entries": [
+                        "The goblins keep coming until the PCs exit the area at the end of a round that no goblins are alive or conscious and find a place to get out of sight and begin to {@skill Stealth} once more."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Reward/Result: XP/Discord for 1 Hour",
+                      "entries": [
+                        "Base XP of 100 + 10 combat round after the first encounter lasts, since the PCs screwed up and failed the {@skill Stealth} checks and got spotted. / Discord grants the PCs advantage on {@skill Stealth} checks as long as they move cautiously through the goblin territory, because the goblins are unnerved and searching in hurried panic for more threats."
+                      ]
+                    }
+                  ]
+                },
+                "As you can see in our first example, you may need to tone down any bad guys you spawn. The goal is not to slaughter your PCs, but to add tension, a sense of urgency, or wild and furious action. You want to make the encounter memorable and give your players some gaming goodness that will be remembered and retold. Most likely, your players won't remember the time they killed six goblins in a cave. Though you can bet they will remember the time the clumsy {@class fighter} tripped over a skull and banged his shield like a gong and alerted every goblin within earshot. Then they had to hack their way clear as thirty goblins came rushing at them until they could get to a place to try and avoid the rest of the goblin town coming down on their heads.",
+                "Here are a few other simple spawners you can look at before you make your own.",
+                {
+                  "type": "entries",
+                  "name": "The Dretch Dump Portal Spawner",
+                  "page": "53",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "name": "Trigger: Encounter Goal",
+                      "entries": [
+                        "The abyssal portal is part of the encounter and is already triggered when the encounter begins, and closing it is the purpose for the encounter."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Emanation: Static",
+                      "entries": [
+                        "The {@creature dretch} that are spawned do so within {@dice 1d4} squares of the portal."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Generation: Initiative Generation",
+                      "entries": [
+                        "Every round until the portal is sealed on Initiative 20 (losing ties), 2 {@creature dretch} spawn from the portal location."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Duration: Task Ending",
+                      "entries": [
+                        "The dretch keep spawning until the portal is sealed by succeeding on (4) consecutive Intelligence ({@skill Arcana}) {@dc 15} checks. If one is failed, you must begin anew from the beginning. Additionally, if any dretch are within 30 feet of the portal, any {@skill Arcana} check made to close it is done so at disadvantage."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Reward/Result: XP/Ending the Threat Upon Closure",
+                      "entries": [
+                        "XP 200 + 20 per combat round the encounter lasts. / When the last of the four consecutive {@skill Arcana} checks is completed, all dretch are immediately sucked back into the portal an instant before it slams shut."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "The Rolling Tide of Hungry Rats Spawner",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "name": "Trigger: Area Lair",
+                      "entries": [
+                        "While crawling through a dungeon or sewer, the PCs happen to stumble into the nesting area of thousands of rats, and they are hungry. The rats swarm towards the PCs in a tide."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Emanation: Directional",
+                      "entries": [
+                        "The {@creature swarm of rats} (enough to fill one end of the area and any area that they pass through), constantly fills in behind as they roll towards in tide of gnashing teeth."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Generation: Endless Threat",
+                      "entries": [
+                        "The number of {@creature swarm of rats||rat swarms} is innumerable. The tide of vermin flows over every PC as they try to flee. Each PC suffers AUTOMATIC damage each round on any hit to roll result besides a natural 1, though only suffers automatic damage if being attacked by a single swarms of rats (7 piercing damage, or 14 if they don't take at least one Move each turn). Any attacks made against the tide of rats have advantage because of the massive size of the threat."
+                      ]
+                    },
+                    {
+                      "type": "insetReadaloud",
+                      "entries": [
+                        "Being a Game Master isn't always easy. Nor is the task of keeping your players engaged, entertained, and ready to come back next session for more."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Duration: Until Stopped",
+                      "entries": [
+                        "The tide of rat swarms harries the PCs until it is stopped using a massive amount of oil or acid, or by area effect spells and attacks that cause enough damage to slay 10 swarm of rats' worth of hit points (240 HP) in a single combat round, or they just keep coming."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Reward/Result: XP/Survival",
+                      "entries": [
+                        "XP 200 + 10 each combat round after the first. / They get to live and tell the tale."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "The Skeleton Machine Spawner",
+                  "page": "54",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "name": "Trigger: Foe Activated",
+                      "entries": [
+                        "Either a vile {@creature necromancer|VGM} or his minions take an Action to activate the skeleton machine when the Encounter begins by pulling a series of levers."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Emanation: Area Touching",
+                      "entries": [
+                        "All spawned {@creature skeleton||skeletons} start in any square touching the machine."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Generation: Activated random",
+                      "entries": [
+                        "{@dice 2d4} skeletons spawn from the skeleton machine each round on the same initiative until it is deactivated or destroyed. This number can be reduced (see Duration for details)."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Duration: Until Deactivated or Destroyed",
+                      "entries": [
+                        "Deactivating the skeleton machine requires (4) Actions in succession on (4) Dexterity ({@item Thieves' Tools|PHB}) {@dc 20} to deactivate; each success counts as 10 Hit Points of damage. Characters trained in {@skill Arcana} gain Advantage on these checks. Or, the {@object skeleton machine|RolledTold4} can be destroyed by dealing it damage. For every 10 hit points of damage dealt to it, the skeleton machine spawns -1 less skeletons until reduced to 0 hit points. Example: when it takes 10 hp of damage it spawns {@dice 2d4 -1}, after 20 hp it spawns {@dice 2d4 -2}, after 30 hp {@dice 2d4 -3}, and at 40 hp it is destroyed."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Reward/Result: XP/—",
+                      "entries": [
+                        "XP 200 + 10 each combat round after the first. / —"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "adventure": [
+    {
+      "name": "Rolled & Told: Mama Yum-Yum's Big Ole Birthday BBQ",
+      "id": "MamaYumYum",
+      "source": "RolledTold4",
+      "coverUrl": "https://m.media-amazon.com/images/I/512Ky0E6hdL.jpg",
+      "contents": [
+        {
+          "name": "Mama Yum-Yum's Big Ole Birthday BBQ"
+        },
+        {
+          "name": "Running the Adventure",
+          "headers": [
+            "The Guard Ogres",
+            "The Looting Ogre",
+            "About Last Night",
+            "Area A: Central Market & The Old Well",
+            "Area B: The Bouncing Bee Inn",
+            "Area C: Inn Stables",
+            "Area D: Goodroot's General Store",
+            "Area E: Smithy",
+            "Area F: Pig Pens",
+            "Area G: Graveyard",
+            "Area H: Outer Fields",
+            "Area I: Town Hall",
+            "Area J: Huntman's Home",
+            "Area K: The Sheriff Office/Residence"
+          ]
+        },
+        {
+          "name": "Ending The Adventure",
+          "headers": [
+            "XP / Rewards"
+          ]
+        },
+        {
+          "name": "Scaling The Adventure"
+        },
+        {
+          "name": "New Monsters & Magic Items"
+        }
+      ],
+      "level": {
+        "start": 4,
+        "end": 6
+      },
+      "published": "2018/12/19"
+    },
+    {
+      "name": "Rolled & Told: The Case of the Brutal Brunch",
+      "id": "BrutalBrunch",
+      "source": "RolledTold4",
+      "coverUrl": "https://m.media-amazon.com/images/I/512Ky0E6hdL.jpg",
+      "contents": [
+        {
+          "name": "The Case of the Brutal Brunch",
+          "headers": [
+            "Rules"
+          ]
+        },
+        {
+          "name": "Starting the Adventure",
+          "headers": [
+            "Food for Thought",
+            "Death by Chocolate",
+            "The Battle is Complete When:"
+          ]
+        },
+        {
+          "name": "Ending the Adventure",
+          "headers": [
+            "Loot"
+          ]
+        },
+        {
+          "name": "New Monsters & Magic Items"
+        }
+      ],
+      "level": {
+        "start": 1,
+        "end": 4
+      },
+      "published": "2018/12/19"
+    }
+  ],
+  "adventureData": [
+    {
+      "id": "MamaYumYum",
+      "source": "RolledTold4",
+      "data": [
+        {
+          "type": "section",
+          "name": "Mama Yum-Yum's Big Ole Birthday BBQ",
+          "page": "6",
+          "entries": [
+            "Written by E.L. Thomas",
+            {
+              "type": "image",
+              "href": {
+                "type": "external",
+                "url": "https://2.bp.blogspot.com/eeQlYiEUUBD7k0s8-BY6oOHBqos-YdOCziuQVWPP5RxleJVYZwGYerFm5-r3yMJ7IgUgq66gsEgWByQI6jF0gXciPLEASma_dPjdNfRq58EtMHCspnvpJGv71RbbzQa9Yi5FM7kX6w=s1600"
+              },
+              "title": "Anna Denesyk ({@link Download|https://www.rolledandtold.com/wp-content/uploads/2018/12/RolledandTold-Issue4-Map.pdf})"
+            },
+            {
+              "type": "inset",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "A 5E Adventure for Levels 4-6",
+                  "entries": [
+                    "You will need a copy of the 5E core rulebooks to fully utilize this adventure. You also should familiarize yourself with the adventure and the map to fully enjoy this adventure. You should familiarize yourself with the spells used by the foes prior to playing the adventure."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Glossary",
+                  "entries": [
+                    "PC: Playable Characters. GM: Game Master. DC: Difficulty Class. HP: Hit Points. NPC: Non-Player Character."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Adventure Scaling",
+                  "entries": [
+                    "This adventure is designed to be highly challenging for a group of 3rd-5th level players, though it can easily be challenging for a larger group or a group of upper 2nd tier characters by giving all the foes maximum hit points and adding +2 to the DC of tests and saves."
+                  ]
+                }
+              ]
+            },
+            {
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "Plot",
+                  "page": "7",
+                  "entries": [
+                    "An extremely sizable and nasty marauding band of {@creature ogre||ogres} has swept down and taken over a small town. Instead of raiding, they plan to set up camp here and throw their chieftain a big feast, and all of the villagers are on the menu. They are in midst of gaining full control of the settlement when the PCs are awakened from their previous night of revelry by the sounds of the ogre invasion."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Background",
+                  "entries": [
+                    "The Big Nosh ogre tribe has been on a raiding rampage. Unlike most savage bands, they don't swoop in, take what they can grab, and run back to their lair. The Big Nosh are led by a foul hearted ogress—Mama Yum-Yum—who got tired of living in caves. So she decided her ogres would just move into whatever settlement they raided, eat all the locals, livestock, and food stores, and then just head to the next settlement they find and do it again. That is the case with the small rural town of Springkernel. This back-country farming community, made up almost entirely of humans and halflings, is the third such town to face the Big Nosh. The ogres are thorough and have not yet left any soul able to give warning of their new pillaging methods. That is why no one in Springkernel ever saw the attack coming. There was no time to gather the militia and before anyone knew it, ogres were rampaging into the town market square, killing, capturing, or destroying everything in their wake. What the ogres don't know is that a group of adventurers spent the last night in town partying it up. So if they are not too hung over, the ogre tribe's plans might get thwarted."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Running the Adventure",
+          "entries": [
+            "The PCs just happen to be in the small town of Springkernel and have spent the night in good-natured carousing, blowing off steam, and imbibing far too much of the local honeyed mead. They are all in some sort of drunken disarray when the massive ogre war band descends upon the town. This gives the PCs an additional challenge and makes for some inventive and entertaining encounters. The PCs being in multiple locations means the battles are more challenging for the GM as well, who will deal with running separate encounters as the PCs try to regroup and figure out what's going on. Switching back and forth between characters will be a good exercise for a new GM. Just make sure to give all the PCs equal time as best you can. Some of the PCs should end up in a combat no matter how you run the session. The combat should be hard for the PCs, btu doable, as the ogres are spread throughout the town in small groups when the game begins. Combats will get increasingly more challenging for the PCs as the ogres heard all the townsfolk they can find towards the central market—the site Mama Yum-Yum has chosen for her camp. She plans for the Town Hall in the central market to be the roasting building for her BBQ. By that time the PCs should have reunited or at least paired up. At least some of the PCs need to be together before you try to start the BBQ, because there are a lot of ogres to deal with in one place.",
+            {
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "Timing",
+                  "entries": [
+                    "Give each PC or group of PCs enough time to have one or two encounter opportunities before they either meet up or head to {@area A|a|u} or {@area I|i|u}: The Town Hall (where the ogres plan to roast everyone inside) and the central market/well (where they have piled all their gathered loot). Also, there are almost all the residents of the town as well as visitors who were attending market day. Unless otherwise written as a specific encounter area for the PCs to come across or start at, use one or both Filler Encounters: {@adventure The Guard Ogres|MamaYumYum|1|The Guard Ogres} Encounter or {@adventure the Looting Ogre|MamaYumYum|1|The Looting Ogre} Encounter for the area (see below)."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "The Guard Ogres",
+              "page": "8",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "name": "Filler Encounter",
+                  "entries": [
+                    "Two hulking ogres draped in filthy, untanned hides held in place by a rope belt stalk purposefully about the area. They are bedecked with a grizzly collection of skulls, long bones, rusty trinkets, an a few children's ragdolls or toys that dangle like some form of haphazard wind chime around their thick middles. Both squint their beady eyes at any areas of merest shadow."
+                  ]
+                },
+                "The two {@creature ogre||ogres} have been placed here to watch for any fleeing townsfolk or any semblance of resistance. They take their leader's orders very seriously, because otherwise she will eat them. This means that one is using the {@action help} action. So, they both have advantage on their passive {@skill Perception} of 8 (now 13). If they see any sign of movement other than another ogre, one will go check it out. So, if slipping past without fighting them is the PCs' goal, it can be accomplished with a decent {@skill Stealth} test ({@dc 13}) or via distraction so one moves a bit away and the passive {@skill Perception} of both drops to 8.",
+                "If engaged in combat, the ogres do their best to subdue, not slay, the PCs, because they want to cook them alive. If a PC is knocked {@condition unconscious} they will be taken to {@area I|i|u}, along with the rest of the captive townsfolk.",
+                "In addition, if a combat lasts more than 4 combat rounds, or if some showy magic is used (say like a {@spell fireball}), more ogres will come to investigate: {@dice 1d4} rounds after either occurs, {@dice 1d4} {@creature ogre||ogres} arrive and join the fight if it's still going."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "The Looting Ogre",
+              "page": "9",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "name": "Filler Encounter",
+                  "entries": [
+                    "A clamorous racket quickly draws your attention as a burly ogre toting a bloated sack hurriedly comes careening into view. The brute, in search of hidden loot, immediately smashes a rain barrel as if it was an eggshell."
+                  ]
+                },
+                "The {@creature ogre} is engrossed in searching for loot before any of its mates can get at any waiting loot. It's at disadvantage on passive {@skill Perception} when first encountered (dropping it to passive {@skill Perception} 3). Though if someone does not actively take the {@action hide} action, the ogre will spot them and try and capture them. If the combat ensues and lasts for more than four combat rounds, {@dice 1d4} more {@creature ogre||ogres} will come and investigate.",
+                "In addition to any loot you might find on the {@i What You Find on a Dead Ogre} chart (see below), the looting ogre has the following in his loot sack: {@dice 1d4} chickens, 4 {@item sack|PHB|sacks}, a meat cleaver (treat it as a {@item handaxe|PHB}), 6 {@item torch|PHB|torches}, {@dice 1d6} balls of colored yarn, 20 loose onions, {@dice 1d20} spoons, 4 wooden bowls, {@dice 1d8} skulls, a dead cat, a green apron, {@dice 1d12} pieces of hard candy, and {@dice 1d10} gp, or replace it with a similar collection of your own choosing. Add anything you deem would catch a greedy ogre's eye.",
+                {
+                  "type": "list",
+                  "items": [
+                    {
+                      "type": "item",
+                      "name": "Loot",
+                      "entry": "As far as anything of interest or individual treasure for any ogre that's not in {@area A|a|u} (where most of the loot is gathered), roll below."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "entries": [
+                {
+                  "type": "table",
+                  "caption": "What You Find on a Dead Ogre",
+                  "colLabels": [
+                    "{@dice 1d8}",
+                    "What You Find on a Dead Ogre"
+                  ],
+                  "colStyles": [
+                    "col-1 text-center"
+                  ],
+                  "rows": [
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "min": 1,
+                          "max": 4
+                        }
+                      },
+                      "{@b Ogre \"treasure\"}—Tankard or jug with a hole in it, dented helmet, rusty cooking pots and pans, humanoid or animal bones, a badly tanned animal pelt, filthy ragdoll, rotting animal carcass, moldy food"
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "min": 5,
+                          "max": 6
+                        }
+                      },
+                      "{@b Looted foodstuffs}—{@dice 2d10} days of {@item rations (1 day)|PHB|rations} and {@dice 1d3} bottles of {@item common wine (pitcher)|PHB|cheap wine} or {@item ale (gallon)|PHB|jugs of mead}"
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "exact": 7
+                        }
+                      },
+                      {
+                        "type": "table",
+                        "colLabels": [
+                          "{@dice 1d4}",
+                          "Coins"
+                        ],
+                        "colStyles": [
+                          "col-1 text-center"
+                        ],
+                        "rows": [
+                          [
+                            {
+                              "type": "cell",
+                              "roll": {
+                                "exact": 1
+                              }
+                            },
+                            "20 cp"
+                          ],
+                          [
+                            {
+                              "type": "cell",
+                              "roll": {
+                                "exact": 2
+                              }
+                            },
+                            "10 sp"
+                          ],
+                          [
+                            {
+                              "type": "cell",
+                              "roll": {
+                                "min": 3,
+                                "max": 4
+                              }
+                            },
+                            "5 gp"
+                          ]
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "exact": 8
+                        }
+                      },
+                      "{@b Shiny}—1 rough-cut gem worth 10 gp"
+                    ]
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Captured PCs",
+                  "entries": [
+                    "If any of the player characters are taken prisoner, they will end up in {@area I|i|u}, with the rest of those to be BBQ. Even if they should not regain consciousness, let them. It will be quite an encounter trying to break out of the roasting house and will make for a fun and challenging adventure."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "A Note on NPCs",
+                  "entries": [
+                    "Once the NPC joins the fight, give them to one of the players to control, which allows the PC to get the most out of the NPC. Ask for volunteers first, then draft someone if need be. Give the player a point of inspiration for taking on the job and bonus XP at the end if they play the NPCs well."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "About Last Night",
+              "page": "10",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "As adventurers are apt to do, you and your boon companions once again lived life to its fullest… To its fullest tankards, goblets, and pitchers. You seem to dimly recall more than a few dumb ideas, but they were indeed fun. Especially when you…"
+                  ]
+                },
+                "Have each player roll 1d10 to see what carousing things happened to their PC before and how they ended up at {@adventure A Rude Awakening|MamaYumYum|1|A Rude Awakening}. Have each player fill in the details and describe all that occurred in a mini roleplay session before things kick off. The best tale told earns a player a point of inspiration.",
+                {
+                  "type": "table",
+                  "caption": "Especially when you…",
+                  "colLabels": [
+                    "{@dice 1d10}",
+                    "Especially when you…"
+                  ],
+                  "colStyles": [
+                    "col-1 text-center"
+                  ],
+                  "rows": [
+                    [
+                      "1",
+                      "did something involving chickens."
+                    ],
+                    [
+                      "2",
+                      "did something where at least one wagon and two pigs were involved."
+                    ],
+                    [
+                      "3",
+                      "did something that involved the consumption of thirty (roll {@dice 1d6}: 1—pickled eggs, 2—copper pieces, 3—onions, 4-6—ales) before doing something that involved a shovel and a pretty dress."
+                    ],
+                    [
+                      "4",
+                      "did something involving six farmers and a goat."
+                    ],
+                    [
+                      "5",
+                      "did something that involved a ranged weapon, fruit, and a less-than-willing local participant."
+                    ],
+                    [
+                      "6",
+                      "did something involving a dozen cats and a barrel of molasses."
+                    ],
+                    [
+                      "7",
+                      "did something involving cows, green paint, and fourteen pairs of shoes and boots."
+                    ],
+                    [
+                      "8",
+                      "did something involving an anvil, four cowbells, and four hundred feet of rope."
+                    ],
+                    [
+                      "9",
+                      "did something involving two hunting hounds, a bucket of buttermilk, and a hornet's nest."
+                    ],
+                    [
+                      "10",
+                      "roll two results and combine them in your tale."
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "A Rude Awakening",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "You think perhaps last night's carousing must have gone a bit too far. Your head is pounding as you are roused to groggy-eyed wakefulness by the pain. Then as your sleep-addled brain begins to register that the pounding sounds are not inside your head, terrified screams and cries of agony mix with the heavy pounding and are followed by a resounding crack of snapping wood."
+                  ]
+                },
+                "Have each PC make a Charisma ability check to determine their current condition, and a Wisdom ability check to determine their current gear/weapons. Apply all three results to the {@i Rude Awakening Results Chart} on the next page.",
+                {
+                  "type": "table",
+                  "caption": "Rude Awakening Results Chart",
+                  "page": "12",
+                  "colLabels": [
+                    "{@dice 1d20+#$prompt_number:min=-5,title=Ability Mod$#}",
+                    "CHA / Location",
+                    "CON / Condition",
+                    "WIS / Gear & Weapons"
+                  ],
+                  "colStyles": [
+                    "col-1 text-center"
+                  ],
+                  "rows": [
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "exact": 0
+                        }
+                      },
+                      "Pigpens ({@area F|f|u}).",
+                      "You have suffered {@damage 1d10} damage. You also have 1 level of {@condition exhaustion} and Sunlight Sensitivity until you take a short rest.",
+                      "You are naked and have none of your belongings. You must succeed on an Intelligence saving throw {@dc 15} to remember where you left your belongings. If successful, roll {@dice 1d20} to get the location of your gear."
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "min": 1,
+                          "max": 5
+                        }
+                      },
+                      "{@dice 1d6}: 1-3 the graveyard ({@area G|g|u}) / 4-6 in a field ({@area H|h|u}).",
+                      "You have suffered {@damage 1d8} damage. You also have 1 level of {@condition exhaustion} and have Sunlight Sensitivity until you take a short rest.",
+                      "You have none of your belongings. You must succeed on an Intelligence saving throw {@dc 15} to remember where you left your belongings. If successful roll {@dice 1d20} to get the location of your gear."
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "min": 6,
+                          "max": 9
+                        }
+                      },
+                      "In an empty water trough behind the stables ({@area C|c|u}).",
+                      "You have suffered {@damage 1d6} damage. You also have 1 level of {@condition exhaustion} and have Sunlight Sensitivity until you take a short rest.",
+                      "All your gear is scattered about a 10 ft. radius and will require {@dice 1d4} actions to gather it all. In addition, your purse is lighter by {@dice 1d10} gp worth of coins or gems."
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "min": 10,
+                          "max": 13
+                        }
+                      },
+                      "In a tree of your choosing.",
+                      "You have suffered {@damage 1d4} damage. You also have Sunlight Sensitivity until you take a short rest.",
+                      "All your gear is here, but your purse is lighter by {@dice 1d8} gp worth of coins or gems."
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "min": 14,
+                          "max": 17
+                        }
+                      },
+                      "In the stables ({@area C|c|u}): {@dice 1d6} 1-2 in a stall with a horse / 3-6 in the hay loft.",
+                      "You have suffered {@damage 1d4} damage. You also have disadvantage on your first ability check or attack roll.",
+                      "All your gear is here, but your purse is lighter by {@dice 1d6} gp worth of coins or gems."
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "min": 18,
+                          "max": 19
+                        }
+                      },
+                      "On, under, or by a table in the Inn's taproom ({@area B|b|u}).",
+                      "You have suffered {@damage 1d4} damage.",
+                      "All your gear is here, but your purse is lighter by {@dice 1d4} gp worth of coins or gems."
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "min": 20,
+                          "max": 27
+                        }
+                      },
+                      "Your own rented room at the inn, in your own bed ({@area B|b|u}).",
+                      "You are hardly hungover and are ready to party again tonight!",
+                      "All your gear is close at hand and in ready, working order."
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Area A: Central Market & The Old Well",
+              "page": "11",
+              "id": "a",
+              "entries": [
+                "What was once a huddle of wagons, carts, and basic merchant stands encircled around the old well is now a ruined and jumbled field of destruction, dotted with heaps of disorganized looted goods. Every item looted from the town ends up piled here in no particular order. 10 {@creature ogre||ogres} wander about the area, picking through the heaps or adding to them. Also set up near the loot piles is a massive hide tent. 2 {@creature ogre maniac|RolledTold4|ogre maniacs} stand guard outside its curtained entrance. Inside the tent is {@creature Mama Yum-Yum Ogre Matron|RolledTold4|Mama Yum-Yum}, leader of the Big Nosh ogre tribe. She is currently getting ready to do some cooking and plans to set the building in {@area I|i|u} ablaze. She will join any fight that happens in {@area A|a|u} and her 2 {@creature ogre maniac|RolledTold4} guards will join a fight in {@area I|i|u} the same round as the last ogre from {@area A|a|u} moves to {@area I|i|u}.",
+                "Should any fighting happen near or at {@area I|i|u}, all the ogres from {@area A|a|u} and {@area I|i|u} will get involved.",
+                "If it is a fight by the well, all the ogres at {@area A|a|u} are instantly involved.",
+                "If the fighting beings in {@area I|i|u}, 1 {@creature ogre} will join the fray at the end of the 3rd round of combat. Then each round afterwards, 2 ogres will join the fight until all 10 have joined.",
+                "All the regular ogres in {@area A|a|u} and {@area I|i|u} are drunk on looted booze. Any drunk ogres will count as {@condition poisoned} (see core rulebooks for details on conditions), to give a drunken game mechanic.",
+                {
+                  "type": "list",
+                  "items": [
+                    {
+                      "type": "item",
+                      "name": "Loot.",
+                      "entry": "Besides what the ogres have, everything of value (or ogre-perceived value) is piled here and will take days to sort it all out.<br />{@creature Mama Yum-Yum Ogre Matron|RolledTold4|Mama Yum-Yum} has some magic loot, though she doesn't know that it is magical. She just likes how it shines. She has the following magic items, all worn as jewelry or as part of her bone and gemstone headdress: {@item elemental gem, Emerald}; {@item gem of brightness}; {@item periapt of health}; {@item ring of protection}. She also has twenty 10 gp gems ({@item hematite}) and ten 50 gp gems ({@item bloodstone||bloodstones}) decorating her person, woven into necklaces made of bone, hair, and sinew."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Area B: The Bouncing Bee Inn",
+              "page": "13",
+              "id": "b",
+              "entries": [
+                "The inn is set up much like an Old West saloon. It is two stories with an open ground-floor floor-plan. There's a taproom surrounded by a balcony overhead, with a single set of narrow stairs (5 ft. wide) at one side of the room. The taproom, seating area, small kitchen and pantry, and owner's chambers make up the downstairs. There are 15 rooms up on the second floor, 14 rentable sleeping chambers and a small meeting alcove. The building also has a root/wine cellar, and is currently locked. A Dexterity ({@item Thieves' Tools|PHB}) {@dc 20} check opens the heavy lock on the root/wine cellar doors. 3 {@creature ogre||ogres} are currently trashing the ground floor, though they cannot get up to the 2nd floor because the stairs and balcony will not accommodate their size or support their weight.",
+                "Any PC that begins the game upstairs is safe for the moment. A PC that starts in the taproom is right in the middle of an ogre wrecking crew in search of prisoners and loot.",
+                "If no PCs begin in the inn, then the place is ripped apart. All loot, food, booze, and townsfolk are taken: the loot to {@area A|a|u}, the captives locked into {@area I|i|u} along with all the others to be roasted alive."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Area C: Inn Stables",
+              "page": 16,
+              "id": "c",
+              "entries": [
+                "5 {@creature ogre||ogres} are entertaining themselves attacking horses by slamming them atop the head with their clubs. They have thus far slain 4 and have 12 {@creature riding horse||riding horses} left (plus any mounts of the PCs). The ogres have not yet tried to check the hayloft of the barn and lost track of searching the stalls because of all the fun horse fighting."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Area D: Goodroot's General Store",
+              "id": "d",
+              "entries": [
+                "This location is a shattered wreck. The ogres haven't taken everything of value, but they have destroyed most of the building. There is a slim chance of finding {@filter any item from the Adventuring Gear table in the core rulebooks, as long as its value is 2 gp or less|items|type=adventuring gear|cost=[;2]|source=phb}, using an Intelligence ({@skill Investigation}) {@dc 20} test. Five tests may be attempted until there is nothing else of value to find. This is a good place for PCs to acquire gear and equipment they may be lacking to fight a band of ogres."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Area E: Smithy",
+              "id": "e",
+              "entries": [
+                "This building has remained untouched thus far. The smith is out of town fixing some tools a few villages over. The ogres currently in the stables called dibs on the smithy but are having too much fun frightening the horses and hearing them whinny in terror to bother to loot it.",
+                "The PCs can find a well-used set of {@item smith's tools|PHB} in an unlocked chest. 2 {@item shield|PHB|shields}, a set of medium-sized {@item chain mail|PHB}, 2 {@item warhammer|PHB|warhammers}, 6 {@item handaxe|PHB|handaxes}, and 12 {@item spear|PHB|spears} are all on the display rack for sale. 4 unfinished {@item shovel|PHB} heads, along with a small cask of oil (equivalent to 25 {@item oil (flask)|PHB|flasks}) can be found in the forge area without much searching.",
+                "An Intelligence ({@skill Investigation}) {@dc 20} uncovers a small locked {@dc 20} wooden box, that contains 25 cp, 18 sp, and 3 gp. The Intelligence check also locates a matched pair of {@item silvered dagger|PHB|silvered daggers}, wrapped in oilcloth and hidden behind a loose stone by the forge."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Area F: Pig Pens",
+              "id": "f",
+              "entries": [
+                "The 50 surviving {@creature pig|skt|pigs} insanely dash about the confines of the large pen because 2 {@creature ogre||ogres} are laughing and taking turns trying to stick them to the muddy ground using {@item javelin|PHB|javelins}. Ten other pigs are nailed to the ground as they are currently spitted upon javelins."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Area G: Graveyard",
+              "page": "17",
+              "id": "g",
+              "entries": [
+                "There are currently 3 {@creature ogre||ogres} wandering through the graveyard and kicking over or shattering headstones with their clubs like rowdy teenagers. The ogres are drunk (so count as {@condition poisoned})."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Area H: Outer Fields",
+              "id": "h",
+              "entries": [
+                "There are 3 {@creature ogre||ogres} milling about, picking through cottages and guarding the dry set stone wall that separates the outer fields from the settlement. There are currently no ogres in the fields, but they have smashed down most of them, so only sporadic patches of crops remain as usable cover. This means movement through the fields could draw attention from the ogres by the stone walls. If any PC attempts to move without using {@skill Stealth} while in the outer fields, the ogres spot them. If using {@skill Stealth}, it is made with advantage, because of the amount of cover the fields provide."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Area I: Town Hall",
+              "id": "i",
+              "entries": [
+                "10 {@creature ogre||ogres} (all drunk, see {@area A|a|u} for details) mill about the front and sides of this timbered, thatched-roofed building. A hay cart is parked directly in front of the double doors. All the townsfolk (100 {@creature commoner||commoners}) are imprisoned inside in various states of consciousness and injury.",
+                "A Wisdom ({@skill Perception}) {@dc 10} reveals that a hefty amount of firewood, broken furnishings, and bales of straw are stacked along all the walls of the building in readiness of burning.",
+                "If a fight breaks out in {@area A|a|u}, the ogres here have orders to light the building on fire before coming to aid the fighting in {@area A|a|u}, though, being ogres and drunk, it will take them {@dice 1d8+2} combat rounds to manage to get the place set ablaze. Once it is on fire, all the ogres leave for {@area A|a|u} and arrive 2 combat rounds after the building catches fire.",
+                "The folk trapped inside the building will begin suffering 3 ({@damage 1d6}) fire damage each round, 5 combat rounds after the building is set ablaze. 5 combat rounds after that, the fire damage to any inside increases to 10 ({@damage 3d6}) fire damage each round and any living creature begins to suffocate. The only way out of the building is through the doors blocked by the cart. They are also chained and padlocked (lock {@dc 15}). The building will be fully consumed 20 combat rounds after it is set ablaze.",
+                {
+                  "type": "entries",
+                  "name": "Moving the Cart From the Outside",
+                  "entries": [
+                    "This can be moved by a creature with 18 Strength or more (or combination of creatures with a combined +4 Strength modifier), making a successful {@dc 10} Strength check."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Breaking the Doors/Lock/Chains (Inside or Out of the Building)",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@object Doors|RolledTold4}",
+                        "{@object Lock|RolledTold4}",
+                        "{@object Chains|RolledTold4}"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Area J: Huntsman's Home",
+              "id": "j",
+              "page": "18",
+              "entries": [
+                "The ogres have not quite made it to raid this ramshackle of a cabin. Said cabin's owner, {@creature Opossum Gristlepot|RolledTold4}, hunter and vermin catcher, is more than ready for them. The cagey halfling heard the first attacks of the ogres and began getting his gear together so he could take the fight to them. If none of the PCs visit {@area J|j|u} as either the first or second place they visit after they awaken, then Opossum will show up at the next closest location that has a fight going on and throw in against the ogres. (You can find his stat block in the {@adventure NPC section|MamaYumYum|4})."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Area K: The Sheriff Office/Residence",
+              "id": "k",
+              "entries": [
+                "6 {@creature ogre||ogres} and 1 {@creature ogre maniac|RolledTold4} are embroiled in a bloody fight with {@creature Sheriff Aubrey Griffinstoke|RolledTold4} and her halfling deputy {@creature Deputy Grubbs Dungshovel|RolledTold4|Grubbs} (see {@adventure notable NPCs|MamaYumYum|4} for stat blocks for both). The duo is currently ducking amongst the ruins of a shattered wagon and piles of crates, barrels, and sacks while the ogres press in from all sides.",
+                "If none of the PCs enter this area before going into the mass battle with {@area A|a|u} and {@area I|i|u}, then you can have both the sheriff and the deputy captured with the rest of the town or, alternatively, have them come in to help the PCs if things are not going well.",
+                "If they are encountered and the PCs aid them in their ogre fight, then the sheriff and her deputy will join up with the PCs to free the town."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Ending the Adventure",
+          "page": "19",
+          "entries": [
+            {
+              "type": "insetReadaloud",
+              "name": "If the PCs Save the Townsfolk",
+              "entries": [
+                "A hard-fought victory, but one worth the doing. Every grateful, soot-stained face of the rescued folk of Springkernel drives that point home. The foul ogres may have destroyed most of the town, but that can be rebuilt, thanks to you. It seems you don't always need to go looking for adventure. Sometimes adventure comes looking for you."
+              ]
+            },
+            {
+              "type": "insetReadaloud",
+              "name": "If the PCs Defeat the Ogres but are Unable to Save the Townsfolk",
+              "entries": [
+                "You have defeated the foul ogress and her war band, but paid too high a price to do so. Sadly, you dig yet another grave amongst so many others. The small graveyard has grown by nearly four score already and you have yet to lay the last poor soul to final rest. There is nothing heroic about this deed; it just is in need of doing A bitter victory is not one to be savored."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "XP / Rewards",
+              "entries": [
+                "Use standard XP rules for the ogres defeated.",
+                {
+                  "type": "list",
+                  "items": [
+                    "100 bonus XP per player if all the {@adventure NPCs of Note|MamaYumYum|4} survived.",
+                    "500 bonus XP per player if they managed to rescue most of the townsfolk.",
+                    "Also rewards all the PCs a point of inspiration to use in their next adventure.",
+                    "Each Player also earns an individual reward of between 100-600 XP depending on how well they told their About Last Night story."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Scaling the Adventure",
+          "page": "21",
+          "entries": [
+            "This is a challenging adventure, so give the PCs some leeway if they want to try some crazy plans to thwart the ogres. Also, play the ogres to their rudimentary mental abilities. There is no great plan or tactics—they are dumb brutes (most of them drunk). They bully and smash stuff. They are not smart enough to pick off the cleric or rogue. They just plow forward and smash, using their size and strength to overcome any challenge.",
+            "For a party of mostly 4th level PCs, do not reduce the number of ogres, btu halve the hit point total of all the regular ogres and reduce their base damage by 2. This will still give the mass threat, but be more of a doable adventure for lower level PCs. You may also decide to make all the ogres drunk ({@condition poisoned} condition), so that they will be at disadvantage on attack rolls and ability checks. This will greatly aid a low-level party in surviving such massive numbers of foes.",
+            "For a party of mostly 7th level PCs, max out {@creature Mama Yum-Yum Ogre Matron|RolledTold4|Mama Yum-Yum's} and the {@creature ogre maniac|RolledTold4|ogre maniac's} hit points. Also make only half the regular ogres drunk (as only those in {@area A|a|u}. This should still give higher-level characters a challenge."
+          ]
+        },
+        {
+          "type": "section",
+          "name": "New Monsters & Magic Items",
+          "page": "22",
+          "entries": [
+            {
+              "type": "list",
+              "name": "New Monster Stat-Blocks",
+              "items": [
+                "{@creature Mama Yum-Yum Ogre Matron|RolledTold4}",
+                "{@creature Ogre Maniac|RolledTold4}"
+              ]
+            },
+            {
+              "type": "list",
+              "name": "NPCs of Note",
+              "items": [
+                "{@creature Sheriff Aubrey Griffinstoke|RolledTold4}",
+                "{@creature Deputy Grubbs Dungshovel|RolledTold4}",
+                "{@creature Opossum Gristlepot|RolledTold4}"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BrutalBrunch",
+      "source": "RolledTold4",
+      "data": [
+        {
+          "type": "section",
+          "name": "The Case of the Brutal Brunch",
+          "page": "44",
+          "entries": [
+            "Written by Kat Kruger",
+            {
+              "type": "inset",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "A 5E Low-Tier Adventure",
+                  "entries": [
+                    "You will need a copy of the 5E core rulebooks to fully utilize this adventure. You also should familiarize yourself with the adventure and the map to fully enjoy this adventure. It is intended for Low Tier characters (level 1-4), though it could be enjoyable for a mid-tier group if you increase the DCs by +5."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Glossary",
+                  "entries": [
+                    "PC: Playable Characters. GM: Game Master. DC: Difficulty Class. HP: Hit Points. NPC: Non-Player Character."
+                  ]
+                }
+              ]
+            },
+            {
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "Background",
+                  "page": "45",
+                  "entries": [
+                    "For over a hundred years, warlocks, wizards, sorcerers, and spellcasters from around the realms have gathered to learn from each other. An annual meeting was established as an officially-sanctioned means to swap notes, discuss best practices, and share experiences.",
+                    "Put together by the Spellcasters' Association, the conference promotes inclusivity in order to hone the shared craft of magic. This year marks the 125th year—the quasquincentennial anniversary—of the event."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Plot",
+                  "entries": [
+                    "All the big names in magic are in attendance at the 125th Annual Spellcasters' Association Conference. With keynote speakers from around the realms, the organizers hope to pull of their biggest event yet.",
+                    "At the gala brunch buffet on opening morning, things go drastically wrong and several of the attendees wind up dead. The characters are called in as part of a Criminal Spellcasting Investigation (CSI) unit to determine the culprit behind the attack, they are to apprehend the villain for a reward of 250 gp and maybe even a sweet promotion."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Rules",
+              "entries": [
+                "GMs should familiarize themselves with the following:",
+                {
+                  "type": "list",
+                  "items": [
+                    "{@action Grapple}",
+                    "Damage Resistance and Vulnerability"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Starting the Adventure",
+          "entries": [
+            "The characters arrive at the scene of the crime.",
+            {
+              "type": "insetReadaloud",
+              "entries": [
+                "Xyzzy Memorial Meeting Tower stands before you, a forgettable spire constructed of sandstone. Outside, dozens of robed figures mill about while two guards patrol a 20-foot perimeter cordoned off with yellow rope."
+              ]
+            },
+            "Zofiya Vela, CSI captain ({@creature veteran}) greets the adventuring party and explains the situation. Allow the players to roleplay this encounter. The focus here is to gather information before entering the crime scene. Here they may learn the following:",
+            {
+              "type": "list",
+              "items": [
+                "Outside there are a number of witnesses to the attack in the dining hall. Most believe the incident to be a deadly food fight but did not witness wo instigated the altercation.",
+                "Menashe the Mindful ({@creature druid}) is among the crowd. As operations manager for the Spellcasters' Association, he is in charge of the invitation list. In spite of his nickname, Menashe the Mindful is utterly absent-minded."
+              ]
+            },
+            "With a successful {@dc 10} Charisma ({@skill Intimidation} or {@skill Persuasion}), any creature can obtain the guest list from Menashe. Alternatively, they may steal the list by succeeding on a {@dc 15} Dexterity ({@skill Sleight of Hand}) check. The names on the list span a broad spectrum from celebrity spellcasters to neophytes. None of the witnesses can agree on a suspect.",
+            "After interviewing the witnesses, Zofiya allows the characters inside.",
+            {
+              "type": "insetReadaloud",
+              "entries": [
+                "You enter the main-floor foyer, which is in utter disarray. Papers and name tags are strewn about the floor. On the far wall is a registration desk which stands next to the staircase leading up. A banner directs attendees to the banquet brunch upstairs."
+              ]
+            },
+            "Near the table is a list of registered attendees. Names have been crossed off as guests registered; a handful of individual records that have remained uncrossed represent no-shows. With a successful {@dc 18} Intelligence ({@skill Investigation}) check, any character can compare the registration to the guest list and note one name discrepancy: Diggory Scordato.",
+            "The characters are free to explore any area of the tower and may enter or exit as they please. If they return to Menashe for further questioning, he denies any oversight. Furthermore, any character that succeeds on a {@dc 15} Wisdom ({@skill Insight}) check determines Menashe is uneasy about a mistake he may have made. A character makes this check with disadvantage if the list was stolen from Menashe.",
+            "Should the error be brought to his attention, Menashe casts {@spell illusory script} to rectify the mistake. By doing so he includes Diggory's name on the guest list and is quick to point out the name to the adventuring party if questioned about it.",
+            {
+              "type": "entries",
+              "name": "Food for Thought",
+              "page": "47",
+              "entries": [
+                "A circular staircase along the inner wall of the tower leads up to the dining hall.",
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "The dining hall features elaborately carved wood banquet tables, torches on the walls, and a ceiling decorated in illusory stars. All of it would be a glorious sight to behold if it weren't covered in globs of food. Even the magnificent ice sculpture in the center of the hall has red good at its feet. From here, the staircase continues up. On the opposite side of the dining hall you hear some muttering coming from behind a closed door."
+                  ]
+                },
+                "All the floors above the dining hall contain nothing of interest. They are meeting halls for speeches and networking. As the witnesses below attested to, the adventuring party can confirm evidence of a food fight. Any character that succeeds on a {@dc 15} Intelligence ({@skill Investigation}) check can determine the following:",
+                {
+                  "type": "list",
+                  "items": [
+                    "there are three dead spellcasters in the room",
+                    "the substance at the feet of the ice sculpture is blood"
+                  ]
+                },
+                "As they investigate further, the characters discover the food—enchanted through magical means—has done all the fighting. The causes of death are as follows:",
+                {
+                  "type": "list",
+                  "items": [
+                    "the {@race human} {@class warlock} whose face is covered in cheese has been asphyxiated by a cheese dip of smothering ({@creature rug of smothering})",
+                    "the {@race elf||elven} {@class sorcerer} whose body is covered in tiny slash marks has been slashed to death by flying fruit skewers ({@creature flying sword})",
+                    "the {@race halfling} {@creature bard|VGM} whose chest was crushed suffered an attack by the {@creature animated ice sculpture|RolledTold4} (See {@adventure New Monsters & Magic Items|BrutalBrunch|3})"
+                  ]
+                },
+                "The battle begins when a corpse or creature is investigated closely. Once one inanimate construct comes to life, so do the rest. If the characters choose not to investigate the bodies or creatures, when they approach the kitchen door the creatures attack.",
+                "Once the constructs are dealt with, the characters hear cursing coming from the other side of the door where someone claiming to be a pastry chef is hiding and refuses to come out for fear of danger."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Death by Chocolate",
+              "page": 48,
+              "entries": [
+                "Beyond the door is the kitchen.",
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "You enter a vast kitchen, fit for a palace. It has been left in a state of chaos. Metal bowls set in sinks, abandoned by the dishwashers. A cauldron bubbles over in the hearth. On a table filled with pastries, a large object is draped in a red velvet cloth."
+                  ]
+                },
+                "Diggory Scordato ({@creature disgruntled wizard|RolledTold4}) is in disguise as a pastry chef. He hides behind the pastry table. Beneath the red velvet cloth is one {@creature chocolate golem|RolledTold4}. Any character with a passive Wisdom ({@skill Perception}) score of 15 or higher and who is within ten feet of the table can detect Diggory's presence. He will keep u the charade as a pastry chef for as long as possible. To determine he is lying a character must succeed on a {@dc 10} Wisdom ({@skill Insight}) check.",
+                "Diggory is, in fact, a disgruntled wizard who never received his invitation to the event. Feeling snubbed, he decided to exact his revenge through food constructs at the grand buffet gala.",
+                "Battle begins when Diggory's ruse is discovered or a character approaches within five feet of the golem. Diggory commands the golem to attack if he feels his life or freedom are imminently in danger of being lost.",
+                "The characters have several options to resolve the criminal investigation:",
+                {
+                  "type": "list",
+                  "items": [
+                    "Talk Diggory into turning himself over with a successful {@dc 18} Charisma ({@skill Persuasion}) check.",
+                    "Defeat the golem before doing the above.",
+                    "Defeat both the chocolate golem and Diggory."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "The Battle is Complete When:",
+              "page": "49",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "Success",
+                  "entries": [
+                    "The characters defeat or apprehend Diggory. Upon defeating the disgruntled wizard, they discover a {@item carafe of endless chocolate drinks|RolledTold4} in the kitchen. The carafe happens to bear the initials DS."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Failure",
+                  "entries": [
+                    "The characters are defeated by Diggory or he otherwise escapes."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Ending the Adventure",
+          "entries": [
+            {
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "Success",
+                  "entries": [
+                    "The characters are promoted to detectives with the Criminal Spellcasters Investigation unit and compensated for their hard work. Menashe is deeply apologetic for his error and resigns his role as operations manager for the Spellcasters' Association.",
+                    "Zofiya appraises you all with her eyes, nodding with approval. \"I don't know about you, but I could go for a chocolate glazed donut.\""
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Failure",
+                  "entries": [
+                    "The characters are fired from the Criminal Spellcasters Investigation unit and receive no compensation. Disappointed, Menashe leads the Spellcasters' Association into the Xyzzy Memorial Meeting Tower and the forgettable sandstone spire fades from existence.",
+                    "Defeat never tasted so sweet. The chocolate golem's fist slams into your face and you get a tiny sample of cocoa before you fall unconscious."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Loot",
+              "entries": [
+                {
+                  "type": "list",
+                  "name": "Food for Thought",
+                  "items": [
+                    "750 XP for defeating the constructs",
+                    "{@item Silver ring set with moonstones|RolledTold4} (250 gp) discovered on the corpse of the elven sorcerer"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "name": "Death by Chocolate",
+                  "items": [
+                    "1125 XP for defeating the {@creature chocolate golem|RolledTold4} and {@creature disgruntled wizard|RolledTold4|Diggory Scordato}",
+                    "{@item Copper mug with garnet inlay|RolledTold4} (250 gp), and a {@item bottle stopper cork embossed with gold leaf and set with coral|RolledTold4} (750 gp) found in the kitchen."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "New Monsters & Magic Items",
+          "entries": [
+            {
+              "type": "list",
+              "name": "New Monster Stat-Blocks",
+              "items": [
+                "{@creature Animated Ice Sculpture|RolledTold4} {@note Found in website's {@link FAQ|https://www.rolledandtold.com/frequently-asked-questions/}}",
+                "{@creature Chocolate Golem|RolledTold4} {@note Found in website's {@link FAQ|https://www.rolledandtold.com/frequently-asked-questions/}}",
+                "{@creature Disgruntled Wizard|RolledTold4} {@note Found in website's {@link FAQ|https://www.rolledandtold.com/frequently-asked-questions/}}"
+              ]
+            },
+            {
+              "type": "list",
+              "name": "New Magic Items",
+              "items": [
+                "{@item Carafe of Endless Chocolate Drinks|RolledTold4}"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "object": [
+    {
+      "name": "Doors",
+      "source": "RolledTold4",
+      "page": 17,
+      "size": "M",
+      "objectType": "U",
+      "ac": "15",
+      "hp": "33 (6d10)",
+      "immune": [
+        "poison",
+        "psychic"
+      ],
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical weapons",
+          "cond": true
+        }
+      ],
+      "entries": []
+    },
+    {
+      "name": "Lock",
+      "source": "RolledTold4",
+      "page": 17,
+      "size": "T",
+      "objectType": "U",
+      "ac": "19",
+      "hp": "14 (4d6)",
+      "immune": [
+        "poison",
+        "psychic"
+      ],
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical weapons",
+          "cond": true
+        }
+      ],
+      "entries": []
+    },
+    {
+      "name": "Chains",
+      "source": "RolledTold4",
+      "page": 17,
+      "size": "S",
+      "objectType": "U",
+      "ac": "19",
+      "hp": "22 (5d8)",
+      "immune": [
+        "poison",
+        "psychic"
+      ],
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical weapons",
+          "cond": true
+        }
+      ],
+      "entries": []
+    },
+    {
+      "name": "Skeleton Machine",
+      "source": "RolledTold4",
+      "page": 54,
+      "size": "L",
+      "objectType": "U",
+      "ac": "5",
+      "hp": "40",
+      "immune": [
+        "N/A"
+      ],
+      "resist": [
+        "all non-magical weapon damage"
+      ],
+      "actionEntries": [
+        {
+          "type": "actions",
+          "name": "Skeleton Spawn",
+          "entries": [
+            "{@dice 2d4} skeletons spawn from the skeleton machine each round on the same initiative until it is deactivated or destroyed. This number can be reduced (see Breakdown)."
+          ]
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Deactivation",
+          "entries": [
+            "Each Dexterity ({@item Thieves' Tools|PHB}) {@dc 20} check counts as 10 Hit Points of damage to the Skeleton Machine. Characters trained in {@skill Arcana} gain advantage on these checks."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Breakdown",
+          "entries": [
+            "For every 10 hit points of damage dealt to it, the Skeleton Machine spawns -1 less skeletons until reduced to 0 hit points. Example: when it takes 10 hp of damage it spawns {@dice 2d4 -1}, after 20 hp it spawns {@dice 2d4 -2}, after 30 hp {@dice 2d4 -3}, and at 40 hp it is destroyed."
+          ]
+        }
+      ]
+    }
+  ]
+}
