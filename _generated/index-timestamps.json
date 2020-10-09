@@ -1,6 +1,10 @@
 {
-	"<dir>/<filename>":
-		{"a":<epoc_Time>,"m":<epoc_Time>},
-	"<dir>/<filename>":
-		{"a":<epoc_Time>,"m":<epoc_Time>}
+	"makebrew/Modnar; Homebrew Traits.json":
+		{"a":1584095038,"m":1584095038},
+	"collection/Lion Forge; Rolled & Told #1.json":
+		{"a":1602284622,"m":1602284622},
+	"collection/Lion Forge; Rolled & Told #4.json":
+		{"a":1602284622,"m":1602284622},
+	"collection/WotC; PATCH.json":
+		{"a":1602284622,"m":1602284622}
 }
