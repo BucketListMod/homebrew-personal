@@ -1,0 +1,667 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "Valnoa",
+        "abbreviation": "VN",
+        "full": "Val'noa Campaign Setting",
+        "authors": [
+          "Connor Robinson",
+          "Rebekah McCue"
+        ],
+        "convertedBy": [
+          "BucketListMod#8973"
+        ],
+        "color": "ffedc7"
+      }
+    ],
+		"dateAdded": 1602344563,
+		"dateLastModified": 1602344563
+  },
+  "baseitem": [
+    {
+      "name": "Knuckleduster",
+      "source": "Valnoa",
+      "type": "M",
+      "rarity": "none",
+      "weight": 1,
+      "value": 50,
+      "weaponCategory": "simple",
+      "property": [
+        "KD",
+        "L"
+      ],
+      "dmg1": "1d4",
+      "dmgType": "B",
+      "knuckleduster": true,
+      "weapon": true,
+      "entries": []
+    }
+  ],
+  "item": [
+    {
+      "name": "Figurine of Wondrous Power, Red Jade Dog",
+      "source": "Valnoa",
+      "rarity": "rare",
+      "wondrous": true,
+      "entries": [
+        "A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
+        "The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
+        "The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
+        "{@creature blink dog||Red Jade Dog}.",
+        "This onyx statuette of a dog can become a {@creature blink dog} or {@creature blink wolf|Valnoa} for up to 6 hours. The statuette has two charges and regains all expended charges at dawn."
+      ]
+    },
+    {
+      "name": "Tear of Sehanine",
+      "source": "Valnoa",
+      "rarity": "uncommon",
+      "wondrous": true,
+      "entries": [
+        "Upon death, the wearer's soul is bound to the crystal. The person is still partially aware of outside stimuli."
+      ]
+    },
+    {
+      "name": "Vermillion Red Robes",
+      "source": "Valnoa",
+      "rarity": "rare",
+      "reqAttune": "by a spellcaster",
+      "wondrous": true,
+      "ac": 12,
+      "bonusSpellAttack": "+1",
+      "entries": [
+        "This bright red robe is the uniform of the Red Wizards of Thay. While you wear it, your Armor Class is 12 + your Dex modifier, and you gain a +1 bonus to spell attack rolls while you wear it."
+      ]
+    },
+    {
+      "name": "Wax Harper Seal",
+      "source": "Valnoa",
+      "rarity": "uncommon",
+      "wondrous": true,
+      "entries": [
+        "This wax seal bears the symbol of the Harpers. As an action, you can break the seal and activate a long distance {@spell Alarm} spell. The spell sends a mental alarm to Storm Silverhand, which broadcasts the location at which the seal was broken."
+      ]
+    }
+  ],
+  "itemProperty": [
+    {
+      "abbreviation": "KD",
+      "source": "Valnoa",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Special",
+          "entries": [
+            "If you attack with a knuckleduster using the {@action two-weapon fighting} action and do not have the {@optfeature Two-Weapon Fighting} Fighting Style, the bonus attack uses the statistics of your unarmed strike. In addition, if you have the {@classFeature Martial Arts|Monk||1} feature, any additional properties of the knuckleduster are applied to your unarmed strikes."
+          ]
+        }
+      ]
+    }
+  ],
+  "monster": [
+    {
+      "name": "Blink Wolf",
+      "source": "Valnoa",
+      "size": "M",
+      "type": "fey",
+      "alignment": [
+        "L",
+        "G"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "8d8 + 8",
+        "average": 44
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 14,
+      "dex": 18,
+      "con": 12,
+      "int": 10,
+      "wis": 13,
+      "cha": 11,
+      "skill": {
+        "perception": "+3",
+        "stealth": "+6"
+      },
+      "passive": 13,
+      "languages": [
+        "Blink Dog",
+        "understands Sylvan but can't speak it"
+      ],
+      "cr": "2",
+      "trait": [
+        {
+          "name": "Keen Hearing and Smell",
+          "entries": [
+            "The dog has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+          ]
+        },
+        {
+          "name": "Pack Tactics",
+          "entries": [
+            "The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
+          ]
+        },
+        {
+          "name": "Teleport {@recharge 4}",
+          "entries": [
+            "The dog magically teleports, along with any equipment it is wearing or carrying, up to 40 feet to an unoccupied space it can see. Before or after teleporting, the dog can make one bite attack."
+          ]
+        }
+      ],
+      "environment": [
+        "forest"
+      ],
+      "traitTags": [
+        "Keen Senses",
+        "Pack Tactics"
+      ],
+      "languageTags": [
+        "OTH",
+        "CS",
+        "S"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "tokenUrl": "https://5e.tools/img/MM/Blink Dog.png?v=1.110.4",
+      "fluff": {
+        "name": "Blink Dog",
+        "source": "MM",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "A blink dog takes its name from its ability to blink in and out of existence, a talent it uses to aid its attacks and to avoid harm. Blink dogs harbor a long-standing hatred for displacer beasts and attack them on sight."
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "bestiary/MM/Blink Dog.jpg"
+            }
+          }
+        ]
+      },
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "prone"
+      ]
+    },
+    {
+      "name": "Irelenna",
+      "source": "Valnoa",
+      "size": "M",
+      "type": {
+        "type": "fey",
+        "tags": [
+          "elf"
+        ]
+      },
+      "alignment": [
+        "C",
+        "G"
+      ],
+      "ac": [
+        {
+          "ac": 19,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 127,
+        "formula": "17d8 + 51"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 16,
+      "con": 16,
+      "int": 14,
+      "wis": 17,
+      "cha": 18,
+      "skill": {
+        "insight": "+7",
+        "medicine": "+7",
+        "persuasion": "+8"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 13,
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "languages": [
+        "Common",
+        "Elvish",
+        "Sylvan"
+      ],
+      "cr": "10",
+      "spellcasting": [
+        {
+          "name": "Innate Spellcasting",
+          "headerEntries": [
+            "Irelenna's innate spellcasting ability is Charisma (spell save {@dc 16}). She can innately cast the following spells, requiring no material components:"
+          ],
+          "will": [
+            "{@spell calm emotions}",
+            "{@spell sleep}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell cure wounds} (as a 3rd-level spell)",
+              "{@spell fear}",
+              "{@spell lesser restoration}"
+            ],
+            "1e": [
+              "{@spell raise dead}"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Enchanting Presence",
+          "entries": [
+            "Any non-eladrin creature that starts its turn within 60 feet of Irelenna must make a {@dc 16} Wisdom saving throw. On a failed save, the creature is {@condition charmed} by Irelenna for 1 minute. On a successful save, the creature becomes immune to any eladrin's Enchanting Presence for 24 hours.",
+            "Whenever Irelenna deals damage to the {@condition charmed} creature, the creature can repeat the saving throw, ending the effect on itself on a success."
+          ]
+        },
+        {
+          "name": "Fey Step {@recharge 4}",
+          "entries": [
+            "As a bonus action, Irelenna can teleport up to 30 feet to an unoccupied space she can see."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "Irelenna has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Foster Peace",
+          "entries": [
+            "If a creature {@condition charmed} by Irelenna hits with an attack roll while within 60 feet of her, Irelenna magically causes the attack to miss, provided she can see the attacker."
+          ]
+        },
+        {
+          "name": "Polearm Master",
+          "entries": [
+            "While wielding a {@item glaive|PHB}, {@item halberd|PHB}, {@item pike|PHB}, {@item quarterstaff|PHB}, or {@item spear|PHB}, other creatures provoke an opportunity attack from Irelenna when they enter her reach."
+          ]
+        },
+        {
+          "name": "Sentinel",
+          "entries": [
+            "Creatures provoke opportunity attacks from Irelenna even if they take the {@action Disengage} action before leaving her reach. When Irelenna hits a creature with an opportunity attack, the creature's speed becomes 0 for the rest of the turn.",
+            "In addition, when a creature within 5 feet of Irelenna makes an attack against a target other than her, she can use her reaction to make a melee weapon attack against the attacking creature."
+          ]
+        }
+      ],
+      "environment": [
+        "forest"
+      ],
+      "traitTags": [
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C",
+        "E",
+        "S"
+      ],
+      "damageTags": [
+        "S",
+        "C"
+      ],
+      "spellcastingTags": [
+        "I"
+      ],
+      "conditionInflict": [
+        "charmed"
+      ],
+      "conditionInflictSpell": [
+        "unconscious"
+      ],
+      "tokenUrl": "https://5e.tools/img/MTF/Autumn Eladrin.png?v=1.110.4",
+      "fluff": {
+        "name": "Autumn Eladrin",
+        "source": "MTF",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "quote",
+                    "entries": [
+                      "To be not just ruled by emotions, but physically changed by them? Better to have no emotions at all."
+                    ],
+                    "by": "Mordenkainen"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Autumn Eladrin",
+                    "entries": [
+                      "Eladrin often enter the autumn season when they are overcome by feelings of goodwill. In this aspect, they defuse conflicts and alleviate suffering by using their magic to heal, to cure, and to relieve any ailment that might afflict the people who come to them for aid. They tolerate no violence in their presence and move quickly to settle disputes, to ensure that peace continues to reign."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Eladrin",
+                    "entries": [
+                      "Eladrin dwell in the verdant splendor of the Feywild. They are related to the elves found on the Material Plane, and resemble them in both their love of beauty and the value they place on personal freedom. But where other elves can temper their wild impulses, eladrin are creatures ruled by emotion—and because of their unique magical nature, they undergo physical changes to match their changes in temperament.",
+                      "The eladrin have spent centuries in the Feywild, and most of them have become fey creatures as a result. Some of them are still humanoid, similar in that respect to their other elven kin. The eladrin presented here are of the fey variety."
+                    ]
+                  },
+                  {
+                    "name": "Creatures of Passion",
+                    "type": "entries",
+                    "entries": [
+                      "The magic flowing through eladrin responds to their emotional state by transforming them into different seasonal aspects, with behaviors and capabilities that change with their forms. Some eladrin might remain in a particular aspect for years, while others run through the emotional spectrum each week."
+                    ]
+                  },
+                  {
+                    "name": "Lovers of Beauty",
+                    "type": "entries",
+                    "entries": [
+                      "Regardless of the aspect they express, eladrin love beauty and surround themselves with lovely things. Eladrin try to possess any objects they find striking. They might seek to own a painting, a statue, or a glittering jewel. When they encounter people of comely form or luminous spirit, they use their magic to delight those folk or, in the case of evil eladrin, to abduct them."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Changeable Nature",
+                    "entries": [
+                      "Whenever one of the eladrin presented here finishes a long rest, it can associate itself with a different season, provided it isn't {@condition incapacitated}. When the eladrin makes this change, it uses the stat block of the new season, rather than its old stat block. Any damage the eladrin sustained in its original form applies to the new form, as do any conditions or other ongoing effects affecting it."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "bestiary/MTF/Autumn Eladrin.jpg"
+            }
+          }
+        ]
+      },
+      "shortName": "Illy",
+      "save": {
+        "str": "+7",
+        "dex": "+7",
+        "cha": "+8"
+      },
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Irelenna attacks twice with one of her weapons."
+          ]
+        },
+        {
+          "name": "Halberd",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage, plus 7 ({@damage 2d6}) cold damage."
+          ]
+        }
+      ],
+      "miscTags": [
+        "MW",
+        "RCH"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "isNpc": true
+    }
+  ],
+  "race": [
+    {
+      "name": "Changeling",
+      "source": "Valnoa",
+      "size": "M",
+      "speed": 30,
+      "ability": [
+        {
+          "cha": 2,
+          "choose": {
+            "from": [
+              "str",
+              "dex",
+              "con",
+              "int",
+              "wis",
+              "cha"
+            ],
+            "count": 1
+          }
+        }
+      ],
+      "heightAndWeight": {
+        "baseHeight": 59,
+        "heightMod": "2d4",
+        "baseWeight": 115,
+        "weightMod": "2d4"
+      },
+      "traitTags": [
+        "Skill Proficiency",
+        "Tool Proficiency"
+      ],
+      "languageProficiencies": [
+        {
+          "common": true,
+          "anyStandard": 2
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "choose": {
+            "from": [
+              "deception",
+              "insight",
+              "intimidation",
+              "persuasion"
+            ],
+            "count": 2
+          }
+        }
+      ],
+      "entries": [
+        {
+          "name": "Age",
+          "entries": [
+            "Changelings mature slightly faster than humans but share a similar lifespan—typically a century or less. Created changelings are more likely to die at an early age due to complications. While a changeling can shapeshift to conceal their age, the effects of aging still catch up to them."
+          ],
+          "type": "entries"
+        },
+        {
+          "type": "entries",
+          "name": "Alignment",
+          "entries": [
+            "As most changelings are owned by Thay, many perform an alignment of lawful evil, even if they themselves do not subscribe to it. Due to prolonged psychic damage, most created changelings have little free will of their own."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Size",
+          "entries": [
+            "Your size is Medium."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Shapechanger",
+          "entries": [
+            "As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another race, though none of your game statistics change. You can't duplicate the appearance of a creature you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren't changed by this trait.",
+            "You stay in the new form until you use an action to revert to your true form, you are knocked {@condition unconscious}, or you die."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Changeling Instincts",
+          "entries": [
+            "You gain proficiency with two of the following skills of your choice: {@skill Deception}, {@skill Insight}, {@skill Intimidation}, and {@skill Persuasion}."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Unsettling Visage",
+          "entries": [
+            "When a creature you can see makes an attack roll against you, you can use your reaction to impose disadvantage on the roll. You must use this feature before knowing whether the attack hits or misses. Using this trait reveals your shapeshifting nature to any creature within 30 feet that can see you. Once you use this trait, you can't use it again until you finish a short or long rest."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Divergent Persona",
+          "entries": [
+            "You gain proficiency with one {@book tool|phb|5|tools} of your choice. Define a persona associated with that proficiency: establish the name, race, gender, age, and other details. While you are in the form of this persona, the related proficiency bonus is doubled for any ability check you make that uses that proficiency.",
+            "This persona is part of you, but largely is beyond your control and behaves as if it has a consciousness of its own. If you are a created changeling, it is a mechanism implanted by Thay to prevent you from sharing information about their nation with outsiders. If you are a born changeling, it may manifest differently based on its own personality. Often, your character will have no memory of time spent as your Divergent Persona, though this may differ based on your knowledge of your persona and your relationship to it."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Psionic Exposure",
+          "entries": [
+            "Linked by a psychic web intrinsic in their DNA, changelings have powers unknown to the rest of the material plane. You know one {@filter Psionic Talent|psionics|source=null|type=T} of your choice from the {@class Mystic|UATheMysticClass} class. You can use this talent once with this trait and regain the ability to do so when you finish a short or long rest. Intelligence is your spellcasting ability for your psionic talent."
+          ]
+        },
+        {
+          "name": "Languages",
+          "entries": [
+            "You can speak, read, and write Common and two other languages of your choice."
+          ],
+          "type": "entries"
+        }
+      ],
+      "fluff": {
+        "entries": [
+          {
+            "entries": [
+              {
+                "entries": [
+                  "Created in Thay with the same experimentation that created monstrosities such as Chimeras and Manticores, the \"pale ones\" are largely unknown to the rest of the material plane—but that doesn't mean they aren't present within it.",
+                  {
+                    "type": "entries",
+                    "name": "Biological Shifter Experiments",
+                    "entries": [
+                      "A spy who could disguise themselves as anyone, at any time, without being detectable by magic. This was the goal Thay set out to achieve, and the changelings were the race that they created.",
+                      "All changelings originate in Thay, whether created from other humanoid races or born naturally from changeling parents. They are groomed from their first moments to be assassins and spies, indoctrinating them to Thaycian ideals while training their unique ability called \"Psionics\": spell-like effects created with the power of the mind rather than the weave. But a race undetectable to their enemies is also undetectable to them—and while difficult, it is not impossible for a changeling to escape the hold and reach of their creators.",
+                      "In creating a changeling adventurer, consider the character's connection to their origins. Does the character work to further the goals of Thay? Do they push against them? Were they raised in the country amongst others like them or were taken away from it, thinking they are the only of their kind?"
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Masks and Personas",
+                    "entries": [
+                      "In their true form, changelings are pale, with colorless eyes and pale-toned hair, though each changeling usually has one unique area of odd colorization that differentiates them from others. It is rare to see a changeling in that form, for a typical changeling changes their shape in order to remain undiscovered. Created changelings often adopt casual shapes—ones created on the spur of the moment, with no depth or history—for strictly utilitarian purposes. However, born changelings often develop identities that have more depth. They build an identity over time, crafting a mask with its own history and beliefs. This focused identity helps a changeling pinpoint a particular skill or virtue. A changeling adventurer might have masks for many situations, including negotiation, investigation, and combat.",
+                      "Personas differ from masks in that each changeling possesses only one, and it is a consciousness of its own, though based within and around the experiences of the changeling; for example, a persona's appearance and personality may be influenced by someone a changeling met briefly when they were young. It is uncertain where this persona comes from, though the large amount of psychic energy changelings possess may be a contributing factor. While Thay grooms the personas of their changelings to function as a \"self-destruct switch,\" changelings raised outside of Thay's influence may have personas that serve any functionality."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Changeling Names",
+                    "entries": [
+                      "A changeling might use a different name for each mask and adopt new names as easily as they change faces. Within Thay, changelings are not given names, only serial numbers; however, changelings that choose their own name often choose one that is simple and monosyllabic. Rather than a name, individual changelings often will have a common visual trait across multiple masks that allows friends and family to identify them. So, a changeling may have seven masks, but each mask has the same colored eyes or the same hairstyle regardless of their differences.",
+                      "Changelings are raised by Thay to remain as one sex for breeding purposes, but not all changelings abide by this rule or feel it represents their gender identity.",
+                      "{@b Changeling Names}: Aunn, Bin, Cas, Dox, Fie, Hars, Jin, Lam, Mas, Nix, Ot, Paik, Ruz, Sim, Toox, Vil, Yug"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "reward": [
+    {
+      "name": "The Chosen of Pelor",
+      "source": "Valnoa",
+      "type": "Other",
+      "entries": [
+        "As a Chosen of Pelor, you recieved a piece of the sun god when he was killed by Bane. Becoming a Chosen of Pellor is a supernatural gifts that bestows upon you the following traits.",
+        {
+          "type": "entries",
+          "name": "Holy Remnants",
+          "entries": [
+            "If you are a paladin or cleric, your Spellcasting Ability granted by your class is not effected by the death of your diety."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Radiant Consumption",
+          "entries": [
+            "You can use your action to unleash the divine energy within yourself, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you.",
+            "Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes radiant damage equal to half your level (rounded up). In addition, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.",
+            "Once you use this trait, you can't use it again until you finish a long rest."
+          ]
+        }
+      ]
+    }
+  ],
+  "variantrule": [
+    {
+      "name": "Val'noa Warlock",
+      "source": "Valnoa",
+      "ruleType": "O",
+      "entries": [
+        "The death of Pelor. The war in Elysium. Bane's rise to power. You were born into a time of great planar conflict, a time where magic will be as necessary a weapon as swords and armor. The patron with whom you have entered a pact knows this, and wants their champions best equipped to do their bidding. As an extra tenant to your pact, none of the spells added to your Warlock spell list count against your number of known spells."
+      ]
+    }
+  ]
+}
