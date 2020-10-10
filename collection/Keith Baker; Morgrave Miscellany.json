@@ -1553,7 +1553,7 @@
           "type": "entries",
           "name": "Talenta Weapons Training",
           "entries": [
-            "You have proficiency with the sharrash, and tangat, which are weapons unique to the halflings of the Talenta plains."
+            "You have proficiency with the {@item sharrash|MorgraveMiscellany}, and {@item tangat|MorgraveMiscellany}, which are weapons unique to the halflings of the Talenta plains."
           ]
         }
       ],
@@ -1882,7 +1882,7 @@
           "name": "Special",
           "entries": [
             "Using the Attack action, you can make a special melee attack with your sharrash to knock a creature prone. If you're able to make multiple attacks with the Attack action, this replaces one of them. The target must be no more than one size larger than you and must be within your reach. Instead of making an attack roll, you make a Strength ({@skill Athletics}) check contested by the target's Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you knock the target prone. This special attack has no effect on creatures that are Huge or Larger.",
-            "Talenta Halflings have disadvantage on all attack rolls and contested checks made with a sharrash if you are within 5 feet of a hostile creature and, while mounted, you ignore the heavy property and its damage is {@damage 4d4}."
+            "{@race Halfling (Talenta)|MorgraveMiscellany|Talenta Halflings} have disadvantage on all attack rolls and contested checks made with a sharrash if you are within 5 feet of a hostile creature and, while mounted, you ignore the heavy property and its damage is {@damage 4d4}."
           ]
         }
       ]
@@ -1895,7 +1895,7 @@
           "type": "entries",
           "name": "Special",
           "entries": [
-            "Talenta Halflings ignore the heavy property and its damage is increased to {@damage 3d4}."
+            "{@race Halfling (Talenta)|MorgraveMiscellany|Talenta Halflings} ignore the heavy property and its damage is increased to {@damage 3d4}."
           ]
         }
       ]
