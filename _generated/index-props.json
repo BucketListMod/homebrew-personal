@@ -9,7 +9,7 @@
 	},
 	"background": {
 		"collection/Keith Baker; Exploring Eberron.json": "collection",
-		"collection/Sara Thompson; The Combat Wheelchair.json"
+		"collection/Sara Thompson; The Combat Wheelchair.json": "collection"
 	},
 	"baseitem": {
 		"collection/Keith Baker; Morgrave Miscellany.json": "collection"
@@ -18,13 +18,13 @@
 		"collection/Keith Baker; Exploring Eberron.json": "collection",
 		"collection/Lion Forge; Rolled and Told 1.json": "collection",
 		"collection/Lion Forge; Rolled and Told 4.json": "collection",
-		"collection/Sara Thompson; The Combat Wheelchair.json"
+		"collection/Sara Thompson; The Combat Wheelchair.json": "collection"
 	},
 	"bookData": {
 		"collection/Keith Baker; Exploring Eberron.json": "collection",
 		"collection/Lion Forge; Rolled and Told 1.json": "collection",
 		"collection/Lion Forge; Rolled and Told 4.json": "collection",
-		"collection/Sara Thompson; The Combat Wheelchair.json"
+		"collection/Sara Thompson; The Combat Wheelchair.json": "collection"
 	},
 	"feat": {
 		"collection/Keith Baker; Exploring Eberron.json": "collection"
@@ -33,7 +33,7 @@
 		"collection/Keith Baker; Exploring Eberron.json": "collection",
 		"collection/Lion Forge; Rolled and Told 1.json": "collection",
 		"collection/Lion Forge; Rolled and Told 4.json": "collection",
-		"collection/Sara Thompson; The Combat Wheelchair.json",
+		"collection/Sara Thompson; The Combat Wheelchair.json": "collection",
 		"collection/WotC; PATCH.json": "collection"
 	},
 	"itemProperty": {
@@ -48,24 +48,24 @@
 	"variant": {
 		"collection/Keith Baker; Exploring Eberron.json": "collection"
 	},
-  "makebrewCreatureTrait": {
-    "makebrew/E.L. Thomas; Rolled and Told.json": "makebrew"
-  },
+	"makebrewCreatureTrait": {
+	  "makebrew/E.L. Thomas; Rolled and Told.json": "makebrew"
+	},
 	"monster": {
 		"collection/Keith Baker; Exploring Eberron.json": "collection",
 		"collection/Lion Forge; Rolled and Told 1.json": "collection",
-    "collection/Lion Forge; Rolled and Told 4.json": "collection"
+		"collection/Lion Forge; Rolled and Told 4.json": "collection"
 	},
 	"object": {
 		"collection/Keith Baker; Exploring Eberron.json": "collection",
 		"collection/Lion Forge; Rolled and Told 1.json": "collection",
-    "collection/Lion Forge; Rolled and Told 4.json": "collection",
-		"collection/Sara Thompson; The Combat Wheelchair.json"
+		"collection/Lion Forge; Rolled and Told 4.json": "collection",
+		"collection/Sara Thompson; The Combat Wheelchair.json": "collection"
 	},
 	"optionalfeature": {
 		"collection/Keith Baker; Exploring Eberron.json": "collection",
 		"collection/Keith Baker; Morgrave Miscellany.json": "collection",
-		"collection/Sara Thompson; The Combat Wheelchair.json"
+		"collection/Sara Thompson; The Combat Wheelchair.json": "collection"
 	},
 	"race": {
 		"collection/Keith Baker; Exploring Eberron.json": "collection",
@@ -81,12 +81,12 @@
 	"subclass": {
 		"collection/Keith Baker; Exploring Eberron.json": "collection",
 		"collection/Keith Baker; Morgrave Miscellany.json": "collection",
-		"collection/Sara Thompson; The Combat Wheelchair.json"
+		"collection/Sara Thompson; The Combat Wheelchair.json": "collection"
 	},
 	"subclassFeature": {
 		"collection/Keith Baker; Exploring Eberron.json": "collection",
 		"collection/Keith Baker; Morgrave Miscellany.json": "collection",
-		"collection/Sara Thompson; The Combat Wheelchair.json"
+		"collection/Sara Thompson; The Combat Wheelchair.json": "collection"
 	},
 	"subrace": {
 		"collection/Keith Baker; Morgrave Miscellany.json": "collection"
@@ -97,7 +97,7 @@
 	},
 	"variantrule": {
 		"collection/Lion Forge; Rolled and Told 1.json": "collection",
-		"collection/Sara Thompson; The Combat Wheelchair.json"
+		"collection/Sara Thompson; The Combat Wheelchair.json": "collection"
 	},
 	"vehicle": {
 		"collection/Lion Forge; Rolled and Told 1.json": "collection"
