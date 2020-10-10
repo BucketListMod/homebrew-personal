@@ -2,8 +2,9 @@
     "CombatWheelchair": "collection/Sara Thompson; The Combat Wheelchair.json",
     "ExploringEberron": "collection/Keith Baker; Exploring Eberron.json",
     "MorgraveMiscellany": "collection/Keith Baker; Morgrave Miscellany.json",
+    "PATCH": "collection/WotC; PATCH.jsonc",
     "RT": "makebrew/E.L. Thomas; Rolled and Told.json",
     "RolledTold1": "collection/Lion Forge; Rolled and Told 1",
     "RolledTold4": "collection/Lion Forge; Rolled and Told 4",
-    "PATCH": "collection/WotC; PATCH.jsonc"
+    "TDCS": "Matthew Mercer; TalDorei Campaign Guide.json"
 }
