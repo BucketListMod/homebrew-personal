@@ -7,35 +7,73 @@
 		"collection/Lion Forge; Rolled and Told 1.json": "collection",
     "collection/Lion Forge; Rolled and Told 4.json": "collection"
 	},
+	"background": {
+		"collection/Keith Baker; Exploring Eberron.json": "collection"
+	},
+	"baseitem": {},
 	"book": {
+		"collection/Keith Baker; Exploring Eberron.json": "collection",
 		"collection/Lion Forge; Rolled and Told 1.json": "collection",
     "collection/Lion Forge; Rolled and Told 4.json": "collection"
 	},
 	"bookData": {
+		"collection/Keith Baker; Exploring Eberron.json": "collection",
 		"collection/Lion Forge; Rolled and Told 1.json": "collection",
     "collection/Lion Forge; Rolled and Told 4.json": "collection"
 	},
+	"feat": {
+		"collection/Keith Baker; Exploring Eberron.json": "collection"
+	},
 	"item": {
+		"collection/Keith Baker; Exploring Eberron.json": "collection",
 		"collection/Lion Forge; Rolled and Told 1.json": "collection",
     "collection/Lion Forge; Rolled and Told 4.json": "collection",
 		"collection/WotC; PATCH.json": "collection"
+	},
+	"language": {
+		"collection/Keith Baker; Exploring Eberron.json": "collection"
+	},
+	"legendaryGroup": {
+		"collection/Keith Baker; Exploring Eberron.json": "collection"
+	},
+	"variant": {
+		"collection/Keith Baker; Exploring Eberron.json": "collection"
 	},
   "makebrewCreatureTrait": {
     "makebrew/E.L. Thomas; Rolled and Told.json": "makebrew"
   },
 	"monster": {
+		"collection/Keith Baker; Exploring Eberron.json": "collection",
 		"collection/Lion Forge; Rolled and Told 1.json": "collection",
     "collection/Lion Forge; Rolled and Told 4.json": "collection"
-	},
-	"table": {
-		"collection/Lion Forge; Rolled and Told 1.json": "collection"
 	},
 	"object": {
+		"collection/Keith Baker; Exploring Eberron.json": "collection",
 		"collection/Lion Forge; Rolled and Told 1.json": "collection",
     "collection/Lion Forge; Rolled and Told 4.json": "collection"
 	},
+	"optionalfeature": {
+		"collection/Keith Baker; Exploring Eberron.json": "collection"
+	},
+	"race": {
+		"collection/Keith Baker; Exploring Eberron.json": "collection"
+	},
 	"reward": {
+		"collection/Keith Baker; Exploring Eberron.json": "collection",
 		"collection/WotC; PATCH.json": "collection"
+	},
+	"spell": {
+		"collection/Keith Baker; Exploring Eberron.json": "collection"
+	},
+	"subclass": {
+		"collection/Keith Baker; Exploring Eberron.json": "collection"
+	},
+	"subclassFeature": {
+		"collection/Keith Baker; Exploring Eberron.json": "collection"
+	},
+	"table": {
+		"collection/Keith Baker; Exploring Eberron.json": "collection",
+		"collection/Lion Forge; Rolled and Told 1.json": "collection"
 	},
 	"variantrule": {
 		"collection/Lion Forge; Rolled and Told 1.json": "collection"
