@@ -18,8 +18,128 @@
       }
     ],
     "dateAdded": 1602355835,
-    "dateLastModified": 1602355835
+    "dateLastModified": 1602357806
   },
+  "monster": [
+    {
+      "name": "Professional Bounty Hunter",
+      "source": "InnsTavernsLifestyle",
+      "page": 13,
+      "size": "M",
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item splint armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 58,
+        "formula": "9d8 + 18"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 14,
+      "con": 14,
+      "int": 10,
+      "wis": 12,
+      "cha": 10,
+      "skill": {
+        "athletics": "+5",
+        "perception": "+3",
+        "stealth": "+4",
+        "survival": "+3"
+      },
+      "passive": 13,
+      "languages": [
+        "any one language (usually Common)"
+      ],
+      "cr": "3",
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The bounty hunter makes two longsword attacks. If it has a mace drawn, it can also make a cudgel attack."
+          ]
+        },
+        {
+          "name": "Longsword",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands."
+          ]
+        },
+        {
+          "name": "Cudgel",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Heavy Crossbow",
+          "entries": [
+            "{@atk rw} {@hit 4} to hit, range 100/400 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
+          ]
+        },
+        {
+          "name": "Bola",
+          "entries": [
+            "A bola is a cord with weights on each end thrown at the legs of a fleeing target.",
+            "{@atk rw} {@hit 4} to hit, range 30/50 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage. A Large or smaller creature hit must succeed in a {@dc 13} Dexterity saving throw or become {@condition grappled}. {@dc 12} Strength check to break. The bola has 4 hit points.",
+            "A bounty hunter may use a Bola during an attack of opportunity even if the target has used the {@action Disengage} action."
+          ]
+        }
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "S",
+        "B",
+        "P"
+      ],
+      "miscTags": [
+        "MW",
+        "RW",
+        "RNG"
+      ],
+      "tokenUrl": "https://5e.tools/img/MM/Veteran.png?v=1.113.2",
+      "fluff": {
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "Professional Bounty Hunters are tough and dogged in their pursuit, but they’re also experienced enough to know when a target is out of their league. They’ll team up with other bounty hunters if they have to, but they’ll also hire mercenaries or even work with enemies of the target."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "shortName": "bounty hunter",
+      "conditionInflict": [
+        "grappled"
+      ]
+    }
+  ],
   "table": [
     {
       "source": "InnsTavernsLifestyle",
