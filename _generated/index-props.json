@@ -1,11 +1,11 @@
 {
 	"adventure": {
 		"collection/Lion Forge; Rolled and Told 1.json": "collection",
-    "collection/Lion Forge; Rolled and Told 4.json": "collection"
+		"collection/Lion Forge; Rolled and Told 4.json": "collection"
 	},
 	"adventureData": {
 		"collection/Lion Forge; Rolled and Told 1.json": "collection",
-    "collection/Lion Forge; Rolled and Told 4.json": "collection"
+		"collection/Lion Forge; Rolled and Told 4.json": "collection"
 	},
 	"background": {
 		"collection/Keith Baker; Exploring Eberron.json": "collection",
@@ -17,13 +17,13 @@
 	"book": {
 		"collection/Keith Baker; Exploring Eberron.json": "collection",
 		"collection/Lion Forge; Rolled and Told 1.json": "collection",
-    "collection/Lion Forge; Rolled and Told 4.json": "collection",
+		"collection/Lion Forge; Rolled and Told 4.json": "collection",
 		"collection/Sara Thompson; The Combat Wheelchair.json"
 	},
 	"bookData": {
 		"collection/Keith Baker; Exploring Eberron.json": "collection",
 		"collection/Lion Forge; Rolled and Told 1.json": "collection",
-    "collection/Lion Forge; Rolled and Told 4.json": "collection",
+		"collection/Lion Forge; Rolled and Told 4.json": "collection",
 		"collection/Sara Thompson; The Combat Wheelchair.json"
 	},
 	"feat": {
@@ -32,8 +32,8 @@
 	"item": {
 		"collection/Keith Baker; Exploring Eberron.json": "collection",
 		"collection/Lion Forge; Rolled and Told 1.json": "collection",
-    "collection/Lion Forge; Rolled and Told 4.json": "collection",,
-		"collection/Sara Thompson; The Combat Wheelchair.json"
+		"collection/Lion Forge; Rolled and Told 4.json": "collection",
+		"collection/Sara Thompson; The Combat Wheelchair.json",
 		"collection/WotC; PATCH.json": "collection"
 	},
 	"itemProperty": {
