@@ -14,64 +14,16 @@
         "version": "1.0.0",
         "url": "https://brewskis-dnd-homebrewery.tumblr.com/post/175512834473/thoughts-prayers",
         "targetSchema": "1.0.0.0"
-      },
-      {
-        "json": "ValnoaHomebrew",
-        "abbreviation": "VN",
-        "full": "Val'noa Homebrew",
-        "authors": [
-          "Connor Robinson",
-          "Rebekah McCue"
-        ],
-        "convertedBy": [
-          "BucketListMod#8973"
-        ],
-        "color": "ffedc7"
       }
     ],
     "dateAdded": 1602342993,
     "dateLastModified": 1602342993
   },
-  "baseitem": [
-    {
-      "name": "Knuckleduster",
-      "source": "ValnoaHomebrew",
-      "type": "M",
-      "rarity": "none",
-      "weight": 1,
-      "value": 50,
-      "weaponCategory": "simple",
-      "property": [
-        "KD",
-        "L"
-      ],
-      "dmg1": "1d4",
-      "dmgType": "B",
-      "knuckleduster": true,
-      "weapon": true,
-      "entries": []
-    }
-  ],
-  "itemProperty": [
-    {
-      "abbreviation": "KD",
-      "source": "ValnoaHomebrew",
-      "entries": [
-        {
-          "type": "entries",
-          "name": "Special",
-          "entries": [
-            "If you attack with a knuckleduster using the {@action two-weapon fighting} action and do not have the {@optfeature Two-Weapon Fighting} Fighting Style, the bonus attack uses the statistics of your unarmed strike. In addition, if you have the {@classFeature Martial Arts|Monk||1} feature, any additional properties of the knuckleduster are applied to your unarmed strikes."
-          ]
-        }
-      ]
-    }
-  ],
   "item": [
     {
       "name": "Prayers",
       "source": "BrewskiThoughtsPrayers",
-      "baseItem": "knuckleduster|ValnoaHomebrew",
+      "baseItem": "knuckleduster|Valnoa",
       "type": "M",
       "rarity": "rare",
       "reqAttune": true,
@@ -86,7 +38,7 @@
       "knuckleduster": true,
       "weapon": true,
       "entries": [
-        "If Prayers become separated from {@item Thoughts|ValnoaHomebrew}, either by moving into a different plane or via 300 ft. of distance, any creature in possession of Prayers must make a Constitution saving throw. The creature takes {@damage 2d10} radiant damage on a failed save or half as much on a successful one.",
+        "If Prayers become separated from {@item Thoughts|Valnoa}, either by moving into a different plane or via 300 ft. of distance, any creature in possession of Prayers must make a Constitution saving throw. The creature takes {@damage 2d10} radiant damage on a failed save or half as much on a successful one.",
         "While you are attuned to Prayers and wearing it on your hand, you receive the following benefits:",
         {
           "type": "list",
@@ -127,14 +79,14 @@
           }
         ],
         "entries": [
-          "Thoughts & Prayers are a pair of twin {@item knuckleduster|ValnoaHomebrew|knuckledusters}. Each is molded from the same type of metal but, whereas Thoughts is almost fully black in color, Prayers is almost white. Each can be used independently of the other, however they are more powerful when used together by a single creature."
+          "Thoughts & Prayers are a pair of twin {@item knuckleduster|Valnoa|knuckledusters}. Each is molded from the same type of metal but, whereas Thoughts is almost fully black in color, Prayers is almost white. Each can be used independently of the other, however they are more powerful when used together by a single creature."
         ]
       }
     },
     {
       "name": "Thoughts",
       "source": "BrewskiThoughtsPrayers",
-      "baseItem": "knuckleduster|ValnoaHomebrew",
+      "baseItem": "knuckleduster|Valnoa",
       "type": "M",
       "rarity": "rare",
       "reqAttune": true,
@@ -150,7 +102,7 @@
       "knuckleduster": true,
       "weapon": true,
       "entries": [
-        "If Thoughts becomes separated from {@item Prayers|ValnoaHomebrew}, either by moving into a different plane or via 300 ft. of distance, any creature in possession of Thoughts must make a Constitution saving throw. The creature takes {@damage 2d10} psychic damage on a failed save or half as much on a successful one.",
+        "If Thoughts becomes separated from {@item Prayers|Valnoa}, either by moving into a different plane or via 300 ft. of distance, any creature in possession of Thoughts must make a Constitution saving throw. The creature takes {@damage 2d10} psychic damage on a failed save or half as much on a successful one.",
         "While you are attuned to Thoughts and wearing it on your hand, you receive the following benefits:",
         {
           "type": "list",
@@ -191,7 +143,7 @@
           }
         ],
         "entries": [
-          "Thoughts & Prayers are a pair of twin {@item knuckleduster|ValnoaHomebrew|knuckledusters}. Each is molded from the same type of metal but, whereas Thoughts is almost fully black in color, Prayers is almost white. Each can be used independently of the other, however they are more powerful when used together by a single creature."
+          "Thoughts & Prayers are a pair of twin {@item knuckleduster|Valnoa|knuckledusters}. Each is molded from the same type of metal but, whereas Thoughts is almost fully black in color, Prayers is almost white. Each can be used independently of the other, however they are more powerful when used together by a single creature."
         ]
       }
     }
