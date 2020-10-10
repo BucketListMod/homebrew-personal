@@ -24,6 +24,7 @@
       "name": "Prayers",
       "source": "BrewskiThoughtsPrayers",
       "baseItem": "knuckleduster|Valnoa",
+      "page": "1",
       "type": "M",
       "rarity": "rare",
       "reqAttune": true,
@@ -60,7 +61,7 @@
           "type": "entries",
           "name": "When Used Together",
           "entries": [
-            "While wearing and attuned to both weapons, the damage dice used when calculating radiant damage as a result of a melee attack becomes {@damage 4d6}. Additionally, each weapon gains +2 to its maximum charges and you may make 1 extra attack each time you take the {@action Attack} action on your turn."
+            "While wearing and attuned to both weapons, the damage dice used when calculating psychic/radiant damage as a result of a melee attack becomes {@damage 4d6}. Additionally, each weapon gains +2 to its maximum charges and you may make 1 extra attack each time you take the {@action Attack} action on your turn."
           ]
         }
       ],
@@ -87,6 +88,7 @@
       "name": "Thoughts",
       "source": "BrewskiThoughtsPrayers",
       "baseItem": "knuckleduster|Valnoa",
+      "page": "1",
       "type": "M",
       "rarity": "rare",
       "reqAttune": true,
@@ -124,7 +126,7 @@
           "type": "entries",
           "name": "When Used Together",
           "entries": [
-            "While wearing and attuned to both weapons, the damage dice used when calculating psychic damage as a result of a melee attack becomes {@damage 4d6}. Additionally, each weapon gains +2 to its maximum charges and you may make 1 extra attack each time you take the {@action Attack} action on your turn."
+            "While wearing and attuned to both weapons, the damage dice used when calculating psychic/radiant damage as a result of a melee attack becomes {@damage 4d6}. Additionally, each weapon gains +2 to its maximum charges and you may make 1 extra attack each time you take the {@action Attack} action on your turn."
           ]
         }
       ],
