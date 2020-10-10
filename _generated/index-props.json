@@ -10,7 +10,9 @@
 	"background": {
 		"collection/Keith Baker; Exploring Eberron.json": "collection"
 	},
-	"baseitem": {},
+	"baseitem": {
+		"collection/Keith Baker; Morgrave Miscellany.json": "collection"
+	},
 	"book": {
 		"collection/Keith Baker; Exploring Eberron.json": "collection",
 		"collection/Lion Forge; Rolled and Told 1.json": "collection",
@@ -29,6 +31,9 @@
 		"collection/Lion Forge; Rolled and Told 1.json": "collection",
     "collection/Lion Forge; Rolled and Told 4.json": "collection",
 		"collection/WotC; PATCH.json": "collection"
+	},
+	"itemProperty": {
+		"collection/Keith Baker; Morgrave Miscellany.json": "collection"
 	},
 	"language": {
 		"collection/Keith Baker; Exploring Eberron.json": "collection"
@@ -53,10 +58,12 @@
     "collection/Lion Forge; Rolled and Told 4.json": "collection"
 	},
 	"optionalfeature": {
-		"collection/Keith Baker; Exploring Eberron.json": "collection"
+		"collection/Keith Baker; Exploring Eberron.json": "collection",
+		"collection/Keith Baker; Morgrave Miscellany.json": "collection"
 	},
 	"race": {
-		"collection/Keith Baker; Exploring Eberron.json": "collection"
+		"collection/Keith Baker; Exploring Eberron.json": "collection",
+		"collection/Keith Baker; Morgrave Miscellany.json": "collection"
 	},
 	"reward": {
 		"collection/Keith Baker; Exploring Eberron.json": "collection",
@@ -66,10 +73,15 @@
 		"collection/Keith Baker; Exploring Eberron.json": "collection"
 	},
 	"subclass": {
-		"collection/Keith Baker; Exploring Eberron.json": "collection"
+		"collection/Keith Baker; Exploring Eberron.json": "collection",
+		"collection/Keith Baker; Morgrave Miscellany.json": "collection"
 	},
 	"subclassFeature": {
-		"collection/Keith Baker; Exploring Eberron.json": "collection"
+		"collection/Keith Baker; Exploring Eberron.json": "collection",
+		"collection/Keith Baker; Morgrave Miscellany.json": "collection"
+	},
+	"subrace": {
+		"collection/Keith Baker; Morgrave Miscellany.json": "collection"
 	},
 	"table": {
 		"collection/Keith Baker; Exploring Eberron.json": "collection",
