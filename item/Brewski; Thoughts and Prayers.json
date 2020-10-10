@@ -14,11 +14,59 @@
         "version": "1.0.0",
         "url": "https://brewskis-dnd-homebrewery.tumblr.com/post/175512834473/thoughts-prayers",
         "targetSchema": "1.0.0.0"
+      },
+      {
+        "json": "ValnoaHomebrew",
+        "abbreviation": "VN",
+        "full": "Val'noa Homebrew",
+        "authors": [
+          "Connor Robinson",
+          "Rebekah McCue"
+        ],
+        "convertedBy": [
+          "BucketListMod#8973"
+        ],
+        "color": "ffedc7"
       }
     ],
-		"dateAdded": 1602342993,
-		"dateLastModified": 1602342993
+    "dateAdded": 1602342993,
+    "dateLastModified": 1602342993
   },
+  "baseitem": [
+    {
+      "name": "Knuckleduster",
+      "source": "ValnoaHomebrew",
+      "type": "M",
+      "rarity": "none",
+      "weight": 1,
+      "value": 50,
+      "weaponCategory": "simple",
+      "property": [
+        "KD",
+        "L"
+      ],
+      "dmg1": "1d4",
+      "dmgType": "B",
+      "knuckleduster": true,
+      "weapon": true,
+      "entries": []
+    }
+  ],
+  "itemProperty": [
+    {
+      "abbreviation": "KD",
+      "source": "ValnoaHomebrew",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Special",
+          "entries": [
+            "If you attack with a knuckleduster using the {@action two-weapon fighting} action and do not have the {@optfeature Two-Weapon Fighting} Fighting Style, the bonus attack uses the statistics of your unarmed strike. In addition, if you have the {@classFeature Martial Arts|Monk||1} feature, any additional properties of the knuckleduster are applied to your unarmed strikes."
+          ]
+        }
+      ]
+    }
+  ],
   "item": [
     {
       "name": "Prayers",
