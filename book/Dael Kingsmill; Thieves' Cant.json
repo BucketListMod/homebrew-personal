@@ -21,9 +21,9 @@
   },
   "book": [
     {
-      "name": "Thieves' Cant",
-      "id": "MonarchsFactoryThievesCant",
-      "source": "MF:TC",
+      "name": "KingsmillThievesCant",
+      "id": "KingsmillThievesCant",
+      "source": "KingsmillThievesCant",
       "contents": [
         {
           "name": "Thieves' Cant",
@@ -42,8 +42,8 @@
   ],
   "bookData": [
     {
-      "id": "MonarchsFactoryThievesCant",
-      "source": "MF:TC",
+      "id": "KingsmillThievesCant",
+      "source": "KingsmillThievesCant",
       "data": [
         {
           "type": "section",
