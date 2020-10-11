@@ -17,13 +17,14 @@
       }
     ],
     "dateAdded": 1602442076,
-    "dateLastModified": 1602442076
+    "dateLastModified": 1602444773
   },
   "book": [
     {
       "name": "Druidic Language",
       "id": "McCueDruidic",
       "source": "McCueDruidic",
+      "author": "McCueDruidic",
       "contents": [
         {
           "name": "Druidic",
