@@ -14,7 +14,7 @@
       }
     ],
 		"dateAdded": 1602284622,
-		"dateLastModified": 1602284622
+		"dateLastModified": 1602381376
   },
   "item": [
     {
@@ -26,7 +26,7 @@
       "rarity": "varies",
       "reqAttune": "by a warlock",
       "weight": "2",
-      "wondrous": true,
+      "tier": "major",
       "items": [
         "+1 Rod of the Pact Keeper",
         "+2 Rod of the Pact Keeper",
