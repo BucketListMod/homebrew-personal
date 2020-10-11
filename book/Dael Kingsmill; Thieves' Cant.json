@@ -17,25 +17,42 @@
       }
     ],
     "dateAdded": 1602439286,
-    "dateLastUpdated": 1602439286
+    "dateLastUpdated": 1602445103
   },
   "book": [
     {
       "name": "Thieves' Cant",
       "id": "KingsmillThievesCant",
       "source": "KingsmillThievesCant",
+      "author": "KingsmillThievesCant",
       "contents": [
         {
           "name": "Thieves' Cant",
           "headers": [
             "A Cultural Code",
-            "Identification",
-            "Lay of the Land",
-            "The Strange Approach",
-            "Example Conversation",
-            "homebrew by Dael Kingsmill"
+            "Identification"
           ]
-        }
+        },
+        {
+          "name": "Lay of the Land",
+          "headers": [
+            "A Game of Cards",
+            "Calling a Spade a Spade"
+          ]
+        },
+        {
+          "name": "The Strange Approach",
+          "headers": [
+            "Old Friends",
+            "Dishonest Employment",
+            "Catching Up",
+            "How's Your Dad?",
+            "Compensation",
+            "Rendezvous"
+          ]
+        },
+        "Example Conversation",
+        "homebrew by Dael Kingsmill"
       ],
       "published": "2018/06/06"
     }
