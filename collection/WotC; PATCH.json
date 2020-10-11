@@ -14,7 +14,7 @@
       }
     ],
 		"dateAdded": 1602284622,
-		"dateLastModified": 1602380569
+		"dateLastModified": 1602284622
   },
   "item": [
     {
@@ -43,113 +43,6 @@
           ]
         }
       ]
-    }
-  ],
-  "variant": [
-    {
-      "name": "Silvered Ammunition",
-      "type": "GV",
-      "requires": [
-        {
-          "type": "A"
-        },
-        {
-          "type": "AF"
-        }
-      ],
-      "excludes": {
-        "name": "Energy Cell"
-      },
-      "ammo": true,
-      "entries": [
-        "Some monsters that have immunity or resistance to nonmagical weapons are susceptible to silver ammunition, so cautious adventurers invest extra coin to plate their ammunition in silver. You can silver ten pieces of ammunition for 100 gp. This cost represents not only the price of the silver, but the time and expertise needed to add silver to the ammunition without making it less effective."
-      ],
-      "inherits": {
-        "namePrefix": "Silvered ",
-        "source": "PHB",
-        "page": 148,
-        "tier": "minor",
-        "rarity": "unknown",
-        "valueExpression": "[[baseItem.value]] + 1000"
-      },
-      "source": "PHB",
-      "page": 148,
-      "tier": "minor",
-      "rarity": "unknown",
-      "valueExpression": "[[baseItem.value]] + 1000"
-    },
-    {
-      "name": "Adamantine Ammunition",
-      "type": "GV",
-      "requires": [
-        {
-          "type": "A"
-        },
-        {
-          "type": "AF"
-        }
-      ],
-      "excludes": {
-        "name": "Energy Cell"
-      },
-      "ammo": true,
-      "entries": [
-        "Ammunition made of or coated with adamantine is unusually effective when used to break objects. Whenever a piece of adamantine ammunition hits an object, the hit is a critical hit.",
-        "The adamantine version of ten pieces of ammunition costs 500 gp more than the normal version, whether the ammunition is made of the metal or coated with it."
-      ],
-      "inherits": {
-        "namePrefix": "Adamantine ",
-        "source": "XGE",
-        "page": 78,
-        "tier": "minor",
-        "rarity": "unknown",
-        "valueExpression": "[[baseItem.value]] + 5000",
-        "entries": [
-          "Whenever you hit an object using this ammunition, the hit is a critical hit."
-        ]
-      },
-      "source": "XGE",
-      "page": 78,
-      "tier": "minor",
-      "rarity": "unknown",
-      "valueExpression": "[[baseItem.value]] + 5000"
-    },
-    {
-      "name": "Byeshk Ammunition",
-      "type": "GV",
-      "entries": [
-        "Byeshk is a rare and heavy metal of lustrous purple, mined from the Byeshk and Graywall Mountains along Droaam's borders. It can also be found in the Ironlands, a Khyberian demiplane that's been delved into by the Ghaash'kala and Kech Sharaat. Aberrations tied to the daelkyr—including {@creature dolgaunt|erlw|dolgaunts}, {@creature dolgrim|erlw|dolgrims}, and {@creature mind flayer||mind flayers}—are susceptible to weapons made of byeshk alloys, making the metal highly valued to the Dhakaani, Gatekeepers druids, and others that fight aberrations. Dhakaani weapons forged during the Xoriat Incursion were often forged from byeshk.",
-        "Ammunition made of or coated with byeshk are not inherently magical weapons, but are unusually effective when used to fight aberrations. Whenever you hit an aberration with a piece of byeshk ammunition, the aberration takes an extra {@damage 1d6} damage of the weapon's type, and it can't regain hit points until the start of your next turn.",
-        "The byeshk version of ten pieces of ammunition costs 400 gp more than the normal version, whether the ammunition is made of the metal or coated with it."
-      ],
-      "requires": [
-        {
-          "type": "A"
-        },
-        {
-          "type": "AF"
-        }
-      ],
-      "excludes": {
-        "name": "Energy Cell"
-      },
-      "ammo": true,
-      "inherits": {
-        "tier": "minor",
-        "rarity": "unknown",
-        "source": "ExploringEberron",
-        "page": 223,
-        "namePrefix": "Byeshk ",
-        "valueExpression": "[[baseItem.value]] + 4000",
-        "entries": [
-          "Whenever you hit an aberration using this ammunition, the aberration takes an extra {@damage 1d6} damage of the weapon's type, and it can't regain hit points until the start of your next turn."
-        ]
-      },
-      "source": "ExploringEberron",
-      "page": 223,
-      "tier": "minor",
-      "rarity": "unknown",
-      "valueExpression": "[[baseItem.value]] + 4000"
     }
   ],
   "reward": [
