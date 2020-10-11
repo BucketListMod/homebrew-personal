@@ -35,7 +35,7 @@
           ]
         }
       ],
-      "published": "2020/6/9"
+      "published": ""
     }
   ],
   "bookData": [
@@ -95,6 +95,13 @@
                       ]
                     },
                     "The danger marker is notable for often being accompanied by other communications. For example, danger combined with a turn marker indicates the quickest and safest way to avoid the threat. The druid may have also mentioned to a nearby plant or animal what the danger is and ask them to pass this information along should a traveler use {@spell Speak with Plants} or {@spell Speak with Animals}.",
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://i0.wp.com/www.lostwitandwisdom.com/wp-content/uploads/2017/07/signals.jpg?w=700&ssl=1"
+                      }
+                    },
                     {
                       "type": "inset",
                       "name": "Druidic & Druidcraft",
@@ -248,16 +255,9 @@
                   "type": "list",
                   "items": [
                     "Dael Kingsmill/MonarchsFactory, {@link How I'd Run the Druidic Language|https://www.youtube.com/watch?v=DWw6nGFI57A}.",
-                    "{@i The Book of Woodcraft and Indian Lore.} Ernest Thompson Seton, 1912. (Image Below).",
+                    "{@i The Book of Woodcraft and Indian Lore.} Ernest Thompson Seton, 1912.",
                     "Template by {@link Homebrewery|https://homebrewery.naturalcrit.com/}."
                   ]
-                },
-                {
-                  "type": "image",
-                  "href": {
-                    "type": "external",
-                    "url": "https://i0.wp.com/www.lostwitandwisdom.com/wp-content/uploads/2017/07/signals.jpg?w=700&ssl=1"
-                  }
                 }
               ]
             }
