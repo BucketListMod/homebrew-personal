@@ -17,7 +17,7 @@
       }
     ],
     "dateAdded": 1602442076,
-    "dateLastModified": 1602444773
+    "dateLastModified": 1602445289
   },
   "book": [
     {
@@ -29,12 +29,24 @@
         {
           "name": "Druidic",
           "headers": [
-            "Signals in the Natural World",
-            "I Spy...",
-            "Whistling on the Wind",
-            "homebrew by Rebekah McCue"
+            "Signals in the Natural World"
           ]
-        }
+        },
+        {
+          "name": "I Spy...",
+          "headers": [
+            "Part of Your Environment",
+            "Send Up a Flare"
+          ]
+        },
+        {
+          "name": "Whistling on the Wind",
+          "headers": [
+            "A Little Birdy Told Me",
+            "Example Use of Druidic Calls"
+          ]
+        },
+        "homebrew by Rebekah McCue"
       ],
       "published": "2020/9/6"
     }
