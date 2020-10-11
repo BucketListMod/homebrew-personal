@@ -4,7 +4,7 @@
       {
         "json": "McCueDruidic",
         "abbreviation": "DL",
-        "full": "Druidic",
+        "full": "Druidic Language",
         "authors": [
           "Rebekah McCue"
         ],
@@ -21,8 +21,8 @@
   },
   "book": [
     {
-      "name": "Druidic",
-      "id": "BucketListModDruidic",
+      "name": "McCueDruidic",
+      "id": "McCueDruidic",
       "source": "McCueDruidic",
       "contents": [
         {
@@ -35,12 +35,12 @@
           ]
         }
       ],
-      "published": ""
+      "published": "2020/9/6"
     }
   ],
   "bookData": [
     {
-      "id": "BucketListModDruidic",
+      "id": "McCueDruidic",
       "source": "McCueDruidic",
       "data": [
         {
