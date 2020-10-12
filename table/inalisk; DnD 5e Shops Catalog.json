@@ -4925,7 +4925,7 @@
           "{@i Powdering of Gems}"
         ],
         [
-          "10 gp Gemstones",
+          "{@table 10 GP Gemstones}",
           "+10 gp",
           "+8 gp",
           "+15 gp",
@@ -4935,7 +4935,7 @@
           "x"
         ],
         [
-          "50 gp Gemstones",
+          "{@table 50 GP Gemstones}",
           "+20 gp",
           "+15 gp",
           "+30 gp",
@@ -4945,7 +4945,7 @@
           "x"
         ],
         [
-          "100 gp Gemstones",
+          "{@table 100 GP Gemstones}",
           "+50 gp",
           "+38 gp",
           "+75 gp",
@@ -4955,7 +4955,7 @@
           "x"
         ],
         [
-          "500 GP Gemstones",
+          "{@table 500 GP Gemstones}",
           "+100 gp",
           "+75 gp",
           "+150 gp",
@@ -4965,7 +4965,7 @@
           "x"
         ],
         [
-          "1000 GP Gemstones",
+          "{@table 1,000 GP Gemstones}",
           "+500 gp",
           "+375 gp",
           "+750 gp",
@@ -4975,7 +4975,7 @@
           "x"
         ],
         [
-          "5000 GP Gemstones",
+          "{@table 5,000 GP Gemstones}",
           "+1000 gp",
           "+750 gp",
           "+1500 gp",
@@ -5062,7 +5062,9 @@
             "Price"
           ],
           "colStyles": [
-            "col-1 text-center"
+            "col-1 text-center",
+            "col-5-5",
+            "col-5-5"
           ],
           "rows": [
             [
