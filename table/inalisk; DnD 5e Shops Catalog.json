@@ -1,0 +1,6082 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "5eShopsCatalog",
+        "abbreviation": "5eSC",
+        "full": "D&D 5E Shops Catalogue",
+        "authors": [
+          "u/Inalisk",
+          "u/jrobharing"
+        ],
+        "convertedBy": [
+          "BucketListMod#8973"
+        ],
+        "version": "1.8",
+        "url": "https://www.reddit.com/r/DMAcademy/comments/9ebbdt/updated_more_inclusive_5e_dd_shops_catalog_v18/",
+        "targetSchema": "1.8.0"
+      }
+    ],
+    "dateAdded": 1602532994,
+    "dateLastModified": 1602532994
+  },
+  "table": [
+    {
+      "source": "5eShopsCatalog",
+      "page": "1",
+      "name": "Blacksmith/Armory",
+      "intro": [
+        "Hard Sell (daily) at 1000 gp (Cheap: 750 gp, Expensive: 1500)<br />Selling Cap (daily) at 2000 gp (Cheap: 1500 gp, Expensive: 3000 gp)"
+      ],
+      "colLabels": [
+        "Item Name",
+        "Cost<br />(Normal)",
+        "Cost<br />(Cheap)",
+        "Cost<br />(Expensive)",
+        "Limited Stock",
+        "Rural Locale",
+        "Urban Locale",
+        "Premium Locale"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-1-3 text-right",
+        "col-1-4 text-right",
+        "col-1-3 text-right",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "{@b ARMOR}"
+        ],
+        [
+          "{@item Barding|PHB}",
+          "×4",
+          "×3",
+          "×6",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@i Light Armor}"
+        ],
+        [
+          "{@item Studded Leather Armor|PHB}",
+          "45 gp",
+          "33 gp",
+          "68 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@i Medium Armor}"
+        ],
+        [
+          "{@item Chain Shirt|PHB}",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Scale Mail|PHB}",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Breastplate|PHB}",
+          "400 gp",
+          "300 gp",
+          "600 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Half Plate Armor|PHB}",
+          "750 gp",
+          "562 gp",
+          "1125 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@i Heavy Armor}"
+        ],
+        [
+          "{@item Ring Mail|PHB}",
+          "30 gp",
+          "22 gp",
+          "45 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Chain Mail|PHB}",
+          "75 gp",
+          "56 gp",
+          "113 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Splint Armor|PHB}",
+          "200 gp",
+          "150 gp",
+          "300 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Plate Armor|PHB}",
+          "1500 gp",
+          "1125 gp",
+          "2250 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@i Shields}"
+        ],
+        [
+          "{@item Shield|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@b WEAPONS}"
+        ],
+        [
+          "{@i Simple Melee Weapons}"
+        ],
+        [
+          "{@item Dagger|PHB}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Handaxe|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Javelin|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Light Hammer|PHB}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Mace|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Sickle|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Spear|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@i Martial Melee Weapons}"
+        ],
+        [
+          "{@item Battleaxe|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Flail|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Glaive|PHB}",
+          "20 gp",
+          "15 gp",
+          "30 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Greataxe|PHB}",
+          "30 gp",
+          "22 gp",
+          "45 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Greatsword|PHB}",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Halberd|PHB}",
+          "20 gp",
+          "15 gp",
+          "30 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Lance|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Longsword|PHB}",
+          "15 gp",
+          "11 gp",
+          "22 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Maul|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Morningstar|PHB}",
+          "15 gp",
+          "11 gp",
+          "22 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Pike|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Rapier|PHB}",
+          "25 gp",
+          "18 gp",
+          "38 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Scimitar|PHB}",
+          "25 gp",
+          "18 gp",
+          "38 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Shortsword|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Trident|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item War Pick|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Warhammer|PHB}",
+          "18 gp",
+          "11 gp",
+          "22 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@b ADVENTURING GEAR}"
+        ],
+        [
+          "{@item Ball Bearings (bag of 1,000)|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Bell|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Block and Tackle|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Chain (10 feet)|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Crowbar|PHB}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Grappling Hook|PHB}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Hammer|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Sledgehammer|PHB|Hammer, Sledge}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Hunting Trap|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Lamp|PHB}",
+          "0.5 gp",
+          "0.3 gp",
+          "0.8 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Bullseye Lantern|PHB|Lantern, Bullseye}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Hooded Lantern|PHB|Lantern, Hooded}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Lock|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Manacles|PHB}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Steel Mirror|PHB|Mirror, Steel}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Miner's Pick|PHB|Pick, Miner's}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Piton|PHB}",
+          "0.05 gp",
+          "0.03 gp",
+          "0.08 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Iron Pot|PHB|Pot, Iron}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Iron Spikes (10)|PHB|Spikes, Iron (10)}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Whetstone|PHB}",
+          "0.01 gp",
+          "0.01 gp",
+          "0.02 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@b TOOLS}"
+        ],
+        [
+          "{@i Artisan's Tools}"
+        ],
+        [
+          "{@item Carpenter's Tools|PHB}",
+          "8 gp",
+          "8 gp",
+          "12 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Mason's Tools|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Smith's Tools|PHB}",
+          "20 gp",
+          "15 gp",
+          "30 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Tinker's Tools|PHB}",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@i Musical Instruments}"
+        ],
+        [
+          "{@item Horn|PHB}",
+          "3 gp",
+          "2 gp",
+          "5 gp",
+          "",
+          "",
+          "",
+          "x"
+        ]
+      ]
+    },
+    {
+      "source": "5eShopsCatalog",
+      "page": "2",
+      "name": "Fletcher/Bowyer",
+      "intro": [
+        "Hard Sell (daily) at 500 gp (Cheap: 375 gp, Expensive: 750)<br />Selling Cap (daily) at 1000 gp (Cheap: 750 gp, Expensive: 1500 gp)"
+      ],
+      "colLabels": [
+        "Item Name",
+        "Cost<br />(Normal)",
+        "Cost<br />(Cheap)",
+        "Cost<br />(Expensive)",
+        "Limited Stock",
+        "Rural Locale",
+        "Urban Locale",
+        "Premium Locale"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-1-3 text-right",
+        "col-1-4 text-right",
+        "col-1-3 text-right",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "{@b WEAPONS}"
+        ],
+        [
+          "{@i Simple Ranged Weapons}"
+        ],
+        [
+          "{@item Light Crossbow|PHB|Crossbow, Light}",
+          "25 gp",
+          "18 gp",
+          "38 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Shortbow|PHB}",
+          "25 gp",
+          "18 gp",
+          "38 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@i Martial Ranged Weapons}"
+        ],
+        [
+          "{@item Hand Crossbow|PHB|Crossbow, Hand}",
+          "75 gp",
+          "56 gp",
+          "113 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Heavy Crossbow|PHB|Crossbow, Heavy}",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Longbow|PHB}",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@b ADVENTURING GEAR}"
+        ],
+        [
+          "{@i Ammunition}"
+        ],
+        [
+          "{@item Arrows (20)|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Crossbow Bolts (20)|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@i Miscellaneous}"
+        ],
+        [
+          "Bowstring (5)",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Crossbow Bolt Case|PHB|Case, Crossbow Bolt}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Quiver|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ]
+      ]
+    },
+    {
+      "source": "5eShopsCatalog",
+      "page": "1",
+      "name": "Leatherworker",
+      "intro": [
+        "Hard Sell (daily) at 500 gp (Cheap: 375 gp, Expensive: 750)<br />Selling Cap (daily) at 1000 gp (Cheap: 750 gp, Expensive: 1500 gp)"
+      ],
+      "colLabels": [
+        "Item Name",
+        "Cost<br />(Normal)",
+        "Cost<br />(Cheap)",
+        "Cost<br />(Expensive)",
+        "Limited Stock",
+        "Rural Locale",
+        "Urban Locale",
+        "Premium Locale"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-1-3 text-right",
+        "col-1-4 text-right",
+        "col-1-3 text-right",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "{@b ARMOR}"
+        ],
+        [
+          "{@item Barding|PHB}",
+          "×4",
+          "×3",
+          "×6",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@i Light Armor}"
+        ],
+        [
+          "{@item Leather Armor|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Studded Leather Armor|PHB}",
+          "45 gp",
+          "33 gp",
+          "68 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@i Medium Armor}"
+        ],
+        [
+          "{@item Hide Armor|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@i Shields}"
+        ],
+        [
+          "{@item Shield|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@b WEAPONS}"
+        ],
+        [
+          "{@i Simple Ranged Weapons}"
+        ],
+        [
+          "{@item Sling|PHB}",
+          "0.2 gp",
+          "0.07 gp",
+          "0.3 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@b ADVENTURING GEAR}"
+        ],
+        [
+          "{@item Waterskin|PHB}",
+          "0.2 gp",
+          "0.1 gp",
+          "0.3 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@b TOOLS}"
+        ],
+        [
+          "{@i Arisan's Tools}"
+        ],
+        [
+          "{@item Cobbler's Tools|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Leatherworker's Tools|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@i Musical Instruments}"
+        ],
+        [
+          "{@item Bagpipes|PHB}",
+          "3 gp",
+          "22 gp",
+          "45 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Drum|PHB}",
+          "6 gp",
+          "4 gp",
+          "9 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ]
+      ]
+    },
+    {
+      "source": "5eShopsCatalog",
+      "page": "2",
+      "name": "Temple/Faith Supplies",
+      "intro": [
+        "Hard Sell (daily) at 375 gp (Cheap: 281 gp, Expensive: 500)<br />Selling Cap (daily) at 750 gp (Cheap: 562 gp, Expensive: 1000 gp)<br />Trade Goods Accepted."
+      ],
+      "colLabels": [
+        "Item Name",
+        "Cost<br />(Normal)",
+        "Cost<br />(Cheap)",
+        "Cost<br />(Expensive)",
+        "Limited Stock",
+        "Rural Locale",
+        "Urban Locale",
+        "Premium Locale"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-1-3 text-right",
+        "col-1-4 text-right",
+        "col-1-3 text-right",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "{@b ADVENTURING GEAR}"
+        ],
+        [
+          "{@i Holy Symbol}"
+        ],
+        [
+          "{@item Amulet|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Emblem|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Reliquary|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@i Miscellaneous}"
+        ],
+        [
+          "Alms Box",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "O",
+          "O",
+          "O"
+        ],
+        [
+          "{@item Bell|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Blanket|PHB}",
+          "0.5 gp",
+          "0.3 gp",
+          "0.8 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Book|PHB|Book, Scripture}",
+          "25 gp",
+          "18 gp",
+          "38 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Candle|PHB}",
+          "0.01 gp",
+          "0.01 gp",
+          "0.02 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Map or Scroll Case|PHB|Case, Map or Scroll}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "Censer",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "O",
+          "O",
+          "O"
+        ],
+        [
+          "{@item Chalk (1 piece)|PHB}",
+          "0.01 gp",
+          "0.01 gp",
+          "0.02 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Flask|PHB}",
+          "0.02 gp",
+          "0.01 gp",
+          "0.03 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Healer's Kit|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Holy Water (flask)|PHB}",
+          "25 gp",
+          "18 gp",
+          "38 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "Incense (1 block)",
+          "0.01 gp",
+          "0.01 gp",
+          "0.02 gp",
+          "",
+          "O",
+          "O",
+          "O"
+        ],
+        [
+          "{@item Ink (1-ounce bottle)|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Ink Pen|PHB}",
+          "3 gp",
+          "2 gp",
+          "5 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Lamp|PHB}",
+          "0.5 gp",
+          "0.3 gp",
+          "0.8 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Hooded Lantern|PHB|Lantern, Hooded}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Oil (flask)|PHB}",
+          "0.1 gp",
+          "0.07 gp",
+          "0.2 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Paper (one sheet)|PHB}",
+          "0.2 gp",
+          "0.1 gp",
+          "0.3 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Parchment (one sheet)|PHB}",
+          "0.1 gp",
+          "0.07 gp",
+          "0.2 gp",
+          "",
+          "",
+          "x",
+          ""
+        ],
+        [
+          "{@item Perfume (vial)|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Potion of Healing}",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Rations (1 day)|PHB}",
+          "0.5 gp",
+          "0.3 gp",
+          "0.8 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Torch|PHB}",
+          "0.01 gp",
+          "0.01 gp",
+          "0.02 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Vial|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Waterskin|PHB}",
+          "0.2 gp",
+          "0.1 gp",
+          "0.3 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@b TOOLS}"
+        ],
+        [
+          "{@item Herbalism Kit|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@i Artisan's Tools}"
+        ],
+        [
+          "{@item Calligrapher's Supplies|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "",
+          "O",
+          "O"
+        ],
+        [
+          "{@i Musical Instruments}"
+        ],
+        [
+          "{@item Flute|PHB}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "",
+          "",
+          "",
+          "O"
+        ],
+        [
+          "{@item Lyre|PHB}",
+          "30 gp",
+          "22 gp",
+          "45 gp",
+          "",
+          "",
+          "",
+          "O"
+        ],
+        [
+          "{@item Horn|PHB}",
+          "3 gp",
+          "2 gp",
+          "5 gp",
+          "",
+          "",
+          "",
+          "O"
+        ],
+        [
+          "{@b SERVICES}"
+        ],
+        [
+          "{@i Spellcasting}"
+        ],
+        [
+          "{@spell Cure Wounds} (lvl 1)<br />{@i 1st-level Spellcaster}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@spell Gentle Repose} (lvl 2)<br />{@i 3rd-level Spellcaster}",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@spell Lesser Restoration} (lvl 2)<br />{@i 3rd-level Spellcaster}",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@spell Remove Curse} (lvl 3)<br />{@i 5th-level Spellcaster}",
+          "100 gp",
+          "75 gp",
+          "150 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@spell Revivify} (lvl 3)<br />{@i 5th-level Spellcaster}",
+          "400 gp",
+          "375 gp",
+          "450 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@spell Raise Dead} (lvl 5)<br />{@i 9th-level Spellcaster}",
+          "1000 gp",
+          "875 gp",
+          "1250 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ]
+      ],
+      "footnotes": [
+        "An \"O\" instead of an \"x\" indicates only clergy and proven devout members of their associated religion may purchase these items"
+      ],
+      "outro": [
+        "<hr />",
+        {
+          "type": "table",
+          "caption": "Spellcaster Availability",
+          "colLabels": [
+            "Locale",
+            "Available Spellcasters"
+          ],
+          "colStyles": [
+            "col-2 text-center"
+          ],
+          "rows": [
+            [
+              "Limited",
+              "1 {@creature Acolyte}. No expendable components available, subtract costs of materials if provided. Roll {@dice d100}; 1-15 is a {@creature Commoner} (either a pious merchant, or a charlatan posing as a healer) instead of an Acolyte; 80-100 is a {@creature Priest} instead of an Acolyte, with additional hit dice and caster level equal to {@dice 1d4-1}."
+            ],
+            [
+              "Rural",
+              "{@dice 1d4} {@creature acolyte||Acolytes}, and 1 {@creature Priest} with additional hit dice and caster level equal to {@dice 1d4-1}. Expendable components available at a {@chance 25} chance, subtract costs of materials if provided."
+            ],
+            [
+              "Urban",
+              "{@dice 2d8+3} {@creature acolyte||Acolytes}, and {@dice 1d2} {@creature Priest} with additional hit dice and caster level equal to {@dice 1d6-1}. Expendable components available at a {@chance 55} chance, subtract costs of materials if provided."
+            ],
+            [
+              "Premium",
+              "{@dice 3d10+2} {@creature acolyte||Acolytes}, and {@dice 1d4} {@creature priest||Priests} with additional hit dice and caster level equal to {@dice 1d6-1}. Expendable components available at a {@chance 75} chance, subtract costs of materials if provided."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "source": "5eShopsCatalog",
+      "page": "2",
+      "name": "Book Prices (Library or Otherwise)",
+      "intro": [
+        "Not all books will be for sale. Some rarer tomes, or those in private collections may be more than chart prices."
+      ],
+      "colLabels": [
+        "Item Name",
+        "Cost<br />(Normal)",
+        "Cost<br />(Cheap)",
+        "Cost<br />(Expensive)",
+        "Limited Stock",
+        "Rural Locale",
+        "Urban Locale",
+        "Premium Locale"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-1-3 text-right",
+        "col-1-4 text-right",
+        "col-1-3 text-right",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "Common, Soft Bound",
+          "8 gp",
+          "6 gp",
+          "12 gp",
+          "x",
+          "x",
+          "x",
+          ""
+        ],
+        [
+          "Common, Hard Bound",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "Uncommon, Soft Bound",
+          "15 gp",
+          "11 gp",
+          "23 gp",
+          "x",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "Uncommon, Hard Bound",
+          "20 gp",
+          "14 gp",
+          "30 gp",
+          "x",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "Rare, Soft Bound",
+          "30 gp",
+          "22 gp",
+          "45 gp",
+          "x",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "Rare, Hard Bound",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "x",
+          "",
+          "",
+          "x"
+        ]
+      ]
+    },
+    {
+      "source": "5eShopsCatalog",
+      "page": "2",
+      "name": "General Store",
+      "intro": [
+        "Hard Sell (daily) at 375 gp (Cheap: 281 gp, Expensive: 500)<br />Selling Cap (daily) at 750 gp (Cheap: 562 gp, Expensive: 1000 gp)<br />Trade goods accepted."
+      ],
+      "colLabels": [
+        "Item Name",
+        "Cost<br />(Normal)",
+        "Cost<br />(Cheap)",
+        "Cost<br />(Expensive)",
+        "Limited Stock",
+        "Rural Locale",
+        "Urban Locale",
+        "Premium Locale"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-1-3 text-right",
+        "col-1-4 text-right",
+        "col-1-3 text-right",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "{@b ADVENTURING GEAR}"
+        ],
+        [
+          "{@item Abacus|PHB}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Barrel|PHB}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Glass bottle|PHB|Bottle, glass}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Bucket|PHB}",
+          "0.05 gp",
+          "0.03 gp",
+          "0.08 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Candle|PHB}",
+          "0.01 gp",
+          "0.01 gp",
+          "0.02 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Chest|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Common clothes|PHB|Clothes, Common}",
+          "0.5 gp",
+          "0.3 gp",
+          "0.8 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Fine Clothes|PHB|Clothes, Fine}",
+          "15 gp",
+          "11 gp",
+          "23 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Flask|PHB} or {@item Tankard|PHB}",
+          "0.02 gp",
+          "0.01 gp",
+          "0.03 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Ink (1-ounce bottle)|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Ink Pen|PHB}",
+          "3 gp",
+          "2 gp",
+          "5 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "Journal, Soft Bound, 25 Sheets",
+          "7 gp",
+          "5 gp",
+          "11 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Jug|PHB} or {@item Pitcher|PHB}",
+          "0.02 gp",
+          "0.01 gp",
+          "0.03 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Ladder (10-foot)|PHB}",
+          "0.1 gp",
+          "0.07 gp",
+          "0.2 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Lamp|PHB}",
+          "0.5 gp",
+          "0.3 gp",
+          "0.8 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Hooded lantern|PHB|Lantern, Hooded}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Lock|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Mess Kit|PHB}",
+          "0.2 gp",
+          "0.1 gp",
+          "0.3 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item steel mirror|PHB|Mirror, Steel}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Paper (one sheet)|PHB}",
+          "0.2 gp",
+          "0.1 gp",
+          "0.3 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Parchment (one sheet)|PHB}",
+          "0.1 gp",
+          "0.07 gp",
+          "0.2 gp",
+          "x",
+          "x",
+          "x",
+          ""
+        ],
+        [
+          "{@item miner's pick|PHB|Pick, Miner's}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item iron pot|PHB|Pot, Iron}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Pouch|PHB}",
+          "0.5 gp",
+          "0.3 gp",
+          "0.8 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item hempen rope (50 feet)|PHB|Rope, Hempen (50 feet)}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item silk rope (50 feet)|PHB|Rope, Silk (50 feet)}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Sack|PHB}",
+          "0.01 gp",
+          "0.01 gp",
+          "0.02 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item merchant's scale|PHB|Scale, Merchant's}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Shovel|PHB}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Signet Ring|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Soap|PHB}",
+          "0.02 gp",
+          "0.01 gp",
+          "0.03 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Vial|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@b TOOLS}"
+        ],
+        [
+          "{@i Artisan's Tools}"
+        ],
+        [
+          "{@item Carpenter's Tools|PHB}",
+          "8 gp",
+          "6 gp",
+          "12 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Cobbler's Tools|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Cook's Utensils|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Glassblower's Tools|PHB}",
+          "30 gp",
+          "22 gp",
+          "45 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Leatherworker's Tools|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Mason's Tools|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Potter's Tools|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Smith's Tools|PHB}",
+          "20 gp",
+          "15 gp",
+          "30 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Weaver's Tools|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Woodcarver's Tools|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ]
+      ],
+      "outro": [
+        "<hr />",
+        {
+          "type": "table",
+          "page": "3",
+          "caption": "Water-side Theme",
+          "colLabels": [
+            "Item Name",
+            "Cost<br />(Normal)",
+            "Cost<br />(Cheap)",
+            "Cost<br />(Expensive)",
+            "Limited Stock",
+            "Rural Locale",
+            "Urban Locale",
+            "Premium Locale"
+          ],
+          "colStyles": [
+            "col-4",
+            "col-1-3 text-right",
+            "col-1-4 text-right",
+            "col-1-3 text-right",
+            "col-1 text-center",
+            "col-1 text-center",
+            "col-1 text-center",
+            "col-1 text-center"
+          ],
+          "rows": [
+            [
+              "{@b WEAPONS}"
+            ],
+            [
+              "{@i Simple Melee Weapons}"
+            ],
+            [
+              "{@item Spear|PHB}",
+              "1 gp",
+              "0.7 gp",
+              "2 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@i Martial Ranged Weapons}"
+            ],
+            [
+              "{@item Net|PHB}",
+              "1 gp",
+              "0.7 gp",
+              "2 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@b ADVENTURING GEAR}"
+            ],
+            [
+              "{@item Fishing Tackle|PHB}",
+              "1 gp",
+              "0.7 gp",
+              "2 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@b WATERBORNE VEHICLES}"
+            ],
+            [
+              "{@item Rowboat}",
+              "50 gp",
+              "38 gp",
+              "75 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@b TRADE GOODS}"
+            ],
+            [
+              "1 lb. of Fishing Bait",
+              "0.05 gp",
+              "0.03 gp",
+              "0.08 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ]
+          ]
+        },
+        "<hr />",
+        {
+          "type": "table",
+          "page": "3",
+          "caption": "Magical Theme",
+          "colLabels": [
+            "Item Name",
+            "Cost<br />(Normal)",
+            "Cost<br />(Cheap)",
+            "Cost<br />(Expensive)",
+            "Limited Stock",
+            "Rural Locale",
+            "Urban Locale",
+            "Premium Locale"
+          ],
+          "colStyles": [
+            "col-4",
+            "col-1-3 text-right",
+            "col-1-4 text-right",
+            "col-1-3 text-right",
+            "col-1 text-center",
+            "col-1 text-center",
+            "col-1 text-center",
+            "col-1 text-center"
+          ],
+          "rows": [
+            [
+              "{@item Component Pouch|PHB}",
+              "25 gp",
+              "18 gp",
+              "38 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Potion of Healing}",
+              "50 gp",
+              "38 gp",
+              "75 gp",
+              "",
+              "",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Spellbook|PHB}",
+              "50 gp",
+              "38 gp",
+              "75 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@i Arcane Focus}"
+            ],
+            [
+              "{@item Crystal|PHB}",
+              "10 gp",
+              "7 gp",
+              "15 gp",
+              "",
+              "",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Orb|PHB}",
+              "20 gp",
+              "15 gp",
+              "30 gp",
+              "",
+              "",
+              "",
+              "x"
+            ],
+            [
+              "{@item Rod|PHB}",
+              "10 gp",
+              "7 gp",
+              "15 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Staff|PHB}",
+              "5 gp",
+              "3 gp",
+              "8 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Wand|PHB}",
+              "10 gp",
+              "7 gp",
+              "15 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ]
+          ]
+        },
+        "<hr />",
+        {
+          "type": "table",
+          "page": "4",
+          "caption": "Shady Dealer Theme",
+          "colLabels": [
+            "Item Name",
+            "Cost<br />(Normal)",
+            "Cost<br />(Cheap)",
+            "Cost<br />(Expensive)",
+            "Limited Stock",
+            "Rural Locale",
+            "Urban Locale",
+            "Premium Locale"
+          ],
+          "colStyles": [
+            "col-4",
+            "col-1-3 text-right",
+            "col-1-4 text-right",
+            "col-1-3 text-right",
+            "col-1 text-center",
+            "col-1 text-center",
+            "col-1 text-center",
+            "col-1 text-center"
+          ],
+          "rows": [
+            [
+              "{@b ADVENTURING GEAR}"
+            ],
+            [
+              "{@item Acid (vial)|PHB}",
+              "25 gp",
+              "18 gp",
+              "38 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Antitoxin (vial)|PHB}",
+              "50 gp",
+              "38 gp",
+              "75 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Caltrops (bag of 20)|PHB}",
+              "1 gp",
+              "0.7 gp",
+              "2 gp",
+              "",
+              "",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Costume clothes|PHB|Clothes, Costume}",
+              "5 gp",
+              "3 gp",
+              "8 gp",
+              "",
+              "",
+              "",
+              "x"
+            ],
+            [
+              "{@item Manacles|PHB}",
+              "2 gp",
+              "1 gp",
+              "3 gp",
+              "",
+              "",
+              "",
+              "x"
+            ],
+            [
+              "{@item Oil (flask)|PHB}",
+              "0.1 gp",
+              "0.07 gp",
+              "0.2 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item basic poison (vial)|PHB|Poison, Basic (vial)}",
+              "100 gp",
+              "75 gp",
+              "150 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item portable ram|PHB|Ram, Portable}",
+              "4 gp",
+              "3 gp",
+              "6 gp",
+              "",
+              "",
+              "",
+              "x"
+            ],
+            [
+              "{@item iron spikes (10)|PHB|Spikes, Iron (10)}",
+              "1 gp",
+              "0.7 gp",
+              "2 gp",
+              "",
+              "",
+              "",
+              "x"
+            ],
+            [
+              "{@b TOOLS}"
+            ],
+            [
+              "{@item Disguise Kit|PHB}",
+              "25 gp",
+              "18 gp",
+              "38 gp",
+              "",
+              "",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Forgery Kit|PHB}",
+              "15 gp",
+              "11 gp",
+              "23 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Poisoner's Kit|PHB}",
+              "50 gp",
+              "38 gp",
+              "75 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Thieves' Tools|PHB}",
+              "25 gp",
+              "18 gp",
+              "38 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@i Gaming Sets}"
+            ],
+            [
+              "{@item Dice Set|PHB}",
+              "0.1 gp",
+              "0.07 gp",
+              "0.2 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Playing Card Set|PHB}",
+              "0.5 gp",
+              "0.3 gp",
+              "0.8 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ]
+          ]
+        },
+        "<hr />",
+        {
+          "type": "table",
+          "page": "4",
+          "caption": "Art and Games Theme",
+          "colLabels": [
+            "Item Name",
+            "Cost<br />(Normal)",
+            "Cost<br />(Cheap)",
+            "Cost<br />(Expensive)",
+            "Limited Stock",
+            "Rural Locale",
+            "Urban Locale",
+            "Premium Locale"
+          ],
+          "colStyles": [
+            "col-4",
+            "col-1-3 text-right",
+            "col-1-4 text-right",
+            "col-1-3 text-right",
+            "col-1 text-center",
+            "col-1 text-center",
+            "col-1 text-center",
+            "col-1 text-center"
+          ],
+          "rows": [
+            [
+              "{@b TOOLS}"
+            ],
+            [
+              "{@item Disguise Kit|PHB}",
+              "25 gp",
+              "18 gp",
+              "38 gp",
+              "",
+              "",
+              "",
+              "x"
+            ],
+            [
+              "{@i Artisan's Tools}"
+            ],
+            [
+              "{@item Calligrapher's Supplies|PHB}",
+              "10 gp",
+              "8 gp",
+              "15 gp",
+              "",
+              "",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Glassblower's Tools|PHB}",
+              "30 gp",
+              "22 gp",
+              "45 gp",
+              "",
+              "",
+              "",
+              "x"
+            ],
+            [
+              "{@item Painter's Supplies|PHB}",
+              "10 gp",
+              "8 gp",
+              "15 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Potter's Tools|PHB}",
+              "10 gp",
+              "8 gp",
+              "15 gp",
+              "",
+              "",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Weaver's Tools|PHB}",
+              "1 gp",
+              "0.7 gp",
+              "2 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Woodcarver's Tools|PHB}",
+              "1 gp",
+              "0.7 gp",
+              "2 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@i Gaming Sets}"
+            ],
+            [
+              "{@item Dice Set|PHB}",
+              "0.1 gp",
+              "0.07 gp",
+              "0.2 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Dragonchess Set|PHB}",
+              "1 gp",
+              "0.7 gp",
+              "2 gp",
+              "",
+              "",
+              "",
+              "x"
+            ],
+            [
+              "{@item Playing Card Set|PHB}",
+              "0.5 gp",
+              "0.3 gp",
+              "0.8 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Three-Dragon Ante Set|PHB}",
+              "1 gp",
+              "0.7 gp",
+              "2 gp",
+              "",
+              "",
+              "x",
+              "x"
+            ],
+            [
+              "{@i Musical Instruments}"
+            ],
+            [
+              "{@item Bagpipes|PHB}",
+              "30 gp",
+              "22 gp",
+              "45 gp",
+              "",
+              "",
+              "",
+              "x"
+            ],
+            [
+              "{@item Drum|PHB}",
+              "6 gp",
+              "4 gp",
+              "9 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Dulcimer|PHB}",
+              "25 gp",
+              "18 gp",
+              "38 gp",
+              "",
+              "",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Flute|PHB}",
+              "2 gp",
+              "1 gp",
+              "3 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Lute|PHB}",
+              "35 gp",
+              "26 gp",
+              "53 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Lyre|PHB}",
+              "30 gp",
+              "22 gp",
+              "45 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Horn|PHB}",
+              "3 gp",
+              "2 gp",
+              "5 gp",
+              "",
+              "",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Pan Flute|PHB}",
+              "12 gp",
+              "9 gp",
+              "18 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Shawm|PHB}",
+              "2 gp",
+              "1 gp",
+              "3 gp",
+              "",
+              "",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Viol|PHB}",
+              "30 gp",
+              "22 gp",
+              "45 gp",
+              "",
+              "",
+              "",
+              "x"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "source": "5eShopsCatalog",
+      "page": "3",
+      "name": "Adventuring Supplies",
+      "intro": [
+        "Hard Sell (daily) at 750 gp (Cheap: 562 gp, Expensive: 1125)<br />Selling Cap (daily) at 1500 gp (Cheap: 1125 gp, Expensive: 2260 gp)<br />Trade goods accepted."
+      ],
+      "colLabels": [
+        "Item Name",
+        "Cost<br />(Normal)",
+        "Cost<br />(Cheap)",
+        "Cost<br />(Expensive)",
+        "Limited Stock",
+        "Rural Locale",
+        "Urban Locale",
+        "Premium Locale"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-1-3 text-right",
+        "col-1-4 text-right",
+        "col-1-3 text-right",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "{@b ARMOR}"
+        ],
+        [
+          "{@i Light Armor}"
+        ],
+        [
+          "{@item Padded Armor|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Leather Armor|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Studded Leather Armor|PHB}",
+          "45 gp",
+          "33 gp",
+          "68 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@i Medium Armor}"
+        ],
+        [
+          "{@item Hide Armor|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Club|PHB}",
+          "0.1 gp",
+          "0.07 gp",
+          "0.2 gp",
+          "",
+          "x",
+          "",
+          ""
+        ],
+        [
+          "{@item Dagger|PHB}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Greatclub|PHB}",
+          "0.2 gp",
+          "0.1 gp",
+          "0.3 gp",
+          "",
+          "x",
+          "x",
+          ""
+        ],
+        [
+          "{@item Handaxe|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Light Hammer|PHB}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Quarterstaff|PHB}",
+          "0.2 gp",
+          "0.1 gp",
+          "0.3 gp",
+          "",
+          "x",
+          "x",
+          ""
+        ],
+        [
+          "{@i Simple Ranged Weapons}"
+        ],
+        [
+          "{@item light crossbow|PHB|Crossbow, Light}",
+          "25 gp",
+          "18 gp",
+          "38 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Dart|PHB}",
+          "0.05 gp",
+          "0.03 gp",
+          "0.08 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Shortbow|PHB}",
+          "25 gp",
+          "18 gp",
+          "38 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Sling|PHB}",
+          "0.1 gp",
+          "0.07 gp",
+          "0.2 gp",
+          "",
+          "x",
+          "x",
+          ""
+        ],
+        [
+          "{@i Martial Melee Weapons}"
+        ],
+        [
+          "{@item Whip|PHB}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@i Martial Ranged Weapons}"
+        ],
+        [
+          "{@item Blowgun|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "x",
+          "",
+          ""
+        ],
+        [
+          "{@item hand crossbow|PHB|Crossbow, Hand}",
+          "75 gp",
+          "56 gp",
+          "113 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item heavy crossbow|PHB|Crossbow, Heavy}",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Longbow|PHB}",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@b ADVENTURING GEAR}"
+        ],
+        [
+          "{@i Ammunition}"
+        ],
+        [
+          "{@item Arrows (20)|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Blowgun Needles (50)|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "",
+          "x",
+          "",
+          ""
+        ],
+        [
+          "{@item Crossbow Bolts (20)|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "x",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Sling Bullets (20)|PHB}",
+          "0.04 gp",
+          "0.03 gp",
+          "0.06 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@i Miscellaneous}"
+        ],
+        [
+          "{@item Backpack|PHB}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Bedroll|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Blanket|PHB}",
+          "0.5 gp",
+          "0.3 gp",
+          "0.8 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Block and Tackle|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item glass bottle|PHB|Bottle, Glass}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Candle|PHB}",
+          "0.01 gp",
+          "0.01 gp",
+          "0.02 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item crossbow bolt case|PHB|Case, Crossbow Bolt}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item map or scroll case|PHB|Case, Map or Scroll}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Chain (10 feet)|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Chest|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Climber's Kit|PHB}",
+          "25 gp",
+          "18 gp",
+          "38 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item traveler's clothes|PHB|Clothes, Traveler's}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Crowbar|PHB}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Flask|PHB} or {@item Tankard|PHB)",
+          "0.02 gp",
+          "0.01 gp",
+          "0.03 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Grappling Hook|PHB}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "x",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Hammer|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Healer's Kit|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Hourglass|PHB}",
+          "25 gp",
+          "18 gp",
+          "38 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Hunting Trap|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Ink (1-ounce bottle)|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Ink Pen|PHB}",
+          "3 gp",
+          "2 gp",
+          "5 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Jug|PHB} or {@item Pitcher|PHB}",
+          "0.02 gp",
+          "0.01 gp",
+          "0.03 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Ladder (10-foot)|PHB}",
+          "0.1 gp",
+          "0.07 gp",
+          "0.2 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item bullseye lantern|PHB|Lantern, Bullseye}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item hooded lantern|PHB|Lantern, Hooded}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Lock|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Mess Kit|PHB}",
+          "0.2 gp",
+          "0.1 gp",
+          "0.3 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item steel mirror|PHB|Mirror, Steel}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Paper (one sheet)|PHB}",
+          "0.2 gp",
+          "0.1 gp",
+          "0.3 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Parchment (one sheet)|PHB}",
+          "0.1 gp",
+          "0.07 gp",
+          "0.2 gp",
+          "",
+          "x",
+          "x",
+          ""
+        ],
+        [
+          "{@item miner's pick|PHB|Pick, Miner's}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "",
+          "x",
+          "x",
+          ""
+        ],
+        [
+          "{@item Piton|PHB}",
+          "0.05 gp",
+          "0.03 gp",
+          "0.08 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Pole (10-foot)|PHB}",
+          "0.05 gp",
+          "0.03 gp",
+          "0.08 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item iron pot|PHB|Pot, Iron}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Pouch|PHB}",
+          "0.5 gp",
+          "0.3 gp",
+          "0.8 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Quiver|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Rations (1 day)|PHB}",
+          "0.5 gp",
+          "0.3 gp",
+          "0.8 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item hempen rope (50 feet)|PHB|Rope, Hempen (50 feet)}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item silk rope (50 feet)|PHB|Rope, Silk (50 feet)}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Sack|PHB}",
+          "0.01 gp",
+          "0.01 gp",
+          "0.02 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Shovel|PHB}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Signal Whistle|PHB}",
+          "0.05 gp",
+          "0.03 gp",
+          "0.08 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Signet Ring|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Spyglass|PHB}",
+          "1000 gp",
+          "750 gp",
+          "1500 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item two-person tent|PHB|Tent, Two-Person}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Tinderbox|PHB}",
+          "0.5 gp",
+          "0.3 gp",
+          "0.8 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Torch|PHB}",
+          "0.01 gp",
+          "0.01 gp",
+          "0.02 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Vial|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Waterskin|PHB}",
+          "0.2 gp",
+          "0.1 gp",
+          "0.3 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@b TOOLS}"
+        ],
+        [
+          "{@item Herbalism Kit|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Navigator's Tools|PHB}",
+          "25 gp",
+          "18 gp",
+          "38 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@i Artisan's Tools}"
+        ],
+        [
+          "{@item Cartographer's Tools|PHB}",
+          "15 gp",
+          "11 gp",
+          "23 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Jeweler's Tools|PHB}",
+          "25 gp",
+          "18 gp",
+          "38 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Tinker's Tools|PHB}",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ]
+      ],
+      "outro": [
+        "<hr />",
+        {
+          "type": "table",
+          "page": "3",
+          "caption": "Water-side Theme",
+          "colLabels": [
+            "Item Name",
+            "Cost<br />(Normal)",
+            "Cost<br />(Cheap)",
+            "Cost<br />(Expensive)",
+            "Limited Stock",
+            "Rural Locale",
+            "Urban Locale",
+            "Premium Locale"
+          ],
+          "colStyles": [
+            "col-4",
+            "col-1-3 text-right",
+            "col-1-4 text-right",
+            "col-1-3 text-right",
+            "col-1 text-center",
+            "col-1 text-center",
+            "col-1 text-center",
+            "col-1 text-center"
+          ],
+          "rows": [
+            [
+              "{@b WEAPONS}"
+            ],
+            [
+              "{@i Simple Melee Weapons}"
+            ],
+            [
+              "{@item Spear|PHB}",
+              "1 gp",
+              "0.7 gp",
+              "2 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@i Martial Ranged Weapons}"
+            ],
+            [
+              "{@item Net|PHB}",
+              "1 gp",
+              "0.7 gp",
+              "2 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@b ADVENTURING GEAR}"
+            ],
+            [
+              "{@item Fishing Tackle|PHB}",
+              "1 gp",
+              "0.7 gp",
+              "2 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@b WATERBORNE VEHICLES}"
+            ],
+            [
+              "{@item Rowboat}",
+              "50 gp",
+              "38 gp",
+              "75 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@b TRADE GOODS}"
+            ],
+            [
+              "1 lb. of Fishing Bait",
+              "0.05 gp",
+              "0.03 gp",
+              "0.08 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ]
+          ]
+        },
+        "<hr />",
+        {
+          "type": "table",
+          "page": "3",
+          "caption": "Magical Theme",
+          "colLabels": [
+            "Item Name",
+            "Cost<br />(Normal)",
+            "Cost<br />(Cheap)",
+            "Cost<br />(Expensive)",
+            "Limited Stock",
+            "Rural Locale",
+            "Urban Locale",
+            "Premium Locale"
+          ],
+          "colStyles": [
+            "col-4",
+            "col-1-3 text-right",
+            "col-1-4 text-right",
+            "col-1-3 text-right",
+            "col-1 text-center",
+            "col-1 text-center",
+            "col-1 text-center",
+            "col-1 text-center"
+          ],
+          "rows": [
+            [
+              "{@item Component Pouch|PHB}",
+              "25 gp",
+              "18 gp",
+              "38 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Potion of Healing}",
+              "50 gp",
+              "38 gp",
+              "75 gp",
+              "",
+              "",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Spellbook|PHB}",
+              "50 gp",
+              "38 gp",
+              "75 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@i Arcane Focus}"
+            ],
+            [
+              "{@item Crystal|PHB}",
+              "10 gp",
+              "7 gp",
+              "15 gp",
+              "",
+              "",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Orb|PHB}",
+              "20 gp",
+              "15 gp",
+              "30 gp",
+              "",
+              "",
+              "",
+              "x"
+            ],
+            [
+              "{@item Rod|PHB}",
+              "10 gp",
+              "7 gp",
+              "15 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Staff|PHB}",
+              "5 gp",
+              "3 gp",
+              "8 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Wand|PHB}",
+              "10 gp",
+              "7 gp",
+              "15 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ]
+          ]
+        },
+        "<hr />",
+        {
+          "type": "table",
+          "page": "4",
+          "caption": "Shady Dealer Theme",
+          "colLabels": [
+            "Item Name",
+            "Cost<br />(Normal)",
+            "Cost<br />(Cheap)",
+            "Cost<br />(Expensive)",
+            "Limited Stock",
+            "Rural Locale",
+            "Urban Locale",
+            "Premium Locale"
+          ],
+          "colStyles": [
+            "col-4",
+            "col-1-3 text-right",
+            "col-1-4 text-right",
+            "col-1-3 text-right",
+            "col-1 text-center",
+            "col-1 text-center",
+            "col-1 text-center",
+            "col-1 text-center"
+          ],
+          "rows": [
+            [
+              "{@b ADVENTURING GEAR}"
+            ],
+            [
+              "{@item Acid (vial)|PHB}",
+              "25 gp",
+              "18 gp",
+              "38 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Antitoxin (vial)|PHB}",
+              "50 gp",
+              "38 gp",
+              "75 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Caltrops (bag of 20)|PHB}",
+              "1 gp",
+              "0.7 gp",
+              "2 gp",
+              "",
+              "",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Costume clothes|PHB|Clothes, Costume}",
+              "5 gp",
+              "3 gp",
+              "8 gp",
+              "",
+              "",
+              "",
+              "x"
+            ],
+            [
+              "{@item Manacles|PHB}",
+              "2 gp",
+              "1 gp",
+              "3 gp",
+              "",
+              "",
+              "",
+              "x"
+            ],
+            [
+              "{@item Oil (flask)|PHB}",
+              "0.1 gp",
+              "0.07 gp",
+              "0.2 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item basic poison (vial)|PHB|Poison, Basic (vial)}",
+              "100 gp",
+              "75 gp",
+              "150 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item portable ram|PHB|Ram, Portable}",
+              "4 gp",
+              "3 gp",
+              "6 gp",
+              "",
+              "",
+              "",
+              "x"
+            ],
+            [
+              "{@item iron spikes (10)|PHB|Spikes, Iron (10)}",
+              "1 gp",
+              "0.7 gp",
+              "2 gp",
+              "",
+              "",
+              "",
+              "x"
+            ],
+            [
+              "{@b TOOLS}"
+            ],
+            [
+              "{@item Disguise Kit|PHB}",
+              "25 gp",
+              "18 gp",
+              "38 gp",
+              "",
+              "",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Forgery Kit|PHB}",
+              "15 gp",
+              "11 gp",
+              "23 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Poisoner's Kit|PHB}",
+              "50 gp",
+              "38 gp",
+              "75 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Thieves' Tools|PHB}",
+              "25 gp",
+              "18 gp",
+              "38 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@i Gaming Sets}"
+            ],
+            [
+              "{@item Dice Set|PHB}",
+              "0.1 gp",
+              "0.07 gp",
+              "0.2 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Playing Card Set|PHB}",
+              "0.5 gp",
+              "0.3 gp",
+              "0.8 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ]
+          ]
+        },
+        "<hr />",
+        {
+          "type": "table",
+          "page": "4",
+          "caption": "Art and Games Theme",
+          "colLabels": [
+            "Item Name",
+            "Cost<br />(Normal)",
+            "Cost<br />(Cheap)",
+            "Cost<br />(Expensive)",
+            "Limited Stock",
+            "Rural Locale",
+            "Urban Locale",
+            "Premium Locale"
+          ],
+          "colStyles": [
+            "col-4",
+            "col-1-3 text-right",
+            "col-1-4 text-right",
+            "col-1-3 text-right",
+            "col-1 text-center",
+            "col-1 text-center",
+            "col-1 text-center",
+            "col-1 text-center"
+          ],
+          "rows": [
+            [
+              "{@b TOOLS}"
+            ],
+            [
+              "{@item Disguise Kit|PHB}",
+              "25 gp",
+              "18 gp",
+              "38 gp",
+              "",
+              "",
+              "",
+              "x"
+            ],
+            [
+              "{@i Artisan's Tools}"
+            ],
+            [
+              "{@item Calligrapher's Supplies|PHB}",
+              "10 gp",
+              "8 gp",
+              "15 gp",
+              "",
+              "",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Glassblower's Tools|PHB}",
+              "30 gp",
+              "22 gp",
+              "45 gp",
+              "",
+              "",
+              "",
+              "x"
+            ],
+            [
+              "{@item Painter's Supplies|PHB}",
+              "10 gp",
+              "8 gp",
+              "15 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Potter's Tools|PHB}",
+              "10 gp",
+              "8 gp",
+              "15 gp",
+              "",
+              "",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Weaver's Tools|PHB}",
+              "1 gp",
+              "0.7 gp",
+              "2 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Woodcarver's Tools|PHB}",
+              "1 gp",
+              "0.7 gp",
+              "2 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@i Gaming Sets}"
+            ],
+            [
+              "{@item Dice Set|PHB}",
+              "0.1 gp",
+              "0.07 gp",
+              "0.2 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Dragonchess Set|PHB}",
+              "1 gp",
+              "0.7 gp",
+              "2 gp",
+              "",
+              "",
+              "",
+              "x"
+            ],
+            [
+              "{@item Playing Card Set|PHB}",
+              "0.5 gp",
+              "0.3 gp",
+              "0.8 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Three-Dragon Ante Set|PHB}",
+              "1 gp",
+              "0.7 gp",
+              "2 gp",
+              "",
+              "",
+              "x",
+              "x"
+            ],
+            [
+              "{@i Musical Instruments}"
+            ],
+            [
+              "{@item Bagpipes|PHB}",
+              "30 gp",
+              "22 gp",
+              "45 gp",
+              "",
+              "",
+              "",
+              "x"
+            ],
+            [
+              "{@item Drum|PHB}",
+              "6 gp",
+              "4 gp",
+              "9 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Dulcimer|PHB}",
+              "25 gp",
+              "18 gp",
+              "38 gp",
+              "",
+              "",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Flute|PHB}",
+              "2 gp",
+              "1 gp",
+              "3 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Lute|PHB}",
+              "35 gp",
+              "26 gp",
+              "53 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Lyre|PHB}",
+              "30 gp",
+              "22 gp",
+              "45 gp",
+              "x",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Horn|PHB}",
+              "3 gp",
+              "2 gp",
+              "5 gp",
+              "",
+              "",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Pan Flute|PHB}",
+              "12 gp",
+              "9 gp",
+              "18 gp",
+              "",
+              "x",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Shawm|PHB}",
+              "2 gp",
+              "1 gp",
+              "3 gp",
+              "",
+              "",
+              "x",
+              "x"
+            ],
+            [
+              "{@item Viol|PHB}",
+              "30 gp",
+              "22 gp",
+              "45 gp",
+              "",
+              "",
+              "",
+              "x"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "source": "5eShopsCatalog",
+      "page": "4",
+      "name": "Tailor/Textiles",
+      "intro": [
+        "Hard Sell (daily) at 375 gp (Cheap: 281 gp, Expensive: 500)<br />Selling Cap (daily) at 750 gp (Cheap: 562 gp, Expensive: 1000 gp)"
+      ],
+      "colLabels": [
+        "Item Name",
+        "Cost<br />(Normal)",
+        "Cost<br />(Cheap)",
+        "Cost<br />(Expensive)",
+        "Limited Stock",
+        "Rural Locale",
+        "Urban Locale",
+        "Premium Locale"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-1-3 text-right",
+        "col-1-4 text-right",
+        "col-1-3 text-right",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "{@b ADVENTURING GEAR}"
+        ],
+        [
+          "{@item Basket|PHB}",
+          "0.4 gp",
+          "0.3 gp",
+          "0.6 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "Cloak, Canvas",
+          "0.7 gp",
+          "0.5 gp",
+          "1.1 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "Cloak, Leather",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "x",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "Cloak, Leather, Lined",
+          "4 gp",
+          "3 gp",
+          "6 gp",
+          "x",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item common clothes|PHB|Clothes, Common}",
+          "0.5 gp",
+          "0.3 gp",
+          "0.8 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item costume clothes|PHB|Clothes, Costume}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item fine clothes|PHB|Clothes, Fine}",
+          "15 gp",
+          "11 gp",
+          "32 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item traveler's clothes|PHB|Clothes, Traveler's}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Component Pouch|PHB}",
+          "25 gp",
+          "18 gp",
+          "38 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Pouch|PHB}",
+          "0.5 gp",
+          "0.3 gp",
+          "0.8 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Robes|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Sack|PHB}",
+          "0.01 gp",
+          "0.01 gp",
+          "0.02 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item two-person tent|PHB|Tent, Two-Person}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@b MISCELLANEOUS}"
+        ],
+        [
+          "Bone Needle (5)",
+          "0.03 gp",
+          "0.02 gp",
+          "0.05 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "Steel Needle (1)",
+          "0.1 gp",
+          "0.07 gp",
+          "0.2 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "Cotton Thread (30 feet)",
+          "0.5 gp",
+          "0.3 gp",
+          "0.8 gp",
+          "x",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "Leather Cord (15 feet)",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@b TOOLS}"
+        ],
+        [
+          "{@i Artisan's Tools}"
+        ],
+        [
+          "{@item Weaver's Tools|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ]
+      ]
+    },
+    {
+      "source": "5eShopsCatalog",
+      "page": "4",
+      "name": "Transportation",
+      "intro": [
+        "{@b Barding –} Armor used to protect an animal. Cost is standard armor cost ×4. See {@table Blacksmith/Armory|5eShopsCatalog|Blacksmithing} and {@table Leatherworker|5eShopsCatalog}. Prices located on pg. 157 of the PHB."
+      ],
+      "colLabels": [
+        "Item Name",
+        "Cost<br />(Normal)",
+        "Cost<br />(Cheap)",
+        "Cost<br />(Expensive)",
+        "Limited Stock",
+        "Rural Locale",
+        "Urban Locale",
+        "Premium Locale"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-1-3 text-right",
+        "col-1-4 text-right",
+        "col-1-3 text-right",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "{@b MOUNTS & OTHER ANIMALS}"
+        ],
+        [
+          "{@item Camel|PHB} — 50 ft — 480 lbs",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "x",
+          "",
+          "x",
+          ""
+        ],
+        [
+          "{@item Donkey|PHB}/{@item Mule|PHB} — 40 ft — 420 lbs",
+          "8 gp",
+          "6 gp",
+          "12 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Elephant|PHB} — 40 ft — 1,320 lbs",
+          "200 gp",
+          "140 gp",
+          "300 gp",
+          "x",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item draft horse|PHB|Horse, Draft} — 40 ft — 540 lbs",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "x",
+          "x",
+          "x",
+          ""
+        ],
+        [
+          "{@item riding horse|PHB|Horse, Riding} — 60 ft — 480 lbs",
+          "75 gp",
+          "56 gp",
+          "113 gp",
+          "x",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Mastiff|PHB} — 40 ft — 195 lbs",
+          "25 gp",
+          "18 gp",
+          "38 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Pony|PHB} — 40 ft — 225 lbs",
+          "30 gp",
+          "22 gp",
+          "45 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Warhorse|PHB} — 60 ft — 540 lbs",
+          "400 gp",
+          "280 gp",
+          "600 gp",
+          "x",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@b TACK & HARNESS}"
+        ],
+        [
+          "{@item Barding|PHB}",
+          "×4",
+          "×3",
+          "×6",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Bit and Bridle|PHB}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Feed (per day)|PHB}",
+          "0.05 gp",
+          "0.03 gp",
+          "0.08 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Saddlebags|PHB}",
+          "4 gp",
+          "3 gp",
+          "6 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Stabling (per day)|PHB}",
+          "0.5 gp",
+          "0.3 gp",
+          "0.8 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@i Saddle}"
+        ],
+        [
+          "{@item exotic saddle|PHB|Exotic}",
+          "60 gp",
+          "48 gp",
+          "72 gp",
+          "x",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item military saddle|PHB|Military}",
+          "20 gp",
+          "15 gp",
+          "30 gp",
+          "x",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item pack saddle|PHB|Saddle}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item riding saddle|PHB|Riding}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "x",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@b LAND VEHICLES}"
+        ],
+        [
+          "{@item Carriage|PHB}",
+          "100 gp",
+          "70 gp",
+          "150 gp",
+          "x",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Cart|PHB}",
+          "15 gp",
+          "11 gp",
+          "23 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Chariot|PHB}",
+          "250 gp",
+          "175 gp",
+          "375 gp",
+          "x",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Sled|PHB}",
+          "20 gp",
+          "15 gp",
+          "30 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Wagon|PHB}",
+          "35 gp",
+          "28 gp",
+          "42 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@b WATERBORNE VEHICLES}"
+        ],
+        [
+          "{@item Galley}",
+          "30,000 gp",
+          "21,000 gp",
+          "40,000 gp",
+          "x",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Keelboat}",
+          "3,000 gp",
+          "2,100 gp",
+          "4,000 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Longship}",
+          "10,000 gp",
+          "7,000 gp",
+          "15,000 gp",
+          "x",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Rowboat}",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Sailing Ship}",
+          "10,000 gp",
+          "7,000 gp",
+          "15,000 gp",
+          "x",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Warship}",
+          "25,000 gp",
+          "17,500 gp",
+          "35,000 gp",
+          "x",
+          "",
+          "",
+          "x"
+        ]
+      ]
+    },
+    {
+      "source": "5eShopsCatalog",
+      "page": "5",
+      "name": "Jeweler/Stonecutter",
+      "intro": [
+        "Hard Sell (daily) at 1000 gp (Cheap: 750 gp, Expensive: 1500)<br />Selling Cap (daily) at 2000 gp (Cheap: 1500 gp, Expensive: 3000 gp)"
+      ],
+      "colLabels": [
+        "Item Name",
+        "Cost<br />(Normal)",
+        "Cost<br />(Cheap)",
+        "Cost<br />(Expensive)",
+        "Limited Stock",
+        "Rural Locale",
+        "Urban Locale",
+        "Premium Locale"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-1-3 text-right",
+        "col-1-4 text-right",
+        "col-1-3 text-right",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "{@b ADVENTURING GEAR}"
+        ],
+        [
+          "{@item Amulet|PHB}/Necklace, Exquisite",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Amulet|PHB}/Necklace, Mundane",
+          "0.5 gp",
+          "0.3 gp",
+          "0.8 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "Earrings, Exquisite",
+          "4 gp",
+          "3 gp",
+          "6 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "Earrings, Mundane",
+          "0.4 gp",
+          "0.3 gp",
+          "0.6 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "Jewelry (+ gem value)",
+          "+50 gp",
+          "+38 gp",
+          "+75 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "Ring, Exquisite",
+          "3 gp",
+          "2 gp",
+          "5 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "Ring, Mundane",
+          "0.3 gp",
+          "0.2 gp",
+          "0.5 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Signet Ring|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@i Arcane Focus}"
+        ],
+        [
+          "{@item Crystal|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Orb|PHB}",
+          "20 gp",
+          "15 gp",
+          "30 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@b TOOLS}"
+        ],
+        [
+          "{@i Artisan's Tools}"
+        ],
+        [
+          "{@item Jeweler's Tools|PHB}",
+          "25 gp",
+          "18 gp",
+          "38 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@b SERVICES}"
+        ],
+        [
+          "Gemstone Appraisal (3 gems)",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "Resizing Jewelry",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "Stonecutting (by gem value)",
+          "{@dice #$prompt_number:min=0.01,max=5000,title=Gem Value (DMG),$#×0.25}",
+          "(n/a)",
+          "(n/a)",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@i Set Gem}"
+        ],
+        [
+          "<100 gp value",
+          "45 gp",
+          "34 gp",
+          "68 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "100-1K gp value",
+          "75 gp",
+          "56 gp",
+          "113 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "1K+ gp value",
+          "150 gp",
+          "113 gp",
+          "225 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@i Powdering of Gems}"
+        ],
+        [
+          "10 gp Gemstones",
+          "+10 gp",
+          "+8 gp",
+          "+15 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "50 gp Gemstones",
+          "+20 gp",
+          "+15 gp",
+          "+30 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "100 gp Gemstones",
+          "+50 gp",
+          "+38 gp",
+          "+75 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "500 GP Gemstones",
+          "+100 gp",
+          "+75 gp",
+          "+150 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "1000 GP Gemstones",
+          "+500 gp",
+          "+375 gp",
+          "+750 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "5000 GP Gemstones",
+          "+1000 gp",
+          "+750 gp",
+          "+1500 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@b GEMSTONES BY VALUE}"
+        ],
+        [
+          "{@table 10 GP Gemstones}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "x",
+          "x",
+          "x",
+          "-{@item malachite||I}{@item obsidian||I}{@item turquoise||I}"
+        ],
+        [
+          "{@table 50 GP Gemstones}",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "x",
+          "-{@item moonstone||I}",
+          "x",
+          "-{@item bloodstone||I}{@item jasper||I}{@item quartz||I}"
+        ],
+        [
+          "{@table 100 GP Gemstones}",
+          "100 gp",
+          "75 gp",
+          "150 gp",
+          "x",
+          "{@item pearl||I}",
+          "-{@item amethyst||I}",
+          "x"
+        ],
+        [
+          "{@table 500 GP Gemstones}",
+          "500 gp",
+          "375 gp",
+          "750 gp",
+          "x",
+          "",
+          "-{@item black pearl||I}{@item topaz||I}",
+          "x"
+        ],
+        [
+          "{@table 1,000 GP Gemstones}",
+          "1000 gp",
+          "750 gp",
+          "1500 gp",
+          "x",
+          "",
+          "{@item emerald||I}{@item opal||I}",
+          "x"
+        ],
+        [
+          "{@table 5,000 GP Gemstones}",
+          "5000 gp",
+          "3750 gp",
+          "7500 gp",
+          "x",
+          "",
+          "",
+          "x"
+        ]
+      ],
+      "footnotes": [
+        "Jewelry with stones already set (including rings, amulets, earrings, etc.), are readily available based on the gemstone availability, at the DM's discretion. Suggestions for gemstone values and descriptions are available in the DMG on {@book page 134|dmg|7|gemstones|1}.",
+        "The “Powdering of Gems” service is an as needed task as most places aren’t interested in keeping smashed up gemstones on hand. Some bigger locations may keep a few of the less valuable gems already powdered and bagged, but most places will do it on an as needed basis. {@b More often than not, the customer would need to provide the gem in addition to paying the fee listed in the chart.}",
+        "As with all locations, some services may have items not shown typically available on this chart or may offer services not typical for the area. These may come at a higher premium or be a service they only offer as a special reward for a job they need done as well.",
+        "{@b Important note} ‘Gem Shop’ prices are based off a system of size vs. price. Gem prices are sold at full size (Default price in the DMG guide located on {@book page 134|dmg|7|gemstones|1}) and as such the price by gem size can be altered to suit your needs.",
+        {
+          "type": "table",
+          "caption": "Size vs. Price",
+          "colLabels": [
+            "{@dice #$prompt_number:min=10,max=5000,title=Gem Value (DMG),$#÷#$prompt_number:min=0.01,title=Desired Price,$#}",
+            "Size",
+            "Price"
+          ],
+          "colStyles": [
+            "col-1 text-center"
+          ],
+          "rows": [
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 1,
+                  "max": 9
+                }
+              },
+              "Large",
+              "(DMG Price)"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 10,
+                  "max": 99
+                }
+              },
+              "Medium",
+              "{@dice #$prompt_number:min=10,max=5000,title=Gem Value (DMG),$#÷10}"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 100,
+                  "max": 999
+                }
+              },
+              "Small",
+              "{@dice #$prompt_number:min=10,max=5000,title=Gem Value (DMG),$#÷100}"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 1000,
+                  "max": 500000
+                }
+              },
+              "Tiny",
+              "{@dice #$prompt_number:min=10,max=5000,title=Gem Value (DMG),$#÷1000}"
+            ]
+          ]
+        },
+        "To use this in an example for spell casting ‘{@spell Chromatic Orb}’ requires ‘A Diamond worth at least 50 gp’ so in this case a default Large Diamond is worth 5000 gp and as such “5000/50=100” so in this case a Small diamond is worth the required 50 gp to cast the spell."
+      ],
+      "outro": [
+        "<hr />",
+        {
+          "type": "table",
+          "caption": "Gemstone Availability",
+          "colLabels": [
+            "{@dice d100}",
+            "Selection",
+            "Gemstones Available"
+          ],
+          "colStyles": [
+            "col-1 text-right",
+            "col-1"
+          ],
+          "rows": [
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 1,
+                  "max": 40
+                }
+              },
+              "Poor",
+              "Less than ten {@table 10 gp gemstones}, and a single {@table 50 gp gemstones||50 gp gemstone}"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 41,
+                  "max": 80
+                }
+              },
+              "Fair",
+              "Less than twenty {@table 10 gp gemstones}, less than ten {@table 50 gp gemstones}, and two {@table 100 gp gemstones}"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 81,
+                  "max": 90
+                }
+              },
+              "Moderate",
+              "Six of every basic {@table 10 gp gemstones||10 gp gemstone}, less than twenty {@table 50 gp gemstones}, less than ten {@table 100 gp gemstones}, three {@table 500 gp gemstones}, and one gemstone of greater value than 500 gp"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 91,
+                  "max": 100
+                }
+              },
+              "Wide",
+              "Twelve of every basic {@table 10 gp gemstones||10 gp gemstone}, Six of every basic {@table 50 gp gemstones||50 gp gemstone}, less than twenty {@table 100 gp gemstones}, less than ten {@table 500 gp gemstones}, four gemstones of greater value than 500 gp"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "source": "5eShopsCatalog",
+      "page": "6",
+      "name": "Potion Shop",
+      "intro": [
+        "Hard Sell (daily) at 500 gp (Cheap: 375 gp, Expensive: 750)"
+      ],
+      "colLabels": [
+        "Item Name",
+        "Cost<br />(Normal)",
+        "Cost<br />(Cheap)",
+        "Cost<br />(Expensive)",
+        "Limited Stock",
+        "Rural Locale",
+        "Urban Locale",
+        "Premium Locale"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-1-3 text-right",
+        "col-1-4 text-right",
+        "col-1-3 text-right",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "{@b ADVENTURING GEAR}"
+        ],
+        [
+          "{@item Acid (vial)|PHB}",
+          "25 gp",
+          "18 gp",
+          "38 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Alchemist's Fire (flask)|PHB}",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Antitoxin (vial)|PHB}",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Component Pouch|PHB}",
+          "25 gp",
+          "18 gp",
+          "38 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Oil (flask)|PHB}",
+          "0.1 gp",
+          "0.07 gp",
+          "0.2 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Perfume (vial)|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item basic poison (vial)|PHB|Poison, Basic (vial)}",
+          "100 gp",
+          "75 gp",
+          "150 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Potion of Healing}",
+          "50 gp",
+          "38 gp",
+          "150 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Vial|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@b ALCHEMY INGREDIENTS}"
+        ],
+        [
+          "Common",
+          "0.3 gp",
+          "0.2 gp",
+          "0.5 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "Uncommon",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "Rare",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "x",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "Very Rare",
+          "30 gp",
+          "22 gp",
+          "45 gp",
+          "x",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@b TOOLS}"
+        ],
+        [
+          "{@item Poisoner's Kit|PHB}",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@i Artisan's Tools}"
+        ],
+        [
+          "{@item Alchemist's Supplies|PHB}",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Brewer's Supplies|PHB}",
+          "20 gp",
+          "15 gp",
+          "30 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Cook's Utensils|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@b MAGIC ITEMS}"
+        ],
+        [
+          "{@i Potions}"
+        ],
+        [
+          "Common",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "Uncommon",
+          "250 gp",
+          "175 gp",
+          "375 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "Rare",
+          "2500 gp",
+          "1750 gp",
+          "3750 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "Very Rare",
+          "12,500 gp",
+          "9,375 gp",
+          "18,750 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "Legendary",
+          "62,500 gp",
+          "46,875 gp",
+          "93,750 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@b MISCELLANEOUS}"
+        ],
+        [
+          "Spell Components",
+          "See Spell",
+          "{@dice #$prompt_number:min=1,title=Component Price,$#×0.75}",
+          "{@dice #$prompt_number:min=1,title=Component Price,$#×1.5}",
+          "x",
+          "x",
+          "x",
+          "x"
+        ]
+      ],
+      "outro": [
+        "<hr />",
+        {
+          "type": "table",
+          "caption": "Potion Availability",
+          "colLabels": [
+            "{@dice d100}",
+            "Selection",
+            "Potion Names"
+          ],
+          "colStyles": [
+            "col-1 text-right",
+            "col-1"
+          ],
+          "rows": [
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 1,
+                  "max": 25
+                }
+              },
+              "Poor",
+              "(C) {@item potion of healing||Healing}, {@item potion of climbing||Climbing}, (U) {@item potion of water breathing||Water Breathing}, (R) {@item potion of gaseous form||Gaseous Form}"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 26,
+                  "max": 50
+                }
+              },
+              "Fair",
+              "(U) {@item potion of greater healing||Greater Healing}, {@item potion of resistance||Resistance}, (R) {@item Elixir of Health}, {@item potion of diminution||Diminution} {@i (Inc. previous availability lists)}"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 51,
+                  "max": 80
+                }
+              },
+              "Moderate",
+              "(U) {@item potion of animal friendship||Animal Friendship}, {@item potion of growth||Growth}, {@item Potion of Poison} (disguised), (R) {@item potion of heroism||Heroism}, {@item potion of superior healing||Superior Healing}, {@item potion of frost giant strength||Frost}/{@item potion of stone giant strength||Stone Giant Strength}, {@item potion of clairvoyance||Clairvoyance} {@i (Inc. previous availability lists)}"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 81,
+                  "max": 100
+                }
+              },
+              "Wide",
+              "(U) {@item Oil of Slipperiness}, {@item Philter of Love}, {@item potion of fire breath||Fire Breath}, (R) {@item Oil of Etherealness}, {@item potion of fire giant strength||Fire Giant Strength}, {@item potion of invulnerability||Invulnerability}, {@item potion of mind reading||Mind Reading} {@i (Inc. previous availability lists)}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "source": "5eShopsCatalog",
+      "page": "6",
+      "name": "Arcane Shop",
+      "intro": [
+        "Hard Sell (daily) at 750 gp (Cheap: 562 gp, Expensive: 1125)<br />Selling Cap (daily) at 1500 gp (Cheap: 1125 gp, Expensive: 2260 gp)"
+      ],
+      "colLabels": [
+        "Item Name",
+        "Cost<br />(Normal)",
+        "Cost<br />(Cheap)",
+        "Cost<br />(Expensive)",
+        "Limited Stock",
+        "Rural Locale",
+        "Urban Locale",
+        "Premium Locale"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-1-3 text-right",
+        "col-1-4 text-right",
+        "col-1-3 text-right",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "{@b WEAPONS}"
+        ],
+        [
+          "{@i Simple Melee Weapons}"
+        ],
+        [
+          "{@item Quarterstaff|PHB}",
+          "0.2 gp",
+          "0.1 gp",
+          "0.3 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@b ADVENTURING GEAR}"
+        ],
+        [
+          "{@i Arcane Focus}"
+        ],
+        [
+          "{@item Crystal|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Orb|PHB}",
+          "20 gp",
+          "15 gp",
+          "30 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Rod|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Staff|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Wand|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@i Druidic Focus}"
+        ],
+        [
+          "{@item Sprig of Mistletoe|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Totem|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Wooden Staff|PHB}",
+          "5 gp",
+          "3 gp",
+          "8 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Yew Wand|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@i Miscellaneous}"
+        ],
+        [
+          "{@item Abacus|PHB}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item glass bottle|PHB|Bottle, Glass}",
+          "2 gp",
+          "1 gp",
+          "3 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Candle|PHB}",
+          "0.01 gp",
+          "0.01 gp",
+          "0.02 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item map or scroll case|PHB|Case, Map or Scroll}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Component Pouch|PHB}",
+          "25 gp",
+          "18 gp",
+          "38 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Hourglass|PHB}",
+          "25 gp",
+          "18 gp",
+          "38 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@item Ink (1-ounce bottle)|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Ink Pen|PHB}",
+          "0.02 gp",
+          "0.01 gp",
+          "0.03 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Paper (one sheet)|PHB}",
+          "0.2 gp",
+          "0.1 gp",
+          "0.3 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Parchment (one sheet)|PHB}",
+          "0.1 gp",
+          "0.07 gp",
+          "0.2 gp",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "{@item Pouch|PHB}",
+          "0.5 gp",
+          "0.3 gp",
+          "0.8 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Robes|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "2 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Spellbook|PHB}",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Vial|PHB}",
+          "1 gp",
+          "0.7 gp",
+          "0.2 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@b TOOLS}"
+        ],
+        [
+          "{@i Artisan's Tools}"
+        ],
+        [
+          "{@item Alchemist's Supplies|PHB}",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Calligrapher's Supplies|PHB}",
+          "10 gp",
+          "7 gp",
+          "15 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@i Musical Instruments}"
+        ],
+        [
+          "{@item Lute|PHB}",
+          "35 gp",
+          "26 gp",
+          "53 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "{@item Lyre|PHB}",
+          "30 gp",
+          "22 gp",
+          "45 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@b MAGIC ITEMS}"
+        ],
+        [
+          "{@i Spell Scrolls/Gems}"
+        ],
+        [
+          "Common {@item spell scroll (cantrip)||(Cantrip)}",
+          "50 gp",
+          "38 gp",
+          "75 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "Common {@item spell scroll (1st level)||(Level 1)}",
+          "100 gp",
+          "75 gp",
+          "150 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "Uncommon {@item spell scroll (2nd level)||(Level 2)}/{@item spell gem (obsidian)|OotA|Obsidian}",
+          "250 gp",
+          "187 gp",
+          "375 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "Uncommon {@item spell scroll (3rd level)||(Level 3)}/{@item spell gem (lapis lazuli)|OotA|Lapis Lazuli}",
+          "500 gp",
+          "375 gp",
+          "750 gp",
+          "",
+          "",
+          "x",
+          "x"
+        ],
+        [
+          "Rare {@item spell scroll (4th level)||(Level 4)}/{@item spell gem (quartz)|OotA|Quartz}",
+          "2500 gp",
+          "1875 gp",
+          "3750 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "Rare {@item spell scroll (5th level)||(Level 5)}/{@item spell gem (bloodstone)|OotA|Bloodstone}",
+          "5000 gp",
+          "3750 gp",
+          "7500 gp",
+          "",
+          "",
+          "",
+          "x"
+        ],
+        [
+          "{@b SERVICES}"
+        ],
+        [
+          "Magic Appraisal ({@spell Identify})",
+          "100 gp",
+          "75 gp",
+          "150 gp",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "{@b MISCELLANEOUS}"
+        ],
+        [
+          "Spell Components",
+          "See Spell",
+          "{@dice #$prompt_number:min=1,title=Component Price,$#×0.75}",
+          "{@dice #$prompt_number:min=1,title=Component Price,$#×1.5}",
+          "",
+          "x",
+          "x",
+          "x"
+        ]
+      ],
+      "outro": [
+        "<hr />",
+        {
+          "type": "table",
+          "caption": "Spell Scroll/Gem Availability",
+          "colLabels": [
+            "{@dice d100}",
+            "Selection",
+            "Offensive Spells",
+            "Support Spells"
+          ],
+          "colStyles": [
+            "col-1 text-right",
+            "col-1",
+            "col-5",
+            "col-5"
+          ],
+          "rows": [
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 1,
+                  "max": 25
+                }
+              },
+              "Poor",
+              "(0) {@spell Shocking Grasp}, (1) {@spell Burning Hands}, (2) {@spell Melf's Acid Arrow}, (3) {@spell Lightning Bolt}, (4) {@spell Ice Storm}, (5) {@spell Hold Monster}",
+              "(0) {@spell Mending}, (1) {@spell Alarm}, (2) {@spell Magic Weapon}, (3) {@spell Haste}, (4) {@spell Mordenkainen's Faithful Hound}, (5) {@spell Bigby's Hand}"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 26,
+                  "max": 60
+                }
+              },
+              "Fair",
+              "(0) {@spell Fire Bolt}, (1) {@spell Magic Missile}, (2) {@spell Flaming Sphere}, (3) {@spell Fireball}, (4) {@spell Wall of Fire}, (5) {@spell Cone of Cold}<br />{@i (Inc. previous availability list)}",
+              "(0) {@spell Mage Hand}, (1) {@spell Tenser's Floating Disc}, (2) {@spell Invisibility}, (3) {@spell Fly}, (4) {@spell Stoneskin}, (5) {@spell Teleportation Circle}<br />{@i (Inc. previous availability lists)}"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 61,
+                  "max": 80
+                }
+              },
+              "Moderate",
+              "(0) {@spell Acid Splash}, {@spell Chill Touch}, (1) {@spell Chromatic Orb}, {@spell Sleep}, (2) {@spell Hold Person}, {@spell Scorching Ray}, (3) {@spell Bestow Curse}, {@spell Slow}, (4) {@spell Phantasmal Killer}, {@spell Confusion}, (5) {@spell Cloudkill}, {@spell Conjure Elemental}<br />{@i (Inc. previous availability lists)}",
+              "(0) {@spell Light}, {@spell Message}, (1) {@spell Detect Magic}, {@spell Jump}, (2) {@spell Darkness}, {@spell Levitate}, (3) {@spell Dispel Magic}, {@spell Water Breathing}, (4) {@spell Arcane Eye}, {@spell Greater Invisibility}, (5) {@spell Scrying}, {@spell Telekinisis}<br />{@i (Inc. previous availability lists)}"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 81,
+                  "max": 95
+                }
+              },
+              "Wide",
+              "(0) {@spell Friends}, {@spell Minor Illusion}, {@spell Poison Spray}, (1) {@spell Color Spray}, {@spell Ray of Sickness}, {@spell Tasha's Hideous Laughter}, (2) {@spell Blindness/Deafness}, {@spell Cloud of Daggers}, {@spell Ray of Enfeeblement}, (3) {@spell Hypnotic Pattern}, {@spell Sleet Storm}, {@spell Vampiric Touch}, (4) {@spell Conjure Minor Elementals}, {@spell Fire Shield}, {@spell Otiluke's Resilient Sphere}, (5) {@spell Dominate Person}, {@spell Geas}, {@spell Planar Binding}<br />{@i (Inc. previous availability lists)}",
+              "(0) {@spell Blade Ward}, {@spell Dancing Lights}, {@spell Prestidigitation}, (1) {@spell Feather Fall}, {@spell Identify}, {@spell Mage Armor}, (2) {@spell See Invisibility}, {@spell Arcane Lock}, {@spell Knock}, (3) {@spell Leomund's Tiny Hut}, {@spell Magic Circle}, {@spell Tongues}, (4) {@spell Dimension Door}, {@spell Leomund's Secret Chest}, {@spell Polymorph}, (5) {@spell Legend Lore}, {@spell Rary's Telepathic Bond}, {@spell Wall of Stone}<br />{@i (Inc. previous availability lists)}"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 96,
+                  "max": 100
+                }
+              },
+              "Full",
+              "{@filter (All Wizard Spells Level 1-5 and cantrips)|spells|level=0;1;2;3;4;5|class=wizard}",
+              "{@filter (All Wizard Spells Level 1-5 and cantrips)|spells|level=0;1;2;3;4;5|class=wizard}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "source": "5eShopsCatalog",
+      "page": "8",
+      "name": "Creature Parts Value",
+      "colLabels": [
+        "Selling Value",
+        "Cost<br />(Normal)",
+        "Cost<br />(Cheap)",
+        "Cost<br />(Expensive)"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-2-7 text-right",
+        "col-2-6 text-right",
+        "col-2-7 text-right"
+      ],
+      "rows": [
+        [
+          "CR: 0 — 6",
+          "{@dice #$prompt_number:min=10,max=2300,title=Creature XP,$#×0.01|1% of XP}",
+          "{@dice #$prompt_number:min=10,max=2300,title=Creature XP,$#×0.01|1% of XP}",
+          "{@dice #$prompt_number:min=10,max=2300,title=Creature XP,$#×0.015|1.5% of XP}"
+        ],
+        [
+          "CR: 7 — 12",
+          "{@dice #$prompt_number:min=2900,max=8400,title=Creature XP,$#×0.05|5% of XP}",
+          "{@dice #$prompt_number:min=2900,max=8400,title=Creature XP,$#×0.03|3% of XP}",
+          "{@dice #$prompt_number:min=2900,max=8400,title=Creature XP,$#×0.08|8% of XP}"
+        ],
+        [
+          "CR: 13 — 18",
+          "{@dice #$prompt_number:min=10000,max=20000,title=Creature XP,$#×0.1|10% of XP}",
+          "{@dice #$prompt_number:min=10000,max=20000,title=Creature XP,$#×0.07|7% of XP}",
+          "{@dice #$prompt_number:min=10000,max=20000,title=Creature XP,$#×0.15|15% of XP}"
+        ],
+        [
+          "CR: 19 — 24",
+          "{@dice #$prompt_number:min=22000,max=62000,title=Creature XP,$#×0.25|25% of XP}",
+          "{@dice #$prompt_number:min=22000,max=62000,title=Creature XP,$#×0.18|18% of XP}",
+          "{@dice #$prompt_number:min=22000,max=62000,title=Creature XP,$#×0.38|38% of XP}"
+        ],
+        [
+          "CR: 25+",
+          "{@dice #$prompt_number:min=75000,title=Creature XP,$#×0.5|50% of XP}",
+          "{@dice #$prompt_number:min=75000,title=Creature XP,$#×0.38|38% of XP}",
+          "{@dice #$prompt_number:min=75000,title=Creature XP,$#×0.75|75% of XP}"
+        ]
+      ]
+    }
+  ]
+}
