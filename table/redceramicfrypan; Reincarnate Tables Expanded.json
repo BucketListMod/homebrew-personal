@@ -13,12 +13,12 @@
           "BucketListMod#8973"
         ],
         "version": "1.0",
-        "url": "https://www.reddit.com/r/UnearthedArcana/comments/9no3je/my_custom_reincarnate_table_with_all_published_pc//",
+        "url": "https://www.reddit.com/r/UnearthedArcana/comments/9no3je/my_custom_reincarnate_table_with_all_published_pc/",
         "targetSchema": "1.0.0"
       }
     ],
     "dateAdded": 1602555207,
-    "dateLastModified": 1602556627
+    "dateLastModified": 1602557971
   },
   "table": [
     {
@@ -793,7 +793,7 @@
             "type": "cell",
             "roll": {
               "min": "1",
-              "max": "69"
+              "max": "58"
             }
           },
           "{@race tiefling (variant; infernal legacy)|SCAG|Infernal Legacy}"
@@ -802,8 +802,8 @@
           {
             "type": "cell",
             "roll": {
-              "min": "70",
-              "max": "74"
+              "min": "59",
+              "max": "64"
             }
           },
           "{@race tiefling (variant; devil's tongue)|SCAG|Devil's Tongue}"
@@ -812,8 +812,8 @@
           {
             "type": "cell",
             "roll": {
-              "min": "75",
-              "max": "79"
+              "min": "65",
+              "max": "70"
             }
           },
           "{@race tiefling (variant; hellfire)|SCAG|Hellfire}"
@@ -822,8 +822,8 @@
           {
             "type": "cell",
             "roll": {
-              "min": "80",
-              "max": "84"
+              "min": "71",
+              "max": "76"
             }
           },
           "{@race tiefling (variant; winged)|SCAG|Winged}"
@@ -832,8 +832,8 @@
           {
             "type": "cell",
             "roll": {
-              "min": "85",
-              "max": "86"
+              "min": "77",
+              "max": "79"
             }
           },
           "{@race tiefling (baalzebul)|MTF|Baalzebul}"
@@ -842,8 +842,8 @@
           {
             "type": "cell",
             "roll": {
-              "min": "87",
-              "max": "88"
+              "min": "80",
+              "max": "82"
             }
           },
           "{@race tiefling (dispater)|MTF|Dispater}"
@@ -852,8 +852,8 @@
           {
             "type": "cell",
             "roll": {
-              "min": "89",
-              "max": "90"
+              "min": "83",
+              "max": "85"
             }
           },
           "{@race tiefling (fierna)|MTF|Fierna}"
@@ -862,8 +862,8 @@
           {
             "type": "cell",
             "roll": {
-              "min": "91",
-              "max": "92"
+              "min": "86",
+              "max": "88"
             }
           },
           "{@race tiefling (glasya)|MTF|Glasya}"
@@ -872,8 +872,8 @@
           {
             "type": "cell",
             "roll": {
-              "min": "93",
-              "max": "94"
+              "min": "89",
+              "max": "91"
             }
           },
           "{@race tiefling (levistus)|MTF|Levistus}"
@@ -882,8 +882,8 @@
           {
             "type": "cell",
             "roll": {
-              "min": "95",
-              "max": "96"
+              "min": "92",
+              "max": "94"
             }
           },
           "{@race tiefling (mammon)|MTF|Mammon}"
@@ -892,8 +892,8 @@
           {
             "type": "cell",
             "roll": {
-              "min": "97",
-              "max": "98"
+              "min": "95",
+              "max": "97"
             }
           },
           "{@race tiefling (mephistopheles)|MTF|Mephistopheles}"
@@ -902,7 +902,7 @@
           {
             "type": "cell",
             "roll": {
-              "min": "99",
+              "min": "98",
               "max": "100"
             }
           },
