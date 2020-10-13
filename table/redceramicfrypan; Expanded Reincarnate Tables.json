@@ -1,0 +1,1036 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "redceramicfrypanReincarnate",
+        "abbreviation": "ERT",
+        "full": "Expanded Reincarnate Tables",
+        "authors": [
+          "u/redceramicfrypan",
+          "Rebekah McCue"
+        ],
+        "convertedBy": [
+          "BucketListMod#8973"
+        ],
+        "version": "1.0",
+        "url": "https://www.reddit.com/r/UnearthedArcana/comments/9no3je/my_custom_reincarnate_table_with_all_published_pc//",
+        "targetSchema": "1.0.0"
+      }
+    ],
+    "dateAdded": 1602555207,
+    "dateLastModified": 1602555207
+  },
+  "table": [
+    {
+      "source": "redceramicfrypanReincarnate",
+      "page": "1",
+      "name": "Reincarnate Races",
+      "colLabels": [
+        "{@dice d100}",
+        "Race",
+        "Additional Action"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-5-5",
+        "col-5-5"
+      ],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 1,
+              "max": 12
+            }
+          },
+          "{@race Human (base)||Human}",
+          "Choose {@race human||Standard} or {@race human (variant)||Variant}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "13",
+              "max": "24"
+            }
+          },
+          "{@race Dwarf}",
+          "Roll on table: {@table Dwarf|redceramicfrypanReincarnate}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "25",
+              "max": "36"
+            }
+          },
+          "{@race Elf}",
+          "Roll on table: {@table Elf|redceramicfrypanReincarnate}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "37",
+              "max": "48"
+            }
+          },
+          "{@race Halfling}",
+          "Roll on table: {@table Halfling|redceramicfrypanReincarnate}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "49",
+              "max": "56"
+            }
+          },
+          "{@race Gnome}",
+          "Roll on table: {@table Gnome|redceramicfrypanReincarnate}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "57",
+              "max": "60"
+            }
+          },
+          "{@race Dragonborn (base)||Dragonborn}",
+          "Roll on table: {@table Dragonborn|redceramicfrypanReincarnate}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "61",
+              "max": "64"
+            }
+          },
+          "{@race Half-Elf}",
+          "(Optional) Roll on table: {@table Elf|redceramicfrypanReincarnate}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "65",
+              "max": "68"
+            }
+          },
+          "{@race Half-Orc}",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "69",
+              "max": "72"
+            }
+          },
+          "{@race Tiefling (base)||Tiefling}",
+          "Roll on table: {@table Tiefling|redceramicfrypanReincarnate}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "73",
+              "max": "75"
+            }
+          },
+          "{@race Genasi|EEPC}",
+          "Roll on table: {@table Genasi|redceramicfrypanReincarnate}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "76",
+              "max": "78"
+            }
+          },
+          "{@race Goliath|VGM}",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "79",
+              "max": "80"
+            }
+          },
+          "{@race Aasimar|VGM}",
+          "Roll on table: {@table Aasimar|redceramicfrypanReincarnate}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "81",
+              "max": "82"
+            }
+          },
+          "{@race Aarakocra|EEPC}",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "83",
+              "max": "84"
+            }
+          },
+          "{@race Firbolg|VGM}",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "85",
+              "max": "86"
+            }
+          },
+          "{@race Kalashtar|ERLW}",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "87",
+              "max": "88"
+            }
+          },
+          "{@race Kenku|VGM}",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "89",
+              "max": "90"
+            }
+          },
+          "{@race Lizardfolk|VGM}",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "91",
+              "max": "92"
+            }
+          },
+          "{@race Shifter|ERLW}",
+          "Choose a subrace"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "93",
+              "max": "94"
+            }
+          },
+          "{@race Tabaxi|VGM} or {@race Leonin|MOT}",
+          "Choose one"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "95",
+              "max": "96"
+            }
+          },
+          "{@race Triton|VGM}",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "97",
+              "max": "98"
+            }
+          },
+          "Monstrous",
+          "Roll on table: {@table Monstrous|redceramicfrypanReincarnate}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": "99"
+            }
+          },
+          "{@race Tortle|TTP}",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 100
+            }
+          },
+          "{@race Satyr|MOT}",
+          "—"
+        ]
+      ]
+    },
+    {
+      "source": "redceramicfrypanReincarnate",
+      "page": "1",
+      "name": "Dwarf",
+      "colLabels": [
+        "{@dice d100}",
+        "Subrace"
+      ],
+      "colStyles": [
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 1,
+              "max": 45
+            }
+          },
+          "{@race Dwarf (Hill)||Hill}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "46",
+              "max": "90"
+            }
+          },
+          "{@race Dwarf (Mountain)||Mountain}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "90",
+              "max": "100"
+            }
+          },
+          "{@race Dwarf (Duergar)|MTF|Duergar}"
+        ]
+      ]
+    },
+    {
+      "source": "redceramicfrypanReincarnate",
+      "page": "1",
+      "name": "Elf",
+      "intro": [
+        "Also used to determine {@race half-elf (variant)||Half-Elf Descent}."
+      ],
+      "colLabels": [
+        "{@dice d100}",
+        "Subrace"
+      ],
+      "colStyles": [
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "1",
+              "max": "39"
+            }
+          },
+          "{@race Elf (high)||High}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "40",
+              "max": "78"
+            }
+          },
+          "{@race elf (wood)||Wood}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "79",
+              "max": "89"
+            }
+          },
+          "{@race elf (drow)||Drow}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "90",
+              "max": "92"
+            }
+          },
+          "{@race elf (sea)|MTF|Sea Elf}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "93",
+              "max": "95"
+            }
+          },
+          "{@race elf (palid)|EGW|Palid Elf}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "96",
+              "max": "98"
+            }
+          },
+          "{@race elf (Eladrin)|VGM|Eladrin}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "98",
+              "max": "100"
+            }
+          },
+          "{@race elf (shadar-kai)|MTF|Shadar-kai}"
+        ]
+      ]
+    },
+    {
+      "source": "redceramicfrypanReincarnate",
+      "page": "1",
+      "name": "Halfling",
+      "colLabels": [
+        "{@dice d100}",
+        "Subrace"
+      ],
+      "colStyles": [
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "1",
+              "max": "40"
+            }
+          },
+          "{@race halfling (lightfoot)||Lightfoot}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "41",
+              "max": "80"
+            }
+          },
+          "{@race halfling (stout)||Stout}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "81",
+              "max": "90"
+            }
+          },
+          "{@race halfling (lotusden)|EGW|Lotusden}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "91",
+              "max": "100"
+            }
+          },
+          "{@race halfling (ghostwise)|SCAG|Ghostwise}"
+        ]
+      ]
+    },
+    {
+      "source": "redceramicfrypanReincarnate",
+      "page": "1",
+      "name": "Dragonborn",
+      "intro": [
+        {
+          "type": "table",
+          "page": "1",
+          "caption": "Optional: Variant Race",
+          "colLabels": [
+            "{@dice d100}",
+            "Variant"
+          ],
+          "colStyles": [
+            "col-1 text-center"
+          ],
+          "rows": [
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": "1",
+                  "max": "70"
+                }
+              },
+              "{@race Dragonborn||Standard}"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": "71",
+                  "max": "85"
+                }
+              },
+              "{@race dragonborn (draconblood)|EGW|Draconblood}"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": "86",
+                  "max": "100"
+                }
+              },
+              "{@race dragonborn (ravenite)|EGW|Ravenite}"
+            ]
+          ]
+        }
+      ],
+      "colLabels": [
+        "{@dice d100}",
+        "Color"
+      ],
+      "colStyles": [
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "1",
+              "max": "10"
+            }
+          },
+          "Black"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "11",
+              "max": "20"
+            }
+          },
+          "Blue"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "21",
+              "max": "30"
+            }
+          },
+          "Brass"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "31",
+              "max": "40"
+            }
+          },
+          "Bronze"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "41",
+              "max": "50"
+            }
+          },
+          "Copper"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "51",
+              "max": "60"
+            }
+          },
+          "Gold"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "61",
+              "max": "70"
+            }
+          },
+          "Green"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "71",
+              "max": "80"
+            }
+          },
+          "Red"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "81",
+              "max": "90"
+            }
+          },
+          "Silver"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "91",
+              "max": "100"
+            }
+          },
+          "White"
+        ]
+      ]
+    },
+    {
+      "source": "redceramicfrypanReincarnate",
+      "page": "1",
+      "name": "Gnome",
+      "colLabels": [
+        "{@dice d100}",
+        "Subrace"
+      ],
+      "colStyles": [
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "1",
+              "max": "45"
+            }
+          },
+          "{@race gnome (forest)||Forest}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "46",
+              "max": "90"
+            }
+          },
+          "{@race gnome (rock)||Rock}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "91",
+              "max": "100"
+            }
+          },
+          "{@race gnome (deep)|MTF|Svirfneblin}"
+        ]
+      ]
+    },
+    {
+      "source": "redceramicfrypanReincarnate",
+      "page": "1",
+      "name": "Genasi",
+      "colLabels": [
+        "{@dice d100}",
+        "Subrace"
+      ],
+      "colStyles": [
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "1",
+              "max": "25"
+            }
+          },
+          "{@race genasi (air)|EEPC|Air}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "26",
+              "max": "50"
+            }
+          },
+          "{@race genasi (earth)|EEPC|Earth}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "51",
+              "max": "75"
+            }
+          },
+          "{@race genasi (fire)|EEPC|Fire}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "76",
+              "max": "100"
+            }
+          },
+          "{@race genasi (water)|EEPC|Water}"
+        ]
+      ]
+    },
+    {
+      "source": "redceramicfrypanReincarnate",
+      "page": "1",
+      "name": "Aasimar",
+      "colLabels": [
+        "{@dice d100}",
+        "Subrace"
+      ],
+      "colStyles": [
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "1",
+              "max": "50"
+            }
+          },
+          "{@race aasimar (protector)|VGM|Protector}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "51",
+              "max": "80"
+            }
+          },
+          "{@race aasimar (scourge)|VGM|Scourge}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "81",
+              "max": "100"
+            }
+          },
+          "{@race aasimar (fallen)|VGM|Fallen}"
+        ]
+      ]
+    },
+    {
+      "source": "redceramicfrypanReincarnate",
+      "page": "1",
+      "name": "Tiefling",
+      "colLabels": [
+        "{@dice d100}",
+        "Subrace"
+      ],
+      "colStyles": [
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "1",
+              "max": "69"
+            }
+          },
+          "{@race tiefling (variant; infernal legacy)|SCAG|Infernal Legacy (Standard)}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "70",
+              "max": "74"
+            }
+          },
+          "{@race tiefling (variant; devil's tongue)|SCAG|Devil's Tongue}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "75",
+              "max": "79"
+            }
+          },
+          "{@race tiefling (variant; hellfire)|SCAG|Hellfire}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "80",
+              "max": "84"
+            }
+          },
+          "{@race tiefling (variant; winged)|SCAG|Winged}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "85",
+              "max": "86"
+            }
+          },
+          "{@race tiefling (baalzebul)|MTF|Baalzebul}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "87",
+              "max": "88"
+            }
+          },
+          "{@race tiefling (dispater)|MTF|Dispater}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "89",
+              "max": "90"
+            }
+          },
+          "{@race tiefling (fierna)|MTF|Fierna}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "91",
+              "max": "92"
+            }
+          },
+          "{@race tiefling (glasya)|MTF|Glasya}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "93",
+              "max": "94"
+            }
+          },
+          "{@race tiefling (levistus)|MTF|Levistus}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "95",
+              "max": "96"
+            }
+          },
+          "{@race tiefling (mammon)|MTF|Mammon}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "97",
+              "max": "98"
+            }
+          },
+          "{@race tiefling (mephistopheles)|MTF|Mephistopheles}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "99",
+              "max": "100"
+            }
+          },
+          "{@race tiefling (zariel)|MTF|Zariel}"
+        ]
+      ]
+    },
+    {
+      "source": "redceramicfrypanReincarnate",
+      "page": "1",
+      "name": "Monstrous",
+      "colLabels": [
+        "{@dice d100}",
+        "Subrace"
+      ],
+      "colStyles": [
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "1",
+              "max": "16"
+            }
+          },
+          "{@race Goblin|VGM}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "17",
+              "max": "29"
+            }
+          },
+          "{@race Hobgoblin|VGM}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "30",
+              "max": "42"
+            }
+          },
+          "{@race Bugbear|VGM}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "43",
+              "max": "58"
+            }
+          },
+          "{@race Kobold|VGM}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "59",
+              "max": "74"
+            }
+          },
+          "{@race Orc|VGM}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "75",
+              "max": "82"
+            }
+          },
+          "{@race Yuan-Ti Pureblood|VGM}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "83",
+              "max": "88"
+            }
+          },
+          "{@race gith (githyanki)|MTF|Githyanki}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "89",
+              "max": "94"
+            }
+          },
+          "{@race gith (githzerai)|MTF|Githzerai}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "95",
+              "max": "98"
+            }
+          },
+          "{@race Changeling|ERLW}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": "99"
+            }
+          },
+          "{@race Centaur|MOT}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": "100"
+            }
+          },
+          "{@race Minotaur|MOT}"
+        ]
+      ]
+    }
+  ]
+}
