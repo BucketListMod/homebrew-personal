@@ -18,7 +18,7 @@
       }
     ],
     "dateAdded": 1602555207,
-    "dateLastModified": 1602555207
+    "dateLastModified": 1602556239
   },
   "table": [
     {
@@ -143,8 +143,8 @@
               "max": "75"
             }
           },
-          "{@race Genasi|EEPC}",
-          "Roll on table: {@table Genasi|redceramicfrypanReincarnate}"
+          "{@race Aasimar|VGM}",
+          "Roll on table: {@table Aasimar|redceramicfrypanReincarnate}"
         ],
         [
           {
@@ -154,8 +154,8 @@
               "max": "78"
             }
           },
-          "{@race Goliath|VGM}",
-          "—"
+          "{@race Genasi|EEPC}",
+          "Roll on table: {@table Genasi|redceramicfrypanReincarnate}"
         ],
         [
           {
@@ -165,8 +165,8 @@
               "max": "80"
             }
           },
-          "{@race Aasimar|VGM}",
-          "Roll on table: {@table Aasimar|redceramicfrypanReincarnate}"
+          "{@race Aarakocra|EEPC}",
+          "—"
         ],
         [
           {
@@ -176,7 +176,7 @@
               "max": "82"
             }
           },
-          "{@race Aarakocra|EEPC}",
+          "{@race Firbolg|VGM}",
           "—"
         ],
         [
@@ -187,7 +187,7 @@
               "max": "84"
             }
           },
-          "{@race Firbolg|VGM}",
+          "{@race Goliath|VGM}",
           "—"
         ],
         [
