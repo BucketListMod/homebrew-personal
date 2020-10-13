@@ -18,7 +18,7 @@
       }
     ],
     "dateAdded": 1602555207,
-    "dateLastModified": 1602556239
+    "dateLastModified": 1602556627
   },
   "table": [
     {
@@ -56,7 +56,7 @@
             }
           },
           "{@race Dwarf}",
-          "Roll on table: {@table Dwarf|redceramicfrypanReincarnate}"
+          "Roll on {@table Reincarnate: Dwarf|redceramicfrypanReincarnate}"
         ],
         [
           {
@@ -67,7 +67,7 @@
             }
           },
           "{@race Elf}",
-          "Roll on table: {@table Elf|redceramicfrypanReincarnate}"
+          "Roll on {@table Reincarnate: Elf|redceramicfrypanReincarnate}"
         ],
         [
           {
@@ -78,7 +78,7 @@
             }
           },
           "{@race Halfling}",
-          "Roll on table: {@table Halfling|redceramicfrypanReincarnate}"
+          "Roll on {@table Reincarnate: Halfling|redceramicfrypanReincarnate}"
         ],
         [
           {
@@ -89,7 +89,7 @@
             }
           },
           "{@race Gnome}",
-          "Roll on table: {@table Gnome|redceramicfrypanReincarnate}"
+          "Roll on {@table Reincarnate: Gnome|redceramicfrypanReincarnate}"
         ],
         [
           {
@@ -100,7 +100,7 @@
             }
           },
           "{@race Dragonborn (base)||Dragonborn}",
-          "Roll on table: {@table Dragonborn|redceramicfrypanReincarnate}"
+          "Roll on {@table Reincarnate: Dragonborn|redceramicfrypanReincarnate}"
         ],
         [
           {
@@ -111,7 +111,7 @@
             }
           },
           "{@race Half-Elf}",
-          "(Optional) Roll on table: {@table Elf|redceramicfrypanReincarnate}"
+          "(Optional) Roll on {@table Reincarnate: Elf|redceramicfrypanReincarnate}"
         ],
         [
           {
@@ -133,7 +133,7 @@
             }
           },
           "{@race Tiefling (base)||Tiefling}",
-          "Roll on table: {@table Tiefling|redceramicfrypanReincarnate}"
+          "Roll on {@table Reincarnate: Tiefling|redceramicfrypanReincarnate}"
         ],
         [
           {
@@ -144,7 +144,7 @@
             }
           },
           "{@race Aasimar|VGM}",
-          "Roll on table: {@table Aasimar|redceramicfrypanReincarnate}"
+          "Roll on {@table Reincarnate: Aasimar|redceramicfrypanReincarnate}"
         ],
         [
           {
@@ -155,7 +155,7 @@
             }
           },
           "{@race Genasi|EEPC}",
-          "Roll on table: {@table Genasi|redceramicfrypanReincarnate}"
+          "Roll on {@table Reincarnate: Genasi|redceramicfrypanReincarnate}"
         ],
         [
           {
@@ -265,7 +265,7 @@
             }
           },
           "Monstrous",
-          "Roll on table: {@table Monstrous|redceramicfrypanReincarnate}"
+          "Roll on {@table Reincarnate: Monstrous|redceramicfrypanReincarnate}"
         ],
         [
           {
@@ -292,7 +292,7 @@
     {
       "source": "redceramicfrypanReincarnate",
       "page": "1",
-      "name": "Dwarf",
+      "name": "Reincarnate: Dwarf",
       "colLabels": [
         "{@dice d100}",
         "Subrace"
@@ -336,7 +336,7 @@
     {
       "source": "redceramicfrypanReincarnate",
       "page": "1",
-      "name": "Elf",
+      "name": "Reincarnate: Elf",
       "intro": [
         "Also used to determine {@race half-elf (variant)||Half-Elf Descent}."
       ],
@@ -423,7 +423,7 @@
     {
       "source": "redceramicfrypanReincarnate",
       "page": "1",
-      "name": "Halfling",
+      "name": "Reincarnate: Halfling",
       "colLabels": [
         "{@dice d100}",
         "Subrace"
@@ -477,7 +477,7 @@
     {
       "source": "redceramicfrypanReincarnate",
       "page": "1",
-      "name": "Dragonborn",
+      "name": "Reincarnate: Dragonborn",
       "intro": [
         {
           "type": "table",
@@ -637,7 +637,7 @@
     {
       "source": "redceramicfrypanReincarnate",
       "page": "1",
-      "name": "Gnome",
+      "name": "Reincarnate: Gnome",
       "colLabels": [
         "{@dice d100}",
         "Subrace"
@@ -681,7 +681,7 @@
     {
       "source": "redceramicfrypanReincarnate",
       "page": "1",
-      "name": "Genasi",
+      "name": "Reincarnate: Genasi",
       "colLabels": [
         "{@dice d100}",
         "Subrace"
@@ -735,7 +735,7 @@
     {
       "source": "redceramicfrypanReincarnate",
       "page": "1",
-      "name": "Aasimar",
+      "name": "Reincarnate: Aasimar",
       "colLabels": [
         "{@dice d100}",
         "Subrace"
@@ -779,7 +779,7 @@
     {
       "source": "redceramicfrypanReincarnate",
       "page": "1",
-      "name": "Tiefling",
+      "name": "Reincarnate: Tiefling",
       "colLabels": [
         "{@dice d100}",
         "Subrace"
@@ -913,7 +913,7 @@
     {
       "source": "redceramicfrypanReincarnate",
       "page": "1",
-      "name": "Monstrous",
+      "name": "Reincarnate: Monstrous",
       "colLabels": [
         "{@dice d100}",
         "Subrace"
