@@ -18,7 +18,7 @@
       }
     ],
     "dateAdded": 1602555207,
-    "dateLastModified": 1602613608
+    "dateLastModified": 1602615765
   },
   "table": [
     {
@@ -232,7 +232,7 @@
             }
           },
           "{@race Shifter|ERLW}",
-          "Choose a subrace"
+          "Choose or roll subrace"
         ],
         [
           {
@@ -396,7 +396,7 @@
               "max": "95"
             }
           },
-          "{@race elf (palid)|EGW|Palid Elf}"
+          "{@race elf (pallid)|EGW|Pallid Elf}"
         ],
         [
           {
@@ -406,7 +406,7 @@
               "max": "98"
             }
           },
-          "{@race elf (Eladrin)|VGM|Eladrin}"
+          "{@race elf (Eladrin)|MTF|Eladrin}"
         ],
         [
           {
