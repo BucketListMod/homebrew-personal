@@ -18,7 +18,7 @@
       }
     ],
     "dateAdded": 1602555207,
-    "dateLastModified": 1602557971
+    "dateLastModified": 1602613608
   },
   "table": [
     {
@@ -793,7 +793,7 @@
             "type": "cell",
             "roll": {
               "min": "1",
-              "max": "58"
+              "max": "52"
             }
           },
           "{@race tiefling (variant; infernal legacy)|SCAG|Infernal Legacy}"
@@ -802,8 +802,8 @@
           {
             "type": "cell",
             "roll": {
-              "min": "59",
-              "max": "64"
+              "min": "53",
+              "max": "60"
             }
           },
           "{@race tiefling (variant; devil's tongue)|SCAG|Devil's Tongue}"
@@ -812,8 +812,8 @@
           {
             "type": "cell",
             "roll": {
-              "min": "65",
-              "max": "70"
+              "min": "61",
+              "max": "68"
             }
           },
           "{@race tiefling (variant; hellfire)|SCAG|Hellfire}"
@@ -822,7 +822,7 @@
           {
             "type": "cell",
             "roll": {
-              "min": "71",
+              "min": "69",
               "max": "76"
             }
           },
