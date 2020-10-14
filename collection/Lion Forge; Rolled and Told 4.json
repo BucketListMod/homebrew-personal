@@ -17,7 +17,9 @@
         "url": "https://www.amazon.com/gp/product/B07MQ6RBMQ",
         "targetSchema": "1.0.0"
       }
-    ]
+    ],
+    "dateAdded": 1602284622,
+    "dateLastModified": 1602703394
   },
   "item": [
     {
@@ -835,7 +837,8 @@
       "miscTags": [
         "MW",
         "RCH"
-      ]
+      ],
+      "tokenURL": "https://raw.githubusercontent.com/BucketListMod/homebrew-personal/main/_img/Rolled%20and%20Told/Animated%20Ice%20Sculpture.png"
     },
     {
       "name": "Chocolate Golem",
@@ -968,7 +971,19 @@
       "miscTags": [
         "MW",
         "RCH"
-      ]
+      ],
+      "tokenURL": "https://raw.githubusercontent.com/BucketListMod/homebrew-personal/main/_img/Rolled%20and%20Told/Chocolate%20Golem.png",
+      "fluff": {
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/BucketListMod/homebrew-personal/main/_img/Rolled%20and%20Told/Disgruntled%20Wizard-Chocolate%20Golem.jpg"
+            }
+          }
+        ]
+      }
     },
     {
       "name": "Disgruntled Wizard",
@@ -1059,14 +1074,14 @@
       "miscTags": [
         "MW"
       ],
-      "tokenURL": "https://raw.githubusercontent.com/BucketListMod/homebrew-personal/main/_img/Rolled%20and%20Told/Disgruntled%20Wizard.jpg",
+      "tokenURL": "https://raw.githubusercontent.com/BucketListMod/homebrew-personal/main/_img/Rolled%20and%20Told/Disgruntled%20Wizard.png",
       "fluff": {
         "images": [
           {
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/BucketListMod/homebrew-personal/main/_img/Rolled%20and%20Told/Disgruntled%20Wizard.jpg"
+              "url": "https://raw.githubusercontent.com/BucketListMod/homebrew-personal/main/_img/Rolled%20and%20Told/Disgruntled%20Wizard-Chocolate%20Golem.jpg"
             }
           }
         ]
