@@ -1058,7 +1058,18 @@
       ],
       "miscTags": [
         "MW"
-      ]
+      ],
+      "fluff": {
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/BucketListMod/homebrew-personal/main/_img/Rolled%20and%20Told/Disgruntled%20Wizard.jpg"
+            }
+          }
+        ]
+      }
     }
   ],
   "book": [
