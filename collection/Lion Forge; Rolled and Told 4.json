@@ -838,7 +838,7 @@
         "MW",
         "RCH"
       ],
-      "tokenURL": "https://raw.githubusercontent.com/BucketListMod/homebrew-personal/main/_img/Rolled%20and%20Told/Animated%20Ice%20Sculpture.png"
+      "tokenUrl": "https://raw.githubusercontent.com/BucketListMod/homebrew-personal/main/_img/Rolled%20and%20Told/Animated%20Ice%20Sculpture.png"
     },
     {
       "name": "Chocolate Golem",
@@ -972,7 +972,7 @@
         "MW",
         "RCH"
       ],
-      "tokenURL": "https://raw.githubusercontent.com/BucketListMod/homebrew-personal/main/_img/Rolled%20and%20Told/Chocolate%20Golem.png",
+      "tokenUrl": "https://raw.githubusercontent.com/BucketListMod/homebrew-personal/main/_img/Rolled%20and%20Told/Chocolate%20Golem.png",
       "fluff": {
         "images": [
           {
@@ -1074,7 +1074,7 @@
       "miscTags": [
         "MW"
       ],
-      "tokenURL": "https://raw.githubusercontent.com/BucketListMod/homebrew-personal/main/_img/Rolled%20and%20Told/Disgruntled%20Wizard.png",
+      "tokenUrl": "https://raw.githubusercontent.com/BucketListMod/homebrew-personal/main/_img/Rolled%20and%20Told/Disgruntled%20Wizard.png",
       "fluff": {
         "images": [
           {
