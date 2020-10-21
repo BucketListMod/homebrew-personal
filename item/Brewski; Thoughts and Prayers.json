@@ -31,12 +31,10 @@
       "weight": 1,
       "weaponCategory": "simple",
       "property": [
-        "KD",
         "L"
       ],
       "dmg1": "1d6",
       "dmgType": "B",
-      "knuckleduster": true,
       "weapon": true,
       "entries": [
         "If Prayers become separated from {@item Thoughts|BrewskiThoughtsPrayers}, either by moving into a different plane or via 300 ft. of distance, any creature in possession of Prayers must make a Constitution saving throw. The creature takes {@damage 2d10} radiant damage on a failed save or half as much on a successful one.",
@@ -95,13 +93,11 @@
       "weight": 1,
       "weaponCategory": "simple",
       "property": [
-        "KD",
         "L"
       ],
       "dmg1": "1d6",
       "dmgType": "B",
       "bonusSavingThrow": "+2",
-      "knuckleduster": true,
       "weapon": true,
       "entries": [
         "If Thoughts becomes separated from {@item Prayers|BrewskiThoughtsPrayers}, either by moving into a different plane or via 300 ft. of distance, any creature in possession of Thoughts must make a Constitution saving throw. The creature takes {@damage 2d10} psychic damage on a failed save or half as much on a successful one.",
