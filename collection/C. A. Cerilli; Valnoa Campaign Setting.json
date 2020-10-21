@@ -15,7 +15,7 @@
       }
     ],
 		"dateAdded": 1602344563,
-		"dateLastModified": 1602344563
+		"dateLastModified": 1603321227
   },
   "baseitem": [
     {
@@ -91,7 +91,7 @@
           "type": "entries",
           "name": "Special",
           "entries": [
-            "If you attack with a knuckleduster using the {@action two-weapon fighting} action and do not have the {@optfeature Two-Weapon Fighting} Fighting Style, the bonus attack uses the statistics of your unarmed strike. In addition, if you have the {@classFeature Martial Arts|Monk||1} feature, any additional properties of the knuckleduster are applied to your unarmed strikes."
+            "If you have the {@classFeature Martial Arts|Monk||1} feature, wielding a knuckleduster counts as an unarmed strike rather than a weapon attack. Any special properties of the knuckleduster are applied to your unarmed strike."
           ]
         }
       ]
