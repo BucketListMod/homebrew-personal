@@ -14,8 +14,8 @@
         "color": "ffedc7"
       }
     ],
-		"dateAdded": 1602344563,
-		"dateLastModified": 1603321227
+	"dateAdded": 1602344563,
+	"dateLastModified": 1603321227
   },
   "baseitem": [
     {
@@ -32,7 +32,6 @@
       ],
       "dmg1": "1d4",
       "dmgType": "B",
-      "knuckleduster": true,
       "weapon": true,
       "entries": []
     }
