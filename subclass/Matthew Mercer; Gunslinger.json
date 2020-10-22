@@ -46,7 +46,6 @@
 			"subclassShortName": "Gunslinger",
 			"subclassSource": "MercerGunslinger",
 			"level": 3,
-			"header": 1,
 			"entries": [
 				"Most warriors and combat specialists spend their years perfecting the classic arts of swordplay, archery, or polearm tactics. Whether duelist or infantry, martial weapons were seemingly perfected long ago, and the true challenge is to master them.",
 				"However, some minds couldn't stop with the innovation of the crossbow. Experimentation with alchemical components and rare metals have unlocked the secrets of controlled explosive force. The few who survive these trials of ingenuity may become the first to create, and deftly wield, the first firearms.",
@@ -91,7 +90,7 @@
 			"subclassShortName": "Gunslinger",
 			"subclassSource": "MercerGunslinger",
 			"level": 3,
-			"header": 2
+			"header": 1
 		},
 		{
 			"type": "entries",
@@ -106,7 +105,7 @@
 			"subclassShortName": "Gunslinger",
 			"subclassSource": "MercerGunslinger",
 			"level": 3,
-			"header": 2
+			"header": 1
 		},
 		{
 			"type": "entries",
@@ -121,7 +120,7 @@
 			"subclassShortName": "Gunslinger",
 			"subclassSource": "MercerGunslinger",
 			"level": 3,
-			"header": 2
+			"header": 1
 		},
 		{
 			"type": "entries",
@@ -244,7 +243,7 @@
 			"subclassShortName": "Gunslinger",
 			"subclassSource": "MercerGunslinger",
 			"level": 3,
-			"header": 2
+			"header": 1
 		},
 		{
 			"type": "entries",
@@ -303,7 +302,7 @@
 			"subclassShortName": "Gunslinger",
 			"subclassSource": "MercerGunslinger",
 			"level": 3,
-			"header": 2
+			"header": 1
 		},
 		{
 			"type": "options",
@@ -413,7 +412,7 @@
 			"subclassShortName": "Gunslinger",
 			"subclassSource": "MercerGunslinger",
 			"level": 3,
-			"header": 2
+			"header": 1
 		},
 		{
 			"name": "Quickdraw",
