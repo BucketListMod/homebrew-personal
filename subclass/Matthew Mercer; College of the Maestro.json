@@ -40,7 +40,6 @@
 			"subclassShortName": "Maestro",
 			"subclassSource": "MercerMaestro",
 			"level": 3,
-			"header": 1,
 			"entries": [
 				"Music is a powerful thing. It can bolster a burning passion, inspire the meek to bravery, and sooth a cluttered mind. Wandering bards have mastered the art of creating music to shape and manipulate the thoughts and hearts of the world through song, words, and instrument. However, it is the Maestro who has learned to evoke music from the natural world around them and weave these notes with arcane skill into melodies of dynamic and potent magic.",
 				"With but a raised hand or wand, a Maestro listens for the clang of arms on armor, the heavy footfalls of a giant, the crackle of a bolt of lightning, and catches them, crafting them into a symphony of rousing musical movements. They conduct the sounds of the battlefield like a phantom orchestra, empowering the blows of their allies, altering the minds and moods of their opponents, and changing the pace of the fray in their favor.",
@@ -73,7 +72,7 @@
 			"subclassShortName": "Maestro",
 			"subclassSource": "MercerMaestro",
 			"level": 3,
-			"header": 2
+			"header": 1
 		},
 		{
 			"type": "entries",
@@ -90,7 +89,7 @@
 			"subclassShortName": "Maestro",
 			"subclassSource": "MercerMaestro",
 			"level": 3,
-			"header": 2
+			"header": 1
 		},
 		{
 			"type": "entries",
@@ -179,7 +178,7 @@
 			"subclassShortName": "Maestro",
 			"subclassSource": "MercerMaestro",
 			"level": 3,
-			"header": 2
+			"header": 1
 		},
 		{
 			"name": "Frenetic Crescendo",
