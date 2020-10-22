@@ -20,7 +20,7 @@
 			}
 		],
 		"dateAdded": 1580617082,
-		"dateLastModified": 1602339253
+		"dateLastModified": 1583537902
 	},
 	"class": [
 		{
@@ -1549,7 +1549,6 @@
 			"subclassShortName": "Ghostslayer",
 			"subclassSource": "BH2020",
 			"level": 3,
-			"header": 1,
 			"entries": [
 				"The Order of the Ghostslayer is the oldest of the orders, having originally rediscovered the secrets of blood magic and refined them for combat against the scourge of undeath. ghostslayers seek out and study the moment of death, obsessing over the mysteries of the transition and how it can become corrupted by unholy powers to rise once more. Tuning their abilities to annihilate such abominations, these zealous blood hunters seek out the sources of such necromantic energies, intent to destroy them wherever they arise.",
 				{
@@ -1587,7 +1586,7 @@
 			"subclassShortName": "Ghostslayer",
 			"subclassSource": "BH2020",
 			"level": 3,
-			"header": 2
+			"header": 1
 		},
 		{
 			"name": "Curse Specialist",
@@ -1600,7 +1599,7 @@
 			"subclassShortName": "Ghostslayer",
 			"subclassSource": "BH2020",
 			"level": 3,
-			"header": 2
+			"header": 1
 		},
 		{
 			"name": "Ethereal Step",
@@ -1610,7 +1609,6 @@
 			"subclassShortName": "Ghostslayer",
 			"subclassSource": "BH2020",
 			"level": 7,
-			"header": 2,
 			"entries": [
 				"Upon reaching 7th level, at the start of your turn, if you aren't incapacitated, you can choose to magically step into the veil between the planes. You can move through other creatures and objects as if they were difficult terrain, as well as see and affect creatures and objects on the Ethereal Plane. You take {@dice 1d10} force damage if you end your turn inside an object. If you are inside an object when this feature ends, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you moved. This feature lasts for a number of rounds equal to your Intelligence modifier (minimum of 1 round).",
 				"You can use this feature once. Beginning at 15th level, you can use your Ethereal Step feature twice between rests. You regain all expended uses when you finish a short or longrest."
@@ -1624,7 +1622,6 @@
 			"subclassShortName": "Ghostslayer",
 			"subclassSource": "BH2020",
 			"level": 11,
-			"header": 2,
 			"entries": [
 				"Beginning at 11th level, your Brand of Castigation now exposes a fragment of your foe's essence, leaving them vulnerable to your Crimson Rite. Whenever you damage a branded creature with your Crimson Rite, you roll one additional hemocraft die. In addition, the branded creature can't move through creatures or objects."
 			]
@@ -1637,7 +1634,6 @@
 			"subclassShortName": "Ghostslayer",
 			"subclassSource": "BH2020",
 			"level": 15,
-			"header": 2,
 			"entries": [
 				"At 15th level, you've honed your hemocraft to tear wicked influence from your allies, punishing those who would infiltrate their body and mind. You gain the {@optfeature Blood Curse of the Exorcist|BH2020} for your Blood Maledict feature. This doesn't count against your number of blood curses known."
 			]
@@ -1650,7 +1646,6 @@
 			"subclassShortName": "Ghostslayer",
 			"subclassSource": "BH2020",
 			"level": 18,
-			"header": 2,
 			"entries": [
 				"Upon reaching 18th level, you learn to protect your fading life by absorbing your blood rite. When you are reduced to 0 hit points while you have an active Crimson Rite, but don't die outright, the rite ends and you drop to 1 hit point instead. If you have multiple rites active, you choose which one ends."
 			]
@@ -1663,7 +1658,6 @@
 			"subclassShortName": "Profane Soul",
 			"subclassSource": "BH2020",
 			"level": 3,
-			"header": 1,
 			"entries": [
 				"Those who have taken to the Order of the Profane Soul have seen the limits of hemocraft against some of the most ancient and cruel fiends and terrors of the world. Unable to pursue beings of such power, creatures able to vanish amongst the nobles without a trace, or bend the mind of the most stalwart warrior with but a glance, this order trusted in the irresilience and delved into this same well of corrupting arcane knowledge, making pacts with lesser evils to better combat the greater. While they may have traded a part of themselves, members of this order believe the power gained far outweighs the price, for even devils now quake when they know they've drawn the attention of the Order of the Profane Soul.",
 				{
@@ -1691,7 +1685,7 @@
 			"subclassShortName": "Profane Soul",
 			"subclassSource": "BH2020",
 			"level": 3,
-			"header": 2
+			"header": 1
 		},
 		{
 			"name": "Pact Magic",
@@ -1745,7 +1739,7 @@
 			"subclassShortName": "Profane Soul",
 			"subclassSource": "BH2020",
 			"level": 3,
-			"header": 2
+			"header": 1
 		},
 		{
 			"name": "Rite Focus",
@@ -1794,7 +1788,7 @@
 			"subclassShortName": "Profane Soul",
 			"subclassSource": "BH2020",
 			"level": 3,
-			"header": 2
+			"header": 1
 		},
 		{
 			"name": "Mystic Frenzy",
@@ -1804,7 +1798,6 @@
 			"subclassShortName": "Profane Soul",
 			"subclassSource": "BH2020",
 			"level": 7,
-			"header": 2,
 			"entries": [
 				"Starting at 7th level, when you use your action to cast a cantrip, you can immediately make one weapon attack as a bonus action."
 			]
@@ -1817,7 +1810,6 @@
 			"subclassShortName": "Profane Soul",
 			"subclassSource": "BH2020",
 			"level": 7,
-			"header": 2,
 			"entries": [
 				"At 7th level, your dark patron grants you the rare use of a dangerous arcane spell based on your pact.",
 				{
@@ -1866,7 +1858,6 @@
 			"subclassShortName": "Profane Soul",
 			"subclassSource": "BH2020",
 			"level": 11,
-			"header": 2,
 			"entries": [
 				"Upon reaching 11th level, your Brand of Castigation feature now digs dark, arcane scars into your target, leaving them vulnerable to your magic. A creature branded by you has disadvantage on their saving throws against your warlock spells."
 			]
@@ -1879,7 +1870,6 @@
 			"subclassShortName": "Profane Soul",
 			"subclassSource": "BH2020",
 			"level": 15,
-			"header": 2,
 			"entries": [
 				"At 15th level, your patron grants you the rare use of an additional arcane spell based on your pact.",
 				{
@@ -1928,7 +1918,6 @@
 			"subclassShortName": "Profane Soul",
 			"subclassSource": "BH2020",
 			"level": 18,
-			"header": 2,
 			"entries": [
 				"Starting at 18th level, you've learned to siphon the soul from your fallen prey. You gain the {@optfeature Blood Curse of the Souleater|BH2020} for your Blood Maledict feature. This does not count against your number of blood curses known."
 			]
@@ -1941,7 +1930,6 @@
 			"subclassShortName": "Mutant",
 			"subclassSource": "BH2020",
 			"level": 3,
-			"header": 1,
 			"entries": [
 				"The process of the Hunter's Bane is a painful, scarring, and sometimes fatal experience. Those that survive find themselves irrevocably changed, enhanced. Some found this experience exalting, embracing the ability to alter one's own physiology through a combination of hemocraft and corrupted alchemy. Over generations of experimentation, a splinter order of blood hunters began to emerge, one that focused on brewing toxic elixirs to modify their capabilities in battle, altering their blood and, overtime, become something beyond what they once were. They called themselves the Order of the Mutant. Researching their targets to know their strengths and weaknesses, these blood hunters can alter their biology to be best prepared for the coming conflict.",
 				{
@@ -1969,7 +1957,7 @@
 			"subclassShortName": "Mutant",
 			"subclassSource": "BH2020",
 			"level": 3,
-			"header": 2
+			"header": 1
 		},
 		{
 			"name": "Mutagencraft",
@@ -1984,7 +1972,7 @@
 			"subclassShortName": "Mutant",
 			"subclassSource": "BH2020",
 			"level": 3,
-			"header": 2
+			"header": 1
 		},
 		{
 			"name": "Mutagens",
@@ -2117,7 +2105,7 @@
 			"subclassShortName": "Mutant",
 			"subclassSource": "BH2020",
 			"level": 3,
-			"header": 2
+			"header": 1
 		},
 		{
 			"name": "Strange Metabolism",
@@ -2127,7 +2115,6 @@
 			"subclassShortName": "Mutant",
 			"subclassSource": "BH2020",
 			"level": 7,
-			"header": 2,
 			"entries": [
 				"Beginning at 7th level, your body has begun to adapt to toxins and venoms, ignoring their corroding effects. You gain immunity to poison damage and the poisoned condition. In addition, you can instill a burst of adrenaline to temporarily resist the negative effects of a mutagen. As a bonus action, you can choose to ignore the side effect of a mutagen affecting you for 1 minute. Once you use this feature to resist side effects, you can't do so again until you finish a long rest."
 			]
@@ -2140,7 +2127,6 @@
 			"subclassShortName": "Mutant",
 			"subclassSource": "BH2020",
 			"level": 11,
-			"header": 2,
 			"entries": [
 				"At 11th level, your hemocraft has altered your Brand of Castigation to enforce a foe's true nature. Any illusions disguising or making a creature invisible when you brand them end, and they can't benefit from such illusions while branded. If a creature branded by you is polymorphed or has changed shape, they must succeed on a Wisdom saving throw or revert to their true form and be stunned until the end of your next turn. Whenever a branded creature attempts to polymorph or change shape, they must succeed on a Wisdom saving throw or the attempt fails, and they are stunned until the end of your next turn."
 			]
@@ -2153,7 +2139,6 @@
 			"subclassShortName": "Mutant",
 			"subclassSource": "BH2020",
 			"level": 15,
-			"header": 2,
 			"entries": [
 				"Starting at 15th level, your blood curse can wrack a creature's body with terrible toxins. You gain the {@optfeature Blood Curse of Corrosion|BH2020} for your Blood Maledict feature. This does not count against your number of blood curses known."
 			]
@@ -2166,7 +2151,6 @@
 			"subclassShortName": "Mutant",
 			"subclassSource": "BH2020",
 			"level": 18,
-			"header": 2,
 			"entries": [
 				"At 18th level, your body has adapted to produce your toxins naturally in a moment of need. As a reaction, you can choose one mutagen currently affecting you to flush from your system and end, then immediately have a mutagen you know the formula for take effect in its place. You can use this feature a number of times equal to your Intelligence modifier (minimum of 1). You regain all uses of this feature after you finish a long rest."
 			]
@@ -2179,7 +2163,6 @@
 			"subclassShortName": "Lycan",
 			"subclassSource": "BH2020",
 			"level": 3,
-			"header": 1,
 			"entries": [
 				"Of the many terrible curses that plague the realm, few are as ancient or as feared as Lycanthropy. Passed through blood, this affliction seeds a host with the savage strength and hunger for violence of a wicked beast. The Order of the Lycan is a proud order of blood hunters who undergo \"The Taming,\" a ceremonial inflicting of lycanthropy from a senior member. These hunters then use their abilities to harness the power of the monster they harbor without losing themselves to it. Through intense honing of one's own willpower, combined with the secrets of the order's blood magic rituals, members learn to control and unleash their hybrid form for short periods of time. Enhanced physical prowess, unnatural resilience, and razor sharp claws make these warriors a terrible foe to any evil that crosses their path. Yet, no training is perfect, and without care and complete focus, even the greatest of blood hunters can temporarily lose themselves to the bloodlust.",
 				{
@@ -2207,7 +2190,7 @@
 			"subclassShortName": "Lycan",
 			"subclassSource": "BH2020",
 			"level": 3,
-			"header": 2
+			"header": 1
 		},
 		{
 			"name": "Hybrid Transformation",
@@ -2245,7 +2228,7 @@
 			"subclassShortName": "Lycan",
 			"subclassSource": "BH2020",
 			"level": 3,
-			"header": 2
+			"header": 1
 		},
 		{
 			"type": "inset",
@@ -2261,7 +2244,7 @@
 			"subclassShortName": "Lycan",
 			"subclassSource": "BH2020",
 			"level": 3,
-			"header": 2
+			"header": 1
 		},
 		{
 			"name": "Stalker's Prowess",
@@ -2271,7 +2254,6 @@
 			"subclassShortName": "Lycan",
 			"subclassSource": "BH2020",
 			"level": 7,
-			"header": 2,
 			"entries": [
 				"At 7th level, your speed increases by 10 feet. You also can add 10 feet to your long jump distance and 3 feet to your high jump distance. In addition, your hybrid form gains the Improved Predatory Strikes feature.",
 				{
@@ -2290,7 +2272,6 @@
 			"subclassShortName": "Lycan",
 			"subclassSource": "BH2020",
 			"level": 11,
-			"header": 2,
 			"entries": [
 				"Starting at 11th level, you learn to unleash and control more of the beast within. You can use your Hybrid Transformation feature twice, regaining all expended uses when you finish a short or long rest. In addition, your hybrid form gains the Lycan Regeneration feature. Lycan Regeneration. At the start of each of your turns, you regain hit points equal to 1 + your Constitution modifier (minimum of 1) if you have at least 1 hit point and no more than half of your hit points left."
 			]
@@ -2303,7 +2284,6 @@
 			"subclassShortName": "Lycan",
 			"subclassSource": "BH2020",
 			"level": 15,
-			"header": 2,
 			"entries": [
 				"At 15th level, you have advantage on your Wisdom saving throws to maintain control of your bloodlust in hybrid form. In addition, your Brand of Castigation now binds your foe to your hunter's thirst for savagery. While in your hybrid form, your attacks have advantage against a creature branded by you."
 			]
@@ -2316,7 +2296,6 @@
 			"subclassShortName": "Lycan",
 			"subclassSource": "BH2020",
 			"level": 18,
-			"header": 2,
 			"entries": [
 				"At 18th level, you have wrestled your inner predator and master edit. You can use your Hybrid Transformation feature an unlimited number of times, and your hybrid form can now last indefinitely. You also gain the Blood Curse of the Howl for your Blood Maledict feature. This does not count against your number of blood curses known."
 			]
