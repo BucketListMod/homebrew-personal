@@ -935,7 +935,7 @@
             ]
           ],
           "footnotes": [
-            "*To cast {@spell Leomund's secret chest} using this feat and the {@race dwarf (mark of warding)|ERLW|Mark of Warding}, you must have a Siberys dragonshard with a value of at least 100 gp. While you have this dragonshard in hand, it serves as the spell’s focus, and you can use it to summon and dismiss the chest."
+            "*To cast {@spell Leomund's secret chest} using this feat and the {@race dwarf (mark of warding)|ERLW|Mark of Warding}, you must have a {@item Siberys dragonshard|ERLW} with a value of at least 100 gp. While you have this dragonshard in hand, it serves as the spell’s focus, and you can use it to summon and dismiss the chest."
           ]
         }
       ]
