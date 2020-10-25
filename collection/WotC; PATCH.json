@@ -854,7 +854,7 @@
               "Long"
             ],
             [
-              "{@race half-orc (mark of finding)|ERLW|Find}{@race half-orc (mark of finding)|ERLW|ing}",
+              "{@race half-orc (mark of finding)|ERLW|Find}{@race human (mark of finding)|ERLW|ing}",
               "Dexterity, Strength, or Wisdom",
               "{@spell Locate Creature}, {@spell Find the Path}",
               "Wisdom",
