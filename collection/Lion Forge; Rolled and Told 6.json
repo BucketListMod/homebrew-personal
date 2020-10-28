@@ -1,0 +1,2272 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "RolledTold6",
+        "abbreviation": "RT6",
+        "full": "Rolled & Told #6",
+        "url": "https://www.amazon.com/gp/product/B07PZDMMJP",
+        "authors": [
+          "E. L. Thomas",
+          "Phil McClorey"
+        ],
+        "convertedBy": [
+          "BucketListMod#8973"
+        ],
+        "version": "1.0.0",
+        "color": "96365a",
+        "targetSchema": "1.0.0"
+      }
+    ]
+  },
+  "item": [
+    {
+      "name": "Staff of Revenant",
+      "source": "RolledTold6",
+      "page": 50,
+      "type": "M",
+      "rarity": "unknown (magic)",
+      "reqAttune": "by a creature of evil alignment",
+      "weight": 4,
+      "weaponCategory": "simple",
+      "property": [
+        "V"
+      ],
+      "dmg1": "1d6",
+      "dmgType": "B",
+      "dmg2": "1d8",
+      "staff": true,
+      "entries": [
+        "The Staff of Revenant is an adamantine staff adorned with the scull of a succubus. Once it absorbs the energy of the ghost it will be functional and possess the following abilities:",
+        {
+          "type": "list",
+          "style": "list",
+          "items": [
+            "Spell attack {@hit 7}, spell save {@dc 16}",
+            "Once per day can cast {@spell ray of enfeeblement}",
+            "Once per day can cast {@spell mage hand} and {@spell vampiric touch} simultaneously",
+            "Once per day can cast {@spell eyebite}",
+            "Once per day can cast {@spell create undead} at 8th level"
+          ]
+        }
+      ],
+      "attachedSpells": [
+        "ray of enfeeblement",
+        "mage hand",
+        "vampiric touch",
+        "eyebite",
+        "create undead"
+      ]
+    }
+  ],
+  "monster": [
+    {
+      "name": "Feral Outcast Winter Wolf",
+      "source": "RolledTold6",
+      "page": 58,
+      "size": "L",
+      "type": "monstrosity",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "12d10 + 36",
+        "average": 102
+      },
+      "speed": {
+        "walk": 50
+      },
+      "str": 20,
+      "dex": 14,
+      "con": 16,
+      "int": 8,
+      "wis": 13,
+      "cha": 10,
+      "skill": {
+        "perception": "+5",
+        "stealth": "+4",
+        "intimidation": "+2"
+      },
+      "passive": 15,
+      "immune": [
+        "cold"
+      ],
+      "languages": [
+        "Common",
+        "Giant",
+        "Winter Wolf"
+      ],
+      "cr": "4",
+      "trait": [
+        {
+          "name": "Keen Hearing and Smell",
+          "entries": [
+            "The wolf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+          ]
+        },
+        {
+          "name": "Pack Tactics",
+          "entries": [
+            "The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+          ]
+        },
+        {
+          "name": "Snow Camouflage",
+          "entries": [
+            "The wolf has advantage on Dexterity (Stealth) checks made to hide in snowy terrain."
+          ]
+        },
+        {
+          "name": "Army of One {@recharge 5}",
+          "entries": [
+            "As a Bonus Action the Feral Outcast may move up to its speed, not provoking attacks of opportunity and take an Action in addition to its normal Action."
+          ]
+        },
+        {
+          "name": "Blood Glee",
+          "entries": [
+            "The Feral Outcast does 7 ({@damage 2d6}) extra piercing damage on any melee attack that succeeds against a creature that is not at full hit points or is {@condition prone}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Feral Outcast makes two bite attacks."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 3d6 + 5}) piercing damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+          ]
+        },
+        {
+          "name": "Cold Breath {@recharge 3}",
+          "entries": [
+            "The wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a {@dc 15} Dexterity saving throw, taking 22 ({@damage 5d8}) cold damage on a failed save, or half as much damage on a successful one."
+          ]
+        }
+      ],
+      "environment": [
+        "arctic"
+      ],
+      "soundClip": {
+        "type": "external",
+        "url": "https://5e.tools/audio/bestiary/winter-wolf.mp3?v=1.113.5"
+      },
+      "traitTags": [
+        "Keen Senses",
+        "Pack Tactics"
+      ],
+      "languageTags": [
+        "C",
+        "GI",
+        "OTH"
+      ],
+      "damageTags": [
+        "P",
+        "C"
+      ],
+      "miscTags": [
+        "MW",
+        "AOE"
+      ],
+      "conditionInflict": [
+        "prone"
+      ],
+      "tokenUrl": "https://5e.tools/img/MM/Winter Wolf.png?v=1.113.5",
+      "fluff": {
+        "name": "Winter Wolf",
+        "source": "MM",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "The arctic-dwelling winter wolf is as large as a dire wolf but has snow-white fur and pale blue eyes. Frost giants use these evil creatures as guards and hunting companions, putting the wolves' deadly breath weapon to use against their foes. Winter wolves communicate with one another using growls and barks, but they speak Common and Giant well enough to follow simple conversations."
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "bestiary/MM/Winter Wolf.jpg"
+            }
+          }
+        ]
+      },
+      "actionTags": [
+        "Multiattack"
+      ]
+    },
+    {
+      "name": "Alpha Winter Wolf",
+      "source": "RolledTold6",
+      "page": 57,
+      "size": "L",
+      "type": "monstrosity",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "12d10 + 36",
+        "average": 102
+      },
+      "speed": {
+        "walk": 50
+      },
+      "str": 20,
+      "dex": 14,
+      "con": 16,
+      "int": 8,
+      "wis": 13,
+      "cha": 10,
+      "skill": {
+        "perception": "+4",
+        "stealth": "+5",
+        "intimidation": "+3"
+      },
+      "passive": 14,
+      "immune": [
+        "cold"
+      ],
+      "languages": [
+        "Common",
+        "Giant",
+        "Winter Wolf"
+      ],
+      "cr": "5",
+      "trait": [
+        {
+          "name": "Keen Hearing and Smell",
+          "entries": [
+            "The wolf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+          ]
+        },
+        {
+          "name": "Pack Tactics",
+          "entries": [
+            "The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+          ]
+        },
+        {
+          "name": "Snow Camouflage",
+          "entries": [
+            "The wolf has advantage on Dexterity (Stealth) checks made to hide in snowy terrain."
+          ]
+        },
+        {
+          "name": "Pack Leader",
+          "entries": [
+            "As a Bonus Action, the Alpha can grant any single ally with Pack Tactics to take an immediate {@action Dash}, {@action Disengage}, or {@action Attack} Action, as long as they can see or hear the Alpha."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Alpha makes two bite attacks."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 3d6 + 5}) piercing damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+          ]
+        },
+        {
+          "name": "Cold Breath {@recharge 3}",
+          "entries": [
+            "The wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a {@dc 15} Dexterity saving throw, taking 22 ({@damage 5d8}) cold damage on a failed save, or half as much damage on a successful one."
+          ]
+        }
+      ],
+      "environment": [
+        "arctic"
+      ],
+      "soundClip": {
+        "type": "external",
+        "url": "https://5e.tools/audio/bestiary/winter-wolf.mp3?v=1.113.5"
+      },
+      "traitTags": [
+        "Keen Senses",
+        "Pack Tactics"
+      ],
+      "languageTags": [
+        "C",
+        "GI",
+        "OTH"
+      ],
+      "damageTags": [
+        "P",
+        "C"
+      ],
+      "miscTags": [
+        "MW",
+        "AOE"
+      ],
+      "conditionInflict": [
+        "prone"
+      ],
+      "tokenUrl": "https://5e.tools/img/MM/Winter Wolf.png?v=1.113.5",
+      "fluff": {
+        "name": "Winter Wolf",
+        "source": "MM",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "The arctic-dwelling winter wolf is as large as a dire wolf but has snow-white fur and pale blue eyes. Frost giants use these evil creatures as guards and hunting companions, putting the wolves' deadly breath weapon to use against their foes. Winter wolves communicate with one another using growls and barks, but they speak Common and Giant well enough to follow simple conversations."
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "bestiary/MM/Winter Wolf.jpg"
+            }
+          }
+        ]
+      },
+      "actionTags": [
+        "Multiattack"
+      ]
+    },
+    {
+      "name": "Shackled Soul",
+      "source": "RolledTold6",
+      "page": 23,
+      "size": "M",
+      "type": "undead",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        10
+      ],
+      "hp": {
+        "special": "Specter: 22 (5d8); Remains: 10"
+      },
+      "speed": {
+        "walk": 0,
+        "fly": {
+          "number": 50,
+          "condition": "(hover)"
+        },
+        "canHover": true
+      },
+      "str": 1,
+      "dex": 14,
+      "con": 11,
+      "int": 10,
+      "wis": 10,
+      "cha": 11,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 10,
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "restrained",
+        "unconscious"
+      ],
+      "languages": [
+        "understands all languages it knew in life but can't speak"
+      ],
+      "cr": "1",
+      "trait": [
+        {
+          "name": "Incorporeal Movement",
+          "entries": [
+            "The specter can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+          ]
+        },
+        {
+          "name": "Sunlight Sensitivity",
+          "entries": [
+            "While in sunlight, the specter has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+          ]
+        },
+        {
+          "name": "Earthly Remains",
+          "entries": [
+            "The specter can only move 20 ft. away from its remains, held to that length by spectral chains. If the specter is reduced to 0 hit points, unless its remains are destroyed, it regenerates in the same space as them after a short rest."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Life Drain",
+          "entries": [
+            "{@atk ms} {@hit 4} to hit, reach 5 ft., one creature. {@h}10 ({@damage 3d6}) necrotic damage. The target must succeed on a {@dc 10} Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+          ]
+        }
+      ],
+      "environment": [
+        "underdark",
+        "urban"
+      ],
+      "traitTags": [
+        "Incorporeal Movement",
+        "Sunlight Sensitivity"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "CS",
+        "LF"
+      ],
+      "damageTags": [
+        "N",
+        "O"
+      ],
+      "tokenUrl": "https://5e.tools/img/MM/Specter.png?v=1.113.5",
+      "fluff": {
+        "name": "Specter",
+        "source": "MM",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "A specter is the angry, unfettered spirit of a humanoid that has been prevented from passing to the afterlife. Specters no longer possess connections to who or what they were, yet are condemned to walk the world forever. Some are spawned when dark magic or the touch of a wraith rips a soul from a living body.",
+                  {
+                    "name": "Beyond Redemption",
+                    "type": "entries",
+                    "entries": [
+                      "When a ghost's unfinished business is completed, it can rest at last. No such rest or redemption awaits a specter. It is doomed to the Material Plane, its only end the oblivion that comes with the destruction of its soul. Until then, it bears out its lonely life in forlorn places, carrying on forgotten through the ages of the world."
+                    ]
+                  },
+                  {
+                    "name": "Undying Hatred",
+                    "type": "entries",
+                    "entries": [
+                      "Living creatures remind the specter that life is beyond its grasp. The mere sight of the living overwhelms a specter with sorrow and wrath, which can be abated only by destroying said life. A specter kills quickly and mercilessly, for only by depriving others of life can it gain the slightest satisfaction. However, no matter how many lives it extinguishes, a specter always succumbs to its hatred and sorrow.",
+                      {
+                        "name": "Dwellers in Darkness",
+                        "entries": [
+                          " Sunlight represents a source of life that no specter can ever hope to douse, and it pains them. When night falls, they leave their final resting places in search of living creatures to slay, knowing that few weapons can harm them in return.",
+                          "At the first light of dawn, they retreat back into the darkness, where they remain until night falls again."
+                        ],
+                        "type": "entries"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Undead Nature",
+                    "type": "entries",
+                    "entries": [
+                      "A specter doesn't require air, food, drink, or sleep."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "bestiary/MM/Specter.jpg"
+            }
+          }
+        ]
+      },
+      "vulnerable": [
+        {
+          "vulnerable": [
+            "fire"
+          ],
+          "note": "(remains)"
+        }
+      ],
+      "immune": [
+        {
+          "immune": [
+            "acid",
+            "bludgeoning",
+            "cold",
+            "fire",
+            "force",
+            "lightning",
+            "necrotic",
+            "piercing",
+            "poison",
+            "psychic",
+            "slashing",
+            "thunder"
+          ],
+          "note": "(specter)"
+        }
+      ]
+    },
+    {
+      "name": "Vampiric Minion",
+      "shortName": true,
+      "source": "RolledTold6",
+      "page": "26",
+      "size": "S",
+      "type": "undead",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        13
+      ],
+      "hp": {
+        "formula": "6d6 + 6",
+        "average": 27
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 10,
+      "dex": 16,
+      "con": 13,
+      "int": 8,
+      "wis": 12,
+      "cha": 10,
+      "save": {
+        "dex": "+5",
+        "wis": "+3"
+      },
+      "skill": {
+        "perception": "+3",
+        "stealth": "+5"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 13,
+      "resist": [
+        {
+          "resist": [
+            "necrotic"
+          ]
+        },
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks"
+        }
+      ],
+      "languages": [
+        "what it knew in life"
+      ],
+      "cr": "1",
+      "trait": [
+        {
+          "name": "Regeneration",
+          "entries": [
+            "The vampiric minion regains 10 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampiric minion takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn"
+          ]
+        },
+        {
+          "name": "Spider Climb",
+          "entries": [
+            "The vampiric minion can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+          ]
+        },
+        {
+          "name": "Vampire Weaknesses",
+          "entries": [
+            "The vampiric minion has the following flaws:",
+            "Forbiddance. The vampiric minion can't enter a residence without an invitation from one of the occupants.",
+            "Harmed by Running Water. The vampiric minion takes 20 acid damage when it ends its turn in running water.",
+            "Stake to the Heart. The vampiric minion is destroyed if a piercing weapon made of wood is driven into its heart while it is {@condition incapacitated} in its resting place.",
+            "Sunlight Hypersensitivity. The vampiric minion takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The vampiric minion makes two attacks, only one of which can be a bite."
+          ]
+        },
+        {
+          "name": "Claws",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) slashing damage. Instead of dealing damage, the vampiric minion can grapple the target (escape {@dc 10})."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one willing creature or a creature that is {@condition grappled} by the vampiric minion, {@condition incapacitated}, or {@condition restrained}. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 7 ({@damage 2d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Regeneration",
+        "Spider Climb"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "LF"
+      ],
+      "damageTags": [
+        "N",
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    },
+    {
+      "name": "Nija Necrosis",
+      "shortName": "Ninja",
+      "isNpc": true,
+      "source": "RolledTold6",
+      "page": "51-52",
+      "size": "M",
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "tiefling"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 9,
+          "from": [
+            "{@item cloak of displacement}"
+          ],
+          "condition": "Attacks made at disadvantage"
+        }
+      ],
+      "hp": {
+        "formula": "11d6",
+        "average": 46
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 9,
+      "con": 10,
+      "int": 17,
+      "wis": 15,
+      "cha": 15,
+      "save": {
+        "int": "+7",
+        "wis": "+6"
+      },
+      "skill": {
+        "arcana": "+7",
+        "history": "+7",
+        "medicine": "+6",
+        "religion": "+7"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 12,
+      "resist": [
+        {
+          "resist": [
+            "fire"
+          ]
+        },
+        {
+          "resist": [
+            "necrotic"
+          ],
+          "note": "(Inured to Undeath)"
+        }
+      ],
+      "languages": [
+        "Common",
+        "Infernal",
+        "Draconic"
+      ],
+      "cr": "5",
+      "spellcasting": [
+        {
+          "name": "Wizard Spellcasting",
+          "headerEntries": [
+            "Nija is an 11th level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 15}, +7 to hit with spell attacks). Ninja regains her expended spell slots when she finishes a long rest. Ninja's arcane focus is a bone wand. Below are the spells she has prepared. Nija has an additional 12 spells of various levels written in her spellbook of the DM's choice."
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell chill touch}",
+                "{@spell mage hand}",
+                "{@spell message}",
+                "{@spell poison spray}",
+                "{@spell prestidigitation}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell comprehend languages}",
+                "{@spell magic missile}",
+                "{@spell shield}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell darkness}",
+                "{@spell invisibility}",
+                "{@spell ray of enfeeblement}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell bestow curse}",
+                "{@spell dispel magic}",
+                "{@spell vampiric touch}"
+              ],
+              "slots": 3
+            },
+            "4": {
+              "spells": [
+                "{@spell blight}",
+                "{@spell dimension door}",
+                "{@spell Evard's black tentacles}"
+              ],
+              "slots": 2
+            },
+            "5": {
+              "spells": [
+                "{@spell dominate person}",
+                "{@spell hold monster}"
+              ],
+              "slots": 2
+            },
+            "6": {
+              "spells": [
+                "{@spell globe of invulnerability}"
+              ],
+              "slots": 1
+            }
+          },
+          "will": [
+            "{@spell thaumaturgy}"
+          ],
+          "daily": {
+            "1e": [
+              "{@spell darkness}",
+              "{@spell hellish rebuke}"
+            ]
+          },
+          "ability": "int",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Infernal Legacy",
+          "entries": [
+            "Nija knows the thaumaturgy cantrip. She can also cast hellish rebuke as a 2nd level spell (Dexterity saving throw 16) and darkness once per long rest. Charisma is her spellcasting ability for those spells."
+          ]
+        },
+        {
+          "name": "Proficiencies",
+          "entries": [
+            "Dagger, dart, sling, quarterstaff, light crossbow."
+          ]
+        },
+        {
+          "name": "Arcane Recovery",
+          "entries": [
+            "Once per day Nija can choose to recover expended spell slots after taking a short rest. The spell slots recovered have a combined level of 5th level or lower."
+          ]
+        },
+        {
+          "name": "Grim Harvest",
+          "entries": [
+            "Nija has the ability to reap life energy from creatures she kills with her spells. Once per turn when she kills with a spell of 1st level or higher, she regains hit points equal to twice the spell's level or three time it if the spell belonged to the School of Necromancy. Doesn't work on constructs or undead."
+          ]
+        },
+        {
+          "name": "Undead Thralls",
+          "entries": [
+            "When Nija casts animate dead she can target one additional corpse or pile of bones, creating another zombie or skeleton. Nija's undead created using necromancy have the following additional benefits:",
+            "-Maximum hit points increase by 11",
+            "-The creature adds her proficiency bonus (+4) to its weapon damage rolls"
+          ]
+        },
+        {
+          "name": "Inured to Undeath",
+          "entries": [
+            "Nija has resistance to necrotic damage, and her hit point maximum can't be reduced."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Venom's Bite",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage, plus {@dc 15} Constitution saving throw or take extra 11 ({@damage 2d10}) poison damage. ",
+            "{@atk rw} {@hit 4} to hit, range 20/60 ft., one target. {@h}2 ({@damage 1d4}) piercing damage, plus {@dc 15} Constitution saving throw or take extra 11 ({@damage 2d10}) poison damage.",
+            "The poison effect can only be used once."
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Nija seeks to capture the essence of the elven ghosts to activate her newly constructed {@item Staff of Revenant|RolledTold6}.",
+          {
+            "entries": [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Background",
+                    "entries": [
+                      "Hermit"
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Trait",
+                    "entries": [
+                      "I connect everything that happens to me to a grand, cosmic plan, unleashing the realms of the dead upon the land of the living."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Ideals",
+                    "entries": [
+                      "(Power) Solitude and contemplation are paths towards mystical power."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Bonds",
+                    "entries": [
+                      "My discovery could bring ruin to the world. From that ruin the darkest secrets of necromancy will be mine."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Flaws",
+                    "entries": [
+                      "I harbor dark, bloodthirsty thoughts that my isolation and meditation failed to quell."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C",
+        "DR",
+        "I"
+      ],
+      "damageTags": [
+        "I",
+        "P"
+      ],
+      "miscTags": [
+        "MW",
+        "RW"
+      ]
+    },
+    {
+      "name": "Gorbundus Kimbatuul",
+      "shortName": "Gorbundus",
+      "isNpc": true,
+      "source": "RolledTold6",
+      "page": "53",
+      "size": "M",
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "dragonborn"
+        ]
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "{@item plate armor|phb}",
+            "{@item eversmoking bottle}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "8d8 + 24",
+        "average": 60
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 18,
+      "dex": 10,
+      "con": 16,
+      "int": 9,
+      "wis": 14,
+      "cha": 16,
+      "save": {
+        "con": "+5",
+        "wis": "+4"
+      },
+      "skill": {
+        "athletics": "+6",
+        "persuasion": "+5"
+      },
+      "passive": 12,
+      "resist": [
+        "fire"
+      ],
+      "languages": [
+        "Common",
+        "Draconic"
+      ],
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Draconic Ancestry",
+          "entries": [
+            "Gorbundus is a red dragon."
+          ]
+        },
+        {
+          "name": "Breath Weapon",
+          "entries": [
+            "Gorbundus can use his breath weapon once per short rest, Dexterity saving throw 13. 10 ({@damage 3d6}) fire damage on a failed save, half as much damage on a successful one."
+          ]
+        },
+        {
+          "name": "Damage Resistance",
+          "entries": [
+            "Gorbundus has resistance to fire damage."
+          ]
+        },
+        {
+          "name": "Brave",
+          "entries": [
+            "Gorbundus has advantage on saving throws against being {@condition frightened}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Gorbundus makes two melee attacks."
+          ]
+        },
+        {
+          "name": "Bone Breaker",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d12 + 5}) slashing damage."
+          ]
+        },
+        {
+          "name": "Leadership (Recharges after a short rest)",
+          "entries": [
+            "For 1 minute, Gorbundus can utter a special command or warning whenever a non-hostile creature that he can see within 30 feet makes an attack roll or saving throw. The creature can add {@dice 1d4} to its roll, provided it can hear Gorbundus. This effect ends if Gorbundus is {@condition incapacitated}."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Parry",
+          "entries": [
+            "Gorbundus adds 2 to his AC against one melee attack that would hit him. Gorbundus must see the attacker and be wielding a melee weapon."
+          ]
+        }
+      ],
+      "actionTags": [
+        "Multiattack",
+        "Parry"
+      ],
+      "languageTags": [
+        "C",
+        "DR"
+      ],
+      "damageTags": [
+        "F",
+        "S"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    }
+  ],
+  "adventure": [
+    {
+      "name": "Rolled & Told: The Lady of Lasting Kisses",
+      "id": "LadyLastingKisses",
+      "source": "RolledTold6",
+      "published": "2018/12/27",
+      "coverUrl": "https://m.media-amazon.com/images/I/51jb8xKKhgL.jpg",
+      "contents": [
+        {
+          "name": "The Lady of Lasting Kisses",
+          "headers": [
+            "Rules",
+            "Getting the PCs Involved"
+          ]
+        },
+        {
+          "name": "Running the Adventure",
+          "headers": [
+            "A: Main Road",
+            "B: Deep Forest Trail",
+            "C: The Mountain Road",
+            "1: The Ruined Manor",
+            "2: Two-Family Hovel",
+            "3: The White Raven Inn",
+            "4: Defiled Church",
+            "5: Elder Otto's Home",
+            "6: The Branded Bear Trading Post",
+            "7: The Old Graveyard",
+            "1A: Descent into the Lair",
+            "2A: Zombies and the Dirt Nappers",
+            "3A: The Larder",
+            "4A: The Slab Chamber",
+            "5A: Chamber of Shackled Souls",
+            "6A: The Countess' Crypt"
+          ]
+        },
+        {
+          "name": "Ending The Adventure"
+        },
+        {
+          "name": "New Monsters & Magic Items"
+        }
+      ],
+      "level": {
+        "start": 4,
+        "end": 6
+      }
+    },
+    {
+      "name": "Rolled & Told: Ghosts in the Night",
+      "id": "GhostsInTheNight",
+      "source": "RolledTold6",
+      "published": "2018/12/27",
+      "coverUrl": "https://m.media-amazon.com/images/I/51jb8xKKhgL.jpg",
+      "contents": [
+        {
+          "name": "Ghosts in the Night",
+          "headers": [
+            "Rules"
+          ]
+        },
+        {
+          "name": "Starting the Adventure",
+          "headers": [
+            "The Shrine of Lover's Sacrifice",
+            "The Assault on the Shrine"
+          ]
+        },
+        {
+          "name": "Ending the Adventure",
+          "headers": [
+            "Rewards"
+          ]
+        },
+        {
+          "name": "New Monsters & Magic Items"
+        }
+      ],
+      "level": {
+        "start": 3,
+        "end": 4
+      }
+    }
+  ],
+  "adventureData": [
+    {
+      "id": "LadyLastingKisses",
+      "source": "RolledTold6",
+      "data": [
+        {
+          "type": "section",
+          "name": "The Lady of Lasting Kisses",
+          "page": "6",
+          "entries": [
+            "Written by E.L. Thomas",
+            {
+              "type": "image",
+              "href": {
+                "type": "external",
+                "url": "https://2.bp.blogspot.com/Nr21gvCaS7hvGfxYHv_I295CyPqSolsIIwvRrUZ20Z7FxxLRtGBZfQV48jVOZJ1H4qTeCauxGzHtb1gmUqMEC5foBRimsUwiJE-eqo8Fx07kUjy12X-JhDjZp-5ObyR3cLMlNK5nCw=s1600"
+              }
+            },
+            {
+              "type": "image",
+              "href": {
+                "type": "external",
+                "url": "https://2.bp.blogspot.com/NnoaChjyRQdmzIX-9p6Rr7wzKOsNZPy7LKDAP-xhcufyXlJoFgOgUNSnKpT8C08pZsth3NbVOYF1mm497E7hsWgslyXCPm7wWBVuhNrWWGvxNntFVNceMRj9bGyFTcPEQlZouZ49cQ=s1600"
+              },
+              "title": "Tim Sievert ({@link Download|https://www.rolledandtold.com/wp-content/uploads/2019/02/Issue6-Map.pdf})"
+            },
+            {
+              "type": "inset",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "A 5E Adventure for Levels 4-6",
+                  "entries": [
+                    "You will need a copy of the 5E core rulebooks to fully utilize this adventure. You also should familiarize yourself with the adventure and the map to fully enjoy this adventure. You should familiarize yourself with the spells used by the foes prior to playing the adventure."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Glossary",
+                  "entries": [
+                    "PC: Playable Characters. GM: Game Master. DC: Difficulty Class. HP: Hit Points. NPC: Non-Player Character."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Adventure Scaling",
+                  "entries": [
+                    "This adventure is designed to be highly challenging for a group of 3rd-5th level players, though it can easily be challenging for a larger group or a group of upper 2nd tier characters by giving all the foes maximum hit points and adding +2 to the DC of tests and saves."
+                  ]
+                }
+              ]
+            },
+            {
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "Plot",
+                  "page": "7",
+                  "entries": [
+                    "A wholly mad and mournful vampire has taken up residence in the ruins of a manor house on a hillock overlooking a village. She has begun soothing her loneliness by turning the nearby villagers into her thralls, both for companionship and as punishment. Now the village and surrounding countryside are under her control and the PCs just happen to wander into the wrong place at the right time to help some children in need."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Background",
+                  "entries": [
+                    {
+                      "type": "insetReadaloud",
+                      "entries": [
+                        "Cruel fate was nothing new to Countess Crina Kilcos. Since she was very young, darkness sought her out and took from her. A vicious creature slaughtered her father when she was so young she almost couldn't remember. But she had just been Crina then. Her title came after, and came with its own share of cruelties. It began when somehow, every morning, she was too weak to rise out of bed. The condition worsened. Soon she thought she would be free of the cruelty of living without a father's love as she lay bedridden and dying of what was deemed a plague. Another kind of plague took her younger brother, Dalibor, next. It snapped his neck like a twig and drank him dry, but only to have a chance at Crina. Had her brother not tried to defend her from the vampire, he would have been spared. But he did not want to give her up to a vampire as the rest of the village had. To the villagers, what was one sick girl, compared to dwelling in fear each night? But when Crina met him, Count Jarek Kilcos was not cruel, but gentle. He did not drink her dry and leave her blue-white corpse as a warning to the village. He did not snap her neck, as he had with her brother. No, the Count embraced her and gave her his gift in such a gentle kiss she barely felt the pain.",
+                        "The count's gift cured her and gave her a strength and confidence that she had never had before. The Count also gave her his name when he took her as his bride. She had begun her new life with him who had become both her second father, for he gave her this life, and her beloved husband. For the first time cruel fate, it seemed, had turned away from her. She had only been Countess Crina Kilcos for a short while when the village folk sent sellswords to slaughter her beloved Count and his servants. She only managed to survive the burning of the manor because of a gifted magic ring from the Count. She ran from the blazing manor and away from the village, vowing that one day the folk of Raven's Rest would bow down to the name of Kilcos once more. Though this time when they bow, it would be to a Countess, instead of a Count. And unlike them, she would not be cruel, but merciful. She would give them each a kiss, until all served her willingly in life, through blood-bound servitude or from the grave, but serve they shall…"
+                      ]
+                    },
+                    "The adventure takes place in an isolated village nestled in a forested valley in the foothills of a chain of mountains. The village has the only inn within several days' journey and is one of the last places to stop for basic supplies if crossing the mountains in this region, so it sees more than its fair share of visitors. Most visitors do not stay long, as the place and its folk seem to be perpetually sour and gloomy. There is little or no mirth, but most are extremely tight lipped about the reasons for the mood of all the village folk. Most of the action in the adventure takes place in the ruins of the old manor house, which has once again become the lair of a vampire and her minions, though roleplaying and investigation take place in the village. If the PCs are made aware of the vampire's control of the region and try to leave, packs upon packs of wolves will drive them back to the village, where they will either become servants of the vampire or be made examples of what happens to those that would leave and be slain. It may seem odd, since they were just trying to leave, but Countess Crina Kilcos was less than sane before she was made into a vampire and lost the only man she had ever thought she loved, so she could never let any adventurers that may know about her escape, lest they return and do to her what they did to her beloved Count Jarek.",
+                    "Alternatively, if the PCs don't go about their investigations quietly while in the town, when night falls the Countess will sender her {@creature vampiric minion|RolledTold6|minion vampires} and a {@creature vampire spawn} to deal with them until the PCs try to leave and run into the waiting wolves, who heard them back to the village to be slain by her, or until they assault her lair. The PCs are safe from attack int he village during the daylight hours, though not in the wooded hills outside the village, where the wolves stalk (see {@adventure At The Mercy of Her Pack|LadyLasingKisses|3|At The Mercy of Her Pack} sidebar).",
+                    "If you need tips on how to run the villagers of Raven's Rest, think of village folk as if they were in an enemy occupied town that was always being watched, Most or all the folk either fear the vampire and her minions and are just trying to avoid trouble and keep to themselves, or they are informants that will turn in whatever happens in the village to the Countess and her minions. Most of those not already loyal to the vampire don't know which other villagers are loyal or what animals are under her control. It is rumored that the Countess, \"The White Lady\" as she is called by some, can control the hearts of beasts and see through their eyes. All the village folk know is that they are trapped, and any villagers who have tried to leave in the past either had their children taken, were slain and risen as {@creature zombie||zombies}, or turned into {@creature vampire spawn} and forced to drink one of their loved ones as punishment. So it will take some digging and convincing for the PCs to fully uncover the truth and not make the vampire aware of their plans.",
+                    "Most folk are curt, standoffish, or very sheepish if they have to interact with an outsider. The inn and any general services or trade are always fair, but far less than welcoming. The only reason anyone would stop here at all is because of its being the last place for supplies within several days' journey and the only inn for twice that distance—though, a warm, dry bed, a taste of ale, and a hot meal are not so enjoyable when provided only with the minimal of sour-faced grunts and interactions."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Rules",
+              "page": 8,
+              "entries": [
+                "All the stat block needed to run this adventure are either provided under the {@adventure New Monsters and NPCs of Note sections|LadyLasingKisses|3} or are referenced out of the core rulebooks.",
+                "GMs should familiarize themselves with the rules for legendary actions, pack tactics (see the {@creature wolf} entry in the core rulebooks), and {@book vision and light|PHB|8|vision and light}, as most of the adventure in the manor occurs in dim lighting or total darkness. Additionally, a good knowledge of conditions, especially the {@condition charmed} condition, and {@condition exhaustion} levels will help.",
+                {
+                  "type": "inset",
+                  "name": "The White Lady's Wild Dark Heart Rule",
+                  "page": "11",
+                  "entries": [
+                    "Countess Crina Kilcos is a thing of raw and ever-fluid emotions; her love is burning passion and her displeasure is burning hatred. Being such a powerful being and given her connection to the area and her many servants, those emotions are felt within the area of her influence. To simulate this in game terms, every 8 hours (while within 5 miles of the village in every direction, save the mountains, where it is only 2 miles) all the PCs must make a Charisma ability check to see how the White Lady feels about them. These checks determine two things. The first is how the Countess and her servants deal with the PC. The second is the strange physical and emotional connection the PCs experience because of being in her area of influence.",
+                    {
+                      "type": "entries",
+                      "name": "My Beloved",
+                      "entries": [
+                        "The PC with the highest Charisma ability check is currently the focus of the Countess' affections. All her servants have orders not to slay the PC, but only to subdue and bring them to her so she may turn the PC into a vampire to rule beside her. The Countess herself is so enamored with the PC that she has disadvantage to do any injury to them. Any time the PC moves away from the village they must succeed on a {@dc 15} Charisma saving throw or be counted as {@condition poisoned}, due to wild heart palpitations and the thunderous sounds of a heartbeat filling their ears until they return to at least the village area, if not the vampire lair."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Curious Infatuation (Charisma Ability Check 15+)",
+                      "entries": [
+                        "The Countess has taken an interest in the PC. Perhaps something about them reminds her of her beloved Count Jarek. Whatever the case, anytime the PC takes a short or long rest, they hear mewing purrs in their ears and feel as if cold hands are caressing them or icy lips kissing the backs of their necks. The must succeed at a {@dc 12} Constitution saving throw to gain any benefits of a short or long rest."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Vile Hatred (Charisma Ability Check Less Than 10)",
+                      "entries": [
+                        "The Countess finds the PC to resemble one of the foul adventurers that slew her beloved Jarek. Any of her servants have orders to attack this PC first and without mercy. All her servants go out of their way to focus attacks on this PC before doing anything to the others. Also, the Countess's hatred is so palpable that the PC can physically feel it. Each hour while under the Countess' vile hatred, the PC must succeed on a {@dc 10} Charisma saving throw or suffer one level of {@condition exhaustion}, due to constant heart ache, upset stomach, and phantom pains as if something was trying to twist off their limbs and head."
+                      ]
+                    },
+                    "For any other results, the PCs get no strange feeling other than being in the creepy village."
+                  ]
+                },
+                "Also, it would be a good idea to thoroughly familiarize yourself with the {@creature vampire} and {@creature vampire spawn} stat blocks found in the core rulebooks, as the monsters are a bit complicated to run as a GM. The vampire has numerous abilities and actions that need to be used with grim purpose to give your players a truly harrowing experience, as it should be when facing off with one of the more powerful undead in the game. You will want to pay special note to the regional effects listed under a vampire's lair. These bits of flavor should be applied, not just within 500 feet of the lair, but for the entire adventure setting, to ramp up the creepy factor."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Getting the PCs Involved",
+              "page": "12",
+              "entries": [
+                "The simplest way to insert this adventure into your campaign is when the PCs are heading through a mountainous area while in search for adventure. As an added challenge, you could slip this adventure right after another adventure set in a mountainous region. Just pick right up as the PCs are a bit beaten up, as they are looking for respite after completing a dungeon crawl. A small village with supplies and an inn would sound perfect. Perfect until it becomes clear that something is very, very wrong in that village, and then it is too late."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Running the Adventure",
+          "entries": [
+            {
+              "type": "insetReadaloud",
+              "entries": [
+                "A bone-chilling and steady drizzle only adds to the weariness of trudging through the rugged, rolling landscape. Even being walled in by the dense groves of tall standing pines does little to make your walk up the muddy, wagon-rutted roadway anything near pleasant. The dark, looming trees and coiling fog make you yearn for an open mountain skyline. Finally, after a tight and crooked bend int he roadway, a small knot of weather-worn buildings comes into view. Beyond the village, a backdrop of towering mountain peaks shows through a clearing in the dense pines, though the grim and fire-blackened ruin of a manor or keep mars the vista. The charred and broken structure seems to promise ill tidings from where it stands on a hillock above the settlement."
+              ]
+            },
+            "The small village is Raven's Rest (see {@adventure map|LadyLastingKisses|0}). There are only a few locations of interest about the settlement, and they are listed below and on the village map. Any other building not detailed here is abandoned, most likely due to its former occupants being taken prisoner, getting turned into a {@creature vampiric minion|RolledTold6|vampire minion}, {@creature vampire spawn}, or {@creature zombie}, or having been slain and eaten by {@creature wolf||wolves} trying to flee the area.",
+            "{@i {@b Note:} Some groups of gamers relish investigations, finding clues, and figuring out mysteries. other players just want to see some monster-slaying action. It is your job at the GM to give your players what they want. With that thought in mind, just the bare bones are provided here. As the GM you should feel free to use any and all of these clues and NPCs to aid, expand, or thwart the players' investigation—turning up the truth about the village being under the influence of a vampire. Make it as in-depth or as simple as your players demand. If spending a whole game session just ferreting out the truth and sneaking about or slyly prying info from NPCs is what your players find awesome, then go for it. If they would rather get to the part where they fight the Countess and her minions a bit quicker, push the truth to the surface. One way or the other, the PCs are going to face the Countess in the end.}",
+            {
+              "type": "entries",
+              "name": "A: Main Road",
+              "page": "14",
+              "id": "a",
+              "entries": [
+                "It is poorly maintained, but usable by cart, mount, and foot traffic. The roads and the village clearing are the only places that do not count as difficult terrain, allowing movement without penalty."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "B: Deep Forest Trail",
+              "id": "b",
+              "entries": [
+                "The trail is overgrown, not maintained, and leads only to a long-abandoned logging camp six miles into the deep forest. The few standing log-cabin-style structures and lean-tos are dilapidated and provide little protection from the elements or the wolves of the woods."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "C: The Mountain Road",
+              "id": "c",
+              "entries": [
+                "Well maintained, as to better lure weary travelers to the doom awaiting them in Raven's Rest. Also, roughly every mile away—Wisdom ({@skill Perception}) {@dc 10}—is a small stack of rocks with the top rock having a {@language dwarvish} rune for \"danger\" scratched on it. Any {@race dwarf}, {@class ranger}, or character trained in {@skill Survival} will automatically know this is a ranger marker for territory to avoid.",
+                "The mountain road is the only one of the three routes that leads into or out of town. The wolf packs only venture two miles away from the village into the mountains. You must be five miles out of the village to be relatively safe on the main road. It's the only part of the deep forest trail that is safe."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "1: The Ruined Manor",
+              "id": "1",
+              "entries": [
+                "The fire-blackened remains of a stone and timber manor house sit atop the tall tree-sprouted hillock. A broken and winding path of stone stairs leads to its wide, yawning entrance. This is the lair of the Countess and her minions, while below the ruins is her true holdfast. (See {@adventure manor map|LadyLasingKisses|0} for more details)"
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "2: Two-Family Hovel",
+              "id": "2",
+              "entries": [
+                "The badly leaning building is home to two families. A husband and wife (Franz and Leanna) and their four children (Franz Junior, Franz II, Franz II, and baby Heidi) is one family. The other is Widow Mischa and her six children (Victor, Wulf, Bruna, Brie, Linus, and Ludwig). Use the {@creature commoner} stat block from the core rulebooks. All are fearful of the vampire and will inform {@area Elder Otto|5|x} of anyone trying to leave the village or of strangers asking questions."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "3: The White Raven Inn",
+              "id": "3",
+              "page": "15",
+              "entries": [
+                "The largest building in the village (besides the ruined manor house), the White Raven is a three-story whitewashed timber and stone inn with a slate-tile roof. While it looks weather-worn, it is still in good repair. The White Raven offers lodging for thirty patrons, with breakfast and dinner fare, and doubles as the village tavern with a sizable common room. Imported wines from across the mountains and local beer are its offered libations. The Innkeeper Ion and his wife Ioana, along with the barmaid Greta and the cook Hobart, are all loyal to the Countess. Use the {@creature cultist} stat block (see core rulebooks) for all of them. They will report anything questionable they see to {@area Elder Otto|5|x}.",
+                "Also, almost always encountered here is the town drunk, a halfling hunter who goes by the name \"Pickle.\" Use the {@creature scout} stat block (see core rulebooks). The halfling earns his keep by providing meat for the inn's stew pots, but he hangs out in the tavern for other reasons. Pickle is well practiced at playing drunk, but Wisdom ({@skill Insight}) {@dc 20} confirms the halfling is only acting drunk. In truth Pickle works with Rolf and Stiener, the duo that hide out at {@area the graveyard|7|x} trying to rid the village of the vampire and those loyal to her. The halfing is the duo's inside man and warns any traveler of the danger of the town if he can manage it without giving himself away. He will try to drop hints to any adventurer types, warning them of danger, and nudge any would-be-hero-types to seek out the graveyard in cryptic clues, such as, \"The only safe place to find a peaceful rest is the old boneyard\"; or \"You might as well go ahead and pick out your own grave and dig it, otherwise the wolves will eat ya!\"; or something similar."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "4: Defiled Church",
+              "id": "4",
+              "entries": [
+                "This badly damaged and fire-gutted building was once a small church.",
+                {
+                  "type": "entries",
+                  "name": "Clues and Loot",
+                  "page": 16,
+                  "entries": [
+                    "An Intelligence ({@skill Investigation}) {@dc 10} shows that someone or something took great efforts to either destroy or remove any religious iconography from both inside and outside of the church. An {@skill Intelligence} ability check {@dc 10} shows that the damage was done both by tools and what appears to be animal claws.",
+                    "An Intelligence ({@skill Nature}) {@dc 12} shows that the damage was done a few months ago.",
+                    "A Wisdom ({@skill Perception}) {@dc 20} uncovers 2 flasks of {@item Holy Water (flask)|PHB|holy water} and a {@item +1 Mace} in a hidden alcove under a toppled lectern.",
+                    "A Wisdom ({@skill Survival}) {@dc 15} reveals that numerous (6 or so) small-sized humanoid creatures have been in and out of the ruined church at least a dozen times in the past, but how long is beyond knowing. Some of the footprints run up the walls or along the ceiling support beams and show the creature was walking upside-down. An Intelligence ({@skill Arcana}) {@dc 12} would suggest something akin to a {@spell spider climb} spell. An Intelligence ({@skill Religion}) {@dc 20} ({@dc 10} if the previous {@skill Arcana} test was successful) suggests {@creature vampire||vampires} and {@creature vampire spawn} can move in such a manner."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "5: Elder Otto's Home",
+              "id": "5",
+              "entries": [
+                "This stone and timber house is better maintained than the rest of the village and is home to the town leader, Elder Otto. Use the {@creature cult fanatic} in the core rulebooks, as Otto is totally loyal to the Countess and sees that the living serve her needs and will, in exchange for a promise of eternal life; though he does have a means of escaping with his ill-gotten loot, should the Countess not hold up her side of the bargain.",
+                {
+                  "type": "entries",
+                  "name": "Clues and Loot",
+                  "page": "17",
+                  "entries": [
+                    "Hidden in a secret alcove under the floorboards of his house—Wisdom ({@skill Perception}) {@dc 15} to find—are the following items taken from the villagers and travelers that were slain: 300 gp; 2,000 sp; 4 10-gp gems; a finely crafted lute (worth 250 gp); assorted silver platters, candlesticks, and cutlery (total value 200 gp); 2 {@item spell scroll||scrolls} with {@spell cure wounds} spells; and 4 {@item potion of animal friendship||potions of animal friendship}. Along with the treasure is a crude but accurate map of a tunnel that leads away from town, starting in the graveyard and ending in the forest, but bypassing the road until five miles away from the village. With the map, the PCs could escape the village and avoid the masses of wolves that roam the forest."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "6: The Branded Bear Trading Post",
+              "id": "6",
+              "entries": [
+                "This rough timbered building is chock-full of trade goods, gear, and used weapons and armor. It is run by a very grubby hill dwarf named Grub Anvilclod. Use the {@creature Thug} stat block (see core rulebooks). He does not barter; the price is the price. He is also loyal to the Countess, though more out of greed and self-preservation than true loyalty.",
+                {
+                  "type": "entries",
+                  "name": "Clues and Loot",
+                  "entries": [
+                    "There is a 50% chance that any basic weapon or armor can be found here in used condition. A Wisdom ({@skill Insight}) {@dc 15} raises the suspicion that most of the gear here has blood stains and/or battle damage, and generally it is as if an attack came from the back or from some form of animal; Intelligence ({@skill Nature}) {@dc 10} show that some marks come from wolf bites, though other bites are unidentifiable. There is a varied collection of used cloaks and clothing, all with the same signs of battle as the armor. Most other equipment from the {@filter equipment|items|type=adventuring gear} section of the core rulebooks is available (used for full price) except for any of the following: {@item holy water (flask)|PHB|holy water}, {@item holy symbol|PHB|holy symbols}, {@item steel mirror|PHB|mirrors}, {@item hunting trap|PHB|hunting traps}, and {@item component pouch|PHB|spell component pouches}."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "7: The Old Graveyard",
+              "id": "7",
+              "page": "18",
+              "entries": [
+                "The first thing that is blatantly clear for all to see from within bowshot distance is that every grave in the sizable old boneyard has been dug up and appears empty. A passive {@skill Perception} {@dc 15} reveals a veritable minefield of rudimentary noise traps (pots and pans or bits of metal strung on strings and braided ropes). If the traps are seen, they're easily avoided; if not, the PCs will need a {@dc 15} Dexterity saving throw or else a cavalcade of noise rings out as a spider web-like collection of tripwires sets every pot and pan a-ringing and a-clanking, alerting everyone within the graveyard. In addition, the entire perimeter of the graveyard is ringed with {@item hunting trap|PHB|hunting traps} (wolf traps) from the equipment section of the core rulebooks. A Wisdom ({@skill Survival}) {@dc 10} shows the ring of traps is set up in a way to best ward off wolves.",
+                "What's of note is that in the graveyard near the center is a small, stone mausoleum. A Wisdom ({@skill Perception}) {@dc 20} shows that the doors of the mausoleum as ever so slightly ajar.",
+                "Rolf, a massive human warrior (use the {@creature Berserker} from the core rulebooks for stats), and Steiner, a slight, rat-faced fellow (use the {@creature Bandit Captain}) are holed up inside the mausoleum. The two, along with Pickles the halfling, have been waging a losing war trying to rid the village of the vampire and her minions. They are standoffish at first, unless the PCs say Pickle sent them or if any of the PCs have {@item holy symbol|PHB|holy symbols} showing. Rolf and Steiner make all the PCs take a drink from a flask of {@item holy water (flask)|PHB|holy water} to make sure they are not undead. As a GM, you can feel free to make up any number of ludicrous tests the PCs must pass for the duo to trust them. Once they finally establish trust, the duo tells the PCs whatever they want to know. They know everything about the vampire lair except the actual number of {@creature wolf||wolves}, vampires, and {@creature zombie||zombies}. They know a large pack of wolves guards the ruins during the day and that {@creature vampire spawn} join them at night. They also know where the entrance to the true lair in the cellars of the old manor is. As for the villagers, they know only that Elder Otto, the innkeeper, and Grub the dwarf all work for the vampire and suspect all the workers at the inn are the same. Rolf and Steiner also suspect that Grub the hill dwarf sells all the gear looted from the poor souls the vampires drink and then turn into {@creature zombie||zombies}. The duo is more than willing to help in any way they can, so long as it gets them closer to ending the Countess' hold on the town. Rolf and Steiner did not dig up the graves. The Countess used some form of scroll to raise the entire graveyard soon after taking control. Now the old graveyard is the safest place in the area, aside for dealing with the wolves.",
+                {
+                  "type": "entries",
+                  "name": "Gear the Duo has Collected Besides what is listed on their Stat Blocks",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "5 {@item holy water (flask)|PHB|flasks of holy water}",
+                        "10 {@item holy symbol|PHB|holy symbols}",
+                        "2 {@item longbow|PHB|longbows}",
+                        "60 {@item arrow|PHB|arrows}",
+                        "4 {@item light crossbow|PHB|crossbows}",
+                        "100 {@item crossbow bolt|PHB|crossbow bolts}",
+                        "5 {@item battleaxe|PHB|battleaxes}",
+                        "10 {@item longsword|PHB|longswords}",
+                        "40 {@item torch|PHB|torches}",
+                        "25 {@item oil (flask)|PHB|flasks of oil}",
+                        "2 {@item healer's kit|PHB|healer's kits}",
+                        "4 barrels of smoked and salted wolf meat",
+                        "30 tanned wolf pelts"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Other Features and Clues of Note",
+                  "page": "19",
+                  "entries": [
+                    "A ring of half0harvested and limbless trees forms a sort of marked barrier around the village clearing. Beyond them the terrain becomes rugged hills and dense stands of pines. An Intelligence ({@skill Investigation}) {@dc 20} of the barrier tree poles finds each has a barely noticeable, but crude {@language Celestial} rune for protection carved into it. An Intelligence ({@skill Arcana} or {@skill Religion}) {@dc 15} shows that the rune was a crude attempt at trying to cast a {@spell hallow} spell around the entire town. With a successful check, it is clear that whoever attempted the massive spell had only rudimentary knowledge of its workings and had no chance of success. An Intelligence ({@skill Nature}) {@dc 10} shows the rune was freshly carved within the past {@dice 1d4} days.",
+                    "If the PCs meet Rolf and Steiner hiding out at the old cemetery, they find that they were the ones who tried to cast the {@spell hallow} spell to stave off the undead. It's only one of many failed attempts at stopping the vampire and her minions that the duo has made.",
+                    "Characters with a passive {@skill Perception} of 12+ or who are trained in the {@skill Nature} take note of the following: There is an unnaturally large amount of wolf activity for even a remotely civilized area. Also, the gray, loping forms of wolves are more than a common sight along the roadways and at the edge of the village and even more common on the rugged hill by the ruins of the old manor.",
+                    "Characters trained in {@skill Nature} or {@skill Survival} skills take note of the following: The coiling fog that seemingly perpetually clings to village and surrounding forest persists no matter the precipitation or wind speed. Most disturbing is how the misty fog sometimes moves against the wind, flowing river-like through the village from the old manor or seeming to take eerie forms, like beckoning claws, withering serpents, or yawning skulls just at the edge of a person's vision. Any character that notices this is allowed an Intelligence ({@skill Religion}) {@dc 20} to identify such fog as being a sign of a vampire's lair.",
+                    "However the PCs conclude that something, if not everything, is tied to the old manor ruins on the hill, when they decide to investigate, read them the following:",
+                    {
+                      "type": "insetReadaloud",
+                      "entries": [
+                        "The winding, hard-hewn stone stairs twist up the steep hillock like a serpent fleeing the clinging fog. Where fog does not cover them, the dingy white stones are half-covered with sickly black creepers or are displaced by the tangled roots of stunted and mostly dying pines. The haphazard climb leads to the half-toppled and blackened ruin perched on the knotted hillock. The jagged beams and post of the aged structure are reminiscent of a charred, skeletal hand reaching up from a mounded grave."
+                      ]
+                    },
+                    "The timing of the PCs approaching the manor ruins greatly determines what forces are guarding the toppled structure and the cellar entrance to the vampire's lair.",
+                    {
+                      "type": "entries",
+                      "name": "Daylight Hours",
+                      "entries": [
+                        "20 {@creature wolf||wolves} (see core rulebooks for stats) and 1 alpha wolf (same as the normal wolf entry, though with maximum (18) hit points) lounge and wander through the ruins and will attack any non-undead that enter the ruins. If the alpha is slain before entry into the cellar lair is made, the Countess will be fully aware of the PCs, as she has a connection with the beast."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Any Time After Sunset",
+                      "entries": [
+                        {
+                          "type": "list",
+                          "items": [
+                            "8 {@creature wolf||wolves}",
+                            "4 {@creature vampiric minion|RolledTold6|vampiric minions} (see {@adventure New Monsters|LadyLastingKisses|3})",
+                            "1 {@creature vampire spawn}"
+                          ]
+                        },
+                        "If any of the {@creature vampiric minion|RolledTold6|vampiric minions} or {@creature vampire spawn} are slain before the PCs enter the cellar lair, the Countess will be fully aware of the PCs.",
+                        {
+                          "type": "list",
+                          "items": [
+                            {
+                              "type": "item",
+                              "name": "Loot:",
+                              "entry": "Amongst the rubble near the cellar entrance are the gnawed and cracked bones of numerous small humanoids and small animals. Along with the bones, Wisdom ({@skill Perception}) {@dc 14} uncovers a {@item ring of protection} (see core rulebooks)."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "1A: Descent into the Lair",
+              "page": "20",
+              "id": "1a",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "The mingled reek of damp earth, mold, and rotting corpses assaults your senses from the wide, stone stairs that lead down into the waiting darkness. Your skin crawls with the unnatural feeling that seems to pull at you from the unseen, yet inevitable danger the grave-like gloom silently promises."
+                  ]
+                },
+                "These stairs lead to {@area 2A|2a}. It is 20 ft. down the stairs to a landing and then another 10 ft. from there down to the floor of the vaulted cellar {@area 2A|2a|x}."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "2A: Zombies and the Dirt Nappers",
+              "id": "2a",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "This massive chamber is a mingled mass of oddly placed, stacked stone support pillars, mounds of fresh earth, and piles of snapped and sundered wood that looks to have been racks for wine or shelves for preserved foodstuffs at one time. The source of the reek is a shuffling mob of what looks to be the animated corpses of men, women, and children. The shambling mob fills most of the open spaces of this high-ceilinged room that appear to have three exits, though all are currently closed off with heavy wooden doors."
+                  ]
+                },
+                "The ceiling heigh is 30 ft. in this chamber. The walls are dry-set stone, the stairs are solid stone block, and the {@object pillars|RolledTold6} are stacked and mortared stone. All the {@object doors|RolledTold6} are of stout wood, and all but the doors to {@area 3A|3a} are unlocked, but closed. The doors to {@area 3A|3a} are chained from the {@area 2A|2a|x} side and padlocked (lock {@dc 20}), and only the Countess has the key, which is amongst her things in her coffin (see {@area 6A|6a}).",
+                "No matter if it is day or night, 30 {@creature zombie||zombies} are wandering about this large chamber. They will not walk up the stairs unless they notice a living creature. They have orders to attack any living creature that comes down the stairs or enters the main chamber.",
+                "But they are not the only threats to worry about. There are 6 {@creature vampiric minion|RolledTold6|vampiric minions} (during the day they are buried in piles of dirt on the floor and crawl out {@dice 1d4} rounds after the first {@creature zombie} is engaged in combat; after sundown they hang upside-down, bat-like amongst the rafters—passive {@skill Perception} {@dc 14} to see—and drop down on any foes engaged with the horde of zombies.",
+                "The piles of broken wood are each infested with 2 {@creature swarm of centipedes||swarms of centipedes} that will attack anything that disturbs the wood.",
+                {
+                  "type": "entries",
+                  "name": "Threats",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "30 {@creature zombie||zombies} (see core rulebooks for stats)",
+                        "6 {@creature vampiric minion|RolledTold6|vampiric minions} (see {@adventure New Monsters|LadyLastingKisses|3})",
+                        "2 {@creature swarm of centipedes||centipede swarms}"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Loot",
+                  "entries": [
+                    "One of the {@creature vampiric minion|RolledTold6|vampiric minions} is wearing a gold locket worth 10 gp. In the pile of wood by the stairs—Intelligence ({@skill Investigation}) {@dc 15} to find—is a heavy leather case that holds two 100-gp value bottles of rare wine that have somehow survived the destruction of the wooden rack."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "3A: The Larder",
+              "id": "3a",
+              "page": "21",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "Through the double doors, once the chain is removed, you find what looks to have once been a root cellar. Now three shipping crates made to look like coffins and a pile of dirty blankets stands before you. low, mewing sounds and sniffling come to your ears from behind all of the crates."
+                  ]
+                },
+                "The doors that lead to this chamber are chained and locked (see {@area 2A|2a} for details). Beyond is a rectangular chamber that had once been used as a root cellar. Now a large pile of dirty blankets and three shipping crates made into crude coffins are its only furnishings. Cowering behind the crates are six children (taken as a ready food source for the vampires by the inn staff while they and their parents—now zombies in {@area 2A|2a}—were visitors at the inn over the past few weeks). Use the {@creature Commoner}'s stats from core rulebooks for the children, but they are malnourished and scared out of their wits and count as having two levels of exhaustion when found. The only information the children can tell the PCs is that there at one time had been twelve of them, where now there are six.",
+                {
+                  "type": "entries",
+                  "name": "Threats",
+                  "entries": [
+                    "None"
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Loot",
+                  "entries": [
+                    "None"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "4A: The Slab Chamber",
+              "id": "4a",
+              "page": "22",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "Beyond the double doors lie three stone slabs that once were used to keep grain sacks and grains from having to be stacked on the hard-packed dirt floor."
+                  ]
+                },
+                {
+                  "type": "insetReadaloud",
+                  "name": "If it is day time when the room is explored add in the following",
+                  "entries": [
+                    "The slabs now serve as sleeping slabs for the trio of vampires laid out, as if ready for burial, upon them."
+                  ]
+                },
+                {
+                  "type": "insetReadaloud",
+                  "name": "If it is after sundown add the following instead",
+                  "entries": [
+                    "A trio of hissing vampires with read glaring eyes scuttle crablike off the slabs and rush up the walls!"
+                  ]
+                },
+                "The three vampires are {@creature vampire spawn} and if awake, will fight to the death.",
+                "If it is daylight, the {@creature vampire spawn||vampire spawns} only awaken once the first one is attacked; otherwise they lay in a dormant state until sundown.",
+                {
+                  "type": "entries",
+                  "name": "Threats",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "3 {@creature vampire spawn} (see core rulebooks)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Loot",
+                  "entries": [
+                    "The {@creature vampire spawn} have the following items divided between them: a small belt {@item pouch|PHB} containing 20 10-gp {@item lapis lazuli} gems, a small gold bracelet worth 25 gp, and a pair of {@item boots of elvenkind} (see core rulebooks)."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "5A: Chamber of Shackled Souls",
+              "id": "5a",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "Six black iron coffins are laid out int win rows of three along the walls of this low-ceilinged, oblong room. The grim back poxes are draped in thick chains and form an aisle-like gap that leads from the double doors to a yawning arched doorway opposite it."
+                  ]
+                },
+                "Here the ceiling is only 10 ft. high. The walls, floor, and ceilings are stone slabs. The double wooden {@object doors|RolledTold6} are unlocked, though with rusty hinges (disadvantage to {@skill Stealth}, if trying to enter the room using the door.",
+                "Each of the black iron coffins hold a terrible foe, a {@creature shackled soul|RolledTold6} (use the {@creature specter} as found in the core rulebooks with the following changes. A specter that is a shackled soul suffers no damage from any direct attacks except radiant damage attacks. The only way to defeat them is to destroy the remains they are shackled to. If you do 10 non-magical or 5 fire damage to the remains, the shackled soul is instantly destroyed. Other than radiant attacks, they cannot be harmed.",
+                "Getting to the remains of these 6 shackled souls will be difficult. The remains in this instance are sealed within the chained black iron {@object coffin|RolledTold6|coffins}. A shackled soul can only move 20 ft. away from its earthly remains, held to that length by spectral chains. The shackled souls are essentially {@creature specter||specters}, though with the listed modification, making them a hard-to-best foe, if the remains are locked away or protected.",
+                "These six {@creature shackled soul|RolledTold6|shackled souls} are the six adventurers that slew Countess Crina's beloved vampiric maker Count Jarek years ago. She hunted each and every one of them down and through foul alchemical sorcery turned them into the wild, life-hating undead specters they now are. They are wholly mad and twisted things that both long for an ending and hate all living things. She keeps them around, because it amuses her that her most hated enemies now guard her sleeping chambers and will try and slay anything living that dares enter within their reach.",
+                {
+                  "type": "entries",
+                  "name": "Threats",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "6 {@creature specter||specters} (see core rulebooks, {@creature shackled soul|RolledTold6|shackled souls}—see above for details.)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Loot",
+                  "entries": [
+                    "Each of the black iron {@object coffin|RolledTold6|coffins} that holds the remains of an adventurer also holds some of their magical gear, since the Countess had the six poor souls sealed within their iron prisons while still alive.",
+                    {
+                      "type": "list",
+                      "items": [
+                        {
+                          "type": "item",
+                          "name": "Black iron coffin 1",
+                          "entry": "{@item +2 Dagger} and 6 50-gp rubies."
+                        },
+                        {
+                          "type": "item",
+                          "name": "Black iron coffin 2",
+                          "entry": "{@item Medallion of thoughts}"
+                        },
+                        {
+                          "type": "item",
+                          "name": "Black iron coffin 3",
+                          "entry": "{@item Cloak of protection}"
+                        },
+                        {
+                          "type": "item",
+                          "name": "Black iron coffin 4",
+                          "entry": "{@item Bracers of archery}"
+                        },
+                        {
+                          "type": "item",
+                          "name": "Black iron coffin 5",
+                          "entry": "{@item Helm of comprehending languages}"
+                        },
+                        {
+                          "type": "item",
+                          "name": "Black iron coffin 6",
+                          "entry": "{@item Goggles of night}"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "6A: The Countess' Crypt",
+              "page": "24",
+              "id": "6a",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "Two leering statues flank the arched entry. Both statues are depictions of a handsome but grim looking warrior, garbed in ornate plate and a voluminous cloak. Something about these statues' features look animalistic or feral. Directly across from the entrance is a raised stone dais with an expertly crafted stone sarcophagus laid atop it. A strange and unnatural fog carpets the crypt, misty tendrils nearly stroking the legs of the twin statues. Almost as if on cue, the sarcophagus slides easily askew and a darkly beautiful woman, dressed in ivory bridal garb sensually rises in a fluid motion not achievable by any natural being."
+                  ]
+                },
+                "The time of day when the PCs enter has no bearing, as the Countess is aware they have entered her lair. She will not be rushed and will languidly rise out of her sarcophagus as they enter. She always sleeps cuddled with the skull of her beloved and 2 of the {@creature vampiric minion|RolledTold6|vampiric minions}. The minions will quickly scuttle out of the sarcophagus and up onto the walls and be ready to defend their mistress.",
+                {
+                  "type": "entries",
+                  "name": "Roleplaying: Playing the Countess",
+                  "entries": [
+                    "Countess Crina is in truth a mad loon. randomly choose one male PC: This character she will not injure because he reminds her of her beloved Count in some small fashion. She will try to subdue that PC and turn them into a {@creature vampire}. Randomly choose one other PC: This PC the Countess will hate and whenever possible focus her attacks on them, as they somehow remind her addled mind of one of those that took her beloved Count from her. The Countess, like most vampires, is a dangerous foe, but her madness will most likely lead to her defeat. To simulate this mad and erratic behavior, each combat round roll {@dice 1d8} for the Countess and use her actions accordingly.",
+                    {
+                      "type": "table",
+                      "caption": "Countess Crina",
+                      "colLabels": [
+                        "{@dice d8}",
+                        "Action"
+                      ],
+                      "colStyles": [
+                        "col-1 text-center"
+                      ],
+                      "rows": [
+                        [
+                          {
+                            "type": "cell",
+                            "roll": {
+                              "exact": 1
+                            }
+                          },
+                          "She howls and thrashes about madly, tears at her own hair, face, and clothing while screaming for her lost beloved Count. (She takes no actions.)"
+                        ],
+                        [
+                          {
+                            "type": "cell",
+                            "roll": {
+                              "exact": 2
+                            }
+                          },
+                          "She seeks out the randomly chosen PC that reminds her of her beloved Count and sweetly talks and coos to them like a child, while trying to grab them so she can drink them dry, only to be raised to her service. She will make every attempt, even to her own detriment to grab the chosen PC."
+                        ],
+                        [
+                          {
+                            "type": "cell",
+                            "roll": {
+                              "min": 3,
+                              "max": 5
+                            }
+                          },
+                          "Her seething hatred of the randomly chosen PC makes her go to any length to try and end them, no matter the risk to herself (such as using {@spell fireball} in a space that will hit her as well). She attacks the chosen PC as viciously as possible (note: if randomly chosen PC is killed, randomly choose another, and now something about them reminds the Countess of her hated foe.)"
+                        ],
+                        [
+                          {
+                            "type": "cell",
+                            "roll": {
+                              "min": 6,
+                              "max": 8
+                            }
+                          },
+                          "The Countess acts with all her vampiric prowess, seemingly sane and deadly. Use her abilities to her benefit and pick any actions best suited to the current situation."
+                        ]
+                      ]
+                    },
+                    "If the Countess drops to 0 hit points and it is not daytime, she tries an use her Misty Escape ability if possible and blend in with the fog of her lair until she can slip outside and to one of the secret crypts she has hidden around the town, or the forest and the mountains, all within 2 hours' time of her lair. Once there, she heals and hatches even more insane and deadly plans, while she now mourns the loss of so many of her beloved and newly made \"children.\"",
+                    "If it is daytime and she is forced into her Misty Escape, she has no place for her misty form to escape to and is destroyed."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Threats",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "2 {@creature vampiric minion|RolledTold6|vampric minions} (see {@adventure New Monsters|LadyLastingKisses|3})",
+                        "1 {@creature vampire spellcaster} (as in the core rulebooks) and with the added ability to summon {@creature swarm of insects||insect swarms} as part of her Children of the Night ability."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Loot",
+                  "entries": [
+                    "(On the Countess, to be employed in battle as useful. For stats, see magic items in core rulebooks): {@item Necklace of fireballs}, {@item ring of animal influence}, {@item ring of evasion}, {@item wand of magic missiles}, gold-and-ruby wedding ring (worth 250 gp), a platinum-and-ruby choker (worth 750 gp), and other various jewelry worth a total of 250 gp.",
+                    "(In the sarcophagus): 20 pp; a wizard's {@item spellbook|PHB}, bound in tanned human flesh, that contains {@filter every 1st and 2nd level wizard spell|spells|class=wizard|level=1;2} form the core rulebooks; the Count's {@item longsword of wounding} +1."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Ending the Adventure",
+          "page": "25",
+          "entries": [
+            {
+              "type": "insetReadaloud",
+              "entries": [
+                "Having faced all the horrors of the vampires, you are plainly surprised you survived. Though even with the threat of the undead seemingly gone, the village, like the old manor, is a broken thing. There is no telling how deep the evil seeds sown by the Countess go, nor what will rise up from them. The village of Raven's Rest is, in your mind, best left only to the ravens, and is a place you will be more than happy to take your leave of. The bad memories of what foulness you found here will hang with you for years to come."
+              ]
+            },
+            {
+              "type": "inset",
+              "name": "At the Mercy of Her Pack",
+              "entries": [
+                "The entire domain of the Countess is randomly patrolled by large packs of wolves (4 wolves per PC or NPC) and anyone trying to leave the area of the village by way of overland through the forest is attacked a few minutes outside of the settlement. Use the {@creature wolf} stats from the core rulebooks. The pack wolves will at first try to drive any humanoid creature back towards the village, growling and using hit and run tactics. If the humanoids head back to the village, the wolves will shadow them the entire way. If half or more of the wolves are slain, {@dice 1d4} more wolves show up on initiative count 20 each round until the humanoids fall back to the village (see above) or are all slain, whichever comes first.",
+                "If such an encounter happens after sundown, and additional wolves are required, then along with the 1d4, roll {@dice 1d20}. A result of 15-19 on the d20 means a {@creature vampiric minion|RolledTold6} comes to aid the wolves. On a result of 20 a {@creature vampire spawn} comes to aid the wolves. If a spawn shows up, the mission becomes to just slay any humanoid the wolves were fighting.",
+                "If a character or NPC tries to leave the village via one of the roads, every quarter mile away from the village they are met by a pack of wolves. The wolves at first just growl a warning and slowly push in towards those trying to leave. If the characters or NPCs fall back towards the village, then the wolves shadow them back until they fully return. If the characters or NPCs attack, the wolves fight to the death. Then a quarter mile later another pack is waiting for those trying to leave. This continues until a point of five miles from the village is reached along {@area Road A|a|x}, until a point of two miles away from the village is reached on {@area Road C|c|x}, or until the old woodcutter camp is reached six miles along {@area Road B|b|x}, at which point anyone in the old camp is subject to attack as if they had left via the forest (see above).",
+                "If any character or NPC manages to survive to a point two miles into the mountains from the village or five miles from the village in every other direction, then they have truly escaped the Countess' domain."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "New Monsters & Magic Items",
+          "page": "26",
+          "entries": [
+            {
+              "type": "list",
+              "name": "New Monsters",
+              "items": [
+                "{@creature Vampiric Minion|RolledTold6}"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GhostsInTheNight",
+      "source": "RolledTold6",
+      "data": [
+        {
+          "type": "section",
+          "name": "Ghosts in the Night",
+          "page": "45",
+          "entries": [
+            "Written by Phil McClorey",
+            {
+              "type": "inset",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "A 5E Low-Tier Adventure",
+                  "entries": [
+                    "You will need a copy of the 5E core rulebooks to fully utilize this adventure. You need to familiarize yourself with the adventure and the map to fully enjoy this adventure. It is intended for low-tier characters (level 3)."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Glossary",
+                  "entries": [
+                    "PC: Playable Characters. GM: Game Master. DC: Difficulty Class. HP: Hit Points. NPC: Non-Player Character."
+                  ]
+                }
+              ]
+            },
+            {
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "Plot",
+                  "entries": [
+                    "The tiefling necromancer, {@creature Nija Necrosis|RolledTold6}, has raised a small force of undead to attack the Shrine of Lover's Sacrifice during when a pair of elven ghosts are set to reappear. As the undead assault the hill and attack the player characters, Nija will attempt a ritual to absorb the ethereal energy of the ghosts into her newly constructed necromantic item, the {@item Staff of Revenant|RolledTold6}, activating its powers. It's up to the player characters to stop Nija's ritual before the spirits of the elves are consumed by her necromantic device."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Background",
+                  "entries": [
+                    "The Shrine of Lover's Sacrifice has stood over a millennium to commemorate the sacrifice of a pair of elven lovers who gave up their lives to prevent an abyssal dimensional rift from opening on the material plane. In honor of their sacrifice a small shrine was constructed as the base of the hill. On the hundredth anniversary of their sacrifice the ghosts of the elven couple appear and re-enact the ritual.",
+                    "The ghostly couple have since returned each night of their hundredth anniversary. Some believe that the power of their love for each other was so strong that even in death their spirits are still together. Other sages speculate the manifestation of the ghosts is a residual effect of the magic harnessed to seal the abyssal rift. None can say for sure.",
+                    "The current protector of the shrine, Elora Silverdew, has learned that a powerful necromancer plans to disrupt the appearance of the ghosts and harness their ethereal energies for their own diabolical purpose. She has sought out the adventurers to protect the ghosts during their reappearance."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Rules",
+              "page": "46",
+              "entries": [
+                "Either the GM or one of the players can play Elora Silverdew. Use the {@creature priest} stats (see core rulebooks) for this NPC.",
+                "The ritual occurs at night. If the players suffer {@condition blinded} conditions (if they do not have {@sense darkvision}), use a torch or stand within the radius of the {@spell continual flame} torches adorning the hilltop.",
+                "The {@spell continual flame} torches provide bright light in a 20 foot radius and dim light for an additional 20 feet. Player characters without {@sense darkvision} have disadvantage on Wisdom ({@skill Perception}) checks in dim light.",
+                "The smoke created from the {@item eversmoking bottle} will heavily obscure the area in a 60 foot radius. That radius will increase by 10 feet every minute up to a radius of 120 feet. A moderate wind can disperse the smoke after 1 minute; a strong wind can do so after 1 round.",
+                "The {@creature zombie||zombies} used by Nija are her undead thralls. They do an additional +4 to their weapon damage rolls. See {@creature Nija Necrosis|RolledTold6|Nija's NPC stats} for more detail."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Starting the Adventure",
+          "entries": [
+            {
+              "type": "insetReadaloud",
+              "entries": [
+                "A profound feeling of peace washes over you as you stand before the archway of the Shrine of Lover's Sacrifice. Beyond the archway a series of worn stone steps wind up a gently sloping hill. 20 feet from the top of the hill, planted into the ground at each of the compass points, you see a five-foot staff adorned with a glowing stone. Around the staves a number of flower wreaths have been laid to commemorate the sacrifice of the elven lovers who gave their lives to seal a rift to the abyssal planes a millennium ago.",
+                "A half-elven priestess adorned in purple robes, her reddish-brown hair falling over a silver circlet, smiles warmly as she greets your arrival. \"Thank you for coming. I am Elora Silverdew. It brings me great joy to see you here, answering my call for aid. I fear a great evil will befall the shrine this night. We cannot allow that to happen. The memory, the very spirits of the couple that sacrificed their lives to protect this world must not be allowed to fall to darkness. I will lay down my life if I must to prevent this. I do not ask this of you. However, I do ask for the aid of your swords and spells for as long as you're willing and able to give them.\""
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "The Shrine of Lovers' Sacrifice",
+              "page": "48",
+              "entries": [
+                "When questioned by the player characters, Elora can provide the information contained in the adventure background.",
+                "If a player character asks how she came by the information of the coming attack, Elora answers she received a dream vision from her goddess. In the dream she saw dark arcane magic cast by a black-robed figure absorbing the ethereal energy of the ghosts. The only feature she observed of the magic user was a purple tail swinging freely from underneath their black robes.",
+                "The shrine archway stands at the base of the hill. From it, a winding stone pathway leads to the summit one hundred feet up the hill. surrounding the top of the hill are four wooden polls adorned with {@spell continual flame} spells. each pole sits on a compass point twenty feet from the summit. The base of the hill is surrounded by oak and maple trees so that anything moving in the area is lightly obscured and creatures have disadvantage on Wisdom ({@skill Perception}) checks that rely on sight."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "The Assault on the Shrine",
+              "page": "49",
+              "entries": [
+                "Allow the players the opportunity to determine how they want to defend the hill. Elora will insist that she be near the top of the hill, where the ghosts will appear.",
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "Night has fallen. A crescent moon hangs in the sky amidst a myriad of stars. The flame from the torches bathes the hilltop. A gentle breeze rises, stirring the flower wreaths as ethereal lights begin to twinkle on the summit.",
+                    "\"Look! It has begun,\" Elora calls out, pointing to the clearing. Slowly the lights take shape. A pair of elves takes form, a male wood elf, his hair bound with feathers, dressed in leather armor fashioned like a coat of leaves and a female high elf, her long braided hair brushing the hem of her arcana robes. The ghosts embrace and being a haunting, magical dance, re-enacting their last moments together.",
+                    "A low horn peels from the surrounding woods. Elora glances towards you. \"They are coming. Stand fast!\"",
+                    "A wall of smoke rolls out form the eastern edge of the wood, flowing up the hillside and obscuring your vision of the forest."
+                  ]
+                },
+                "{@creature Gorbundus Kimbatuul|RolledTold6|Gorbundus}, the dragonborn knight, has unstoppered his {@item eversmoking bottle} 10 feet inside the forest on the eastern slope of the hill. The smoke has a radius of 60 feet and covers the first 50 feet of the hillside, heavily obscuring the area.",
+                {
+                  "type": "list",
+                  "name": "Threat",
+                  "items": [
+                    "4 {@creature zombie||zombies}, 33 hp and 8 ({@damage 1d6+5}) bludgeoning damage due to Nija's Undead Thrall ability."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "name": "Threat",
+                  "items": [
+                    "{@creature Gorbundus Kimbatuul|RolledTold6}, dragonborn knight."
+                  ]
+                },
+                "The {@creature zombie||zombies} and {@creature Gorbundus Kimbatuul|RolledTold6} will use the smoke to cover their approach, although the player characters may smell the rotting corpses. The {@creature zombie||zombies} will take ta double movement on their turn, heading towards the top of the hillside to attack the nearest player characters. Following behind them will be {@creature Gorbundus Kimbatuul|RolledTold6|Gorbundus}. Gorbundus will allow the zombies to engage the player characters first before making his attack. If he uses his breath weapon during the battle he will try and catch more than one player in the 15-foot radius cone.",
+                "The second attack comes from the western slope of the hill by a pair of shadows.",
+                {
+                  "type": "list",
+                  "name": "Threat",
+                  "items": [
+                    "2 {@creature shadow||shadows}."
+                  ]
+                },
+                "The shadows will attempt to use their Shadow Stealth ability to surprise and attack a player character that is focused on the approaching zombies. They will try to stay out of the bright light created from the {@spell continual flame} torches unless they have no other options when engaging a player character.",
+                "The last attack comes from the north side of the hill, from {@creature Nija Necrosis|RolledTold6} and her {@creature ogre zombie} carrying the {@item Staff of Revenant|RolledTold6}.",
+                {
+                  "type": "list",
+                  "name": "Threat",
+                  "items": [
+                    "{@creature Ogre zombie}, 96 HP and 16 ({@damage 2d8+8}) bludgeoning damage due to Nija's Undead Thrall ability."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "name": "Threat",
+                  "items": [
+                    "{@creature Nija Necrosis|RolledTold6}."
+                  ]
+                },
+                "The pair is {@condition invisible} until they make an action. The Ogre zombie will plant the {@item Staff of Revenant} in the ground 10 feet from the top of the hill. After that it will stay within 10 feet of Nija acting as her bodyguard. The ogre zombie will not chase the player characters. Once the staff is in place Nija will use an action to activate it. It will take 1 minute for the staff to absorb the energy of the ghosts. On her next turn Nija will cast {@spell globe of invulnerability}. She will the use her spells to engage the players from a distance keeping one second and fourth level spell slot available to cast {@spell dimension door} and {@spell invisibility} if she needs to escape. Nija will attempt to flee once she has lost more than half her hit points.",
+                "Players can attempt to deactivate the staff by casting {@spell dispel magic} and making an ability check at {@dc 17} using their spellcasting ability. Nija can reactivate the staff using an action. Player characters can also attack the staff, attempting to deactivate it by destroying it. The {@object Staff of Revenant|RolledTold6} has an AC of 20 and 35 hp. If the staff is destroyed it explodes. Every creature in a 15-foot radius of the staff must make a Constitution saving throw {@dc 15} or take 16 ({@damage 3d10}) necrotic damage, half on a successful save.",
+                "On the second turn of combat, initiative count 1, the elven ghosts will cast {@spell bless} on three of the player characters who are within thirty feet. On the fifth round of combat they will cast {@spell mass cure wounds} healing as many player characters within range as they can for 16 ({@dice 3d8+3}) hit points."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Ending the Adventure",
+          "page": "50",
+          "entries": [
+            {
+              "type": "insetReadaloud",
+              "name": "If the players are successful in repelling Nija's assault read the following below",
+              "entries": [
+                "The battle is won; the forces assaulting the Shrine of Lover's Sacrifice have been defeated! Soon after, the ritual reaches its climax. The pair of ethereal elves spiral towards the sky, the light of their love shining like a beacon. Their light washes over you, suffusing you with its magical radiance. It grows in intensity, blazing like the sun for a brief moment before winking out of existence.",
+                "The ghosts are gone."
+              ]
+            },
+            "With their parting, the ghosts have gifted the players with a minor supernatural gift, a {@reward charm of heroism}, which acts like a {@item potion of heroism}. It can be used only once. If Elora is still alive she will be exhausted and overjoyed that they have succeeded.",
+            {
+              "type": "insetReadaloud",
+              "name": "If Nija was successful in capturing the elven ghosts read the following to the players",
+              "entries": [
+                "The ghosts are torn from their embrace as their ethereal energy is sucked into the demonic skull adorning the staff planted in the ground. \"The power of their love to overcome death is now mine,\" the necromancer cackles, \"and through my {@item Staff of Revenant|RolledTold6} the mysteries of the realm of the dead will soon be fully revealed to me!\"",
+                "And with that final boast, the necromancer casts a spell and vanishes into the night."
+              ]
+            },
+            "A successful Intelligence ({@skill Arcana}) check {@dc 15} reveals the spell cast to be {@spell dimension door}. Elora, if she still lives, will be distraught at the loss of the ghosts. She will implore the player characters to track down Nija and destroy the staff before more damage can be done by it. But that's an adventure for another day!",
+            {
+              "type": "entries",
+              "name": "Rewards",
+              "entries": [
+                {
+                  "type": "list",
+                  "style": "list-hang-notitle",
+                  "items": [
+                    "{@creature Zombie}—50 XP",
+                    "{@creature Ogre zombie}—450 XP",
+                    "{@creature Shadow}—100 XP",
+                    "{@creature Gorbundus Kimbatuul|RolledTold6|Dragonborn knight}—700 XP",
+                    "{@creature Nija Necrosis|RolledTold6}—1800 XP"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "New Monsters & Magic Items",
+          "entries": [
+            {
+              "type": "list",
+              "name": "New Magic Item",
+              "items": [
+                "The {@item Staff of Revenant|RolledTold6}"
+              ]
+            },
+            {
+              "type": "list",
+              "name": "New Monsters",
+              "items": [
+                "{@creature Nija Necrosis|RolledTold6}",
+                "{@creature Gorbundus Kimbatuul|RolledTold6}"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "object": [
+    {
+      "name": "Pillars",
+      "source": "RolledTold6",
+      "page": 20,
+      "size": "L",
+      "objectType": "U",
+      "ac": "17",
+      "hp": "27",
+      "immune": [
+        {
+          "note": "N/A"
+        }
+      ],
+      "entries": [
+        "If destroyed, a 20 ft. x 20 ft. section of earth and rock will drop into the chamber causing 21 ({@damage 6d6}) bludgeoning damage, Dexterity Saving Throw {@dc 12} for half. On a failed save, the character is {@condition prone} and {@condition restrained}, Strength check at {@dc 12} to get free."
+      ]
+    },
+    {
+      "name": "Doors",
+      "source": "RolledTold6",
+      "page": 17,
+      "size": "M",
+      "objectType": "U",
+      "ac": "15",
+      "hp": "18",
+      "immune": [
+        {
+          "note": "N/A"
+        }
+      ],
+      "entries": []
+    },
+    {
+      "name": "Coffin",
+      "source": "RolledTold6",
+      "page": 23,
+      "size": "M",
+      "objectType": "U",
+      "ac": "17",
+      "hp": "27",
+      "immune": [
+        {
+          "note": "N/A"
+        }
+      ],
+      "entries": [
+        "Each coffin has 4 {@dc 20} locks sealing it shut."
+      ]
+    },
+    {
+      "name": "Staff of Revenant",
+      "source": "RolledTold6",
+      "page": 49,
+      "size": "M",
+      "objectType": "U",
+      "ac": "20",
+      "hp": "35",
+      "immune": [
+        {
+          "note": "N/A"
+        }
+      ],
+      "entries": [
+        "If the staff is destroyed, each creature in a 15-foot radius must make a Constitution saving throw {@dc 15} or take 16 ({@damage 3d10}) necrotic damage, half on a successful save."
+      ]
+    }
+  ],
+  "book": [
+    {
+      "name": "Rolled & Told #6",
+      "id": "RolledTold6",
+      "source": "RolledTold6",
+      "author": "RolledTold6",
+      "published": "2018/12/27",
+      "coverUrl": "https://m.media-amazon.com/images/I/51jb8xKKhgL.jpg",
+      "contents": [
+        {
+          "name": "Main Adventure"
+        },
+        {
+          "name": "Running the Game",
+          "headers": [
+            "Romantic Entanglements"
+          ]
+        },
+        {
+          "name": "Adventure Craft",
+          "headers": [
+            "Gaming While Poor"
+          ]
+        },
+        {
+          "name": "House Rules",
+          "headers": [
+            "Bringing the Bizarre"
+          ]
+        },
+        {
+          "name": "Mini Adventure"
+        },
+        {
+          "name": "Memorable Monsters",
+          "headers": [
+            "Winter Wolf"
+          ]
+        }
+      ]
+    }
+  ],
+  "bookData": [
+    {
+      "id": "RolledTold6",
+      "source": "RolledTold6",
+      "data": [
+        {
+          "type": "section",
+          "name": "Main Adventure",
+          "page": "6",
+          "entries": [
+            "{@adventure The Lady of Lasting Kisses|LadyLastingKisses}",
+            "When a mournful vampire countess begins turning the villagers of Raven's Rest into her thralls, the PCs must rescue the villagers from her vampiric control."
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Running the Game",
+          "page": "28",
+          "entries": [
+            "Learn why romance so rarely shows up in playing characters, and how to navigate the potential pitfalls of jumpstarting some sparks.",
+            {
+              "type": "entries",
+              "name": "Romantic Entanglements",
+              "entries": [
+                "[AUTHOR]"
+              ]
+            },
+            {
+              "type": "inset",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "[AUTHOR]",
+                  "entries": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Adventure Craft",
+          "page": "34",
+          "entries": [
+            "How to expand your gaming resources and become a better GM without breaking the bank.",
+            {
+              "type": "entries",
+              "name": "Gaming While Poor",
+              "entries": [
+                "[AUTHOR]"
+              ]
+            },
+            {
+              "type": "inset",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "[AUTHOR]",
+                  "entries": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "House Rules",
+          "page": "39",
+          "entries": [
+            "How to thoughtfully and effectively add elements of the bizarre to your game to reignite a sense of awe.",
+            {
+              "type": "entries",
+              "name": "Bringing the Bizarre",
+              "entries": [
+                "[AUTHOR]"
+              ]
+            },
+            {
+              "type": "inset",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "[AUTHOR]",
+                  "entries": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Mini Adventure",
+          "page": "45",
+          "entries": [
+            "{@adventure Ghosts in the Night|GhostsInTheNight}",
+            "Protect the Shrine of Lovers' Sacrifice from a tiefling necromancer on the hundredth anniversary of the pair of elven lovers' ghostly reappearance."
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Memorable Monsters",
+          "page": "56",
+          "entries": [
+            "Try these tweaks on the versatile and classic {@creature winter wolf} to surprise your players.",
+            {
+              "type": "entries",
+              "name": "Winter Wolf",
+              "entries": [
+                "[AUTHOR]"
+              ]
+            },
+            {
+              "type": "inset",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "[AUTHOR]",
+                  "entries": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
