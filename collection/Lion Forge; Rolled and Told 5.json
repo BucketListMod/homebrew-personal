@@ -19,7 +19,7 @@
       }
     ],
     "dateAdded": 1603930108,
-    "dateLastModified": 1603930108
+    "dateLastModified": 1603992767
   },
   "monster": [
     {
@@ -123,9 +123,31 @@
       "fluff": {
         "entries": [
           "Golda works as a scout and mountain guide as her father had, though she has been taking on fewer jobs since her grandfather retired and has needed tending to. With the disappearance of the first supply train to the mine, she was asked to lead the second to assure the miners did not starve. True to her clan, she accepted, only to end up captured by orcs. The steely-eyed dwarf maid could have evaded capture, save for the thread of the deaths of the other dwarves with her. So she surrendered, to spare their lives.",
-          "Ideas: Honor is worth more than any treasure.",
-          "Bond: A dwarf must do her duty, no matter the cost.",
-          "Flaw: I'll never let another be harmed in my place."
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Ideal",
+                "entries": [
+                  "Honor is worth more than any treasure."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Bond",
+                "entries": [
+                  "A dwarf must do her duty, no matter the cost."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Flaw",
+                "entries": [
+                  "I'll never let another be harmed in my place."
+                ]
+              }
+            ]
+          }
         ]
       },
       "traitTags": [
@@ -150,7 +172,8 @@
         "MW",
         "RNG",
         "RW"
-      ]
+      ],
+      "tokenUrl": "https://5e.tools/img/SKT/Shield Dwarf Guard.png?v=1.114.1"
     },
     {
       "name": "Orewick Furnaceheart",
@@ -248,9 +271,31 @@
       "fluff": {
         "entries": [
           "Orewick is a grizzled old warrior. He takes great pride in his fighting prowess, but age, old wounds, and a quickly fading memory has forced in to retire from adventuring. Every year his Intelligence drops by 1d3 points. The old dwarf cares about and never forgets only one thing and that is his granddaughter Golda. With the young dwarf woman missing, he will not be deterred from going to rescue her if possible, or avenge her if not.",
-          "Ideal: Best way for a dwarf to go out is with an axe in hand and a battle cry on his lips!",
-          "Bond: If them gritters touch a hair on Golda's head, I'll cleave 'em in twain!",
-          "Flaw: Sure, I'm ready for a fight... Now where did I put my axe at anyways? Oh, here it is in my hand."
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Ideal",
+                "entries": [
+                  "Best way for a dwarf to go out is with an axe in hand and a battle cry on his lips!"
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Bond",
+                "entries": [
+                  "If them gritters touch a hair on Golda's head, I'll cleave 'em in twain!"
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Flaw",
+                "entries": [
+                  "Sure, I'm ready for a fight... Now where did I put my axe at anyways? Oh, here it is in my hand."
+                ]
+              }
+            ]
+          }
         ]
       },
       "senseTags": [
@@ -270,7 +315,8 @@
       ],
       "miscTags": [
         "MW"
-      ]
+      ],
+      "tokenUrl": "https://5e.tools/img/SKT/Axe of Mirabar Soldier.png?v=1.114.1"
     },
     {
       "name": "Dwarf Clan Hammer Guard",
@@ -380,7 +426,8 @@
       ],
       "conditionInflict": [
         "prone"
-      ]
+      ],
+      "tokenUrl": "https://5e.tools/img/SKT/Knight of the Mithral Shield.png?v=1.114.1"
     },
     {
       "name": "Gelid-Frost Twin Young White Dragons",
@@ -590,7 +637,149 @@
         "AOE",
         "MW",
         "RCH"
-      ]
+      ],
+      "tokenUrl": "https://5e.tools/img/MM/Young White Dragon.png?v=1.114.1",
+      "fluff": {
+        "name": "Young White Dragon",
+        "source": "MM",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "The smallest, least intelligent, and most animalistic of the chromatic dragons, white dragons dwell in frigid climes, favoring arctic areas or icy mountains. They are vicious, cruel reptiles driven by hunger and greed.",
+                  "A white dragon has feral eyes, a sleek profile, and a spined crest. The scales of a wyrmling white dragon glisten pure white. As the dragon ages, its sheen disappears and some of its scales begin to darken, so that by the time it is old, it is mottled by patches of pale blue and light gray. This patterning helps the dragon blend into the realms of ice and stone in which it hunts, and to fade from view when it soars across a cloud-filled sky.",
+                  {
+                    "name": "Primal and Vengeful",
+                    "type": "entries",
+                    "entries": [
+                      "White dragons lack the cunning and tactics of most other dragons. However, their bestial nature makes them the best hunters among all dragonkind, singularly focused on surviving and slaughtering their enemies. A white dragon consumes only food that has been frozen, devouring creatures killed by its breath weapon while they are still stiff and frigid. It encases other kills in ice or buries them in snow near its lair, and finding such a larder is a good indication that a white dragon dwells nearby.",
+                      "A white dragon also keeps the bodies of its greatest enemies as trophies, freezing corpses where it can look upon them and gloat. The remains of giants, remorhazes, and other dragons are often positioned prominently within a white dragon's lair as warnings to intruders.",
+                      "Though only moderately intelligent, white dragons have extraordinary memories. They recall every slight and defeat, and have been known to conduct malicious vendettas against creatures that have offended them. This often includes silver dragons, which lair in the same territories as whites. White dragons can speak as all dragons can, but they rarely talk unless moved to do so."
+                    ]
+                  },
+                  {
+                    "name": "Lone Masters",
+                    "type": "entries",
+                    "entries": [
+                      "White dragons avoid all other dragons except whites of the opposite sex. Even then, when white dragons seek each other out as mates, they stay together only long enough to conceive offspring before fleeing into isolation again.",
+                      "White dragons can't abide rivals near their lairs. As a result, a white dragon attacks other creatures without provocation, viewing such creatures as either too weak or too powerful to live. The only creatures that typically serve a white dragon are intelligent humanoids that demonstrate enough strength to assuage the dragon's wrath, and can put up with sustaining regular losses as a result of its hunger. This includes dragon-worshiping kobolds, which are commonly found in their lairs.",
+                      "Powerful creatures can sometimes gain a white dragon's obedience through a demonstration of physical or magical might. Frost giants challenge white dragons to prove their own strength and improve their status in their clans, and their cracked bones litter many a white dragon's lair. However, a white dragon defeated by a frost giant often becomes its servant, accepting the mastery of a superior creature in exchange for asserting its own domination over the other creatures that serve or oppose the giant."
+                    ]
+                  },
+                  {
+                    "name": "Treasure Under Ice",
+                    "type": "entries",
+                    "entries": [
+                      "White dragons love the cold sparkle of ice and favor treasure with similar qualities, particularly diamonds. However, in their remote arctic climes, the treasure hoards of white dragons more often contain walrus and mammoth tusk ivory, whale-bone sculptures, figureheads from ships, furs, and magic items seized from overly bold adventurers.",
+                      "Loose coins and gems are spread across a white dragon's lair, glittering like stars when the light strikes them. Larger treasures and chests are encased in layers of rime created by the white dragon's breath, and held safe beneath layers of transparent ice. The dragon's great strength allows it to easily access its wealth, while lesser creatures must spend hours chipping away or melting the ice to reach the dragon's main hoard.",
+                      "A white dragon's flawless memory means that it knows how it came to possess every coin, gem, and magic item in its hoard, and it associates each item with a specific victory. White dragons are notoriously difficult to bribe, since any offers of treasure are seen as an insult to their ability to simply slay the creature making the offer and seize the treasure on their own."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "A White Dragon's Lair",
+                    "entries": [
+                      "White dragons lair in icy caves and deep subterranean chambers far from the sun. They favor high mountain vales accessible only by flying, caverns in cliff faces, and labyrinthine ice caves in glaciers. White dragons love vertical heights in their caverns, flying up to the ceiling to latch on like bats or slithering down icy crevasses.",
+                      "A legendary white dragon's innate magic deepens the cold in the area around its lair. Mountain caverns are fast frozen by the white dragon's presence. A white dragon can often detect intruders by the way the keening wind in its lair changes tone.",
+                      "A white dragon rests on high ice shelves and cliffs in its lair, the floor around it a treacherous morass of broken ice and stone, hidden pits, and slippery slopes. As foes struggle to move toward it, the dragon flies from perch to perch and destroys them with its freezing breath."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Chromatic Dragons",
+            "entries": [
+              "The black, blue, green, red, and white dragons represent the evil side of dragonkind. Aggressive, gluttonous, and vain, chromatic dragons are dark sages and powerful tyrants feared by all creatures-including each other.",
+              {
+                "name": "Driven by Greed",
+                "entries": [
+                  " Chromatic dragons lust after treasure, and this greed colors their every scheme and plot. They believe that the world's wealth belongs to them by right, and a chromatic dragon seizes that wealth without regard for the humanoids and other creatures that have \"stolen\" it. With its piles of coins, gleaming gems, and magic items, a dragon's hoard is the stuff of legend. However, chromatic dragons have no interest in commerce, amassing wealth for no other reason than to have it."
+                ],
+                "type": "entries"
+              },
+              {
+                "name": "Creatures of Ego",
+                "type": "entries",
+                "entries": [
+                  "Chromatic dragons are united by their sense of superiority, believing themselves the most powerful and worthy of all mortal creatures. When they interact with other creatures, it is only to further their own interests. They believe in their innate right to rule, and this belief is the cornerstone of every chromatic dragon's personality and worldview. Trying to humble a chromatic dragon is like trying to convince the wind to stop blowing. To these creatures, humanoids are animals, fit to serve as prey or beasts of burden, and wholly unworthy of respect."
+                ]
+              },
+              {
+                "name": "Dangerous Lairs",
+                "type": "entries",
+                "entries": [
+                  "A dragon's lair serves as the seat of its power and a vault for its treasure. With its innate toughness and tolerance for severe environmental effects, a dragon selects or builds a lair not for shelter but for defense, favoring multiple entrances and exits, and security for its hoard.",
+                  "Most chromatic dragon lairs are hidden in dangerous and remote locations to prevent all but the most audacious mortals from reaching them. A black dragon might lair in the heart of a vast swamp, while a red dragon might claim the caldera of an active volcano. In addition to the natural defenses of their lairs, powerful chromatic dragons use magical guardians, traps, and subservient creatures to protect their treasures."
+                ]
+              },
+              {
+                "name": "Queen of Evil Dragons",
+                "type": "entries",
+                "entries": [
+                  "Tiamat the Dragon Queen is the chief deity of evil dragonkind. She dwells on Avernus, the first layer of the Nine Hells. As a lesser god, Tiamat has the power to grant spells to her worshipers, though she is loath to share her power. She epitomizes the avarice of evil dragons, believing that the multiverse and all its treasures will one day be hers and hers alone.",
+                  "Tiamat is a gigantic dragon whose five heads reflect the forms of the chromatic dragons that worship her-black, blue, green, red, and white. She is a terror on the battlefield, capable of annihilating whole armies with her five breath weapons, her formidable spellcasting, and her fearsome claws.",
+                  "Tiamat's most hated enemy is Bahamut the Platinum Dragon, with whom she shares control of the faith of dragonkind. She also holds a special enmity for Asmodeus, who long ago stripped her of the rule of Avernus and who continues to curb the Dragon Queen's power."
+                ]
+              }
+            ]
+          },
+          "True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.",
+          "Many creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.",
+          "Though their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.",
+          "True dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.",
+          "Dragon Age Categories",
+          {
+            "type": "table",
+            "colLabels": [
+              "Category",
+              "Size",
+              "Age Range"
+            ],
+            "colStyles": [
+              "col-4",
+              "col-4",
+              "col-4"
+            ],
+            "rows": [
+              [
+                "Wyrmling",
+                "Medium",
+                "5 years or less"
+              ],
+              [
+                "Young",
+                "Large",
+                "6–100 years"
+              ],
+              [
+                "Adult",
+                "Huge",
+                "101–800 years"
+              ],
+              [
+                "Ancient",
+                "Gargantuan",
+                "801 years or more"
+              ]
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "bestiary/MM/White Dragon.jpg"
+            }
+          }
+        ]
+      }
     },
     {
       "name": "Orc Frost Shaman",
@@ -729,7 +918,73 @@
       ],
       "miscTags": [
         "MW"
-      ]
+      ],
+      "tokenUrl": "https://5e.tools/img/MM/Orc.png?v=1.114.1",
+      "fluff": {
+        "name": "Orc",
+        "source": "MM",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "Orcs are savage raiders and pillagers with stooped postures, low foreheads, and piggish faces with prominent lower canines that resemble tusks.",
+                  {
+                    "name": "Gruumsh One-Eye",
+                    "entries": [
+                      " Orcs worship Gruumsh, the mightiest of the orc deities and their creator. The orcs believe that in ancient days, the gods gathered to divide the world among their followers. When Gruumsh claimed the mountains, he learned they had been taken by the dwarves. He laid claim to the forests, but those had been settled by the elves. Each place that Gruumsh wanted had already been claimed. The other gods laughed at Gruumsh, but he responded with a furious bellow. Grasping his mighty spear, he laid waste to the mountains, set the forests aflame, and carved great furrows in the fields. Such was the role of the orcs, he proclaimed, to take and destroy all that the other races would deny them. To this day, the orcs wage an endless war on humans, elves, dwarves, and other folk.",
+                      "Orcs hold a particular hatred for elves. The elven god Corellon Larethian half-blinded Gruumsh with a well-placed arrow to the orc god's eye. Since then, the orcs have taken particular joy in slaughtering elves. Turning his injury into a baleful gift, Gruumsh grants divine might to any champion who willingly plucks out one of its eyes in his honor."
+                    ],
+                    "type": "entries"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Tribes like Plagues",
+                    "entries": [
+                      "Orcs gather in tribes that exert their dominance and satisfy their bloodlust by plundering villages, devouring or driving off roaming herds, and slaying any humanoids that stand against them. After savaging a settlement, orcs pick it clean of wealth and items usable in their own lands. They set the remains of villages and camps ablaze, then retreat whence they came, their bloodlust satisfied."
+                    ]
+                  },
+                  {
+                    "name": "Ranging Scavengers",
+                    "type": "entries",
+                    "entries": [
+                      "Their lust for slaughter demands that orcs dwell always within striking distance of new targets. As such, they seldom settle permanently, instead converting ruins, cavern complexes, and defeated foes' villages into fortified camps and strongholds. Orcs build only for defense, making no innovation or improvement to their lairs beyond mounting the severed body parts of their victims on spiked stockade walls or pikes jutting up from moats and trenches.",
+                      "When an existing territory is depleted of food, an orc tribe divides into roving bands that scout for choice hunting grounds. When each party returns, it brings back trophies and news of targets ripe for attack, the richest of which is chosen. The tribe then sets out en masse to carve a bloody path to its new territory.",
+                      "On rare occasions, a tribe's leader chooses to hold onto a particularly defensible lair for decades. The orcs of such a tribe must range far across the countryside to sate their appetites."
+                    ]
+                  },
+                  {
+                    "name": "Leadership and Might",
+                    "type": "entries",
+                    "entries": [
+                      "Orc tribes are mostly patriarchal, flaunting such vivid or grotesque titles as Many-Arrows, Screaming Eye, and Elf Ripper. Occasionally, a powerful war chief unites scattered orc tribes into a single rampaging horde, which runs roughshod over other orc tribes and humanoid settlements from a position of overwhelming strength.",
+                      "Strength and power are the greatest of orcish virtues, and orcs embrace all manner of mighty creatures in their tribes. Rejecting notions of racial purity, they proudly welcome ogres, trolls, half-orcs, and orogs into their ranks. As well, orcs respect and fear the size and power of evil giants, and often serve them as guards and soldiers."
+                    ]
+                  },
+                  {
+                    "name": "Orc Crossbreeds",
+                    "type": "entries",
+                    "entries": [
+                      "Luthic, the orc goddess of fertility and wife of Gruumsh, demands that orcs procreate often and indiscriminately so that orc hordes swell generation after generation. The orcs' drive to reproduce runs stronger than any other humanoid race, and they readily crossbreed with other races. When an orc procreates with a non-orc humanoid of similar size and stature (such as a human or a dwarf), the resulting child is either an orc or a half-orc. When an orc produces young with an ogre, the child is a half-ogre of intimidating strength and brutish features called an ogrillon."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "bestiary/MM/Orc.jpg"
+            }
+          }
+        ]
+      }
     },
     {
       "name": "Orc Hunter",
@@ -845,7 +1100,73 @@
         "MW",
         "RNG",
         "RW"
-      ]
+      ],
+      "tokenUrl": "https://5e.tools/img/MM/Orc.png?v=1.114.1",
+      "fluff": {
+        "name": "Orc",
+        "source": "MM",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "Orcs are savage raiders and pillagers with stooped postures, low foreheads, and piggish faces with prominent lower canines that resemble tusks.",
+                  {
+                    "name": "Gruumsh One-Eye",
+                    "entries": [
+                      " Orcs worship Gruumsh, the mightiest of the orc deities and their creator. The orcs believe that in ancient days, the gods gathered to divide the world among their followers. When Gruumsh claimed the mountains, he learned they had been taken by the dwarves. He laid claim to the forests, but those had been settled by the elves. Each place that Gruumsh wanted had already been claimed. The other gods laughed at Gruumsh, but he responded with a furious bellow. Grasping his mighty spear, he laid waste to the mountains, set the forests aflame, and carved great furrows in the fields. Such was the role of the orcs, he proclaimed, to take and destroy all that the other races would deny them. To this day, the orcs wage an endless war on humans, elves, dwarves, and other folk.",
+                      "Orcs hold a particular hatred for elves. The elven god Corellon Larethian half-blinded Gruumsh with a well-placed arrow to the orc god's eye. Since then, the orcs have taken particular joy in slaughtering elves. Turning his injury into a baleful gift, Gruumsh grants divine might to any champion who willingly plucks out one of its eyes in his honor."
+                    ],
+                    "type": "entries"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Tribes like Plagues",
+                    "entries": [
+                      "Orcs gather in tribes that exert their dominance and satisfy their bloodlust by plundering villages, devouring or driving off roaming herds, and slaying any humanoids that stand against them. After savaging a settlement, orcs pick it clean of wealth and items usable in their own lands. They set the remains of villages and camps ablaze, then retreat whence they came, their bloodlust satisfied."
+                    ]
+                  },
+                  {
+                    "name": "Ranging Scavengers",
+                    "type": "entries",
+                    "entries": [
+                      "Their lust for slaughter demands that orcs dwell always within striking distance of new targets. As such, they seldom settle permanently, instead converting ruins, cavern complexes, and defeated foes' villages into fortified camps and strongholds. Orcs build only for defense, making no innovation or improvement to their lairs beyond mounting the severed body parts of their victims on spiked stockade walls or pikes jutting up from moats and trenches.",
+                      "When an existing territory is depleted of food, an orc tribe divides into roving bands that scout for choice hunting grounds. When each party returns, it brings back trophies and news of targets ripe for attack, the richest of which is chosen. The tribe then sets out en masse to carve a bloody path to its new territory.",
+                      "On rare occasions, a tribe's leader chooses to hold onto a particularly defensible lair for decades. The orcs of such a tribe must range far across the countryside to sate their appetites."
+                    ]
+                  },
+                  {
+                    "name": "Leadership and Might",
+                    "type": "entries",
+                    "entries": [
+                      "Orc tribes are mostly patriarchal, flaunting such vivid or grotesque titles as Many-Arrows, Screaming Eye, and Elf Ripper. Occasionally, a powerful war chief unites scattered orc tribes into a single rampaging horde, which runs roughshod over other orc tribes and humanoid settlements from a position of overwhelming strength.",
+                      "Strength and power are the greatest of orcish virtues, and orcs embrace all manner of mighty creatures in their tribes. Rejecting notions of racial purity, they proudly welcome ogres, trolls, half-orcs, and orogs into their ranks. As well, orcs respect and fear the size and power of evil giants, and often serve them as guards and soldiers."
+                    ]
+                  },
+                  {
+                    "name": "Orc Crossbreeds",
+                    "type": "entries",
+                    "entries": [
+                      "Luthic, the orc goddess of fertility and wife of Gruumsh, demands that orcs procreate often and indiscriminately so that orc hordes swell generation after generation. The orcs' drive to reproduce runs stronger than any other humanoid race, and they readily crossbreed with other races. When an orc procreates with a non-orc humanoid of similar size and stature (such as a human or a dwarf), the resulting child is either an orc or a half-orc. When an orc produces young with an ogre, the child is a half-ogre of intimidating strength and brutish features called an ogrillon."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "bestiary/MM/Orc.jpg"
+            }
+          }
+        ]
+      }
     },
     {
       "name": "Nordak Silverquill",
@@ -1014,12 +1335,49 @@
         }
       ],
       "fluff": {
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/BucketListMod/homebrew-personal/main/_img/Rolled%20and%20Told/Nordak%20Silverquill.jpg"
+            }
+          }
+        ],
         "entries": [
           "Nordak was a librarian who stumbled upon an ancient text which described the Lord of Sleet and Hail. Seeing a pathway to great power he enacted the rites described in the book, summoning a manifestation of the Lord of Sleet and Hail who he offered his service to in exchange for the arcane abilities the archfey could bestow.",
-          "Trait: I'm convinced that people are always trying to steal my secrets.",
-          "Ideals: (Power) Knowledge is the path to power and domination.",
-          "Bonds: I sold my soul for knowledge. I hope to do great deeds and win it back.",
-          "Flaws: I am easily distracted by the promise of information."
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Trait",
+                "entries": [
+                  "I'm convinced that people are always trying to steal my secrets."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Ideals",
+                "entries": [
+                  "(Power) Knowledge is the path to power and domination."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Bonds",
+                "entries": [
+                  "I sold my soul for knowledge. I hope to do great deeds and win it back."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Flaws",
+                "entries": [
+                  "I am easily distracted by the promise of information."
+                ]
+              }
+            ]
+          }
         ]
       },
       "senseTags": [
@@ -1043,7 +1401,8 @@
         "MW",
         "RW",
         "THW"
-      ]
+      ],
+      "tokenUrl": "https://raw.githubusercontent.com/BucketListMod/homebrew-personal/main/_img/Rolled%20and%20Told/Nordak%20Silverquill.png"
     },
     {
       "name": "Yeti Cub",
@@ -1148,7 +1507,29 @@
       ],
       "miscTags": [
         "MW"
-      ]
+      ],
+      "tokenUrl": "https://5e.tools/img/IDRotF/Yeti Tyke.png?v=1.114.1",
+      "fluff": {
+        "name": "Yeti Tyke",
+        "source": "IDRotF",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              "Yeti tykes are as volatile and mean as their parents, their fearsomeness diminished only by their size. Standing 3 feet tall on average, they like to bully creatures of their height or smaller. But they are easily intimidated by bigger and stronger creatures. A cowed yeti tyke can be controlled, at least for a while, but raising one to be anything other than a savage, flesh-eating predator is incredibly difficult (though not impossible)."
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "bestiary/IDRotF/Yeti Tyke.jpg"
+            }
+          }
+        ]
+      }
     },
     {
       "name": "Vicious Yeti",
@@ -1282,7 +1663,64 @@
       ],
       "conditionInflict": [
         "paralyzed"
-      ]
+      ],
+      "tokenUrl": "https://5e.tools/img/MM/Yeti.png?v=1.114.1",
+      "fluff": {
+        "name": "Yeti",
+        "source": "MM",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "A yeti's windborne howl sounds out across remote mountains, striking fear into the hearts of the scattered miners and herders that dwell there. These hulking creatures stalk alpine peaks in a ceaseless hunt for food. Their snow-white fur lets them move like ghosts against the frozen landscape. A yeti's icy simian eyes can freeze its prey in place.",
+                  {
+                    "name": "Keen Hunters",
+                    "type": "entries",
+                    "entries": [
+                      "Folk of the high peaks travel in groups and go armed, knowing that yetis can smell living flesh from miles away. When it finds prey, a yeti moves quickly over ice and stone to claim its meal, howling to the thrill of the hunt. Even in a blizzard, the scent of its quarry draws the yeti through the cold and snow.",
+                      "Yetis hunt in solitude or in small family groups. When creatures flee from a yeti or engage it in battle, other yetis might catch the scent of blood and close in. The territorial yetis fight one another for the spoils of such battles, and yetis slain in the fight are also eaten, amid euphoric howls."
+                    ]
+                  },
+                  {
+                    "name": "Terrifying Howlers",
+                    "type": "entries",
+                    "entries": [
+                      "Before an avalanche, a blizzard, or a deadly frost, the yetis' howls sweep down the mountain slopes on the icy wind. Some people of the alpine peaks believe that the voices of loved ones killed in avalanches and blizzards sound out in the wails of the yetis, crying warnings of ill omen. More pragmatic folk attest that the yeti's howl is a reminder that, despite the great accomplishments of civilization, the civilized become the hunted in nature's untamed domain."
+                    ]
+                  },
+                  {
+                    "name": "Brutal Rampagers",
+                    "type": "entries",
+                    "entries": [
+                      "When mountain herds are abundant, yetis stay clear of humanoid realms. Driven by hunger, they attack humanoid settlements in waves, breaking down gates and stockade walls that once might have daunted them, then devouring the creatures within.",
+                      "Devious mountain folk sometimes use the yetis as unwitting weapons. A warlord might lay down slaughtered sheep or goats to draw yetis into an enemy's camp, sowing chaos and thinning the ranks before battle. Mountain clan chiefs, wanting to expand their territory, overhunt local game to diminish the yetis' food supplies, inspiring attacks on humanoid settlements that are swiftly annexed in the aftermath."
+                    ]
+                  },
+                  {
+                    "name": "Abominable Yetis",
+                    "type": "entries",
+                    "entries": [
+                      "An abominable yeti is larger than a normal yeti, standing three times as tall as a human. It typically lives and hunts alone, though a pair of abominable yetis might live together long enough to raise young. These towering yetis are highly territorial and savage, attacking and devouring any warm-blooded creatures they encounter, then scattering the bones across the ice and snow."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "bestiary/MM/Yeti.jpg"
+            }
+          }
+        ]
+      }
     }
   ],
   "legendaryGroup": [
