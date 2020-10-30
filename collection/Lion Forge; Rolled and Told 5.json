@@ -19,7 +19,7 @@
       }
     ],
     "dateAdded": 1603930108,
-    "dateLastModified": 1604002861
+    "dateLastModified": 1604102218
   },
   "monster": [
     {
@@ -1680,6 +1680,69 @@
         "legend lore",
         "scrying"
       ]
+    },
+    {
+      "name": "Gold locket with a portrait of a young dwarf maiden inside",
+      "source": "RolledTold5",
+      "page": "26",
+      "type": "$",
+      "rarity": "none",
+      "value": "2500",
+      "entries": []
+    },
+    {
+      "name": "Finely carved pair of dice made from polished ogre teeth",
+      "source": "RolledTold5",
+      "page": "26",
+      "type": "$",
+      "rarity": "none",
+      "value": "2500",
+      "entries": []
+    },
+    {
+      "name": "Silver tankard with tiny ravens etched around the rim",
+      "source": "RolledTold5",
+      "page": "26",
+      "type": "$",
+      "rarity": "none",
+      "value": "2500",
+      "entries": []
+    },
+    {
+      "name": "Gold wedding band inlaid with the dwarvish rune for \"eternity\"",
+      "source": "RolledTold5",
+      "page": "26",
+      "type": "$",
+      "rarity": "none",
+      "value": "2500",
+      "entries": []
+    },
+    {
+      "name": "Silver beard-ring set with diamond dust",
+      "source": "RolledTold5",
+      "page": "26",
+      "type": "$",
+      "rarity": "none",
+      "value": "5000",
+      "entries": []
+    },
+    {
+      "name": "Iron-rimmed wooden shield inlaid with silver depictions of four hawks",
+      "source": "RolledTold5",
+      "page": "26",
+      "type": "$",
+      "rarity": "none",
+      "value": "3500",
+      "entries": []
+    },
+    {
+      "name": "Finely made silvered dagger with a brass badger head as the pommel",
+      "source": "RolledTold5",
+      "page": "26",
+      "type": "$",
+      "rarity": "none",
+      "value": "12700",
+      "entries": []
     }
   ],
   "variant": [
@@ -2296,13 +2359,13 @@
                   "type": "list",
                   "name": "Art Objects",
                   "items": [
-                    "A gold locket w/ a portrait of a young dwarf maiden inside (worth 25 gp)",
-                    "A finely carved pair of dice made from polished ogre teeth (worth 25 gp)",
-                    "A silver tankard, with tiny ravens etched around the rim (worth 25 gp)",
-                    "A gold wedding band inlaid with the dwarvish rune for \"eternity\" (worth 25 gp)",
-                    "A silver beard-ring set with diamond dust (worth 50 gp)",
-                    "An iron-rimmed wooden shield inlaid with silver depictions of four hawks (worth 35 gp)",
-                    "A finely made, silvered dagger with a brass badger head as the pommel (worth 127 gp)"
+                    "A {@item gold locket with a portrait of a young dwarf maiden inside|RolledTold5} (worth 25 gp)",
+                    "A {@item finely carved pair of dice made from polished ogre teeth|RolledTold5} (worth 25 gp)",
+                    "A {@item silver tankard with tiny ravens etched around the rim|RolledTold5} (worth 25 gp)",
+                    "A {@item gold wedding band inlaid with the dwarvish rune for \"eternity\"|RolledTold5} (worth 25 gp)",
+                    "A {@item silver beard-ring set with diamond dust|RolledTold5} (worth 50 gp)",
+                    "An {@item iron-rimmed wooden shield inlaid with silver depictions of four hawks|RolledTold5} (worth 35 gp)",
+                    "A {@item finely made silvered dagger with a brass badger head as the pommel|RolledTold5} (worth 127 gp)"
                   ]
                 },
                 {
