@@ -19,7 +19,7 @@
       }
     ],
     "dateAdded": 1603904881,
-    "dateLastModified": 1603904881
+    "dateLastModified": 1604091071
   },
   "item": [
     {
@@ -2161,7 +2161,124 @@
               "type": "entries",
               "name": "Romantic Entanglements",
               "entries": [
-                "[AUTHOR]"
+                "Joseph D. Carriker, Jr.",
+                {
+                  "type": "entries",
+                  "name": "Love & Relationships in Your Game",
+                  "entries": [
+                    "From the intrigue-laden romantic lives of your setting’s nobles to the pastoral bliss of the innkeep and her doting wife, from the jaded rake who takes a moment away from flirting to sell the player characters some information to the young lovers who defy social convention to pursue their own star-crossed affections: Love and relationships form a great deal of the backdrops of many game and fictional settings.",
+                    "If that’s the case, why does it so rarely show up at the gaming table within the purview of the player characters, then?",
+                    "We’re going to look at some ways to navigate this element of roleplaying games and how to use them to your group’s best advantage, all the while dodging squicky or awkward situations to the best of our ability. Whether you’d like to just highlight some background relationships in your character dynamics or play in a campaign with romantic attraction featured front and center, we’re going to look at some ways to include these sorts of romantic entanglements.",
+                    "With any luck, by the time we’re done here, you’ll feel ready to add a little of the amour to your adventure gaming.",
+                    "Though much of the advice in this article presumes romances involve a player character and a non-player character, it is easy enough to adapt some of its advice for burgeoning relationships between player characters, if the group wishes. It also assumes that you’re the one running the game, though there’s no reason a player can’t help the Game Master by playing “campaign Cupid,” helping to set up the advice given in this article."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "The Role of Loved Ones",
+                  "page": "29",
+                  "entries": [
+                    "Before we go into the {@i how}, it’s worth exploring the {@i why}. That is, why make a point of including romantic dynamics within the roleplaying game?",
+                    {
+                      "type": "entries",
+                      "name": "Connections to the Past",
+                      "entries": [
+                        "Romantic connections—even those that are no longer active, and maybe haven’t been in a long time—create connections to a player character’s back story. A long-standing romantic partner or spouse probably knows the character better even than their boon adventuring companions…or at least, they know them {@i differently}.",
+                        "Likewise, a player character’s former love interests can provide tangible links to that character’s origins. Were they apprenticed with the same swordmaster? Did one keep lookout while the other got up to mischief in the temple when both were acolytes? Did they both come from the same small farming community, before the player character was renowned as a hero? These experiences inform how that character views and treats the player character, which in turn shapes how others (particularly other player characters) interact with them."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Character Development",
+                      "entries": [
+                        "A romantic tie need not be an old one to contribute to a character’s depth. How a character makes their affections known to a love interest and interacts with that burgeoning relationship builds interesting detail into a player character’s identity.",
+                        "This is particularly rich when their behavior is seemingly at odds with their “adventuring party identity.” The snarling barbarian who is oddly tender and loves to brush his lady-love’s hair, the normally rakish bard given to tongue-tied blushing around the one he is swooning over, the warlock torn between his affections and his desire to protect his paramour by sequestering them away from the darker, dangerous part of his life: All of these build an additional layer of interesting character, both for the character’s player and for the other players around the table.",
+                        "Moreover, the presence of such characters adds development to more than just the romantic interest. How does the party’s rogue regard the lass his good friend is spending all his time with, and how does the fighter respond when a party member’s loved one sneakily corners them and begs them to protect their beloved? These responses all provide for some great development and roleplaying opportunities around the table."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Vital and Living NPCs",
+                      "entries": [
+                        "One of the elements that can’t be understated about relationships (romantic, certainly, but all relationships to some degree) is that they cause characters to become involved in one another’s lives in direct ways. The events in an NPC’s life are no longer things happening to someone else at that point—they affect the player character, as well. Positive things uplift both of them, and tragedies affect both as well. (Do see {@book Ways to Make It Work|RolledTold6|1|Ways to Make It Work}, below, for more on that, however.)",
+                        "When narratives seem to focus on events going on in a non-player character’s life, it can sometimes come across as a bit of “us standing around while story happens to someone else.” While this is still a danger, when that NPC happens to be involved with one of the player characters, there’s a deeper investment: That character’s story is also part of the player character’s story."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "inset",
+                  "entries": [
+                    "One of the elements that can’t be understated about relationships (romantic, certainly, but all relationships to some degree) is that they cause characters to become involved in one another’s lives in direct ways."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Player Buy-In",
+                  "page": "30",
+                  "entries": [
+                    "Before we go any further, you’ll need one main thing: player buy-in. By that, we mean ensuring your fellow players are interested in this style of play.",
+                    "Take a moment to discuss expectations and limits for this style of play within your group. Make sure to emphasize that everyone’s comfort is foremost in consideration of using these kinds of storytelling techniques.",
+                    "Moreover, make sure that everyone knows that the consent of the participating players is absolutely essential. If someone does not want to roleplay these sorts of situations, then that’s the final word on the topic.",
+                    "Discussion about including this material can and should include boundaries: To what extent is such gameplay out in the open? Some groups may enjoy actual roleplay during provocative scenes of flirting or even intimacy (focusing on verbal exchanges over narrative description), while others may enjoy the lead-in to such culminations while allowing the scene to “fade to black” once everyone has a pretty good idea of what follows. Some players may prefer never to engage in that narrative, while others may want it to be a background element at most.",
+                    "There’s no wrong way or right way to do this; only what is wrong or right for your group. Whatever your group decides, make sure to embrace the responsibility of the social contract of the gaming table: That is, each one of us is there not just to have fun, but to facilitate everyone else there having fun. Don’t make anyone uncomfortable, and be willing to be honest but non-confrontational if something makes you uncomfortable.",
+                    "I highly suggest the use of the X-card, as innovated by John Stavropoulos. Better descriptions of the technique can be found online, but in summary, it’s a means of indicating to the gaming table when the topic of the game has begun to veer into a territory you are uncomfortable with.",
+                    "By the simple expedient of a touch to the X-card itself, everyone knows to interpret that as a non-confrontational request that the group switch the course of the narrative away from where it’s headed at the moment. It’s a quick and simple method of signaling a companionable request for a shift in tone or content, without having to grind the game to a halt to justify or be interrogated.",
+                    "In practice, this allows a greater expression of roleplaying freedom and exploration of content, as each player can confidently explore their narrative interests, secure in the knowledge that their fellows have a means of signaling discomfort should it arise."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Ways to Make It Work",
+                  "page": "31",
+                  "entries": [
+                    "So at this point, ideally, you’ve thought over the inclusion of romantic elements into your campaign, and conferred with the others in your gaming group to make sure everyone’s on the same page. Exactly how do you do this, though?",
+                    "Every group is going to have different needs, but here are some useful techniques to integrate those kinds of storylines into the campaign.",
+                    {
+                      "type": "entries",
+                      "name": "Romantic Interests Gallery",
+                      "entries": [
+                        "As part of creating their characters, ask your players to find three to five images of people they feel their characters might be interested in. Not as a long-term thing, but in that “the first time I saw them, I couldn’t take my eyes off them” sort of initial impression.",
+                        "On a practical level, this bypasses one of the major awkward elements of romance in gaming: the Game Master telling a player that their character is attracted to someone. Using this technique, it keeps the decision for whom the character might be interested in within the player’s hands, while making them available for the narrator to introduce and leverage that initial attraction in a predictable way.",
+                        "Plus, it’s kind of a fun reveal with unexpected ramifications around the table: When the Game Master shows the image of the tyrant’s daughter to the group, one of the players realizes it’s one of his romantic gallery images, and so knows to roleplay that immediate (possibly dangerous) sense of being smitten in whatever way is appropriate to his character."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Confer with Players",
+                      "entries": [
+                        "As you introduce potential romantic interests, email or talk to players outside of the game, individually, to gauge their interest in taking part in that sort of plotline. There’s nothing that says romance (or any subplot, really) has to arise spontaneously at the table—rest assured, there will be more than enough spontaneity in play as the demands of the campaign impact that relationship.",
+                        "This sort of backstage conversation should continue for the whole duration of that relationship, and for any others that come along."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Avoid Gamifying Romance",
+                      "entries": [
+                        "Though there’s nothing wrong with a quick social check here and there to determine how well someone comports themselves, remember that charismatic people are not the only ones who fall in love. Flirtation or even a seduction might answer to the dice, but don’t relegate the success or failure of a romance to the dice or other mechanic. It should be a story element, and roleplaying-focused, not a matter of “winning” at a dice roll."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Not a Reward",
+                      "entries": [
+                        "Along those lines, neither should romance be a “reward” for victory. As prevalent as “winning the hand of the lady fair by slaying the dragon” tropes are in Western fiction, it’s not a good model for gaming (and is really a throwback to women being considered property, and that’s definitely an unwelcome reference at the gaming table).",
+                        "This isn’t to say that romantic interests can’t be impressed by our player character’s heroic actions. Far from it! But let those successes have their own rewards already built into the game, and have any romantic entanglement that arises after them be because they are the genuine response by the interest to the PC’s actions."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Avoid Fridging",
+                      "entries": [
+                        "Comics writer Gail Simone coined a term for the death of a love interest solely to motivate a hero: “fridging” (derived from a gruesome and weirdly repeated trope from comics).",
+                        "Though the ugly trope properly refers to the way female characters are brutalized in fiction solely to serve as shocking motivation for male characters, this author advises that you extend the concept to encompass all love interests: Do not introduce them for the sole purpose of kidnapping, harming, or killing them to evoke a response from a player character.",
+                        "This isn’t to say that loved ones can’t be endangered by the player character’s adventuring life, mind you. What I’m saying is that if your sole reason for introducing a romantic interest is to brutalize them as a cheap cattle prod to your player character(s), then possibly reconsider their introduction at all.",
+                        "Moreover, if they are put in harm’s way in any capacity, it should be with the express permission of that player, per Confer with Players above. Such stories may indeed make for good drama, they are also the sort of stories you shouldn’t force on others without their okay."
+                      ]
+                    }
+                  ]
+                },
+                "With all of these things in mind, hopefully you’ll find the path a little clearer for introducing a little love into the lives of your table’s heroes."
               ]
             },
             {
@@ -2169,9 +2286,9 @@
               "entries": [
                 {
                   "type": "entries",
-                  "name": "[AUTHOR]",
+                  "name": "Joseph D. Carriker, Jr.",
                   "entries": [
-                    ""
+                    "is a tabletop roleplaying game designer and novelist. His first novel, {@i Sacred Band} is about a team of LGBTQ+ superheroes. He lives in Portland, Oregon with his partner, A.J. {@link @oakthorne|https://twitter.com/oakthorne} on Twitter."
                   ]
                 }
               ]
@@ -2188,7 +2305,30 @@
               "type": "entries",
               "name": "Gaming While Poor",
               "entries": [
-                "[AUTHOR]"
+                "Josh Trujillo",
+                {
+                  "type": "entries",
+                  "name": "Expanding your gameing without spending money",
+                  "entries": [
+                    "Gaming manuals. Miniatures. Dice. Custom gaming tables. Snacks. Drinks. Pizza. Rolled & Told. Tabletop gaming is an incredible hobby—and incredibly expensive. I don't think I've ever stepped foot in a gaming store without blanching at the prices for flashy RPG supplies and paraphernalia. A dice bag costs how much? I have paper bags at home that do the job just fine, thank you. (I promise you that the dice don't care whether they're carried in plastic or vellum.) Whether you are in middle school or about to retire, there is no reason you can't play these amazing games. Your group's enjoyment of the game has nothing to do with how much you spend.",
+                    "If you are trying to run a campaign for the first time, the shopping list is overwhelming. Some of us don't have that kind of disposable income, but it doesn't have to impact your gaming. You can be the Game Master of a fantastic campaign without spending a lot of money. It just requires prep, creativity, and a lot of stolen office supplies.",
+                    "I first learned to play tabletop role-playing games with an outdated player's handbook that was missing the cover. I'm pretty sure one of my friends found it in a yard sale. We were all kids, so our resources were tied exclusively to birthdays and holidays. Every new expansion book required us to pool our money together, and we had to look for spare change just so we could photocopy character sheets. More often than not we went without rather than having a miniature that actually resembled our characters. The Wizard with the Missing Arm had to double as the Rogue, the Psionicist, the Owlbear, and even the Gelatinous Cube. We erased the names and stats on the character sheet over and over again until the entire paper was smudged gray on both sides. Somehow, we made it work. You can too.",
+                    "Gaming manuals are a big investment in playing these games. Some groups have access to multiple rulebooks, but for most of my life players shared a single copy of these sacred texts. Thankfully, that is now less of an issue because: The Internet. Most modern game systems have the rules for character creation posted on their websites. In addition, game designers and players have made incredible resources to reference and search for specific rules. At my table I try to use the books as little as possible. I encourage players to design their own prestige classes or modify an existing power or feat to better suit their characters (within reason). I also challenge myself to come up with original monsters whenever possible. If there's a monster I want to include in an adventure but don't have access to their real stats, I make it up and nobody ever notices.",
+                    "A resource that is surprisingly helpful for gaming manuals is the public library. More and more libraries are stocking their shelves with gaming lore and rulebooks. Libraries are also always always looking for suggestions on what titles to order. A few recommendations from you and your friends will go a long way, and save you, potentially, hundreds of dollars in books. Obviously, you can't keep the books forever (overdue library book fines are $$$), but at least you'll be able to photocopy selections of the most referenced pages of the rules.",
+                    "Speaking of, a lot of players simply cannot host a game. Between families, roommates, and small apartments, having five or more friends over might be impossible. Hipper cities have options like game cafes, but those often require a cover to enter or a food/drink order minimum. Libraries and schools are an excellent option. Many libraries regularly host game nights, and if yours doesn't, it doesn't hurt to ask. Someone at your local library is in charge of events like story times or study room sessions or adult education classes. Talk to them.",
+                    "Students also have other public spaces where they can game: namely classrooms. In my younger years, my friends and I routinely played in one of our chemistry teacher's rooms. Teachers work super hard and have to stay late every day. Take advantage of this by asking your favorite teacher to let you run some games there. The risk here is that if your teacher is cool enough to let you run RPGs in their classroom, they might want to join in.",
+                    "Gaming materials are a huge expense of playing these games, but they shouldn't have to be. Maybe my most controversial gaming opinion is that miniatures, maps, and dice aren't worth the effort. I appreciate the beautiful sculpts, the time-intensive and detailed painting, and the power of a 1/60th scale fantasy realm.",
+                    "Sadly, my apartment is too small to properly store a fantasy realm. I've resorted to using different-colored dice to differentiate characters. It's terribly clunky, yet effective. The best part of these games is Theater of the Mind, not exact recreations of every environment the game's characters will inhabit. Players have to use their imaginations and follow your lead as they inhabit these fantasy worlds. Simple drawings and describing the area in detail are all that's needed, really. For an effective, thrifty game master, less is always more. The newest miniature is only going to be impressive for so long. Players will remember the stories you all told together, rather than how cheap and boring your set-up was. Focus on gameplay over geography. You will be forgiven—even rewarded—for playing to your strengths. Your value as a Game Master is almost entirely contingent on your imagination and your friendships with the players.",
+                    "That is why I rely on the most important weapon in a Game Master's arsenal: paper! There's nothing hundreds of dollars in miniatures and maps can do that a few scraps of paper can't. At the beginning of a campaign, make your players draw small drawings of their characters. (Then when they complain about not being able to draw, have them beg the most talented artist in your group to do it.) The uses for notecards and sticky notes alone are infinite. Make a lazy jigsaw puzzle to reveal an important clue or give players sticky notes to represent an important item. They will stick those little slips of paper onto their character sheet with pride. It's much more tactile and fun than simply adding another line of text to an equipment list.",
+                    "You can make folded, simple paper standees that work just as well as pewter. It also helps Game Masters who prefer to improvise: There's no prep required. However, if you're going to draw every character and environment as your players encounter it, make sure you're quick about it. This builds into a hand-tailored style of running the game that helps players take ownership of your story. Campaign after campaign, adventure by adventure, I've been able to draw a full war-chest of settings, characters, monsters— even props. The best part is that they all fit in a single folder and aren't low-key embarrassing to carry around on the bus.",
+                    "If your group prefers something more literal for its gaming tools, a sheet of cheap, clear vinyl over grid paper is excellent and very affordable. You can get that pretty cheaply from a craft store. It's very quick to set up a scene like this for your players, and it's easy to clean up. Just keep in mind that dry erase markers run out of ink fast if you're changing locations and maps often. There's also a lot to be said for raiding an old game closet or garage sale for makeshift gaming materials. A checkers board is perfectly functional as a grid square, and there are no shortages of d6s in the world. The other, more bizarre dice are a different story, however.",
+                    "Fortunately, cell phones have made physical characters sheets and even dice obsolete in a lot of ways. While I prefer the sound of my tabletop getting cut up by dice, random number generators or free gaming-randomizer apps also work. And don't worry about players modifying the outcome of their rolls by using their tech savvy. Some players are going to fudge the numbers regardless of whether they are using a phone or actual dice. Just accept it. Digital character sheets are a good tool for newer players and very functional. I'm old-fashioned, so at my table I prefer paper because it's easier to keep track of a player's progress. Even though digital solutions may save you some money, be careful. You should try to keep your players' attention away from their devices as much as humanly possible. Once you lose that battle, you'll never get that turf back.",
+                    "One of the greatest unplanned costs of hosting a game night is food. Even if your friends pool their money to pay for take-out, it gets pricey if you are running a regular weekly session. A group of six players can blow through a bag of chips in under a minute, so you often have to buy snacks in bulk. If your friends like to drink while they play (mine sure as hell do), it's even worse. Many of us were raised to be generous hosts, perhaps to a fault. There's no shame in asking the players to turn each session into a potluck! Or, if you're uncomfortable asking people to chip in, schedule the session after lunch or after dinner so that there's no expectation to raid your pantry.",
+                    "All of this advice is just to let you know that, hey, money is in no way required to enjoy tabletop gaming. These things are designed to be flexible. Running an entire campaign might not fit in with your work schedule, and that's fine. The best, most innovative role-playing games are available for free online. And many of them are designed as one-offs. There are no rules as to how often you have to play. Yes, there are hardcore gamers who play multihour sessions every single day, but the rest of us have to work. Especially as you get older, a regular session might not be an option, given the time required. No matter how often you play, or with what kind of gaming supplies, maximize the fun.",
+                    "Work within your own means. Your players will know if you're stressing out over something, and that ultimately hurts the game. This is a hobby like everything else, so don't go overboard in trying to mimic the lavish set-ups you see online. Their tables may be more elaborate, but in no way does that make them better. Your friends won't judge you for the elder ice dragon you made from paper-towel rolls and duct tape. In fact, they'll love you for it.",
+                    "A savvy Game Master is efficient in using their time, their energy, and their finances. Then you can use all that saved cash and spend it on something truly worthwhile, like loot boxes for your favorite video game."
+                  ]
+                }
               ]
             },
             {
@@ -2196,9 +2336,9 @@
               "entries": [
                 {
                   "type": "entries",
-                  "name": "[AUTHOR]",
+                  "name": "Josh Trujillo",
                   "entries": [
-                    ""
+                    "is a comic book and video game writer based in Northern California. A lifelong dungeon master, Josh is the creator of DEATH SAVES: FALLEN HEROES OF THE KITCHEN TABLE. {@link @losthiskeysman|https://twitter.com/losthiskeysman}"
                   ]
                 }
               ]
@@ -2215,7 +2355,72 @@
               "type": "entries",
               "name": "Bringing the Bizarre",
               "entries": [
-                "[AUTHOR]"
+                "Crystal Frasier",
+                "For all the dragons and spells, the worlds of roleplaying games are strikingly familiar. Gravity pulls things down. Adults grow from children. Fire is hot. These rules mean we can make sense of the fantastic worlds by looking at what's different: mischievous fairies, magic swords, vast underground megastructures. But even these fantastic traits carry a sort of mechanical logic and familiarity. A {@spell fireball} spell may never exist in the real world, but your wizard always knows when they expend that 3rd-level spell slot, they get a 20-foot radius cyclone of fiery death. But those fantastic elements—the altered laws of physics, the in-world legends, the bizarre—are what catch our attention and draw us in.",
+                "The bizarre is unexpected, strange, or even a funny way the game world differs from what we expect. Small bits of the bizarre—magic, monsters, or spaceships—all help a setting stand out from our everyday world. But they are almost mundane to anyone who has spent a lifetime watching TV, reading books, and listening to fiction podcasts. Bizarre is where your world breaks its own rules for what is and isn't normal, and when used thoughtfully, it can reignite a sense of wonder.",
+                "Adding elements of the bizarre to your game can be a fun way to flesh out the world, build myths or urban legends, or take a momentary break from the normal tone of your campaign. Because the bizarre is often a matter of description rather than major rules changes, it's rarely even that hard once you learn a few key lessons. Many players love a game where the bizarre takes center stage for an adventure, or for the whole campaign, but knowing how to write it means understanding what makes something bizarre and when to use it.",
+                {
+                  "type": "entries",
+                  "name": "Weird Not Wacky",
+                  "page": "40",
+                  "entries": [
+                    "Bizarre doesn't mean chaos and randomness. Change for the sake of change is wackiness, and it can be fun—especially if you plan an adventure in a plane of chaos— but humans are pattern-seeking creatures and like to know some reason lurks behind the unreasonable. Writing the bizarre means change, but with rules. Those rules can be obscure or counterintuitive, but you need at least some cursory guidelines. There needs to be some order, or reason, or internal logic, if only so the players know things are going badly when you break the rules later.",
+                    "One of the best ways for showcasing the bizarre elements of your world is through contrast. One dot of color stands out brilliantly against a muted background, and likewise a lone strange element in an otherwise familiar situation—especially if no one else seems to notice it—seems far more unsettling and important than a firehose of random changes and oblique references. Likewise, adding some element of the mundane to a magical or supernatural element draws more attention to the rest of the strangeness. Maybe goblins in one adventure—a very familiar monster—have enormous secondary mouths in their stomachs, which speak an alien language and seem far smarter than the goblins themselves. Why? That's for you to figure out, but even if you never explain it, it adds an unsettling twist to something familiar to your players. In the other direction, taking your players to a psychedelic dimension of dreams might be fun, but adding an NPC who dresses and acts like a bored retail worker grounds the experience in something familiar, and makes both the dream world and the NPC seem weirder by the contrast. Consider what the rules are in your setting, follow them to their extremes, and then figure out a way to make your players interact with these unusual edge cases. Consider the {@spell fireball} spell: hold out a pinch of bat guano to create a ball of intense heat. Where does that heat come from? Does the spell open a momentary portal to an elemental plane? Could strange things try to slip out every time a {@spell fireball} spell is cast? What if there's a powerful, ancient fire elemental or genie that created the {@spell fireball} spell and gave it to humans as a means of escaping one tiny piece at a time? Or consider the bat guano—where does it go? And why guano? Is there a demiplane somewhere that collects the material components from spells as a sort of cosmic tax on magic? And if so, does that mean there are demiplanes filled with more valuable components, like the onyx from {@spell create undead} spells?",
+                    "Consider whatever strange element you want to bring into your game and what rules apply to it. How do the PCs interact with it? What happens when they question it or try to learn more? What happens when they start rolling dice? Don't keep the bizarre completely out of their hands—if you do, your game becomes a lecture—but make sure they know that mastering this bizarre element isn't as easy or straightforward as they may think."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Suspention of Disbelief",
+                  "page": "41",
+                  "entries": [
+                    "Suspension of disbelief is the willingness for your players to accept things they know are impossible. If a cartoon rabbit falls off a cliff and then gets up and walks away, we accept that because those are the rules for cartoons. If a gritty detective in a serious movie does the same, we don't accept it, because gritty detectives don't use the same rules as cartoon rabbits. But then you have Who Framed Roger Rabbit, a gritty detective movie that also applies cartoon logic, showing us that there are fuzzy edges to any audience's suspension of disbelief, and those fuzzy edges are where you can play.",
+                    "Think about what strange elements your players already accept in the game: magical creatures, spells that create ice, spirits of the dead lingering to haunt the living, other dimensions. These are the parts of your story where your players already suspend their disbelief and are more willing to accept the bizarre. If you want an NPC who only speaks in rhyme, then use a creature they have already accepted as magical. If you want a palace of ice in the middle of the desert, connect it to spells they already accept. If you want an adventure that defies all the normal rules, put it in another dimension where they already expect the rules to change.",
+                    "If you don't want to introduce your bizarre elements in connection to those areas where the PCs have already suspended their disbelief, you can mimic the process many science fiction or supernatural television shows use to introduce their fantastic element. The introduce the element slowly over many episodes, letting audiences adjust their suspension of disbelief a little at a time. Lead your own players away from normal one step at a time. Start with a simple change from the status quo, such as rumors of a new monster, fantastic locations, or a minor magic effect they can't identify or reproduce. You can end up in strange new places like cities of living memories built sideways through time!"
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Reading Your Audience",
+                  "entries": [
+                    "Every group will accept different levels of the bizarre, so it's important to pay attention to your players and see what strange elements catch their attention or get them excited. It's even more important to notice what elements make them check out or start cracking jokes. Like many story elements, bizarre elements feel more welcome and believable if you drop hints to your group early on. Use NPCs and world lore to spell out not only the rules of your world, but also to foreshadow the creepy times when those rules are broken. If you want an adventure in an Escher-esque world, start a few sessions earlier with a bard spinning campfire tale of a cursed artist who sought literal immortality through their works. If your players find the story interesting, you can feed them a bit more; perhaps the mayor's ancestors vanished mysteriously when they crossed a traveling artist. These small tastes prime the pump for your players' expectations and let you gauge how interested they seem to be."
+                  ]
+                },
+                {
+                  "type": "inset",
+                  "entries": [
+                    "Adding elements of the bizarre to your game can be a fun way to flesh out the world, build myths or urban legends, or take a momentary break from the normal tone of your campaign."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Adding \"Bizarre\" to Your Own Adventures",
+                  "page": "42",
+                  "entries": [
+                    "Here are a few ideas for you to try.",
+                    {
+                      "type": "entries",
+                      "name": "You Bet Your Life",
+                      "entries": [
+                        "Popular imagery is full of ideas of what the afterlife is, amounting to a grand courtroom where the dead defend their lives. There's also the idea of gambling with death to return to life. If we combine these two ideas, we could see death as a casino, where every major deed in life translates to a chip that can be used in different games depending on the nature of the deed. The dead must win at least one game to move on, or slowly decay into dust, but if they can double their stake they can return to the living. In this scenario, a {@spell resurrection} spell wouldn't bring a dead adventurer back, but instead let the living join them in the casino and play on their behalf—the diamond spell component serving as their ante. This changes resurrecting a fallen friend into its own adventure, and depending on your players, that might be a high-stakes gambling story or a heist. "
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "The Goblin Market",
+                      "entries": [
+                        "In fairy tales, fey, goblins, and witches sometimes trade favors for a person's dearest memories. But what do they do with those memories, and what happens if adventurers need one of those memories to solve a mystery? What if fey and devils have their own otherworldly commodities market where they buy and sell memories like a modern-day stock market, with backroom deals, supply-and-demand, and speculation of which memories will be readily available in the future versus which are rare? Adventurers seeking one memory from the thousands traded every day may drive the price up, requiring them to run a con game to make the memory they need seem worthless. Or they'll have to strike a bizarre deal that requires them to forge very specific memories they agree to trade to a broker—if they can find one they trust. "
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "The Mind Maze",
+                      "entries": [
+                        "A spell that removes a character from the game after one bad roll frustrates even veteran players, as your night of fun with friends has turned into a night of watching your friends have fun. You may want to turn failed saving throws for these \"save or die\" effects into their own small encounters. The {@spell maze} spell tosses its target into an extradimensional maze for up to 10 minutes and requires an Intelligence test to escape—easy enough for a studied wizard, but frustrating for an action-hero fighter. If the maze is instead inside the spellcaster's mind, then the trapped fighter might run into different, hostile aspects of the wizard's psyche, either battling or roleplaying with them to distract the spellcaster or impose penalties back in the real world. In this scenario, the trapped player still contributes to the adventure, even if they can't win the day single-handedly, and the spell's challenge doesn't feel so hopeless! You can apply this idea to other effects where a failed save leaves a PC incapacitated for minutes or hours. Perhaps a medusa's petrifying gaze launches a character's soul into the Elemental Plane of Earth where they can try to beat elementals at riddle games. Or a sea hag's death glare traps a target's soul inside the raging storm of her own soul alongside however many souls she's claimed before. "
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -2223,9 +2428,9 @@
               "entries": [
                 {
                   "type": "entries",
-                  "name": "[AUTHOR]",
+                  "name": "Crystal Frasier",
                   "entries": [
-                    ""
+                    "is an author and artist best known for her work for the Pathfinder and Mutants & Masterminds roleplaying games. She loves cartoons and her corgi, Calamity."
                   ]
                 }
               ]
@@ -2246,12 +2451,31 @@
           "name": "Memorable Monsters",
           "page": "56",
           "entries": [
-            "Try these tweaks on the versatile and classic {@creature winter wolf} to surprise your players.",
+            "Try these tweaks on the versatile and classic winter wolf to surprise your players.",
             {
               "type": "entries",
               "name": "Winter Wolf",
               "entries": [
-                "[AUTHOR]"
+                "E.L. Thomas",
+                {
+                  "type": "entries",
+                  "name": "Take an old-school monster, tweak it, and surprise your players! Whether they are rules lawyers, long-time dungeon crawlers, fellow game masters, or those oh-so-annoying monster-memorizing spoilsports, try our twists on this classic monster.",
+                  "entries": [
+                    "Since 1977, many a player has faced the icy breath and gnashing jaws of the {@creature winter wolf}. This white, adventurer-eating critter has made (as far as I know) an appearance in every edition of the world's most popular RPG since its creation. In its current incarnation for 5th edition, this large-sized monstrosity comes in at a respectable Challenge 3 (700 XP). I mean, that's pretty realistic for 8 feet long, 4 feet at the shoulder, with an average of 75 hit points and the ability to breathe a 1 5-foot cone of 4d8 cold damage. Add in that it understands both Common and Giant, has Pack Tactics, and is kind of sneaky (Stealth +3, with advantage in snowy terrain), and your PCs have a rough foe to deal with. Think if it is not one, but a pack of 6-10 of these nasty critters coming at your favorite second tier (levels 5-10) party of adventurers—now that's a challenge.",
+                    "Winter wolves are a super versatile monster that work great for first tier (levels 1-4) and even third tier (levels I I-1 6) play, as well. At low levels, a lone winter wolf can make for a nasty mini-boss fight or an even worse random encounter. At higher levels, the winter wolf becomes the servant, fodder, or ally monster for more powerful foes. Winter wolves serve the role of hunting hounds and guard dogs for frost giants. They make powerful minions for an evil wizard or sorceress. They also make great side quest encounters for single PCs of third tier levels.",
+                    "If you need inspiration, look no further than the movie The Grey, starring Liam Neeson. Switch out the wolves for winter wolves and switch out the oil pipeline for a trade route and send the PCs hunting. You pretty much can mirror most of the scenes in the movie and have a nasty adventure (just change the plane crash to a wagon crash). So, watch the movie and consider it enjoyable GM homework for using wolves, worgs, and winter wolves on their own as foes for your PCs.",
+                    "Let us get to tweaking for winter wolves. As I stated earlier, the 5e, Challenge 3 version is pretty good to go as is. But we can do some simple things to surprise your well-read or experienced players. The simplest is to add an Alpha wolf (or two, if you are feeling really nasty), if you are using a pack of winter wolves.",
+                    "An Alpha is just a cut above the average winter wolf. To make something an Alpha on the fly, just give it max hit points instead of average, and give it +2 AC and +2 bonus on all d20 rolls. If you have time to throw a new stat block together, you just need a few stat bumps. First off, a bump up in natural armor (l mean, being the pack alpha is a tough job). Next, give your Alpha a Hit Dice and challenge increase. You can also add in a new ability, plus up the damage and recharge of the Alpha's attacks. If you do all that, you get the stat block below, as an example.",
+                    "{@creature Alpha Winter Wolf|RolledTold6}",
+                    "Let's try another tweak. If you are looking to use a lone winter wolf for, say, a random encounter for second tier PCs or as a solo monster for first tier PCs, then you might go with a winter wolf that is the lone survivor or has been shunned or outcast by their pack. Maybe the outcast lost a battle for pack leadership? In nature, when such occurs, most animals either die, join a new pack, or form their own new pack. The rare few that don't and still manage to eke out survival become quite fierce and savage. Such a winter wolf would make a great side quest for a second tier PC or party, or a whole adventure for a first tier party.",
+                    "Think about this: What seems to be a pack of massive wolves has been slaughtering any travelers who dare to try and traverse the foothills and low trade trails of a mountain range during winter. The wolves only slaughter livestock and draft animals, but never eat them. They also leave no trace of any humanoids. The PCs are brought in to find and slay these menaces. Now the PCs get to try and figure this very un-wolf-like behavior out and track down what happened to the missing humanoids. When they track down the wolf den, they find the place carpeted with humanoid bones. They also discover there is only one very nasty, scarred, and feral winter wolf!",
+                    "For this tweak we can just take the Alpha and make a few easy changes. Take away anything to do with a pack, give it some solo abilities, and if you are feeling frisky, make it a Legendary Monster with some Legendary and Lair actions. That is the easiest way to make a single foe feel like multiple foes, and most players hate it when a monster does actions on PCs' turns.",
+                    "{@creature Feral Outcast Winter Wolf}",
+                    "Now looking at this outcast, it is a very powerful combatant for Challenge 5, but this wolf is alone. This means all the PCs' attacks and abilities will be focused on it. The outcast does not have any great saving throws, and besides the cold breath, it is a melee fighter. Speed 50 ft.",
+                    "So beating it only takes trapping it or keeping it at range. The Army of One ability makes that tough, but Mental-based spell saves will end the outcast. Also, all damage except Cold Damage works on it. One ranger with a long bow and one of the nastier ranged weapon feats will whittle away at the outcast's Hit Points in only a few rounds. If that ranger has at least three buddies, then the fight will be fun and interesting, but likely not go any way in the outcast's favor.",
+                    "This is what you want when tweaking a monster. Make it a surprise to your players. Let the tweaks make the combat or encounter interesting. Last, but not least, make the monster beatable. In the end you want the PCs to win. You just want to rough them up and worry them while they do."
+                  ]
+                }
               ]
             },
             {
@@ -2259,9 +2483,9 @@
               "entries": [
                 {
                   "type": "entries",
-                  "name": "[AUTHOR]",
+                  "name": "E.L. Thomas",
                   "entries": [
-                    ""
+                    "is a game designer, author, and rabid gamer who has been crawling through graph paper dungeons for nearly four decades and has no desire to stop. He lives with his two spoiled dogs under the auspicious grace of his queenly wife."
                   ]
                 }
               ]
