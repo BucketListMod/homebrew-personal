@@ -2510,7 +2510,7 @@
       "type": "G",
       "rarity": "none",
       "weight": "1",
-      "value": "5000",
+      "value": 5000,
       "entries": [
         "A purple-hued flask that sparks of tiny lightning can be seen dancing within. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the lightning bottle as an improvised weapon. On a hit, the target takes {@damage 2d6} lightning damage, and if the target takes damage from this attack, it cannot take a reaction until your next turn."
       ]
@@ -2535,7 +2535,7 @@
       "page": "9",
       "type": "AIR",
       "rarity": "none",
-      "value": "6000000",
+      "value": 6000000,
       "crew": "20",
       "capPassenger": "20",
       "vehAc": "15",
@@ -2553,7 +2553,7 @@
       "page": "14",
       "type": "AIR",
       "rarity": "none",
-      "value": "1000000",
+      "value": 1000000,
       "crewMin": "1",
       "crewMax": "2",
       "capPassenger": "1-2",
@@ -2571,7 +2571,7 @@
       "page": "15",
       "type": "AIR",
       "rarity": "none",
-      "value": "200000",
+      "value": 200000,
       "crew": "1",
       "capPassenger": "3",
       "vehAc": "10",
@@ -2599,7 +2599,7 @@
       "page": "55",
       "type": "$",
       "rarity": "none",
-      "value": "10000"
+      "value": 10000
     },
     {
       "name": "Small silver shaving mirror set in a toothy jawbone of a small shark",
@@ -2607,7 +2607,7 @@
       "page": "43",
       "type": "$",
       "rarity": "none",
-      "value": "2500"
+      "value": 2500
     },
     {
       "name": "Silver and tourmaline hatpin shaped like a seahorse",
@@ -2615,7 +2615,7 @@
       "page": "43",
       "type": "$",
       "rarity": "none",
-      "value": "2500"
+      "value": 2500
     },
     {
       "name": "Tiny silver brandy thimble shaped like a skull",
@@ -2623,7 +2623,7 @@
       "page": "43",
       "type": "$",
       "rarity": "none",
-      "value": "2500"
+      "value": 2500
     },
     {
       "name": "Backscratcher made from a monkey's paw and decorated with hand-painted wooden beads",
@@ -2631,7 +2631,7 @@
       "page": "43",
       "type": "$",
       "rarity": "none",
-      "value": "2500"
+      "value": 2500
     },
     {
       "name": "Bone hair comb made to resemble a fish skeleton",
@@ -2639,7 +2639,7 @@
       "page": "43",
       "type": "$",
       "rarity": "none",
-      "value": "2500"
+      "value": 2500
     },
     {
       "name": "Tiny fluorite sphere dangling from a thong made from the braided hair of a storm giant",
@@ -2647,7 +2647,7 @@
       "page": "43",
       "type": "$",
       "rarity": "none",
-      "value": "2500"
+      "value": 2500
     },
     {
       "name": "Silver-tipped and ebony-seamed writing pen and matching inkwell",
@@ -2655,7 +2655,7 @@
       "page": "43",
       "type": "$",
       "rarity": "none",
-      "value": "2500"
+      "value": 2500
     },
     {
       "name": "Bone snuff box inlaid with turquoise in the shape of a porpoise",
@@ -2663,7 +2663,7 @@
       "page": "43",
       "type": "$",
       "rarity": "none",
-      "value": "2500"
+      "value": 2500
     },
     {
       "name": "Soft leather neck pouch decorated with fine beadwork",
@@ -2671,7 +2671,7 @@
       "page": "43",
       "type": "$",
       "rarity": "none",
-      "value": "2500"
+      "value": 2500
     },
     {
       "name": "Gold cloak pin in the shape of two crossed anchors",
@@ -2679,7 +2679,7 @@
       "page": "43",
       "type": "$",
       "rarity": "none",
-      "value": "2500"
+      "value": 2500
     },
     {
       "name": "Electrum hoop earring set with a teardrop shaped amethyst",
@@ -2687,7 +2687,7 @@
       "page": "43",
       "type": "$",
       "rarity": "none",
-      "value": "25000"
+      "value": 25000
     },
     {
       "name": "Carved whalebone statuette of a lewdly posed and topless merfolk",
@@ -2695,7 +2695,7 @@
       "page": "43",
       "type": "$",
       "rarity": "none",
-      "value": "25000"
+      "value": 25000
     },
     {
       "name": "Finely made rapier with the hilt, pommel, and sheath all decorated with tiny blood jasper stones",
@@ -2703,7 +2703,7 @@
       "page": "43",
       "type": "$",
       "rarity": "none",
-      "value": "25000"
+      "value": 25000
     },
     {
       "name": "Small sea turtle figurine carved from a single piece of creamy green jade",
@@ -2711,7 +2711,7 @@
       "page": "43",
       "type": "$",
       "rarity": "none",
-      "value": "25000"
+      "value": 25000
     },
     {
       "name": "Silk cravat embroidered with gold thread and set with numerous tiny zircons",
@@ -2719,7 +2719,7 @@
       "page": "43",
       "type": "$",
       "rarity": "none",
-      "value": "25000"
+      "value": 25000
     },
     {
       "name": "Silver ring of entwined serpents both biting at a sizable amber orb",
@@ -2727,7 +2727,7 @@
       "page": "43",
       "type": "$",
       "rarity": "none",
-      "value": "25000"
+      "value": 25000
     },
     {
       "name": "Matched pair of stuffed monkeys with garnet red eyes posed as bookends",
@@ -2735,7 +2735,7 @@
       "page": "43",
       "type": "$",
       "rarity": "none",
-      "value": "25000"
+      "value": 25000
     },
     {
       "name": "Silver parrot cage encrusted with two-dozen quartz gemstones",
@@ -2743,7 +2743,7 @@
       "page": "43",
       "type": "$",
       "rarity": "none",
-      "value": "25000"
+      "value": 25000
     },
     {
       "name": "DC 20 padlock finely engraved to resemble a smiling shark with expertly cut jets for its eyes",
@@ -2751,7 +2751,7 @@
       "page": "43",
       "type": "$",
       "rarity": "none",
-      "value": "25000"
+      "value": 25000
     },
     {
       "name": "Adamantine holy symbol inlaid with black pearl",
@@ -2759,7 +2759,7 @@
       "page": "43",
       "type": "$",
       "rarity": "none",
-      "value": "25000"
+      "value": 25000
     },
     {
       "name": "Platinum ring set with a star ruby",
@@ -2767,7 +2767,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "250000"
+      "value": 250000
     },
     {
       "name": "Bullseye lantern set with carnelian and gold filigree",
@@ -2775,7 +2775,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "250000"
+      "value": 250000
     },
     {
       "name": "Gold paperweight set with a fist-sized moonstone",
@@ -2783,7 +2783,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "250000"
+      "value": 250000
     },
     {
       "name": "Wine flask decorated with alexandrite",
@@ -2791,7 +2791,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "250000"
+      "value": 250000
     },
     {
       "name": "Spyglass encased in gold and malachite",
@@ -2799,7 +2799,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "250000"
+      "value": 250000
     },
     {
       "name": "Fine dagger with three identically cut emeralds—two on the cross guard and one on the pommel",
@@ -2807,7 +2807,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "250000"
+      "value": 250000
     },
     {
       "name": "Puzzle box made from cut bloodstone and pearl",
@@ -2815,7 +2815,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "250000"
+      "value": 250000
     },
     {
       "name": "Gold, opal, and electrum belt buckle",
@@ -2823,7 +2823,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "250000"
+      "value": 250000
     },
     {
       "name": "Card case made from teak and set with chrysoberyl gems carved for each playing-card suit",
@@ -2831,7 +2831,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "250000"
+      "value": 250000
     },
     {
       "name": "Pair of dice carved from solid fire opals",
@@ -2839,7 +2839,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "250000"
+      "value": 250000
     },
     {
       "name": "Diamond-encrusted key the size of a short sword",
@@ -2847,7 +2847,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "75000"
+      "value": 75000
     },
     {
       "name": "Ship-in-a-bottle curio made entirely of sprite bones and moonstones",
@@ -2855,7 +2855,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "75000"
+      "value": 75000
     },
     {
       "name": "Platinum choker set with transparent violet garnets",
@@ -2863,7 +2863,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "75000"
+      "value": 75000
     },
     {
       "name": "Velvet cape embroidered with silver thread and tiny pink pearls",
@@ -2871,7 +2871,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "75000"
+      "value": 75000
     },
     {
       "name": "Kraken statuette made from jet grappling a ship made from solid silver",
@@ -2879,7 +2879,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "75000"
+      "value": 75000
     },
     {
       "name": "Silver boatswain's whistle shaped like a screeching hawk's head the eyes of which are set with peridot",
@@ -2887,7 +2887,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "75000"
+      "value": 75000
     },
     {
       "name": "Gold and aquamarine brooch",
@@ -2895,7 +2895,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "75000"
+      "value": 75000
     },
     {
       "name": "Ruby-studded gold hat pin",
@@ -2903,7 +2903,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "75000"
+      "value": 75000
     },
     {
       "name": "Ivory and platinum coffer",
@@ -2911,7 +2911,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "75000"
+      "value": 75000
     },
     {
       "name": "Gold and topaz bracer",
@@ -2919,7 +2919,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "75000"
+      "value": 75000
     },
     {
       "name": "Necklace string of tiny black diamonds",
@@ -2927,7 +2927,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "750000"
+      "value": 750000
     },
     {
       "name": "Crystal decanter decorated with canary diamonds",
@@ -2935,7 +2935,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "750000"
+      "value": 750000
     },
     {
       "name": "Human skull dipped in gold and studded with blue jasper and diamonds for teeth",
@@ -2943,7 +2943,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "750000"
+      "value": 750000
     },
     {
       "name": "Silk sash set with seven yellow sapphires",
@@ -2951,7 +2951,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "750000"
+      "value": 750000
     },
     {
       "name": "Whale bone and silk corset studded with one-hundred star rose quartzes",
@@ -2959,7 +2959,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "750000"
+      "value": 750000
     },
     {
       "name": "Small jet statue of a sea deity with blue diamonds for eyes",
@@ -2967,7 +2967,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "750000"
+      "value": 750000
     },
     {
       "name": "Ornately carved, large-sized gold and silver ear trumpet set with six blue spinel gemstones",
@@ -2975,7 +2975,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "750000"
+      "value": 750000
     },
     {
       "name": "Gold and jacinth earring",
@@ -2983,7 +2983,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "750000"
+      "value": 750000
     },
     {
       "name": "Platinum goblet set with black opals",
@@ -2991,7 +2991,7 @@
       "page": "44",
       "type": "$",
       "rarity": "none",
-      "value": "750000"
+      "value": 750000
     }
   ],
   "table": [
