@@ -1687,7 +1687,7 @@
       "page": "26",
       "type": "$",
       "rarity": "none",
-      "value": "2500",
+      "value": 2500,
       "entries": []
     },
     {
@@ -1696,7 +1696,7 @@
       "page": "26",
       "type": "$",
       "rarity": "none",
-      "value": "2500",
+      "value": 2500,
       "entries": []
     },
     {
@@ -1705,7 +1705,7 @@
       "page": "26",
       "type": "$",
       "rarity": "none",
-      "value": "2500",
+      "value": 2500,
       "entries": []
     },
     {
@@ -1714,7 +1714,7 @@
       "page": "26",
       "type": "$",
       "rarity": "none",
-      "value": "2500",
+      "value": 2500,
       "entries": []
     },
     {
@@ -1723,7 +1723,7 @@
       "page": "26",
       "type": "$",
       "rarity": "none",
-      "value": "5000",
+      "value": 5000,
       "entries": []
     },
     {
@@ -1732,7 +1732,7 @@
       "page": "26",
       "type": "$",
       "rarity": "none",
-      "value": "3500",
+      "value": 3500,
       "entries": []
     },
     {
@@ -1741,7 +1741,7 @@
       "page": "26",
       "type": "$",
       "rarity": "none",
-      "value": "12700",
+      "value": 12700,
       "entries": []
     }
   ],
