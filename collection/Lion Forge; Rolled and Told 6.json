@@ -19,7 +19,7 @@
       }
     ],
     "dateAdded": 1603904881,
-    "dateLastModified": 1604091071
+    "dateLastModified": 1604104440
   },
   "item": [
     {
@@ -59,6 +59,51 @@
         "eyebite",
         "create undead"
       ]
+    },
+    {
+      "name": "Finely crafted lute",
+      "source": "RolledTold6",
+      "page": "17",
+      "type": "$",
+      "rarity": "none",
+      "value": "25000",
+      "entries": []
+    },
+    {
+      "name": "Gold locket",
+      "source": "RolledTold6",
+      "page": "20",
+      "type": "$",
+      "rarity": "none",
+      "value": "1000",
+      "entries": []
+    },
+    {
+      "name": "Small gold bracelet",
+      "source": "RolledTold6",
+      "page": "",
+      "type": "$",
+      "rarity": "none",
+      "value": "2500",
+      "entries": []
+    },
+    {
+      "name": "Gold-and-ruby wedding ring",
+      "source": "RolledTold6",
+      "page": "24",
+      "type": "$",
+      "rarity": "none",
+      "value": "25000",
+      "entries": []
+    },
+    {
+      "name": "Platinum-and-ruby choker",
+      "source": "RolledTold6",
+      "page": "24",
+      "type": "$",
+      "rarity": "none",
+      "value": "75000",
+      "entries": []
     }
   ],
   "monster": [
@@ -1370,7 +1415,7 @@
                   "name": "Clues and Loot",
                   "page": "17",
                   "entries": [
-                    "Hidden in a secret alcove under the floorboards of his house—Wisdom ({@skill Perception}) {@dc 15} to find—are the following items taken from the villagers and travelers that were slain: 300 gp; 2,000 sp; 4 10-gp gems; a finely crafted lute (worth 250 gp); assorted silver platters, candlesticks, and cutlery (total value 200 gp); 2 {@item spell scroll||scrolls} with {@spell cure wounds} spells; and 4 {@item potion of animal friendship||potions of animal friendship}. Along with the treasure is a crude but accurate map of a tunnel that leads away from town, starting in the graveyard and ending in the forest, but bypassing the road until five miles away from the village. With the map, the PCs could escape the village and avoid the masses of wolves that roam the forest."
+                    "Hidden in a secret alcove under the floorboards of his house—Wisdom ({@skill Perception}) {@dc 15} to find—are the following items taken from the villagers and travelers that were slain: 300 gp; 2,000 sp; 4 10-gp gems; a {@item finely crafted lute|RolledTold6} (worth 250 gp); assorted silver platters, candlesticks, and cutlery (total value 200 gp); 2 {@item spell scroll||scrolls} with {@spell cure wounds} spells; and 4 {@item potion of animal friendship||potions of animal friendship}. Along with the treasure is a crude but accurate map of a tunnel that leads away from town, starting in the graveyard and ending in the forest, but bypassing the road until five miles away from the village. With the map, the PCs could escape the village and avoid the masses of wolves that roam the forest."
                   ]
                 }
               ]
@@ -1524,7 +1569,7 @@
                   "type": "entries",
                   "name": "Loot",
                   "entries": [
-                    "One of the {@creature vampiric minion|RolledTold6|vampiric minions} is wearing a gold locket worth 10 gp. In the pile of wood by the stairs—Intelligence ({@skill Investigation}) {@dc 15} to find—is a heavy leather case that holds two 100-gp value bottles of rare wine that have somehow survived the destruction of the wooden rack."
+                    "One of the {@creature vampiric minion|RolledTold6|vampiric minions} is wearing a {@item gold locket|RolledTold6} worth 10 gp. In the pile of wood by the stairs—Intelligence ({@skill Investigation}) {@dc 15} to find—is a heavy leather case that holds two 100-gp value bottles of rare wine that have somehow survived the destruction of the wooden rack."
                   ]
                 }
               ]
@@ -1602,7 +1647,7 @@
                   "type": "entries",
                   "name": "Loot",
                   "entries": [
-                    "The {@creature vampire spawn} have the following items divided between them: a small belt {@item pouch|PHB} containing 20 10-gp {@item lapis lazuli} gems, a small gold bracelet worth 25 gp, and a pair of {@item boots of elvenkind} (see core rulebooks)."
+                    "The {@creature vampire spawn} have the following items divided between them: a small belt {@item pouch|PHB} containing 20 10-gp {@item lapis lazuli} gems, a {@item small gold bracelet|RolledTold6} worth 25 gp, and a pair of {@item boots of elvenkind} (see core rulebooks)."
                   ]
                 }
               ]
@@ -1768,7 +1813,7 @@
                   "type": "entries",
                   "name": "Loot",
                   "entries": [
-                    "(On the Countess, to be employed in battle as useful. For stats, see magic items in core rulebooks): {@item Necklace of fireballs}, {@item ring of animal influence}, {@item ring of evasion}, {@item wand of magic missiles}, gold-and-ruby wedding ring (worth 250 gp), a platinum-and-ruby choker (worth 750 gp), and other various jewelry worth a total of 250 gp.",
+                    "(On the Countess, to be employed in battle as useful. For stats, see magic items in core rulebooks): {@item Necklace of fireballs}, {@item ring of animal influence}, {@item ring of evasion}, {@item wand of magic missiles}, {@item gold-and-ruby wedding ring|RolledTold6} (worth 250 gp), a {@item platinum-and-ruby choker|RolledTold6} (worth 750 gp), and other various jewelry worth a total of 250 gp.",
                     "(In the sarcophagus): 20 pp; a wizard's {@item spellbook|PHB}, bound in tanned human flesh, that contains {@filter every 1st and 2nd level wizard spell|spells|class=wizard|level=1;2} form the core rulebooks; the Count's {@item longsword of wounding} +1."
                   ]
                 }
