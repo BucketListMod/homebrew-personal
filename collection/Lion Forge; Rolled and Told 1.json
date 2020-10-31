@@ -2509,7 +2509,7 @@
       "page": "14",
       "type": "G",
       "rarity": "none",
-      "weight": "1",
+      "weight": 1,
       "value": 5000,
       "entries": [
         "A purple-hued flask that sparks of tiny lightning can be seen dancing within. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the lightning bottle as an improvised weapon. On a hit, the target takes {@damage 2d6} lightning damage, and if the target takes damage from this attack, it cannot take a reaction until your next turn."
@@ -2521,7 +2521,7 @@
       "page": "14",
       "type": "P",
       "rarity": "common",
-      "weight": "0.5",
+      "weight": 0.5,
       "entries": [
         "When you drink this potion, you gain the effects of the {@spell jump} spell. This greenish, somewhat viscous liquid shows a tiny tuft of rabbit fur suspended in it, which disappears when opened and is replaced by a musky, frog-like smell."
       ],
