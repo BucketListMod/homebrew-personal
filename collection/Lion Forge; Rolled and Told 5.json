@@ -19,7 +19,7 @@
       }
     ],
     "dateAdded": 1603930108,
-    "dateLastModified": 1604102218
+    "dateLastModified": 1604255555
   },
   "monster": [
     {
@@ -1956,15 +1956,15 @@
                   "name": "Plot",
                   "page": "11",
                   "entries": [
-                    "Someone or something has taken control of a high mountain trade pass. The Toothsome Pass is the only way to get supplies to and from the Highstrike Mine. Three such attempts have been made in the last month to get the needed supplies to the mine. Thus far, none of the supply trains have returned. Now, with heavy storms blowing in, wagon travel through the pass is impossible. The last message sent via raven from the mine was a week prior to the last missing supply train. The message was dire: fuel and food supplies were nearly exhausted. The supplies to erect better shelters and a permanent mining camp are desperately needed to ensure surviving the mountain winter. The lives of fifty dwarven miners hang in the balance. So the clan leadership of Graghearth turn to adventureres to guard the next supply train and deal with whoever or whatever has taken control of the pass before it is too late."
+                    "Someone or something has taken control of a high mountain trade pass. The Toothsome Pass is the only way to get supplies to and from the {@area Highstrike Mine|B|x}. Three such attempts have been made in the last month to get the needed supplies to the mine. Thus far, none of the supply trains have returned. Now, with heavy storms blowing in, wagon travel through the pass is impossible. The last message sent via raven from the mine was a week prior to the last missing supply train. The message was dire: fuel and food supplies were nearly exhausted. The supplies to erect better shelters and a permanent mining camp are desperately needed to ensure surviving the mountain winter. The lives of fifty dwarven miners hang in the balance. So the clan leadership of Graghearth turn to adventureres to guard the next supply train and deal with whoever or whatever has taken control of the pass before it is too late."
                   ]
                 },
                 {
                   "type": "entries",
                   "name": "What is Really Going On",
                   "entries": [
-                    "A twin pair of young adult white dragons, Gelid and Frost—though going by the singular name Gelidfrost—have recently taken control of a mountain trade pass. The dragons, along with their conscripted tribe of orcs, are killing or capturing anyone that uses the pass and stealing the supplies. The two white dragons and their orcs easily bested the six dwarves set as lookouts and took over the Watchtower that oversees the pass. The twin dragons have made the broken tower into a lair. Now the young dragons have shut down all trade, having attacked and stolen every wagon, mule, and traveler that has tried the pass. The dragons are never in the same place at the same time, except when in their lair. They have managed to conceal that there are two of them to all, save the dwarves that are captured and held at the orc war camp. This means that the PCs will have no clue that Gelidfrost is really two dragons, Gelid and Frost.",
-                    "The town of Craghearth is normally well defended, but losing three supply trains along with their guards in the last month has left them lean of troops. Because they won't let those at the mines starve, the clan rulers can spare a few warriors to accompany the PCs. If the player characters are hoping for more aid, such help is in short supply. The fifty miners are in bad shape. Until they've all had a good four days' rest with steady meals, they will be little or no help to the PCs in their efforts. Most all the miners have the equivalents of 4 levels of exhaustion (see core rulebooks for details). The prisoners at the orc camp (including Orewick's missing granddaughter Golda) are another story. The captive dwarves are badly beaten, but still in fighting shape if freed, fed, and armed. They are surly and looking for revenge and will gladly accompany the PCs, even going up against the dragons."
+                    "A twin pair of young adult white dragons, Gelid and Frost—though going by the singular name Gelidfrost—have recently taken control of a mountain trade pass. The dragons, along with their conscripted tribe of orcs, are killing or capturing anyone that uses the pass and stealing the supplies. The two white dragons and their orcs easily bested the six dwarves set as lookouts and took over the {@area Watchtower|D|x} that oversees the pass. The twin dragons have made the broken tower into a lair. Now the young dragons have shut down all trade, having attacked and stolen every wagon, mule, and traveler that has tried the pass. The dragons are never in the same place at the same time, except when in their lair. They have managed to conceal that there are two of them to all, save the dwarves that are captured and held at the {@area orc war camp|C|x}. This means that the PCs will have no clue that Gelidfrost is really two dragons, Gelid and Frost.",
+                    "The town of Craghearth is normally well defended, but losing three supply trains along with their guards in the last month has left them lean of troops. Because they won't let those at the mines starve, the clan rulers can spare a few warriors to accompany the PCs. If the player characters are hoping for more aid, such help is in short supply. The fifty miners are in bad shape. Until they've all had a good four days' rest with steady meals, they will be little or no help to the PCs in their efforts. Most all the miners have the equivalents of 4 levels of exhaustion (see core rulebooks for details). The prisoners at the {@area orc camp|C|x} (including Orewick's missing granddaughter Golda) are another story. The captive dwarves are badly beaten, but still in fighting shape if freed, fed, and armed. They are surly and looking for revenge and will gladly accompany the PCs, even going up against the dragons."
                   ]
                 }
               ]
@@ -2011,7 +2011,7 @@
                   "type": "entries",
                   "name": "The Toothsome Pass",
                   "entries": [
-                    "The rugged mountain pass takes its name from being framed in by rows of tall and pointed rock features that resemble the teeth of some great beast. The pass is well maintained and wide enough for three freight wagons to pass each other easily in good weather. The recently very icy conditions have now made wagon travel nearly impossible. Sure-footed {@creature mule||mules} are a much more reliable method of supply transport during winter. The pass is roughly three days of foot travel from Craghearth to the Highstrike Mine (roughly forty-five miles). An Intelligence ({@skill History}) {@dc 10} or Wisdom ({@skill Survival}) {@dc 15} reveals this."
+                    "The rugged mountain pass takes its name from being framed in by rows of tall and pointed rock features that resemble the teeth of some great beast. The pass is well maintained and wide enough for three freight wagons to pass each other easily in good weather. The recently very icy conditions have now made wagon travel nearly impossible. Sure-footed {@creature mule||mules} are a much more reliable method of supply transport during winter. The pass is roughly three days of foot travel from {@area Craghearth|A|x} to the {@area Highstrike Mine|B|x} (roughly forty-five miles). An Intelligence ({@skill History}) {@dc 10} or Wisdom ({@skill Survival}) {@dc 15} reveals this."
                   ]
                 },
                 {
@@ -2042,6 +2042,7 @@
             {
               "type": "entries",
               "name": "The Plea of the Thane's Council",
+              "id": "A",
               "entries": [
                 {
                   "type": "insetReadaloud",
@@ -2112,7 +2113,7 @@
                       "type": "entries",
                       "name": "Tactics:",
                       "entries": [
-                        "Frost will use a breath weapon attack on the surprise round. Then, being overconfident, the dragon will engage in melee until its breath weapon refreshes or until it takes 33 hit points or more of damage. Once taking at least 33 hit points of damage, the dragon will {@action disengage} and head for the Watchtower lair to lick its wounds. Because of the lack of visibility, it is not difficult for the dragon to make its escape unseen after it gets more than fifteen feet away from the supply train and the PCs."
+                        "Frost will use a breath weapon attack on the surprise round. Then, being overconfident, the dragon will engage in melee until its breath weapon refreshes or until it takes 33 hit points or more of damage. Once taking at least 33 hit points of damage, the dragon will {@action disengage} and head for the {@area Watchtower|D|x} lair to lick its wounds. Because of the lack of visibility, it is not difficult for the dragon to make its escape unseen after it gets more than fifteen feet away from the supply train and the PCs."
                       ]
                     },
                     "It is recommended this attack takes place between {@area 3|3|u} and {@area 1|1|u}, nearer the end of the day's travel than the beginning."
@@ -2123,7 +2124,7 @@
                   "name": "The Worst Area of Travel",
                   "page": "18",
                   "entries": [
-                    "By day 2 in the pass, the supply train is entering the worst weather. Due to the fog and/or blizzard-like conditions generated by the regional effects of the dragons throughout the center of the pass, there is a good chance of getting lost (see {@book Becoming Lost|dmg|5|becoming lost} in the core rulebooks), or at the least getting turned around or losing forward progress. Navigation is difficult and requires a Wisdom ({@skill Survival}) {@dc 15} to save getting turned around. This check is made with advantage due to being walled in on two sides while in the pass. Because of the unnatural heavy fog and blizzard-like conditions, anything 1-15 feet away counts a being lightly obscured. When more than 1 5 feet away, everything counts as being heavily obscured. Neither of these apply to the twin dragons, who are unaffected by the weather. If the PCs, {@creature mule||mules}, and NPCs are not tied together or linked in some manner, then each must make the above listed {@skill Survival} checks separately. If tied or linked, then only one check made by the lead member of the linked-together creatures is required to not get lost. Only the center section of the pass, the Watchtower, and the Orc War Camp are in the area of these effects.",
+                    "By day 2 in the pass, the supply train is entering the worst weather. Due to the fog and/or blizzard-like conditions generated by the regional effects of the dragons throughout the center of the pass, there is a good chance of getting lost (see {@book Becoming Lost|dmg|5|becoming lost} in the core rulebooks), or at the least getting turned around or losing forward progress. Navigation is difficult and requires a Wisdom ({@skill Survival}) {@dc 15} to save getting turned around. This check is made with advantage due to being walled in on two sides while in the pass. Because of the unnatural heavy fog and blizzard-like conditions, anything 1-15 feet away counts a being lightly obscured. When more than 1 5 feet away, everything counts as being heavily obscured. Neither of these apply to the twin dragons, who are unaffected by the weather. If the PCs, {@creature mule||mules}, and NPCs are not tied together or linked in some manner, then each must make the above listed {@skill Survival} checks separately. If tied or linked, then only one check made by the lead member of the linked-together creatures is required to not get lost. Only the center section of the pass, the {@area Watchtower|D|x}, and the {@area Orc War Camp|C|x} are in the area of these effects.",
                     "In addition, all visual- and audio-based Wisdom ({@skill Perception}) and Intelligence ({@skill Investigations}) checks made while in the area are done so at disadvantage."
                   ]
                 },
@@ -2149,7 +2150,7 @@
                   "page": "19",
                   "entries": [
                     "A Wisdom ({@skill Perception}) {@dc 10} shows that something is wrong in the area. If this check is followed up with a successful Wisdom ({@skill Survival}) {@dc 15}, then it becomes clear that someone or something has cleared all the loose snow and ice, leaving only a slight dusting. If a PC succeeds, then they are granted advantage on the Dexterity saving throw to avoid the avalanche in {@area 4|4|u}.",
-                    "Additionally, an Intelligence ({@skill Investigation}) {@dc 15} or Wisdom ({@skill Survival}) {@dc 20} reveals the concealed trail that leads up into the mountains towards the Orc War Camp. Once discovered, a Survival {@dc 15} reveals that at least a dozen or so orcs use this trail often. If a {@dc 25}+ is rolled, then they also find there are slight signs that a handful of dwarves were also dragged up the trail several days ago. These signs are very slight, which is why the DC is so high."
+                    "Additionally, an Intelligence ({@skill Investigation}) {@dc 15} or Wisdom ({@skill Survival}) {@dc 20} reveals the concealed trail that leads up into the mountains towards the {@area Orc War Camp|C|x}. Once discovered, a Survival {@dc 15} reveals that at least a dozen or so orcs use this trail often. If a {@dc 25}+ is rolled, then they also find there are slight signs that a handful of dwarves were also dragged up the trail several days ago. These signs are very slight, which is why the DC is so high."
                   ]
                 },
                 {
@@ -2188,6 +2189,7 @@
               "type": "entries",
               "name": "Making It to the Mine",
               "page": "20",
+              "id":"B",
               "entries": [
                 {
                   "type": "insetReadaloud",
@@ -2195,13 +2197,14 @@
                     "No matter how hard it felt for you to finally arrive at the mine, it is nothing compared to the pain and torture the miners look to have endured. The few bearded faces that manage to stir and greet you are hollow-cheeked and haggard. The temporary tents and lean-tos have been used for wrapping hands and feet or burnt for warmth. The mine itself became their only shelter from the winter cold. Food was but a dream a week ago when the last leather belts and boots were used for soup. Of the fifty miners, only five are able to walk or even stand. One of the five makes a great show of trying to straighten his ragged and patchwork clothing before stepping up to you proudly. He gives each of you a grim nod, before saying, \"Good of ye ta come. Ye will have taforgive our lack of proper hospitability, but we got nothing but our thanks ta offer ye.\""
                   ]
                 },
-                "The dwarf miner who spoke is named Grumby Bitterpick and is the foreman of the miners. If asked, he will explain that they managed to scare the orcs away from attacking the first couple of weeks, but since the perpetual storms started, they have had no sign of the orcs or word from town. The miners had nearly given up hope of aid when the PCs arrive. If asked, Grumby can give the PCs a rough idea of where the Orc War Camp is, but knows little else of worth to the PCs. The information about the war camp location gives the PCs advantage on the Wisdom ({@skill Survival}) checks required to not get lost when leaving the pass while within the area of the storms. Should the need for statistics be required, you can use the {@creature guard} stat block for Crumby and any of the other dwarf miners. If you do end up needing the guard stat block, change out the spear for a weapon that is a bit more dwarven: a {@item warhammer|PHB}, {@item battleaxe|PHB}, or {@item war pick|PHB}. This will most likely not be necessary, since all of the miners have four levels of {@condition exhaustion}. Until the miners are fed steady meals and have rested for four long rests, they are of little use to anyone."
+                "The dwarf miner who spoke is named Grumby Bitterpick and is the foreman of the miners. If asked, he will explain that they managed to scare the orcs away from attacking the first couple of weeks, but since the perpetual storms started, they have had no sign of the orcs or word from town. The miners had nearly given up hope of aid when the PCs arrive. If asked, Grumby can give the PCs a rough idea of where the {@area Orc War Camp|C|x} is, but knows little else of worth to the PCs. The information about the war camp location gives the PCs advantage on the Wisdom ({@skill Survival}) checks required to not get lost when leaving the pass while within the area of the storms. Should the need for statistics be required, you can use the {@creature guard} stat block for Crumby and any of the other dwarf miners. If you do end up needing the guard stat block, change out the spear for a weapon that is a bit more dwarven: a {@item warhammer|PHB}, {@item battleaxe|PHB}, or {@item war pick|PHB}. This will most likely not be necessary, since all of the miners have four levels of {@condition exhaustion}. Until the miners are fed steady meals and have rested for four long rests, they are of little use to anyone."
               ]
             },
             {
               "type": "entries",
               "name": "The Orc War Camp",
               "page": "21",
+              "id":"C",
               "entries": [
                 "There are two trails that lead from the Toothsome Pass to the war camp. One is in Area 2 (see {@area 2|2|u} for details of the concealed trail). The second trail is located just between the site of the orc avalanche trap area and the mine. This trail, like the other, is concealed. A Wisdom ({@skill Perception}) {@dc 20} check is required to find the trail, as it is concealed by a stand of pines and crudely made snow walls. If the PCs were told about it by Crumby, then they get advantage on the check to locate it.",
                 "Both trails wind up through the mountains. The trail concealed by the trees moves through bunches of pines and cover. The trail detailed in {@area 2|2|u}, while concealed from the pass, can be seen from the war camp. Which trail the PCs take matters. If they take the open trail, the orcs at the war camp are set in ambush when they arrive because the {@creature orc frost shaman|RolledTold5} watches this path via his {@item flawed seeing stone|RolledTold5} (see {@adventure new magic items|TheColdTruth|4}). If they take the trail through the trees, they can reach the edge of the war camp unseen if they employ some form of stealth, because of the storms. In either case, use the following description for the PCs upon arrival, and if the orcs are readied in ambush, spring the trap as soon as the first PC moves into or targets the war camp with an attack or effect. The regional effects from the white dragons do not affect the war camp, though they do reach to the edge of the mound it is built upon.",
@@ -2233,7 +2236,7 @@
                   "type": "entries",
                   "name": "Accessing the Mound",
                   "entries": [
-                    "Only the three trails (the one from {@area 2|2|u}, the trail dotted with trees, and the third trail that leads to the Old Watchtower) are sure ways to gain access to the war camp. The rest of the steep slopes are covered in snow and ice, are difficult terrain, and require a Strength ({@skill Athletics}) {@dc 15} or Dexterity ({@skill Acrobatics}) {@dc 20} to even gain that much movement. In addition, if the check is failed the creature is knocked {@condition prone} and has gained no forward movement.",
+                    "Only the three trails (the one from {@area 2|2|u}, the trail dotted with trees, and the third trail that leads to the Old {@area Watchtower|D|x}) are sure ways to gain access to the war camp. The rest of the steep slopes are covered in snow and ice, are difficult terrain, and require a Strength ({@skill Athletics}) {@dc 15} or Dexterity ({@skill Acrobatics}) {@dc 20} to even gain that much movement. In addition, if the check is failed the creature is knocked {@condition prone} and has gained no forward movement.",
                     "If the PCs approach via the tree-dotted trail they can get within 15 feet of the base of the slope before they need to use {@skill Stealth} (at advantage, because of the storm). At this point none of the foes in the camp will be aware of their presence.",
                     "If the PCs approach via the open trail from {@area 2|2|u}, then all the orcs are ready for them and get a surprise round, as one of the two {@creature orc frost shaman|RolledTold5|orc frost shamans} stands a constant vigil watching that trail via the use of the {@item flawed seeing stone|RolledTold5}.",
                     "The 5 {@creature orc||orcs} by the fire have a readied action to rush the first target that makes it to the camp and engage it in melee.",
@@ -2248,7 +2251,7 @@
                         "Hidden in the skull yurt under a pile of furs—Intelligence ({@skill Investigation}) {@dc 10} to locate—are the following items: 1 {@item gem of brightness}, 1 {@item Potion of Acid Resistance||potion of resistance (acid)}, 2 {@item Potion of Cold Resistance||potions of resistance (cold)}, the {@item flawed seeing stone|RolledTold5}, and the key to the lock for the wooden prisoner cage."
                       ]
                     },
-                    "Once the dwarves in the cage are freed, they are eager to fight (even with the {@condition exhaustion} they are suffering). Once all the orcs are dead at the war camp, they will also inform the PCs that they overheard orcs saying that there are not one, but two dragons. {@creature Golda Furnaceheart|RolledTold5|Golda} will offer to lead the PCs to the Old Watchtower. If they take the scout up on her offer, they can make it to the tower without rolling to see if they get lost and in half the time, due to her knowledge of the mountains."
+                    "Once the dwarves in the cage are freed, they are eager to fight (even with the {@condition exhaustion} they are suffering). Once all the orcs are dead at the war camp, they will also inform the PCs that they overheard orcs saying that there are not one, but two dragons. {@creature Golda Furnaceheart|RolledTold5|Golda} will offer to lead the PCs to the Old {@area Watchtower|D|x}. If they take the scout up on her offer, they can make it to the tower without rolling to see if they get lost and in half the time, due to her knowledge of the mountains."
                   ]
                 }
               ]
@@ -2257,6 +2260,7 @@
               "type": "entries",
               "name": "The Old Watchtower",
               "page": "23",
+              "id": "D",
               "entries": [
                 "There are two ways to get to the dragons: the Twisting Stair Trail and the High Climb Cavern. Both can lead to the lair, though the Twisting Stair Trail leads to the Tower Ground and the Old Watchtower first.",
                 "The Twisting Stair is known to all the dwarves and not hard to find, as it winds all the way up and around the pinnacle the tower is perched upon. The raging storms have made the stairway slick with ice and loose snow. It takes four hours to safely scale to the tower. If the PCs wish to risk it, they can opt to make the top in less time. Each full hour the PCs wish to reduce the 4-hour trek by requires a group check for all the PCs and NPCs (see the {@adventure Rushed Ascent group check|TheColdTruth|2|Rushed Ascent Group Check}) to move at a pace quick enough to reduce the time. The DC for each check increases, as do the risk and consequences of failing.",
