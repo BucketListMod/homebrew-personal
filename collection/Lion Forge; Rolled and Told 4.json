@@ -131,7 +131,7 @@
         {
           "name": "Stomp and Squish {@recharge 5}",
           "entries": [
-            "The ogre matron stomps her foot and forces all creatures within 5 ft. to succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}. Then Mama Yum-Yum gets to make an immediate greatclub attack with advantage against any {@condition prone} creatures within reach."
+            "The ogre matron stomps her foot and forces all creatures within 5 ft. to succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}. Then the ogre matron gets to make an immediate greatclub attack with advantage against any {@condition prone} creatures within reach."
           ]
         }
       ],
