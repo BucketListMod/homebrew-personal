@@ -438,9 +438,8 @@
       "tokenUrl": "https://5e.tools/img/SKT/Knight of the Mithral Shield.png?v=1.114.1"
     },
     {
-      "name": "Gelid-Frost Twin Young White Dragons",
+      "name": "Twin Young White Dragons",
       "shortName": "Gelid and Frost",
-      "isNpc": true,
       "isNamedCreature": true,
       "source": "RolledTold5",
       "page": "31",
@@ -2108,7 +2107,7 @@
                   "type": "entries",
                   "name": "Attack #2/Day 2: Death from the Skies",
                   "entries": [
-                    "One of the {@creature Gelid-Frost Twin Young White Dragons|RolledTold5|twin white dragons}, Frost (see {@adventure New Monsters|TheColdTruth|4}), sweeps out of the raging blizzard. It takes a Wisdom ({@skill Perception}) {@dc 13}, made at disadvantage, to hear or see the attack coming. Any creature that doesn't succeed on the {@skill Perception} check must make the saving throw against the first breath weapon attack at disadvantage.",
+                    "One of the {@creature Twin Young White Dragons|RolledTold5|twin white dragons}, Frost (see {@adventure New Monsters|TheColdTruth|4}), sweeps out of the raging blizzard. It takes a Wisdom ({@skill Perception}) {@dc 13}, made at disadvantage, to hear or see the attack coming. Any creature that doesn't succeed on the {@skill Perception} check must make the saving throw against the first breath weapon attack at disadvantage.",
                     {
                       "type": "entries",
                       "name": "Tactics:",
@@ -2322,7 +2321,7 @@
                   "type": "entries",
                   "name": "The Lower Lair and Treasure Hoard Cavern",
                   "entries": [
-                    "A fifteen-foot wide and fifteen-foot tall rough-hewn tunnel runs in a direct path fifty feet from the cavern directly beneath the tower, where the rubble from above has piled to a forty-foot-wide ovoid cavern with a highly domed ceiling. The soaring ceiling is nearly 100 feet high at its peak and riddled with sword-like icicles (see {@creature Gelid-Frost Twin Young White Dragons|RolledTold5|Gelidfrost Lair Actions}). Piled at the dead center of the cavern is the twin dragons' treasure hoard. The trove, the walls, and the entire floor of the cavern is covered in a {@object ice wall|RolledTold5|sheet of ice}. The floor and the hoard area are difficult terrain, due to the ice. Because of the many scrapes, scratches, and furrows made from the dragons' claws, there is little risk of losing one's footing and dropping {@condition prone}, so no {@skill Acrobatics} checks are required as on other icy areas. Along with the treasure there are a dozen humanoid bodies frozen about the floor and against the walls. The frozen corpses are a mixture of dwarves and orcs. These are some of the twins' victims and several of them have been half eaten and refrozen for a later snack.",
+                    "A fifteen-foot wide and fifteen-foot tall rough-hewn tunnel runs in a direct path fifty feet from the cavern directly beneath the tower, where the rubble from above has piled to a forty-foot-wide ovoid cavern with a highly domed ceiling. The soaring ceiling is nearly 100 feet high at its peak and riddled with sword-like icicles (see {@creature Twin Young White Dragons|RolledTold5|Gelidfrost Lair Actions}). Piled at the dead center of the cavern is the twin dragons' treasure hoard. The trove, the walls, and the entire floor of the cavern is covered in a {@object ice wall|RolledTold5|sheet of ice}. The floor and the hoard area are difficult terrain, due to the ice. Because of the many scrapes, scratches, and furrows made from the dragons' claws, there is little risk of losing one's footing and dropping {@condition prone}, so no {@skill Acrobatics} checks are required as on other icy areas. Along with the treasure there are a dozen humanoid bodies frozen about the floor and against the walls. The frozen corpses are a mixture of dwarves and orcs. These are some of the twins' victims and several of them have been half eaten and refrozen for a later snack.",
                     "There are a few items of interest on two of the corpses that the dragons failed to find (see below). Locating the items requires an Intelligence ({@skill Investigation}) {@dc 15} and will require the corpses to be broken free of the ice to obtain the items on the corpse or access the treasure hoard.",
                     {
                       "type": "list",
@@ -2446,7 +2445,7 @@
               "type": "list",
               "name": "New Monsters",
               "items": [
-                "{@creature Gelid-Frost Twin Young White Dragons|RolledTold5}",
+                "{@creature Twin Young White Dragons|RolledTold5|Gelid-Frost Twin Young White Dragons}",
                 "{@creature Orc Frost Shaman|RolledTold5}",
                 "{@creature Orc Hunter|RolledTold5}"
               ]
