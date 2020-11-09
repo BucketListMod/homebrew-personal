@@ -19,7 +19,7 @@
       }
     ],
     "dateAdded": 1602284622,
-    "dateLastModified": 1602703394
+    "dateLastModified": 1604962855
   },
   "item": [
     {
@@ -63,7 +63,7 @@
   ],
   "monster": [
     {
-      "name": "Mama Yum-Yum Ogre Matron",
+      "name": "Ogre Matron",
       "shortName": "ogre matron",
       "source": "RolledTold4",
       "page": "22",
@@ -111,7 +111,7 @@
         {
           "name": "Big Mama Bellow {@recharge}",
           "entries": [
-            "As a bonus action Mama Yum-Yum lets loose a fearsome bellow, and any non-ally creature within 100 ft. must make a {@dc 13} Wisdom saving throw. Creatures that fail are {@condition stunned} until the end of her next turn; those that succeed are {@condition frightened} until the end of their next turn."
+            "As a bonus action the ogre matron lets loose a fearsome bellow, and any non-ally creature within 100 ft. must make a {@dc 13} Wisdom saving throw. Creatures that fail are {@condition stunned} until the end of her next turn; those that succeed are {@condition frightened} until the end of their next turn."
           ]
         }
       ],
@@ -119,7 +119,7 @@
         {
           "name": "Multiattack",
           "entries": [
-            "Mama Yum-Yum makes two greatclub attacks."
+            "The ogre matron makes two greatclub attacks."
           ]
         },
         {
@@ -131,7 +131,7 @@
         {
           "name": "Stomp and Squish {@recharge 5}",
           "entries": [
-            "Mama Yum-Yum stomps her foot and forces all creatures within 5 ft. to succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}. Then Mama Yum-Yum gets to make an immediate greatclub attack with advantage against any {@condition prone} creatures within reach."
+            "The ogre matron stomps her foot and forces all creatures within 5 ft. to succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}. Then Mama Yum-Yum gets to make an immediate greatclub attack with advantage against any {@condition prone} creatures within reach."
           ]
         }
       ],
@@ -140,13 +140,13 @@
         {
           "name": "Greatclub Attack",
           "entries": [
-            "Mama Yum-Yum makes a greatclub melee attack."
+            "The ogre matron makes a greatclub melee attack."
           ]
         },
         {
           "name": "Mama Says",
           "entries": [
-            "Mama Yum-Yum grants one ogre ally within 60 ft. that can see and hear her an immediate move or attack action."
+            "The ogre matron grants one ogre ally within 60 ft. that can see and hear her an immediate move or attack action."
           ]
         },
         {
@@ -158,7 +158,7 @@
         {
           "name": "One Tough Mama",
           "entries": [
-            "Until the end of her next turn, Mama Yum-Yum becomes resistant to bludgeoning, piercing, and slashing damage from nonmagical weapons."
+            "Until the end of her next turn, the ogre matron becomes resistant to bludgeoning, piercing, and slashing damage from nonmagical weapons."
           ]
         }
       ],
@@ -2263,7 +2263,7 @@
               "page": "11",
               "id": "a",
               "entries": [
-                "What was once a huddle of wagons, carts, and basic merchant stands encircled around the old well is now a ruined and jumbled field of destruction, dotted with heaps of disorganized looted goods. Every item looted from the town ends up piled here in no particular order. 10 {@creature ogre||ogres} wander about the area, picking through the heaps or adding to them. Also set up near the loot piles is a massive hide tent. 2 {@creature ogre maniac|RolledTold4|ogre maniacs} stand guard outside its curtained entrance. Inside the tent is {@creature Mama Yum-Yum Ogre Matron|RolledTold4|Mama Yum-Yum}, leader of the Big Nosh ogre tribe. She is currently getting ready to do some cooking and plans to set the building in {@area I|i|u} ablaze. She will join any fight that happens in {@area A|a|u} and her 2 {@creature ogre maniac|RolledTold4} guards will join a fight in {@area I|i|u} the same round as the last ogre from {@area A|a|u} moves to {@area I|i|u}.",
+                "What was once a huddle of wagons, carts, and basic merchant stands encircled around the old well is now a ruined and jumbled field of destruction, dotted with heaps of disorganized looted goods. Every item looted from the town ends up piled here in no particular order. 10 {@creature ogre||ogres} wander about the area, picking through the heaps or adding to them. Also set up near the loot piles is a massive hide tent. 2 {@creature ogre maniac|RolledTold4|ogre maniacs} stand guard outside its curtained entrance. Inside the tent is {@creature Ogre Matron|RolledTold4|Mama Yum-Yum}, leader of the Big Nosh ogre tribe. She is currently getting ready to do some cooking and plans to set the building in {@area I|i|u} ablaze. She will join any fight that happens in {@area A|a|u} and her 2 {@creature ogre maniac|RolledTold4} guards will join a fight in {@area I|i|u} the same round as the last ogre from {@area A|a|u} moves to {@area I|i|u}.",
                 "Should any fighting happen near or at {@area I|i|u}, all the ogres from {@area A|a|u} and {@area I|i|u} will get involved.",
                 "If it is a fight by the well, all the ogres at {@area A|a|u} are instantly involved.",
                 "If the fighting beings in {@area I|i|u}, 1 {@creature ogre} will join the fray at the end of the 3rd round of combat. Then each round afterwards, 2 ogres will join the fight until all 10 have joined.",
@@ -2274,7 +2274,7 @@
                     {
                       "type": "item",
                       "name": "Loot.",
-                      "entry": "Besides what the ogres have, everything of value (or ogre-perceived value) is piled here and will take days to sort it all out.<br />{@creature Mama Yum-Yum Ogre Matron|RolledTold4|Mama Yum-Yum} has some magic loot, though she doesn't know that it is magical. She just likes how it shines. She has the following magic items, all worn as jewelry or as part of her bone and gemstone headdress: {@item elemental gem, Emerald}; {@item gem of brightness}; {@item periapt of health}; {@item ring of protection}. She also has twenty 10 gp gems ({@item hematite}) and ten 50 gp gems ({@item bloodstone||bloodstones}) decorating her person, woven into necklaces made of bone, hair, and sinew."
+                      "entry": "Besides what the ogres have, everything of value (or ogre-perceived value) is piled here and will take days to sort it all out.<br />{@creature Ogre Matron|RolledTold4|Mama Yum-Yum} has some magic loot, though she doesn't know that it is magical. She just likes how it shines. She has the following magic items, all worn as jewelry or as part of her bone and gemstone headdress: {@item elemental gem, Emerald}; {@item gem of brightness}; {@item periapt of health}; {@item ring of protection}. She also has twenty 10 gp gems ({@item hematite}) and ten 50 gp gems ({@item bloodstone||bloodstones}) decorating her person, woven into necklaces made of bone, hair, and sinew."
                     }
                   ]
                 }
@@ -2440,7 +2440,7 @@
           "entries": [
             "This is a challenging adventure, so give the PCs some leeway if they want to try some crazy plans to thwart the ogres. Also, play the ogres to their rudimentary mental abilities. There is no great plan or tactics—they are dumb brutes (most of them drunk). They bully and smash stuff. They are not smart enough to pick off the cleric or rogue. They just plow forward and smash, using their size and strength to overcome any challenge.",
             "For a party of mostly 4th level PCs, do not reduce the number of ogres, btu halve the hit point total of all the regular ogres and reduce their base damage by 2. This will still give the mass threat, but be more of a doable adventure for lower level PCs. You may also decide to make all the ogres drunk ({@condition poisoned} condition), so that they will be at disadvantage on attack rolls and ability checks. This will greatly aid a low-level party in surviving such massive numbers of foes.",
-            "For a party of mostly 7th level PCs, max out {@creature Mama Yum-Yum Ogre Matron|RolledTold4|Mama Yum-Yum's} and the {@creature ogre maniac|RolledTold4|ogre maniac's} hit points. Also make only half the regular ogres drunk (as only those in {@area A|a|u}. This should still give higher-level characters a challenge."
+            "For a party of mostly 7th level PCs, max out {@creature Ogre Matron|RolledTold4|Mama Yum-Yum's} and the {@creature ogre maniac|RolledTold4|ogre maniac's} hit points. Also make only half the regular ogres drunk (as only those in {@area A|a|u}. This should still give higher-level characters a challenge."
           ]
         },
         {
@@ -2452,7 +2452,7 @@
               "type": "list",
               "name": "New Monster Stat-Blocks",
               "items": [
-                "{@creature Mama Yum-Yum Ogre Matron|RolledTold4}",
+                "{@creature Ogre Matron|RolledTold4|Mama Yum-Yum Ogre Matron}",
                 "{@creature Ogre Maniac|RolledTold4}"
               ]
             },
