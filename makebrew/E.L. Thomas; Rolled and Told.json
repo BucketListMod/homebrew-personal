@@ -23,7 +23,7 @@
     {
       "name": "Minion",
       "entries": [
-        "The <$name$> never suffers damage on an attack that causes half damage on a successful saving throw."
+        "The <$shortName$> never suffers damage on an attack that causes half damage on a successful saving throw."
       ],
       "source": "RolledTold"
     }
