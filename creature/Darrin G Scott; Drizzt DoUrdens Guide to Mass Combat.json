@@ -1,0 +1,2111 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "DrizztGuideMassCombat",
+        "abbreviation": "DGMC",
+        "full": "Drizzt Do'urden's Guide to Mass Combat",
+        "url": "https://www.dmsguild.com/product/283182/Drizzt-DoUrdens-Guide-to-Mass-Combat",
+        "authors": [
+          "Darrin G. Scott"
+        ],
+        "convertedBy": [
+          "BucketListMod#8973"
+        ],
+        "color": "df0505"
+      }
+    ],
+    "dateAdded": 1604968423,
+    "dateLastModified": 1604968423
+  },
+  "monster": [
+    {
+      "name": "Crew of Bandits",
+      "shortName": "crew",
+      "source": "DrizztGuideMassCombat",
+      "page": 9,
+      "size": "H",
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "M"
+      },
+      "alignment": [
+        "NX",
+        "C",
+        "G",
+        "NY",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 12,
+          "from": [
+            "{@item leather armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "12d8 + 12",
+        "average": 66
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 12,
+      "con": 12,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "passive": 10,
+      "conditionImmune": [
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "languages": [
+        "any one language (usually Common)"
+      ],
+      "cr": "1",
+      "trait": [
+        {
+          "name": "Squad",
+          "entries": [
+            "The crew of 9 has the following traits:",
+            {
+              "type": "list",
+              "items": [
+                "It can move through an opening large enough for a Medium humanoid.",
+                "It can’t regain hit points or gain temporary hit points.",
+                "It takes double damage from effects that target an area larger than a 5-foot square, such as a {@spell fireball} spell, but not volleys from other squads.",
+                "It is immune to the {@condition charmed}, {@condition frightened}, and {@condition poisoned} conditions unless the effect covers a 15-by-15 foot square area."
+              ]
+            }
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The crew makes three melee attacks."
+          ]
+        },
+        {
+          "name": "Scimitars",
+          "entries": [
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) slashing damage or 3 ({@damage 1d6}) piercing damage if the crew has half or fewer of its hit points remianing."
+          ]
+        },
+        {
+          "name": "Light Crossbow Volley",
+          "entries": [
+            "The crew chooses a point within 80 feet. Each creature within a 10-foot radius circle centered on that point must succeed on a {@dc 11} Dexterity saving throw or take 18 ({@damage 4d8}) piercing damage. Creatures wearing heavy armor have advantage on the saving throw. If the crew has half of its hit points or fewer, the damage is reduced to 9 ({@damage 2d8})."
+          ]
+        }
+      ],
+      "fluff": {
+        "name": "Bandit",
+        "source": "MM",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "Bandits rove in gangs and are sometimes led by thugs, veterans, or spellcasters. Not all bandits are evil. Oppression, drought, disease, or famine can often drive otherwise honest folk to a life of banditry.",
+                  "Pirates are bandits of the high seas. They might be freebooters interested only in treasure and murder, or they might be privateers sanctioned by the crown to attack and plunder an enemy nation's vessels."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tokenUrl": "https://5e.tools/img/MM/Bandit.png?v=1.115.0",
+      "altArt": [
+        {
+          "name": "Diabolical Bandit",
+          "source": "MTF",
+          "page": 18
+        },
+        {
+          "name": "Vistana Bandit",
+          "source": "CoS"
+        },
+        {
+          "name": "Uttolot Elf Bandit",
+          "source": "EGW"
+        }
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW",
+        "RNG"
+      ]
+    },
+    {
+      "name": "Party of Drow",
+      "shortName": "party",
+      "source": "DrizztGuideMassCombat",
+      "page": 9,
+      "size": "H",
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "M"
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item chain shirt|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "18d8",
+        "average": 81
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 14,
+      "con": 10,
+      "int": 11,
+      "wis": 11,
+      "cha": 12,
+      "skill": {
+        "perception": "+2",
+        "stealth": "+4"
+      },
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "passive": 12,
+      "conditionImmune": [
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "languages": [
+        "Elvish",
+        "Undercommon"
+      ],
+      "cr": "3",
+      "spellcasting": [
+        {
+          "name": "Innate Spellcasting",
+          "headerEntries": [
+            "The drow's spellcasting ability is Charisma (spell save {@dc 11}). It can innately cast the following spells, requiring no material components:"
+          ],
+          "will": [
+            "{@spell dancing lights}"
+          ],
+          "daily": {
+            "1e": [
+              "{@spell darkness}",
+              "{@spell faerie fire}"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Fey Ancestry",
+          "entries": [
+            "The drow has advantage on saving throws against being {@condition charmed}, and magic can't put the drow to sleep."
+          ]
+        },
+        {
+          "name": "Sunlight Sensitivity",
+          "entries": [
+            "While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+          ]
+        },
+        {
+          "name": "Squad",
+          "entries": [
+            "The party of 9 has the following traits:",
+            {
+              "type": "list",
+              "items": [
+                "It can move through an opening large enough for a Medium humanoid.",
+                "It can’t regain hit points or gain temporary hit points.",
+                "It takes double damage from effects that target an area larger than a 5-foot square, such as a {@spell fireball} spell, but not volleys from other squads.",
+                "It is immune to the {@condition charmed}, {@condition frightened}, and {@condition poisoned} conditions unless the effect covers a 15-by-15 foot square area."
+              ]
+            }
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The party makes three melee attacks."
+          ]
+        },
+        {
+          "name": "Shortswords",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d8}) piercing damage or 4 ({@damage 1d8}) piercing damage if the party has half or fewer of its hit points remaining."
+          ]
+        },
+        {
+          "name": "Hand Crossbow Volley",
+          "entries": [
+            "The party chooses a point within 30 feet. Each creature within a 10-foot radius circle  entered on that point must succeed on a {@dc 11} Dexterity saving throw or take 18 ({@damage 4d8}) piercing damage. Creatures wearing heavy armor have advantage on the saving throw. If the party has half of its hit points or fewer, the damage is reduced to 9 ({@damage 2d8}).",
+            "A creature damaged by the volley must also succeed on a {@dc 14} Constitution saving throw or be {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the target is also {@condition unconscious} while {@condition poisoned} in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake."
+          ]
+        }
+      ],
+      "environment": [
+        "underdark"
+      ],
+      "fluff": {
+        "name": "Drow",
+        "source": "MM",
+        "entries": [
+          {
+            "name": "Drow",
+            "type": "section",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "entries": [
+                      "Tens of thousands of years ago, the elves were divided, with those of benevolent disposition battling those that were selfish and cruel. The war among elvenkind ended when the good elves banished their malevolent kin to the subterranean depths. Here, in the lightless caverns and endless warrens of twisting passages, the dark elves-the drow-found refuge. They also found leadership in the only elven deity who had not forsaken them. At her command, the dark elves built an empire in the underworld.",
+                      {
+                        "type": "entries",
+                        "entries": [
+                          {
+                            "type": "entries",
+                            "entries": [
+                              {
+                                "type": "entries",
+                                "name": "Children of Lolth",
+                                "entries": [
+                                  "The drow worship Lolth, a deity who resides in the Abyss. Known as the Spider Queen or the Demon Queen of Spiders, she is the figure around which the dark elves have built their subterranean civilization. Whatever she demands, the drow do. The wickedest of elves, drow are seldom seen by the surface world. Though they plot to destroy the elves that banished them, they no longer see themselves as exiles. They are the destined rulers of the darkness, and when Lolth commands them to rise up and destroy their surface-dwelling kin, they will."
+                                ]
+                              },
+                              {
+                                "type": "entries",
+                                "name": "Creatures of Darkness",
+                                "entries": [
+                                  "The drow have lived underground for so long that they have evolved to their surroundings and can see in the dark. However, they can no longer stand sunlight. When slaves are in short supply in the Underdark, the drow send raiding parties to the surface to capture humanoids under cover of darkness, bringing them back to their cities to be tortured into submission. Beyond those occasional excursions, the drow are content to remain in their subterranean realm, where they feel secure and in control."
+                                ]
+                              },
+                              {
+                                "type": "entries",
+                                "name": "Underdark Cities",
+                                "entries": [
+                                  "The dark elves build fantastic cities in enormous caverns where food and water are abundant. Their ability to sculpt stone rivals that of the greatest dwarf artisans, yet their structures retain a decidedly elven aesthetic. Though appearing delicate, drow settlements are structurally sound and remarkably resilient. The drow like to hollow out enormous stalagmites and stalactites, creating populated spires that rise from the floors and ceilings. A drow city is a sprawling metropolis enclosed by high walls. Non-drow visitors must conduct their business outside the walls under watchful eyes. The drow raise and keep giant spiders to help protect their cities against intruders, even as they drape those cities in beautiful webbing, creating a gossamer snare to catch flying enemies that would otherwise soar over the walls."
+                                ]
+                              },
+                              {
+                                "type": "entries",
+                                "name": "Drow Magic",
+                                "entries": [
+                                  "Just as the drow have adapted to underground life, so too has their magic. In addition to using that magic to carve their cities from stone, they empower their weapons, create dangerous new magic items, and summon demons from the Abyss. Drow spellcasters are supremely arrogant and never hesitate to use their magic in the most abhorrent ways."
+                                ]
+                              },
+                              {
+                                "type": "entries",
+                                "name": "Arms and Armor",
+                                "entries": [
+                                  "Drow craft weapons made of adamantine, a dark and supernaturally hard metal. Drow artisans adorn their weapons and armor with web-like filigree and spider motifs, and mages sometimes imbue items with magic to enhance their effectiveness. However, such magic fades when exposed to sunlight, so that magical drow weapons and armor rarely retain their enhancement bonuses and magical properties when brought to the surface."
+                                ]
+                              },
+                              {
+                                "type": "entries",
+                                "name": "Cutthroat Politics",
+                                "entries": [
+                                  "Drow politics are cutthroat and rife with intrigue. When drow work together, it is typically to destroy a common foe and ensure their own survival, and such alliances are short lived and fraught with peril.",
+                                  "Drow society is divided into noble houses, each ruled by a matron who seeks to raise the prestige and power of her house above all others. Other high-ranking members of the house are blood relatives, while the middling ranks are flush with drow from weaker families that have sworn fealty to the greater house. Clinging precariously to the bottom rung of a house's social ladder are the house slaves, made up of drow of low birth and the occasional non-drow captive."
+                                ]
+                              },
+                              {
+                                "type": "entries",
+                                "name": "Matriarchal Rule",
+                                "entries": [
+                                  "Lolth, through her faithful priestesses, dictates the rules of drow society, ensuring that her orders and plots are carried out. Since Lolth is prone to manifesting on the Material Plane and directly punishing those that disobey her, the drow have learned to heed what she says and do as her priestesses command.",
+                                  "In drow society, males are subservient to females. A male drow might lead an Underdark patrol or a raiding party to the surface, but he reports to a female drow-either the matron of his house or one of her hand-picked female subordinates. Although male drow can fill almost any function in drow society, they can't be priests, nor can they rule a house."
+                                ]
+                              },
+                              {
+                                "type": "entries",
+                                "name": "Poison Predilection",
+                                "entries": [
+                                  "Distilled from spider venom and the flora of the Underdark, poison can be found in abundance among the drow, and it plays an important part in their culture and politics. Drow mages concoct a viscid toxin that leaves enemies {@condition unconscious}. Drow warriors coat their blades and crossbow bolts with this venom, looking forward to the interrogation and torture that follows combat."
+                                ]
+                              },
+                              {
+                                "type": "inset",
+                                "name": "Variant: Drow Magic Armor and Weapons",
+                                "entries": [
+                                  "Drow often wear magic armor and carry magic weapons that lose their enhancement bonuses permanently if they are exposed to sunlight for 1 hour or longer.",
+                                  {
+                                    "type": "list",
+                                    "items": [
+                                      "A drow wearing a +1 chain shirt and carrying a +1 shortsword has AC 16 and a +1 bonus on attack and damage rolls with shortsword attacks.",
+                                      "A drow elite warrior wearing +2 studded leather and carrying a +2 shortsword has AC 20 and a +2 bonus on attack and damage rolls with shortsword attacks.",
+                                      "A drow priestess of Lolth wearing +3 scale mail has AC 19."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "bestiary/MM/Drow.jpg"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://5e.tools/img/MM/Drow.png?v=1.115.0",
+      "traitTags": [
+        "Fey Ancestry",
+        "Sunlight Sensitivity"
+      ],
+      "senseTags": [
+        "SD"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "E",
+        "U"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "spellcastingTags": [
+        "I"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW",
+        "RNG"
+      ],
+      "conditionInflict": [
+        "poisoned",
+        "unconscious"
+      ]
+    },
+    {
+      "name": "Pack of Gnolls",
+      "shortName": "pack",
+      "source": "DrizztGuideMassCombat",
+      "page": 10,
+      "size": "H",
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "M"
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item hide armor|phb}",
+            "{@item shield|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "30d8",
+        "average": 135
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 12,
+      "con": 11,
+      "int": 6,
+      "wis": 10,
+      "cha": 7,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 10,
+      "conditionImmune": [
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "languages": [
+        "Gnoll"
+      ],
+      "cr": "6",
+      "trait": [
+        {
+          "name": "Rampage",
+          "entries": [
+            "When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack."
+          ]
+        },
+        {
+          "name": "Squad",
+          "entries": [
+            "The pack of 9 has the following traits:",
+            {
+              "type": "list",
+              "items": [
+                "It can move through an opening large enough for a Medium humanoid.",
+                "It can’t regain hit points or gain temporary hit points.",
+                "It takes double damage from effects that target an area larger than a 5-foot square, such as a {@spell fireball} spell, but not volleys from other squads.",
+                "It is immune to the {@condition charmed}, {@condition frightened}, and {@condition poisoned} conditions unless the effect covers a 15-by-15 foot square area."
+              ]
+            }
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The pack makes three melee attacks."
+          ]
+        },
+        {
+          "name": "Bites",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}7 ({@damage 2d6}) piercing damage or 3 ({@damage 1d6}) piercing damage if the pack has half or fewer of its hit points remaining."
+          ]
+        },
+        {
+          "name": "Spears",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}14 ({@damage 4d6}) piercing damage, or  7 ({@damage 2d6}) piercing damage if the pack has half or fewer of its hit points remaining."
+          ]
+        },
+        {
+          "name": "Longbow Volley",
+          "entries": [
+            "The pack chooses a point within 150 feet. Each creature within a 10-foot radius circle centered on that point must succeeded on a {@dc 13} Dexterity saving throw or take 18 ({@damage 4d8}) piercing damage. Creatures wearing heavy armor have advantage on the saving throw. If the pack has half of its hit points or fewer, the damage is reduced to 9 ({@damage 2d8})."
+          ]
+        }
+      ],
+      "environment": [
+        "desert",
+        "forest",
+        "grassland",
+        "hill"
+      ],
+      "fluff": {
+        "name": "Gnoll",
+        "source": "MM",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "Gnolls are feral humanoids that attack settlements along the frontiers and borderlands of civilization without warning, slaughtering their victims and devouring their flesh.",
+                  {
+                    "name": "Demonic Origin",
+                    "type": "entries",
+                    "entries": [
+                      "The origin of the gnolls traces back to a time when the demon lord Yeenoghu found his way to the Material Plane and ran amok. Packs of ordinary hyenas followed in his wake, scavenging the demon lord's kills. Those hyenas were transformed into the first gnolls, parading after Yeenoghu until he was banished back to the Abyss. The gnolls then scattered across the face of the world, a dire reminder of demonic power."
+                    ]
+                  },
+                  {
+                    "name": "Nomadic Destroyers",
+                    "type": "entries",
+                    "entries": [
+                      "Gnolls are dangerous because they strike at random. They emerge from the wilderness, plunder and slaughter, then move elsewhere. They attack like a plague of locusts, pillaging settlements and leaving little behind but razed buildings, gnawed corpses, and befouled land. Gnolls choose easy targets for their raids. Armored warriors holed up in a fortified castle will survive a rampaging gnoll horde unscathed, even as the towns, villages, and farms that surround the castle are ablaze, their people slaughtered and devoured.",
+                      "Gnolls rarely build permanent structures or craft anything of lasting value. They don't make weapons or armor, but scavenge such items from the corpses of their fallen victims, stringing ears, teeth, scalps, and other trophies from their foes onto their patchwork armor.",
+                      {
+                        "name": "Thirst for Blood",
+                        "entries": [
+                          " No goodness or compassion resides in the heart of a gnoll. Like a demon, it lacks anything resembling a conscience, and can't be taught or coerced to put aside its destructive tendencies. The gnolls' frenzied bloodlust makes them an enemy to all, and when they lack a common foe, they fight among themselves. Even the most savage orcs avoid allying with gnolls."
+                        ],
+                        "type": "entries"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "bestiary/MM/Gnoll.jpg"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://5e.tools/img/MM/Gnoll.png?v=1.115.0",
+      "traitTags": [
+        "Rampage"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "OTH"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW",
+        "RNG"
+      ]
+    },
+    {
+      "name": "Swarm of Goblins",
+      "shortName": "swarm",
+      "source": "DrizztGuideMassCombat",
+      "page": 11,
+      "size": "H",
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "S"
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item leather armor|phb}",
+            "{@item shield|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "12d6",
+        "average": 42
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 8,
+      "dex": 14,
+      "con": 10,
+      "int": 10,
+      "wis": 8,
+      "cha": 8,
+      "skill": {
+        "stealth": "+4"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 9,
+      "conditionImmune": [
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "languages": [
+        "Common",
+        "Goblin"
+      ],
+      "cr": "2",
+      "trait": [
+        {
+          "name": "Nimble Escape",
+          "entries": [
+            "The goblin can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+          ]
+        },
+        {
+          "name": "Squad",
+          "entries": [
+            "The swarm of 9 has the following traits:",
+            {
+              "type": "list",
+              "items": [
+                "It can move through an opening large enough for a Medium humanoid.",
+                "It can’t regain hit points or gain temporary hit points.",
+                "It takes double damage from effects that target an area larger than a 5-foot square, such as a {@spell fireball} spell, but not volleys from other squads.",
+                "It is immune to the {@condition charmed}, {@condition frightened}, and {@condition poisoned} conditions unless the effect covers a 15-by-15 foot square area."
+              ]
+            }
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The swarm makes three melee attacks."
+          ]
+        },
+        {
+          "name": "Scimitars",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d8}) slashing damage or 4 ({@damage 1d8}) piercing damage if the swarm has half or fewer of its hit points remaining."
+          ]
+        },
+        {
+          "name": "Shortbow Volley",
+          "entries": [
+            "The swarm chooses a point within 80 feet. Each creature within a 10-foot radius circle centered on that point must succeed on a {@dc 12} Dexterity saving throw or take 28 ({@damage 8d6}) piercing damage. Creatures wearing heavy armor have advantage on the saving throw. If the swarm has half of its hit points or fewer, the damage is reduced to 14 ({@damage 4d6})."
+          ]
+        }
+      ],
+      "environment": [
+        "forest",
+        "grassland",
+        "hill",
+        "underdark"
+      ],
+      "fluff": {
+        "name": "Goblin",
+        "source": "MM",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "Goblins are small, black-hearted, selfish humanoids that lair in caves, abandoned mines, despoiled dungeons, and other dismal settings. Individually weak, goblins gather in large-sometimes overwhelming-numbers. They crave power and regularly abuse whatever authority they obtain.",
+                  {
+                    "name": "Goblinoids",
+                    "type": "entries",
+                    "entries": [
+                      "Goblins belong to a family of creatures called goblinoids. Their larger cousins, hobgoblins and bugbears, like to bully goblins into submission. Goblins are lazy and undisciplined, making them poor servants, laborers, and guards."
+                    ]
+                  },
+                  {
+                    "name": "Malicious Glee",
+                    "type": "entries",
+                    "entries": [
+                      "Motivated by greed and malice, goblins can't help but celebrate the few times they have the upper hand. They dance, caper with sheer joy when victory is theirs. Once their revels have ended, goblins delight in the torment of other creatures and embrace all manner of wickedness."
+                    ]
+                  },
+                  {
+                    "name": "Leaders and Followers",
+                    "type": "entries",
+                    "entries": [
+                      "Goblins are ruled by the strongest or smartest among them. A goblin boss might command a single lair, while a goblin king or queen (who is nothing more than a glorified goblin boss) rules hundreds of goblins, spread out among multiple lairs to ensure the tribe's survival. Goblin bosses are easily ousted, and many goblin tribes are taken over by hobgoblin warlords or bugbear chiefs."
+                    ]
+                  },
+                  {
+                    "name": "Challenging Lairs",
+                    "type": "entries",
+                    "entries": [
+                      "Goblins festoon their lairs with alarms designed to signal the arrival of intruders. Those lairs are also riddled with narrow tunnels and bolt-holes that human-sized creatures can't navigate, but which goblins can crawl through with ease, allowing them to flee or to circle around and surprise their enemies. Rat Keepers and Wolf Riders. Goblins have an affinity for rats and wolves, raising them to serve as companions and mounts, respectively. Like rats, goblins shun sunlight and sleep underground during the day. Like wolves, they are pack hunters, made bolder by their numbers. When they hunt from the backs of wolves, goblins use hit-and-run attacks."
+                    ]
+                  },
+                  {
+                    "name": "Worshipers of Maglubiyet",
+                    "type": "entries",
+                    "entries": [
+                      "Maglubiyet the Mighty One, the Lord of Depths and Darkness, is the greater god of goblinoids. Envisioned by most goblins as an eleven-foot-tall battle-scarred goblin with black skin and fire erupting from his eyes, he is worshiped not out of adoration but fear. Goblins believe that when they die in battle, their spirits join the ranks of Maglubiyet's army on the plane of Acheron. This is a \"privilege\" that most goblins dread, fearing the Mighty One's eternal tyranny even more than death."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "bestiary/MM/Goblin.jpg"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://5e.tools/img/MM/Goblin.png?v=1.115.0",
+      "altArt": [
+        {
+          "name": "Goblin",
+          "source": "RMBRE"
+        }
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "GO"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW",
+        "RNG"
+      ]
+    },
+    {
+      "name": "Patrol of Guards",
+      "shortName": "patrol",
+      "source": "DrizztGuideMassCombat",
+      "page": 12,
+      "size": "H",
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "M"
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "{@item chain shirt|phb}",
+            "{@item shield|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "12d8 + 12",
+        "average": 66
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 12,
+      "con": 12,
+      "int": 10,
+      "wis": 11,
+      "cha": 10,
+      "skill": {
+        "perception": "+2"
+      },
+      "passive": 12,
+      "conditionImmune": [
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "languages": [
+        "any one language (usually Common)"
+      ],
+      "cr": "2",
+      "trait": [
+        {
+          "name": "Squad",
+          "entries": [
+            "The patrol of 9 has the following traits:",
+            {
+              "type": "list",
+              "items": [
+                "It can move through an opening large enough for a Medium humanoid.",
+                "It can’t regain hit points or gain temporary hit points.",
+                "It takes double damage from effects that target an area larger than a 5-foot square, such as a {@spell fireball} spell, but not volleys from other squads.",
+                "It is immune to the {@condition charmed}, {@condition frightened}, and {@condition poisoned} conditions unless the effect covers a 15-by-15 foot square area."
+              ]
+            }
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The patrol makes three melee attacks."
+          ]
+        },
+        {
+          "name": "Spears",
+          "entries": [
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) piercing damage, or 3 ({@damage 1d6}) piercing damage if the patrol has half or fewer of its hit points remaining."
+          ]
+        }
+      ],
+      "fluff": {
+        "name": "Guard",
+        "source": "MM",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "Guards include members of a city watch, sentries in a citadel or fortified town, and the bodyguards of merchants and nobles."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tokenUrl": "https://5e.tools/img/MM/Guard.png?v=1.115.0",
+      "altArt": [
+        {
+          "name": "Vistana Guard",
+          "source": "CoS"
+        }
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    },
+    {
+      "name": "Squad of Hobgoblins",
+      "source": "DrizztGuideMassCombat",
+      "page": 12,
+      "size": "H",
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "M"
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "{@item chain mail|phb}",
+            "{@item shield|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "12d8 + 12",
+        "average": 66
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 12,
+      "con": 12,
+      "int": 10,
+      "wis": 10,
+      "cha": 9,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 10,
+      "conditionImmune": [
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "languages": [
+        "Common",
+        "Goblin"
+      ],
+      "cr": "4",
+      "trait": [
+        {
+          "name": "Martial Advantage",
+          "entries": [
+            "The squad deals an additional 7 ({@damage 2d6}) damage with melee attacks, and 21 ({@damage 6d6}) damage with its volley when it has half or more of its maximum hit points remaining."
+          ]
+        },
+        {
+          "name": "Squad",
+          "entries": [
+            "The squad of hobgoblins of 9 has the following traits:",
+            {
+              "type": "list",
+              "items": [
+                "It can move through an opening large enough for a Medium humanoid.",
+                "It can’t regain hit points or gain temporary hit points.",
+                "It takes double damage from effects that target an area larger than a 5-foot square, such as a {@spell fireball} spell, but not volleys from other squads.",
+                "It is immune to the {@condition charmed}, {@condition frightened}, and {@condition poisoned} conditions unless the effect covers a 15-by-15 foot square area."
+              ]
+            }
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The squad makes three melee attacks."
+          ]
+        },
+        {
+          "name": "Longswords",
+          "entries": [
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d8}) slashing damage or 4 ({@damage 1d8}) slashing damage if the squad has half or fewer of its hit points remaining."
+          ]
+        },
+        {
+          "name": "Longbow Volley",
+          "entries": [
+            "The squad chooses a point within 150 feet. Each creature within a 10-foot radius circle centered on that point must succeed on a {@dc 12} Dexterity saving throw or take 28 ({@damage 8d6}) piercing damage. Creatures wearing heavy armor have advantage on the saving throw. If the squad has half of its hit points or fewer, the damage is reduced to 14 ({@damage 4d6})."
+          ]
+        }
+      ],
+      "environment": [
+        "desert",
+        "forest",
+        "grassland",
+        "hill",
+        "underdark"
+      ],
+      "fluff": {
+        "name": "Hobgoblin",
+        "source": "MM",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "War horns sound, stones fly from catapults, and the thunder of a thousand booted feet echoes across the land as hobgoblins march to battle. Across the borderlands of civilization, settlements and settlers must contend with these aggressive humanoids, whose thirst for conquest is never satisfied.",
+                  "Hobgoblins have dark orange or red-orange skin, and hair ranging from dark red-brown to dark gray. Yellow or dark brown eyes peer out beneath their beetling brows, and their wide mouths sport sharp and yellowed teeth. A male hobgoblin might have a large blue or red nose, which symbolizes virility and power among goblinkin. Hobgoblins can live as long as humans, though their love of warfare and battle means that few do.",
+                  {
+                    "name": "Goblinoids",
+                    "type": "entries",
+                    "entries": [
+                      "Hobgoblins belong to a family of creatures called goblinoids. They are often found lording over their cousins, the smaller goblins and the ferocious bugbears."
+                    ]
+                  },
+                  {
+                    "name": "Martial Might",
+                    "type": "entries",
+                    "entries": [
+                      "A hobgoblin measures virtue by physical strength and martial prowess, caring about nothing except the opportunity to demonstrate skill and cunning in battle. Hobgoblins of high military rank attain their positions by force, then hold those positions by imposing their authority through draconian measures.",
+                      "Hobgoblins train to fight with a variety of weapons, and have great skill at crafting arms, armor, siege engines, and other military devices. Organized and disciplined, they take exceptional care of their weapons, armor, and personal possessions. They favor the bold colors associated with their tribes, and trim their often-elaborate uniforms with blood-red piping and leather dyed black."
+                    ]
+                  },
+                  {
+                    "name": "Military Legions",
+                    "type": "entries",
+                    "entries": [
+                      "Hobgoblins organize themselves into tribal bands known as legions. In their martial society, every hobgoblin has a rank, from the powerful leaders and champions, to the rank-and-file foot soldiers, to the goblins that find themselves driven into the front lines at spear point. A legion is headed by a warlord with several captains serving under its command. A hobgoblin warlord is a ruthless tyrant more interested in strategy, victory, glory, reputation, and dominion than leading troops into battle.",
+                      "As loyal and disciplined as hobgoblins are in their own legion, rival legions compete constantly for reputation and status. Meetings between legions erupt in violence if troops aren't restrained, and only exceptionally powerful leaders can force legions to cooperate on the battlefield."
+                    ]
+                  },
+                  {
+                    "name": "Strategic Thinkers",
+                    "type": "entries",
+                    "entries": [
+                      "Hobgoblins have a strong grasp of tactics and discipline, and can carry out sophisticated battle plans under the direction of a strategically minded leader. However, they hate elves and attack them first in battle over any other opponents, even if doing so would be a tactical error.",
+                      "Legions often supplement their ranks with less reliable and more expendable troops, including goblins, bugbears, orcs, evil humans, ogres, and giants."
+                    ]
+                  },
+                  {
+                    "name": "Beast Trainers",
+                    "type": "entries",
+                    "entries": [
+                      "Hobgoblins have a long history of training animals to service. Like the more civilized races, they use oxen and horses to transport goods and weaponry over long distances. They communicate with each other using trained ravens, and keep vicious wolves to guard prisoners and protect hobgoblin camps. Hobgoblin cavalry use trained worgs as steeds, in the same way that goblins ride wolves. Some tribes even keep carnivorous apes as fighting beasts."
+                    ]
+                  },
+                  {
+                    "name": "Conquer and Control",
+                    "type": "entries",
+                    "entries": [
+                      "Hobgoblins claim lands with abundant resources, and they can be found in forests and mountains, near mines and humanoid settlements, and anywhere else that wood, metal, and potential slaves can be found. They build and conquer strongholds in strategically advantageous locations, which they then use as staging areas to expand their territory.",
+                      "Hobgoblin warlords never tire of combat, but they don't take up arms lightly. Before they attack, hobgoblins conduct thorough reconnaissance to gauge the strengths and weaknesses of their foes. When assaulting a stronghold, they surround it first to cut off escape routes and supply lines, then slowly starve their enemies out.",
+                      "Hobgoblins fortify their own holdings, bolstering existing defenses with innovations of their own. Whether they lair in cavern complexes, dungeons, ruins, or forests, they protect their strongholds with ditches, fences, gates, guard towers, pit traps, and crude catapults or ballistas."
+                    ]
+                  },
+                  {
+                    "name": "Legion of Maglubiyet",
+                    "type": "entries",
+                    "entries": [
+                      "Hobgoblins worship Maglubiyet the Mighty One, the greater god of goblinoids. As terrifying as this figure is, hobgoblins don't fear death, believing that when they die in battle, their spirits join the honored ranks of Maglubiyet's army on the plane of Acheron."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "bestiary/MM/Hobgoblin.jpg"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://5e.tools/img/MM/Hobgoblin.png?v=1.115.0",
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "GO"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW",
+        "RNG"
+      ]
+    },
+    {
+      "name": "Order of Knights",
+      "shortName": "order",
+      "source": "DrizztGuideMassCombat",
+      "page": 13,
+      "size": "H",
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "M"
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "{@item plate armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "48d8 + 96",
+        "average": 312
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 11,
+      "con": 14,
+      "int": 11,
+      "wis": 11,
+      "cha": 15,
+      "save": {
+        "con": "+7",
+        "wis": "+5"
+      },
+      "passive": 10,
+      "conditionImmune": [
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "languages": [
+        "any one language (usually Common)"
+      ],
+      "cr": "14",
+      "trait": [
+        {
+          "name": "Squad Leadership (Recharges after a Short or Long Rest)",
+          "entries": [
+            "The order uses its bonus action to utter a special command or warning for 1 minute whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand the order. A creature can benefit from only one Leadership die at a time. This effect ends if the order is {@condition incapacitated}."
+          ]
+        },
+        {
+          "name": "Squad",
+          "entries": [
+            "The order of 9 has the following traits:",
+            {
+              "type": "list",
+              "items": [
+                "It can move through an opening large enough for a Medium humanoid.",
+                "It can’t regain hit points or gain temporary hit points.",
+                "It takes double damage from effects that target an area larger than a 5-foot square, such as a {@spell fireball} spell, but not volleys from other squads.",
+                "It is immune to the {@condition charmed}, {@condition frightened}, and {@condition poisoned} conditions unless the effect covers a 15-by-15 foot square area."
+              ]
+            }
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The order makes three melee attacks."
+          ]
+        },
+        {
+          "name": "Greatswords",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d10}) piercing damage or 11 ({@damage 2d10}) piercing damage if the order has half or fewer of its hit points remaining."
+          ]
+        },
+        {
+          "name": "Heavy Crossbow Volley",
+          "entries": [
+            "The order chooses a point within 80 feet. Each creature within a 10 -foot radius circle centered on that point must succeed on a {@dc 13} Dexterity saving throw or take 18 ({@damage 4d8}) piercing damage. Creatures wearing heavy armor have advantage on the saving throw. If the order has half of its hit points or fewer, the damage is reduced to 9 ({@damage 2d8})."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Parry",
+          "entries": [
+            "The knight adds 3 to its AC against one melee attack that would hit it. To do so, the knight must see the attacker and be wielding a melee weapon."
+          ]
+        }
+      ],
+      "fluff": {
+        "name": "Knight",
+        "source": "MM",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "Knights are warriors who pledge service to rulers, religious orders, and noble causes. A knight's alignment determines the extent to which a pledge is honored. Whether undertaking a quest or patrolling a realm, a knight often travels with an entourage that includes squires and hirelings who are commoners."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tokenUrl": "https://5e.tools/img/MM/Knight.png?v=1.115.0",
+      "actionTags": [
+        "Multiattack",
+        "Parry"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MW",
+        "RNG"
+      ]
+    },
+    {
+      "name": "Press of Kobolds",
+      "shortName": "press",
+      "source": "DrizztGuideMassCombat",
+      "page": 14,
+      "size": "H",
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "S"
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        12
+      ],
+      "hp": {
+        "formula": "12d6 - 12",
+        "average": 30
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 7,
+      "dex": 15,
+      "con": 9,
+      "int": 8,
+      "wis": 7,
+      "cha": 8,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 8,
+      "conditionImmune": [
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "languages": [
+        "Common",
+        "Draconic"
+      ],
+      "cr": "1",
+      "trait": [
+        {
+          "name": "Pack Tactics",
+          "entries": [
+            "The press has advantage on an attack roll against a creature if the press has half or more of its maximum hit points remaining."
+          ]
+        },
+        {
+          "name": "Squad",
+          "entries": [
+            "The press of 9 has the following traits:",
+            {
+              "type": "list",
+              "items": [
+                "It can move through an opening large enough for a Medium humanoid.",
+                "It can’t regain hit points or gain temporary hit points.",
+                "It takes double damage from effects that target an area larger than a 5-foot square, such as a {@spell fireball} spell, but not volleys from other squads.",
+                "It is immune to the {@condition charmed}, {@condition frightened}, and {@condition poisoned} conditions unless the effect covers a 15-by-15 foot square area."
+              ]
+            }
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The press makes three melee attacks."
+          ]
+        },
+        {
+          "name": "Daggers",
+          "entries": [
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) piercing damage or 3 ({@damage 1d6}) piercing damage if the press has half or fewer of its hit points remaining."
+          ]
+        },
+        {
+          "name": "Sling Volley",
+          "entries": [
+            "The press chooses a point within 30 feet. Each creature within a 10-foot radius circle centered on that point must succeed on a {@dc 12} Dexterity saving throw or take 18 ({@damage 4d8}) bludgeoning damage. Creatures wearing heavy armor have advantage on the saving throw. If the press has half of its hit points or fewer, the damage is reduced to 9 ({@damage 2d8})."
+          ]
+        }
+      ],
+      "environment": [
+        "arctic",
+        "coastal",
+        "desert",
+        "forest",
+        "hill",
+        "mountain",
+        "swamp",
+        "underdark",
+        "urban"
+      ],
+      "fluff": {
+        "name": "Kobold",
+        "source": "MM",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "Kobolds are craven reptilian humanoids that worship evil dragons as demigods and serve them as minions and toadies. Kobolds inhabit dragons' lairs when they can but more commonly infest dungeons, gathering treasures and trinkets to add to their own tiny hoards.",
+                  {
+                    "name": "Strength in Numbers",
+                    "entries": [
+                      " Kobolds are egg-laying creatures. They mature quickly and can live to be \"great wyrms\" more than a century old. However, many kobolds perish before they reach the end of their first decade. Physically weak, they are easy prey for predators. This vulnerability forces them to band together. Their superior numbers can win battles against powerful adversaries, but often with massive casualties on the kobold side."
+                    ],
+                    "type": "entries"
+                  },
+                  {
+                    "name": "Tunnelers and Builders",
+                    "type": "entries",
+                    "entries": [
+                      "Kobolds make up for their physical ineptitude with a cleverness for trap making and tunneling. Their lairs consist of low tunnels through which they move easily but which hinder larger humanoids. Kobolds also riddle their lairs with traps. The most insidious kobold traps make use of natural hazards and other creatures. A trip wire might connect to a spring-loaded trap that hurls clay pots of flesh-eating green slime or flings crates of venomous giant centipedes at intruders."
+                    ]
+                  },
+                  {
+                    "name": "The Lost God",
+                    "type": "entries",
+                    "entries": [
+                      "In addition to the dragons they revere, kobolds worship a lesser god named Kurtulmak. Legends speak of how Kurtulmak served as Tiamat's vassal in the Nine Hells until Garl Glittergold, the god of gnomes, stole a trinket from the Dragon Queen's hoard. Tiamat sent Kurtulmak to retrieve the trinket, but Garl Glittergold played a trick on him, collapsing the earth and trapping the kobold god in an underground maze for eternity. For this reason, kobolds hate gnomes and pranks of any kind. Kurtulmak's most devoted worshipers dedicate themselves to finding and releasing their lost god from his prison-maze."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "bestiary/MM/Kobold.jpg"
+            }
+          }
+        ]
+      },
+      "familiar": true,
+      "tokenUrl": "https://5e.tools/img/MM/Kobold.png?v=1.115.0",
+      "traitTags": [
+        "Pack Tactics"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "DR"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW",
+        "RNG"
+      ]
+    },
+    {
+      "name": "Mob of Orcs",
+      "shortName": "mob",
+      "source": "DrizztGuideMassCombat",
+      "page": 15,
+      "size": "H",
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "M"
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "{@item hide armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "12d8 + 36",
+        "average": 90
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 12,
+      "con": 16,
+      "int": 7,
+      "wis": 11,
+      "cha": 10,
+      "skill": {
+        "intimidation": "+3"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 10,
+      "conditionImmune": [
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "languages": [
+        "Common",
+        "Orc"
+      ],
+      "cr": "4",
+      "trait": [
+        {
+          "name": "Aggressive",
+          "entries": [
+            "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+          ]
+        },
+        {
+          "name": "Squad",
+          "entries": [
+            "The mob of 9 has the following traits:",
+            {
+              "type": "list",
+              "items": [
+                "It can move through an opening large enough for a Medium humanoid.",
+                "It can’t regain hit points or gain temporary hit points.",
+                "It takes double damage from effects that target an area larger than a 5-foot square, such as a {@spell fireball} spell, but not volleys from other squads.",
+                "It is immune to the {@condition charmed}, {@condition frightened}, and {@condition poisoned} conditions unless the effect covers a 15-by-15 foot square area."
+              ]
+            }
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The mob makes three melee attacks."
+          ]
+        },
+        {
+          "name": "Greataxes",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}14 ({@damage 4d6}) piercing damage or 7 ({@damage 2d6}) piercing damage if the mob has half or fewer of its hit points remaining."
+          ]
+        },
+        {
+          "name": "Javelin Volley",
+          "entries": [
+            "The mob chooses a point within 30 feet. Each creature within a 10-foot radius circle centered on that point must succeeded on a {@dc 13} Dexterity saving throw or take 45 ({@damage 10d8}) piercing damage. Creatures wearing heavy armor have advantage on the saving throw. If the mob has half of its hit points or fewer, the damage is reduced to 22 ({@damage 5d8})."
+          ]
+        }
+      ],
+      "environment": [
+        "arctic",
+        "forest",
+        "grassland",
+        "hill",
+        "mountain",
+        "swamp",
+        "underdark"
+      ],
+      "fluff": {
+        "name": "Orc",
+        "source": "MM",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "Orcs are savage raiders and pillagers with stooped postures, low foreheads, and piggish faces with prominent lower canines that resemble tusks.",
+                  {
+                    "name": "Gruumsh One-Eye",
+                    "entries": [
+                      " Orcs worship Gruumsh, the mightiest of the orc deities and their creator. The orcs believe that in ancient days, the gods gathered to divide the world among their followers. When Gruumsh claimed the mountains, he learned they had been taken by the dwarves. He laid claim to the forests, but those had been settled by the elves. Each place that Gruumsh wanted had already been claimed. The other gods laughed at Gruumsh, but he responded with a furious bellow. Grasping his mighty spear, he laid waste to the mountains, set the forests aflame, and carved great furrows in the fields. Such was the role of the orcs, he proclaimed, to take and destroy all that the other races would deny them. To this day, the orcs wage an endless war on humans, elves, dwarves, and other folk.",
+                      "Orcs hold a particular hatred for elves. The elven god Corellon Larethian half-blinded Gruumsh with a well-placed arrow to the orc god's eye. Since then, the orcs have taken particular joy in slaughtering elves. Turning his injury into a baleful gift, Gruumsh grants divine might to any champion who willingly plucks out one of its eyes in his honor."
+                    ],
+                    "type": "entries"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Tribes like Plagues",
+                    "entries": [
+                      "Orcs gather in tribes that exert their dominance and satisfy their bloodlust by plundering villages, devouring or driving off roaming herds, and slaying any humanoids that stand against them. After savaging a settlement, orcs pick it clean of wealth and items usable in their own lands. They set the remains of villages and camps ablaze, then retreat whence they came, their bloodlust satisfied."
+                    ]
+                  },
+                  {
+                    "name": "Ranging Scavengers",
+                    "type": "entries",
+                    "entries": [
+                      "Their lust for slaughter demands that orcs dwell always within striking distance of new targets. As such, they seldom settle permanently, instead converting ruins, cavern complexes, and defeated foes' villages into fortified camps and strongholds. Orcs build only for defense, making no innovation or improvement to their lairs beyond mounting the severed body parts of their victims on spiked stockade walls or pikes jutting up from moats and trenches.",
+                      "When an existing territory is depleted of food, an orc tribe divides into roving bands that scout for choice hunting grounds. When each party returns, it brings back trophies and news of targets ripe for attack, the richest of which is chosen. The tribe then sets out en masse to carve a bloody path to its new territory.",
+                      "On rare occasions, a tribe's leader chooses to hold onto a particularly defensible lair for decades. The orcs of such a tribe must range far across the countryside to sate their appetites."
+                    ]
+                  },
+                  {
+                    "name": "Leadership and Might",
+                    "type": "entries",
+                    "entries": [
+                      "Orc tribes are mostly patriarchal, flaunting such vivid or grotesque titles as Many-Arrows, Screaming Eye, and Elf Ripper. Occasionally, a powerful war chief unites scattered orc tribes into a single rampaging horde, which runs roughshod over other orc tribes and humanoid settlements from a position of overwhelming strength.",
+                      "Strength and power are the greatest of orcish virtues, and orcs embrace all manner of mighty creatures in their tribes. Rejecting notions of racial purity, they proudly welcome ogres, trolls, half-orcs, and orogs into their ranks. As well, orcs respect and fear the size and power of evil giants, and often serve them as guards and soldiers."
+                    ]
+                  },
+                  {
+                    "name": "Orc Crossbreeds",
+                    "type": "entries",
+                    "entries": [
+                      "Luthic, the orc goddess of fertility and wife of Gruumsh, demands that orcs procreate often and indiscriminately so that orc hordes swell generation after generation. The orcs' drive to reproduce runs stronger than any other humanoid race, and they readily crossbreed with other races. When an orc procreates with a non-orc humanoid of similar size and stature (such as a human or a dwarf), the resulting child is either an orc or a half-orc. When an orc produces young with an ogre, the child is a half-ogre of intimidating strength and brutish features called an ogrillon."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "bestiary/MM/Orc.jpg"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://5e.tools/img/MM/Orc.png?v=1.115.0",
+      "altArt": [
+        {
+          "name": "Iceshield Orc",
+          "source": "PotA"
+        }
+      ],
+      "traitTags": [
+        "Aggressive"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "O"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW"
+      ]
+    },
+    {
+      "name": "Rattle of Skeletons",
+      "shortName": "rattle",
+      "source": "DrizztGuideMassCombat",
+      "page": 16,
+      "size": "H",
+      "type": {
+        "type": "undead",
+        "swarmSize": "M"
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "armor scraps"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "12d8 + 24",
+        "average": 78
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 14,
+      "con": 15,
+      "int": 6,
+      "wis": 8,
+      "cha": 5,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 9,
+      "conditionImmune": [
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "languages": [
+        "understands all languages it spoke in life but can't speak"
+      ],
+      "cr": "2",
+      "trait": [
+        {
+          "name": "Squad",
+          "entries": [
+            "The rattle of 9 has the following traits:",
+            {
+              "type": "list",
+              "items": [
+                "It can move through an opening large enough for a Medium humanoid.",
+                "It can’t regain hit points or gain temporary hit points.",
+                "It takes double damage from effects that target an area larger than a 5-foot square, such as a {@spell fireball} spell, but not volleys from other squads.",
+                "It is immune to the {@condition charmed}, {@condition frightened}, and {@condition poisoned} conditions unless the effect covers a 15-by-15 foot square area."
+              ]
+            }
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The rattle makes three melee attacks."
+          ]
+        },
+        {
+          "name": "Shortswords",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d8}) piercing damage or 3 ({@damage 1d6}) piercing damage if the rattle has half or fewer of its hit points remaining."
+          ]
+        },
+        {
+          "name": "Shortbow Volley",
+          "entries": [
+            "The rattle chooses a point within 80 feet. Each creature within a 10-foot radius circle centered on that point must succeed on a {@dc 12} Dexterity saving throw or take 18 ({@damage 4d8}) piercing damage. Creatures wearing heavy armor have advantage on the saving throw. If the rattle has half of its hit points or fewer, the damage is reduced to 9 ({@damage 2d8})."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "fluff": {
+        "name": "Skeleton",
+        "source": "MM",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "Skeletons arise when animated by dark magic. They heed the summons of spellcasters who call them from their stony tombs and ancient battlefields, or rise of their own accord in places saturated with death and loss, awakened by stirrings of necromantic energy or the presence of corrupting evil.",
+                  {
+                    "name": "Animated Dead",
+                    "type": "entries",
+                    "entries": [
+                      "Whatever sinister force awakens a skeleton infuses its bones with a dark vitality, adhering joint to joint and reassembling dismantled limbs. This energy motivates a skeleton to move and think in a rudimentary fashion, though only as a pale imitation of the way it behaved in life. An animated skeleton retains no connection to its past, although resurrecting a skeleton restores it body and soul, banishing the hateful undead spirit that empowers it.",
+                      "While most skeletons are the animated remains of dead humans and other humanoids, skeletal undead can be created from the bones of other creatures besides humanoids, giving rise to a host of terrifying and unique forms."
+                    ]
+                  },
+                  {
+                    "name": "Obedient Servants",
+                    "type": "entries",
+                    "entries": [
+                      "Skeletons raised by spell are bound to the will of their creator. They follow orders to the letter, never questioning the tasks their masters give them, regardless of the consequences. Because of their literal interpretation of commands and unwavering obedience, skeletons adapt poorly to changing circumstances. They can't read, speak, emote, or communicate in any way except to nod, shake their heads, or point. Still, skeletons are able to accomplish a variety of relatively complex tasks.",
+                      "A skeleton can fight with weapons and wear armor, can load and fire a catapult or trebuchet, scale a siege ladder, form a shield wall, or dump boiling oil. However, it must receive careful instructions explaining how such tasks are accomplished.",
+                      "Although they lack the intellect they possessed in life, skeletons aren't mindless. Rather than break its limbs attempting to batter its way through an iron door, a skeleton tries the handle first. If that doesn't work, it searches for another way through or around the obstacle."
+                    ]
+                  },
+                  {
+                    "name": "Habitual Behaviors",
+                    "type": "entries",
+                    "entries": [
+                      "Independent skeletons temporarily or permanently free of a master's control sometimes pantomime actions from their past lives, their bones echoing the rote behaviors of their former living selves. The skeleton of a miner might lift a pick and start chipping away at stone walls. The skeleton of a guard might strike up a post at a random doorway. The skeleton of a dragon might lie down on a pile of treasure, while the skeleton of a horse crops grass it can't eat. Left alone in a ballroom, the skeletons of nobles might continue an eternally unfinished dance.",
+                      "When skeletons encounter living creatures, the necromantic energy that drives them compels them to kill unless they are commanded by their masters to refrain from doing so. They attack without mercy and fight until destroyed, for skeletons possess little sense of self and even less sense of self-preservation."
+                    ]
+                  },
+                  {
+                    "name": "Undead Nature",
+                    "type": "entries",
+                    "entries": [
+                      "A skeleton doesn't require air, food, drink, or sleep."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "bestiary/MM/Skeleton.jpg"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://5e.tools/img/MM/Skeleton.png?v=1.115.0",
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "CS",
+        "LF"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW",
+        "RNG"
+      ]
+    },
+    {
+      "name": "Detachment of Soldiers",
+      "shortName": "detachment",
+      "source": "DrizztGuideMassCombat",
+      "page": 17,
+      "size": "H",
+      "type": {
+        "type": "humanoid",
+        "swarmSize": "M"
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "{@item chain mail|phb}",
+            "{@item shield|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "30d8 + 30",
+        "average": 165
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 12,
+      "con": 12,
+      "int": 10,
+      "wis": 11,
+      "cha": 11,
+      "skill": {
+        "athletics": "+4"
+      },
+      "passive": 10,
+      "conditionImmune": [
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "languages": [
+        "any one language (usually Common)"
+      ],
+      "cr": "7",
+      "trait": [
+        {
+          "name": "Martial Advantage",
+          "entries": [
+            "The detachment deals an additional 7 ({@damage 2d6}) damage with melee attacks, and 21 ({@damage 6d6}) damage with its volley, when it has half or more of its maximum hit points remaining."
+          ]
+        },
+        {
+          "name": "Squad",
+          "entries": [
+            "The detachment of 9 has the following traits:",
+            {
+              "type": "list",
+              "items": [
+                "It can move through an opening large enough for a Medium humanoid.",
+                "It can’t regain hit points or gain temporary hit points.",
+                "It takes double damage from effects that target an area larger than a 5-foot square, such as a {@spell fireball} spell, but not volleys from other squads.",
+                "It is immune to the {@condition charmed}, {@condition frightened}, and {@condition poisoned} conditions unless the effect covers a 15-by-15 foot square area."
+              ]
+            }
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The detachment makes three melee attacks."
+          ]
+        },
+        {
+          "name": "Longswords",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d8}) slashing damage or 4 ({@damage 1d8}) slashing damage if the detachment has half or fewer of its hit points remaining."
+          ]
+        },
+        {
+          "name": "Light Crossbow Volley",
+          "entries": [
+            "The detachment chooses a point within 80 feet. Each creature within a 10-foot radius circle centered on that point must succeed on a {@dc 13} Dexterity saving throw or take 28 ({@damage 8d6}) piercing damage. Creatures wearing heavy armor have advantage on the saving throw. If the detachment has half of its hit points or fewer, the damage is reduced to 14 ({@damage 4d6})."
+          ]
+        }
+      ],
+      "fluff": {
+        "name": "Soldier",
+        "source": "GGR",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "entries": [
+                      "Soldiers are found in many of Ravnica's guilds. The soldier stat block represents a typical member of the rank and file, though weaponry and armor can vary."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tokenUrl": "https://5e.tools/img/GGR/Soldier.png?v=1.115.0",
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW",
+        "RNG"
+      ]
+    },
+    {
+      "name": "Horde of Zombies",
+      "shortName": "horde",
+      "source": "DrizztGuideMassCombat",
+      "page": 18,
+      "size": "H",
+      "type": {
+        "type": "undead",
+        "swarmSize": "M"
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        8
+      ],
+      "hp": {
+        "formula": "18d8 + 54",
+        "average": 135
+      },
+      "speed": {
+        "walk": 20
+      },
+      "str": 13,
+      "dex": 6,
+      "con": 16,
+      "int": 3,
+      "wis": 6,
+      "cha": 5,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 8,
+      "conditionImmune": [
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "languages": [
+        "understands all languages it spoke in life but can't speak"
+      ],
+      "cr": "2",
+      "trait": [
+        {
+          "name": "Undead Fortitude",
+          "entries": [
+            "Each time the horde takes damage, if the horde succeeds on a Constitution saving throw with a DC equal to 5 + the damage taken, it takes only half damage, unless the damage is radiant or from a critical hit."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The horde makes three melee attacks."
+          ]
+        },
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) bludgeoning damage or 3 ({@damage 1d6}) bludgeoning damage if the horde has half or fewer of its hit points remaining."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "fluff": {
+        "name": "Zombie",
+        "source": "MM",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "From somewhere in the darkness, a gurgling moan is heard. A form lurches into view, dragging one foot as it raises bloated arms and broken hands. The zombie advances, driven to kill anyone too slow to escape its grasp.",
+                  {
+                    "name": "Dark Servants",
+                    "type": "entries",
+                    "entries": [
+                      "Sinister necromantic magic infuses the remains of the dead, causing them to rise as zombies that do their creator's bidding without fear or hesitation. They move with a jerky, uneven gait, clad in the moldering apparel they wore when put to rest, and carrying the stench of decay.",
+                      "Most zombies are made from humanoid remains, though the flesh and bones of any formerly living creature can be imbued with a semblance of life. Necromantic magic, usually from spells, animates a zombie. Some zombies rise spontaneously when dark magic saturates an area. Once turned into a zombie, a creature can't be restored to life except by powerful magic, such as a {@spell resurrection} spell.",
+                      "A zombie retains no vestiges of its former self, its mind devoid of thought and imagination. A zombie left without orders simply stands in place and rots unless something comes along that it can kill. The magic animating a zombie imbues it with evil, so left without purpose, it attacks any living creature it encounters."
+                    ]
+                  },
+                  {
+                    "name": "Hideous Forms",
+                    "type": "entries",
+                    "entries": [
+                      "Zombies appear as they did in life, showing the wounds that killed them. However, the magic that creates these vile creatures often takes time to run its course. Dead warriors might rise from a battlefield, eviscerated and bloated after days in the sun. The muddy cadaver of a peasant could claw its way from the ground, riddled with maggots and worms. A zombie might wash ashore or rise from a marsh, swollen and reeking after weeks in the water."
+                    ]
+                  },
+                  {
+                    "name": "Mindless Soldiers",
+                    "type": "entries",
+                    "entries": [
+                      "Zombies take the most direct route to any foe, unable to comprehend obstacles, tactics, or dangerous terrain. A zombie might stumble into a fast-flowing river to reach foes on a far shore, clawing at the surface as it is battered against rocks and destroyed. To reach a foe below it, a zombie might step out of an open window. Zombies stumble through roaring infernos, into pools of acid, and across fields littered with caltrops without hesitation.",
+                      "A zombie can follow simple orders and distinguish friends from foes, but its ability to reason is limited to shambling in whatever direction it is pointed, pummeling any enemy in its path. A zombie armed with a weapon uses it, but the zombie won't retrieve a dropped weapon or other tool until told to do so."
+                    ]
+                  },
+                  {
+                    "name": "Undead Nature",
+                    "type": "entries",
+                    "entries": [
+                      "A zombie doesn't require air, food, drink, or sleep."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "bestiary/MM/Zombie.jpg"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://5e.tools/img/MM/Zombie.png?v=1.115.0",
+      "traitTags": [
+        "Undead Fortitude"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "CS",
+        "LF"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    }
+  ],
+  "makebrewCreatureTrait": [
+    {
+      "name": "Squad",
+      "entries": [
+        "The <$name$> of 9 has the following traits:",
+        {
+          "type": "list",
+          "items": [
+            "It can move through an opening large enough for a Medium humanoid.",
+            "It can’t regain hit points or gain temporary hit points.",
+            "It takes double damage from effects that target an area larger than a 5-foot square, such as a {@spell fireball} spell, but not volleys from other squads.",
+            "It is immune to the {@condition charmed}, {@condition frightened}, and {@condition poisoned} conditions unless the effect covers a 15-by-15 foot square area."
+          ]
+        }
+      ],
+      "source": "DrizztGuideMassCombat"
+    }
+  ]
+}
