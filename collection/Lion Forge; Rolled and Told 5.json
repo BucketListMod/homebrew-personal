@@ -32,7 +32,11 @@
       "type": {
         "type": "humanoid",
         "tags": [
-          "shield dwarf"
+          "shield dwarf",
+          {
+            "tag": "dwarf",
+            "prefix": "Mountain"
+          }
         ]
       },
       "alignment": [
@@ -189,7 +193,11 @@
       "type": {
         "type": "humanoid",
         "tags": [
-          "shield dwarf"
+          "shield dwarf",
+          {
+            "tag": "dwarf",
+            "prefix": "Mountain"
+          }
         ]
       },
       "alignment": [
@@ -336,7 +344,11 @@
       "type": {
         "type": "humanoid",
         "tags": [
-          "shield dwarf"
+          "shield dwarf",
+          {
+            "tag": "dwarf",
+            "prefix": "Mountain"
+          }
         ]
       },
       "alignment": [
@@ -438,9 +450,10 @@
       "tokenUrl": "https://5e.tools/img/SKT/Knight of the Mithral Shield.png?v=1.114.1"
     },
     {
-      "name": "Twin Young White Dragons",
+      "name": "Gelid-Frost Twin Young White Dragons",
       "shortName": "Gelid and Frost",
       "isNamedCreature": true,
+      "isNpc": true,
       "source": "RolledTold5",
       "page": "31",
       "size": "L",
@@ -1065,7 +1078,11 @@
       "type": {
         "type": "humanoid",
         "tags": [
-          "shield dwarf"
+          "shield dwarf",
+          {
+            "tag": "dwarf",
+            "prefix": "Mountain"
+          }
         ]
       },
       "alignment": [
@@ -2107,7 +2124,7 @@
                   "type": "entries",
                   "name": "Attack #2/Day 2: Death from the Skies",
                   "entries": [
-                    "One of the {@creature Twin Young White Dragons|RolledTold5|twin white dragons}, Frost (see {@adventure New Monsters|TheColdTruth|4}), sweeps out of the raging blizzard. It takes a Wisdom ({@skill Perception}) {@dc 13}, made at disadvantage, to hear or see the attack coming. Any creature that doesn't succeed on the {@skill Perception} check must make the saving throw against the first breath weapon attack at disadvantage.",
+                    "One of the {@creature Gelid-Frost Twin Young White Dragons|RolledTold5|twin white dragons}, Frost (see {@adventure New Monsters|TheColdTruth|4}), sweeps out of the raging blizzard. It takes a Wisdom ({@skill Perception}) {@dc 13}, made at disadvantage, to hear or see the attack coming. Any creature that doesn't succeed on the {@skill Perception} check must make the saving throw against the first breath weapon attack at disadvantage.",
                     {
                       "type": "entries",
                       "name": "Tactics:",
@@ -2188,7 +2205,7 @@
               "type": "entries",
               "name": "Making It to the Mine",
               "page": "20",
-              "id":"B",
+              "id": "B",
               "entries": [
                 {
                   "type": "insetReadaloud",
@@ -2203,7 +2220,7 @@
               "type": "entries",
               "name": "The Orc War Camp",
               "page": "21",
-              "id":"C",
+              "id": "C",
               "entries": [
                 "There are two trails that lead from the Toothsome Pass to the war camp. One is in Area 2 (see {@area 2|2|u} for details of the concealed trail). The second trail is located just between the site of the orc avalanche trap area and the mine. This trail, like the other, is concealed. A Wisdom ({@skill Perception}) {@dc 20} check is required to find the trail, as it is concealed by a stand of pines and crudely made snow walls. If the PCs were told about it by Crumby, then they get advantage on the check to locate it.",
                 "Both trails wind up through the mountains. The trail concealed by the trees moves through bunches of pines and cover. The trail detailed in {@area 2|2|u}, while concealed from the pass, can be seen from the war camp. Which trail the PCs take matters. If they take the open trail, the orcs at the war camp are set in ambush when they arrive because the {@creature orc frost shaman|RolledTold5} watches this path via his {@item flawed seeing stone|RolledTold5} (see {@adventure new magic items|TheColdTruth|4}). If they take the trail through the trees, they can reach the edge of the war camp unseen if they employ some form of stealth, because of the storms. In either case, use the following description for the PCs upon arrival, and if the orcs are readied in ambush, spring the trap as soon as the first PC moves into or targets the war camp with an attack or effect. The regional effects from the white dragons do not affect the war camp, though they do reach to the edge of the mound it is built upon.",
@@ -2321,7 +2338,7 @@
                   "type": "entries",
                   "name": "The Lower Lair and Treasure Hoard Cavern",
                   "entries": [
-                    "A fifteen-foot wide and fifteen-foot tall rough-hewn tunnel runs in a direct path fifty feet from the cavern directly beneath the tower, where the rubble from above has piled to a forty-foot-wide ovoid cavern with a highly domed ceiling. The soaring ceiling is nearly 100 feet high at its peak and riddled with sword-like icicles (see {@creature Twin Young White Dragons|RolledTold5|Gelidfrost Lair Actions}). Piled at the dead center of the cavern is the twin dragons' treasure hoard. The trove, the walls, and the entire floor of the cavern is covered in a {@object ice wall|RolledTold5|sheet of ice}. The floor and the hoard area are difficult terrain, due to the ice. Because of the many scrapes, scratches, and furrows made from the dragons' claws, there is little risk of losing one's footing and dropping {@condition prone}, so no {@skill Acrobatics} checks are required as on other icy areas. Along with the treasure there are a dozen humanoid bodies frozen about the floor and against the walls. The frozen corpses are a mixture of dwarves and orcs. These are some of the twins' victims and several of them have been half eaten and refrozen for a later snack.",
+                    "A fifteen-foot wide and fifteen-foot tall rough-hewn tunnel runs in a direct path fifty feet from the cavern directly beneath the tower, where the rubble from above has piled to a forty-foot-wide ovoid cavern with a highly domed ceiling. The soaring ceiling is nearly 100 feet high at its peak and riddled with sword-like icicles (see {@creature Gelid-Frost Twin Young White Dragons|RolledTold5|Gelidfrost Lair Actions}). Piled at the dead center of the cavern is the twin dragons' treasure hoard. The trove, the walls, and the entire floor of the cavern is covered in a {@object ice wall|RolledTold5|sheet of ice}. The floor and the hoard area are difficult terrain, due to the ice. Because of the many scrapes, scratches, and furrows made from the dragons' claws, there is little risk of losing one's footing and dropping {@condition prone}, so no {@skill Acrobatics} checks are required as on other icy areas. Along with the treasure there are a dozen humanoid bodies frozen about the floor and against the walls. The frozen corpses are a mixture of dwarves and orcs. These are some of the twins' victims and several of them have been half eaten and refrozen for a later snack.",
                     "There are a few items of interest on two of the corpses that the dragons failed to find (see below). Locating the items requires an Intelligence ({@skill Investigation}) {@dc 15} and will require the corpses to be broken free of the ice to obtain the items on the corpse or access the treasure hoard.",
                     {
                       "type": "list",
@@ -2445,7 +2462,7 @@
               "type": "list",
               "name": "New Monsters",
               "items": [
-                "{@creature Twin Young White Dragons|RolledTold5|Gelid-Frost Twin Young White Dragons}",
+                "{@creature Gelid-Frost Twin Young White Dragons|RolledTold5}",
                 "{@creature Orc Frost Shaman|RolledTold5}",
                 "{@creature Orc Hunter|RolledTold5}"
               ]
