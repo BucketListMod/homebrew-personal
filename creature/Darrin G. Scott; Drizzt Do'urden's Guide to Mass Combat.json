@@ -12,7 +12,9 @@
         "convertedBy": [
           "BucketListMod#8973"
         ],
-        "color": "df0505"
+        "version": "1.0.0",
+        "color": "df0505",
+        "targetSchema": "1.0.0"
       }
     ],
     "dateAdded": 1604968423,
