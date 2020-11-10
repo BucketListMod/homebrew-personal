@@ -329,7 +329,7 @@
               "max": "100"
             }
           },
-          "{@race Dwarf (Duergar)|MTF|Duergar}"
+          "{@race Dwarf (Duergar)|MTF|Grey}"
         ]
       ]
     },
@@ -376,7 +376,7 @@
               "max": "88"
             }
           },
-          "{@race elf (drow)||Drow}"
+          "{@race elf (drow)||Dark}"
         ],
         [
           {
@@ -386,7 +386,7 @@
               "max": "91"
             }
           },
-          "{@race elf (sea)|MTF|Sea Elf}"
+          "{@race elf (sea)|MTF|Sea}"
         ],
         [
           {
@@ -396,7 +396,7 @@
               "max": "94"
             }
           },
-          "{@race elf (pallid)|EGW|Pallid Elf}"
+          "{@race elf (pallid)|EGW|Pallid}"
         ],
         [
           {
@@ -674,7 +674,7 @@
               "max": "100"
             }
           },
-          "{@race gnome (deep)|MTF|Svirfneblin}"
+          "{@race gnome (deep)|MTF|Deep}"
         ]
       ]
     },
