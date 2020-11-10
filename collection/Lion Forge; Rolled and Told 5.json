@@ -32,7 +32,7 @@
       "type": {
         "type": "humanoid",
         "tags": [
-          "dwarf, mountain"
+          "shield dwarf"
         ]
       },
       "alignment": [
@@ -189,7 +189,7 @@
       "type": {
         "type": "humanoid",
         "tags": [
-          "dwarf, mountain"
+          "shield dwarf"
         ]
       },
       "alignment": [
@@ -336,7 +336,7 @@
       "type": {
         "type": "humanoid",
         "tags": [
-          "dwarf, mountain"
+          "shield dwarf"
         ]
       },
       "alignment": [
@@ -1065,7 +1065,7 @@
       "type": {
         "type": "humanoid",
         "tags": [
-          "dwarf, mountain"
+          "shield dwarf"
         ]
       },
       "alignment": [
