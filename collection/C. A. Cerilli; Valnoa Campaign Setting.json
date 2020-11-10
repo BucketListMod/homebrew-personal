@@ -14,8 +14,8 @@
         "color": "ffedc7"
       }
     ],
-	"dateAdded": 1602344563,
-	"dateLastModified": 1603321227
+    "dateAdded": 1602344563,
+    "dateLastModified": 1603321227
   },
   "baseitem": [
     {
@@ -221,7 +221,10 @@
       "type": {
         "type": "fey",
         "tags": [
-          "eladrin"
+          {
+            "tag": "elf",
+            "prefix": "Eladrin"
+          }
         ]
       },
       "alignment": [
