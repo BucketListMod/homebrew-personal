@@ -433,7 +433,11 @@
       "type": {
         "type": "humanoid",
         "tags": [
-          "halfling, stout"
+          "strongheart halfling",
+          {
+            "tag": "halfling",
+            "prefix": "Stout"
+          }
         ]
       },
       "alignment": [
@@ -587,7 +591,10 @@
       "type": {
         "type": "humanoid",
         "tags": [
-          "halfling, lightfoot"
+          {
+            "tag": "halfling",
+            "prefix": "Lightfoot"
+          }
         ]
       },
       "alignment": [
