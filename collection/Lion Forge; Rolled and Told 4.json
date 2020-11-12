@@ -2741,15 +2741,10 @@
         "psychic"
       ],
       "resist": [
-        {
-          "resist": [
-            "bludgeoning",
-            "piercing",
-            "slashing"
-          ],
-          "note": "from nonmagical weapons",
-          "cond": true
-        }
+        "bludgeoning",
+        "piercing",
+        "slashing",
+        "from nonmagical weapons"
       ],
       "entries": []
     },
@@ -2766,15 +2761,10 @@
         "psychic"
       ],
       "resist": [
-        {
-          "resist": [
-            "bludgeoning",
-            "piercing",
-            "slashing"
-          ],
-          "note": "from nonmagical weapons",
-          "cond": true
-        }
+        "bludgeoning",
+        "piercing",
+        "slashing",
+        "from nonmagical weapons"
       ],
       "entries": []
     },
@@ -2791,15 +2781,10 @@
         "psychic"
       ],
       "resist": [
-        {
-          "resist": [
-            "bludgeoning",
-            "piercing",
-            "slashing"
-          ],
-          "note": "from nonmagical weapons",
-          "cond": true
-        }
+        "bludgeoning",
+        "piercing",
+        "slashing",
+        "from nonmagical weapons"
       ],
       "entries": []
     },
