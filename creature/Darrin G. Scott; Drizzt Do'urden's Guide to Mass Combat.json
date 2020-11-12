@@ -143,6 +143,9 @@
           "source": "EGW"
         }
       ],
+      "traitTags": [
+        "Squad"
+      ],
       "actionTags": [
         "Multiattack"
       ],
@@ -406,7 +409,8 @@
       "tokenUrl": "https://5e.tools/img/MM/Drow.png?v=1.115.0",
       "traitTags": [
         "Fey Ancestry",
-        "Sunlight Sensitivity"
+        "Sunlight Sensitivity",
+        "Squad"
       ],
       "senseTags": [
         "SD"
@@ -591,7 +595,8 @@
       },
       "tokenUrl": "https://5e.tools/img/MM/Gnoll.png?v=1.115.0",
       "traitTags": [
-        "Rampage"
+        "Rampage",
+        "Squad"
       ],
       "senseTags": [
         "D"
@@ -784,6 +789,9 @@
           "source": "RMBRE"
         }
       ],
+      "traitTags": [
+        "Squad"
+      ],
       "senseTags": [
         "D"
       ],
@@ -909,6 +917,9 @@
           "name": "Vistana Guard",
           "source": "CoS"
         }
+      ],
+      "traitTags": [
+        "Squad"
       ],
       "actionTags": [
         "Multiattack"
@@ -1108,6 +1119,9 @@
         ]
       },
       "tokenUrl": "https://5e.tools/img/MM/Hobgoblin.png?v=1.115.0",
+      "traitTags": [
+        "Squad"
+      ],
       "senseTags": [
         "D"
       ],
@@ -1248,6 +1262,9 @@
         ]
       },
       "tokenUrl": "https://5e.tools/img/MM/Knight.png?v=1.115.0",
+      "traitTags": [
+        "Squad"
+      ],
       "actionTags": [
         "Multiattack",
         "Parry"
@@ -1415,7 +1432,8 @@
       "familiar": true,
       "tokenUrl": "https://5e.tools/img/MM/Kobold.png?v=1.115.0",
       "traitTags": [
-        "Pack Tactics"
+        "Pack Tactics",
+        "Squad"
       ],
       "senseTags": [
         "D"
@@ -1617,7 +1635,8 @@
         }
       ],
       "traitTags": [
-        "Aggressive"
+        "Aggressive",
+        "Squad"
       ],
       "senseTags": [
         "D"
@@ -1788,6 +1807,9 @@
         ]
       },
       "tokenUrl": "https://5e.tools/img/MM/Skeleton.png?v=1.115.0",
+      "traitTags": [
+        "Squad"
+      ],
       "senseTags": [
         "D"
       ],
@@ -1924,6 +1946,9 @@
         ]
       },
       "tokenUrl": "https://5e.tools/img/GGR/Soldier.png?v=1.115.0",
+      "traitTags": [
+        "Squad"
+      ],
       "actionTags": [
         "Multiattack"
       ],
@@ -2072,7 +2097,8 @@
       },
       "tokenUrl": "https://5e.tools/img/MM/Zombie.png?v=1.115.0",
       "traitTags": [
-        "Undead Fortitude"
+        "Undead Fortitude",
+        "Squad"
       ],
       "senseTags": [
         "D"
