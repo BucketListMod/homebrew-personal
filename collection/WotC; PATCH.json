@@ -14,7 +14,7 @@
       }
     ],
     "dateAdded": 1602284622,
-    "dateLastModified": 1603570189
+    "dateLastModified": 1605379054
   },
   "item": [
     {
@@ -72,6 +72,40 @@
       "rarity": "none",
       "entries": [
         "An amber colored crystal with swirling golden veins gleaming within."
+      ]
+    }
+  ],
+  "baseitem": [
+    {
+      "name": "Boomerang",
+      "source": "PotA",
+      "type": "R",
+      "rarity": "none",
+      "weight": 1,
+      "value": 100,
+      "weaponCategory": "simple",
+      "property": [
+        "BR"
+      ],
+      "range": "60/120",
+      "dmg1": "1d4",
+      "dmgType": "B",
+      "weapon": true,
+      "entries": []
+    }
+  ],
+  "itemProperty": [
+    {
+      "abbreviation": "BR",
+      "source": "PotA",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Special",
+          "entries": [
+            "On a miss, the boomerang returns to the thrower's hand."
+          ]
+        }
       ]
     }
   ],
