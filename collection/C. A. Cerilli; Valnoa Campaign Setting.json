@@ -15,7 +15,7 @@
       }
     ],
     "dateAdded": 1602344563,
-    "dateLastModified": 1603321227
+    "dateLastModified": 1605899624
   },
   "baseitem": [
     {
@@ -662,6 +662,18 @@
       "ruleType": "O",
       "entries": [
         "The death of Pelor. The war in Elysium. Bane's rise to power. You were born into a time of great planar conflict, a time where magic will be as necessary a weapon as swords and armor. The patron with whom you have entered a pact knows this, and wants their champions best equipped to do their bidding. As an extra tenant to your pact, none of the spells added to your Warlock spell list count against your number of known spells."
+      ]
+    }
+  ],
+  "classFeature": [
+    {
+      "name": "Val'noa Warlock",
+      "source": "Valnoa",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "level": 1,
+      "entries": [
+        "As an extra tenant to your pact, none of the spells added to your Warlock spell list count against your number of known spells."
       ]
     }
   ]
