@@ -17,13 +17,12 @@
       }
     ],
     "dateAdded": 1602342993,
-    "dateLastModified": 1602345401
+    "dateLastModified": 1605898610
   },
   "item": [
     {
       "name": "Prayers",
       "source": "BrewskiThoughtsPrayers",
-      "baseItem": "knuckleduster|Valnoa",
       "page": "1",
       "type": "M",
       "rarity": "rare",
@@ -85,7 +84,6 @@
     {
       "name": "Thoughts",
       "source": "BrewskiThoughtsPrayers",
-      "baseItem": "knuckleduster|Valnoa",
       "page": "1",
       "type": "M",
       "rarity": "rare",
