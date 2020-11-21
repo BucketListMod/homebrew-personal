@@ -1242,11 +1242,11 @@
             },
             {
               "type": "refOptionalfeature",
-              "optionalfeature": "Blind Fighting|UAClassFeatureVariants"
+              "optionalfeature": "Blind Fighting|TCE"
             },
             {
               "type": "refOptionalfeature",
-              "optionalfeature": "Thrown Weapon Fighting|UAClassFeatureVariants"
+              "optionalfeature": "Thrown Weapon Fighting|TCE"
             }
           ]
         }
