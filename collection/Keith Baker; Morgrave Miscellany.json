@@ -2100,10 +2100,10 @@
 			"source": "MorgraveMiscellany",
 			"page": 93,
 			"property": [
+				"SHAR",
 				"H",
 				"R",
-				"2H",
-				"SHAR"
+				"2H"
 			],
 			"entries": []
 		},
@@ -2120,9 +2120,9 @@
 			"source": "MorgraveMiscellany",
 			"page": 93,
 			"property": [
+				"TANG",
 				"H",
-				"2H",
-				"TANG"
+				"2H"
 			],
 			"entries": []
 		}
