@@ -18,7 +18,7 @@
       }
     ],
     "dateAdded": 1602555207,
-    "dateLastModified": 1602615765
+    "dateLastModified": 1611449040
   },
   "table": [
     {
@@ -232,7 +232,7 @@
             }
           },
           "{@race Shifter|ERLW}",
-          "Choose or roll subrace"
+          "Choose or {@dice 1d4|roll|Subrace (alphabetical)} subrace"
         ],
         [
           {
@@ -338,7 +338,7 @@
       "page": "1",
       "name": "Reincarnate: Elf",
       "intro": [
-        "Also used to determine {@race half-elf (variant)||Half-Elf Descent}."
+        "92+ for {@race half-elf (variant)||Half-Elf Descent} is wild card."
       ],
       "colLabels": [
         "{@dice d100}",
@@ -437,7 +437,7 @@
             "type": "cell",
             "roll": {
               "min": "1",
-              "max": "45"
+              "max": "40"
             }
           },
           "{@race halfling (lightfoot)||Lightfoot}"
@@ -446,7 +446,7 @@
           {
             "type": "cell",
             "roll": {
-              "min": "46",
+              "min": "41",
               "max": "80"
             }
           },
@@ -1030,6 +1030,171 @@
           },
           "{@race Minotaur|MOT}"
         ]
+      ]
+    },
+    {
+      "source": "redceramicfrypanReincarnate",
+      "page": "2",
+      "name": "Eberron Conversions",
+      "intro": [
+        "All conversions optional.",
+        "In the event an original is listed in an unused source, its Eberron replacement can be drawn from active sources instead.",
+        {
+          "type": "table",
+          "page": "1",
+          "caption": "Eberron: Rising from the Last War",
+          "colLabels": [
+            "Original",
+            "Eberron"
+          ],
+          "colStyles": [
+            "col-6"
+          ],
+          "rows": [
+            [
+              "{@race human (base)|PHB|Human}",
+              "Roll {@dice 1d6} for Mark (alphabetical, 1 is no mark)"
+            ],
+            [
+              "Dwarf, {@race dwarf (hill)|PHB|Hill} or {@race dwarf (mountain)|PHB|Mountain}",
+              "{@race dwarf (mark of warding)|ERLW|Mark of Warding}"
+            ],
+            [
+              "Elf, {@race elf (pallid)|EGW|Pallid}",
+              "{@race elf (mark of shadow)|ERLW|Mark of Shadow}"
+            ],
+            [
+              "Halfling, {@race halfling (lotusden)|PHB|Lotusden}",
+              "{@race halfling (mark of healing)|ERLW|Mark of Healing}"
+            ],
+            [
+              "Halfling, {@race halfling (ghostwise)|PHB|Ghostwise}",
+              "{@race halfling (mark of hospitality)|ERLW|Mark of Hospitality}"
+            ],
+            [
+              "Gnome, {@race gnome (deep)|MTF|Deep}",
+              "{@race gnome (mark of scribing)|ERLW|Mark of Scribing}"
+            ],
+            [
+              "{@race half-elf (variant)|PHB|Half-Elf}, Pallid or Eladrin (<96)",
+              "{@race half-elf (variant; mark of detection)|ERLW|Mark of Detection}"
+            ],
+            [
+              "{@race half-elf (variant)|PHB|Half-Elf}, Shadar-kai or Eladrin (>96)",
+              "{@race half-elf (variant; mark of storm)|ERLW|Mark of Storm}"
+            ],
+            [
+              "{@race Half-Orc|PHB}",
+              "{@chance 50|Flip coin|Has mark} for {@race half-orc (mark of finding)|ERLW|Mark of Finding}"
+            ]
+          ]
+        }
+      ],
+      "caption": "Exploring Eberron",
+      "colLabels": [
+        "Original",
+        "Eberron"
+      ],
+      "colStyles": [
+        "col-6"
+      ],
+      "rows": [
+        [
+          "Dwarf, {@race dwarf (duergar)|MTF|Grey}",
+          "{@race dwarf (ruinbound)|ExploringEberron|Ruinbound}"
+        ],
+        [
+          "Elf, {@race elf (eladrin)|MTF|Eladrin}",
+          "{@race elf (aereni)|ExploringEberron|Aereni}"
+        ],
+        [
+          "Aasimar, {@race aasimar (protector)|VGM|Protector}",
+          "{@race aasimar (court)|ExploringEberron|Court}"
+        ],
+        [
+          "Aasimar, {@race aasimar (scourge)|VGM|Scourge}",
+          "{@race aasimar (scourge variant; fernian)|ExploringEberron|Fernian} or {@race aasimar (seeker)|ExploringEberron|Seeker}"
+        ],
+        [
+          "Aasimar, {@race aasimar (fallen)|VGM|Fallen}",
+          "{@race aasimar (fallen variant; mabaran)|ExploringEberron|Mabaran}"
+        ],
+        [
+          "{@race Tabaxi|VGM} or {@race Leonin|MOT}",
+          "{@race Gnoll|ExploringEberron|Gnoll}"
+        ],
+        [
+          "{@race Goblin|ERLW}",
+          "{@chance 50|Flip coin|Dhakaani} for {@race goblin (Dhakaani Golin'dar)|ExploringEberron|Dhakaani}"
+        ],
+        [
+          "{@race Hobgoblin|ERLW}",
+          "{@chance 50|Flip coin|Dhakaani} for {@race hobgoblin (Dhakaani Ghaal'dar)|ExploringEberron|Dhakaani}"
+        ],
+        [
+          "{@race Bugbear|ERLW}",
+          "{@chance 50|Flip coin|Dhakaani} for {@race bugbear (Dhakaani Guul'dar)|ExploringEberron|Dhakaani}"
+        ]
+      ],
+      "outro": [
+        {
+          "type": "table",
+          "page": "1",
+          "caption": "Morgrave Miscellany",
+          "colLabels": [
+            "Original",
+            "Eberron"
+          ],
+          "colStyles": [
+            "col-6"
+          ],
+          "rows": [
+            [
+              "Elf, {@race elf (shadar-kai)|MTF|Shadar-kai}",
+              "{@race elf (mark of death)|MorgraveMiscellany|Mark of Death}"
+            ],
+            [
+              "Halfling, {@race halfling (lotusden)|EGW|Lotusden} or {@race halfling (ghostwise)|SCAG|Ghostwise}",
+              "{@race halfling (talenta)|MorgraveMiscellany|Talenta}"
+            ],
+            [
+              "{@race Shifter|ERLW}",
+              "Roll {@dice 1d8} for subrace (alphabetical, 8 is wild card)"
+            ],
+            [
+              "Tiefling, {@race tiefling (Baalzebul)|MTF|Baalzebul}",
+              "{@race tiefling (kythri)|MorgraveMiscellany|Kythri}"
+            ],
+            [
+              "Tiefling, {@race tiefling (dispater)|MTF|Dispater}",
+              "{@race tiefling (sakah)|MorgraveMiscellany|Sakah}"
+            ],
+            [
+              "Tiefling, {@race tiefling (fierna)|MTF|Fierna}",
+              "{@race tiefling (mabari)|MorgraveMiscellany|Mabari}"
+            ],
+            [
+              "Tiefling, {@race tiefling (glasya)|MTF|Glasya}",
+              "{@race tiefling (sakah)|MorgraveMiscellany|Sakah}"
+            ],
+            [
+              "Tiefling, {@race tiefling (levistus)|MTF|Levistus}",
+              "{@race tiefling (risian)|MorgraveMiscellany|Risian}"
+            ],
+            [
+              "Tiefling, {@race tiefling (mammon)|MTF|Mammon}",
+              "{@race tiefling (dolurrhi)|MorgraveMiscellany|Dolurrhi}"
+            ],
+            [
+              "Tiefling, {@race tiefling (mephistopheles)|MTF|Mephistopheles}",
+              "{@race tiefling (fernian)|MorgraveMiscellany|Fernian}"
+            ],
+            [
+              "Tiefling, {@race tiefling (zariel)|MTF|Zariel}",
+              "{@race tiefling (Shavaran)|MorgraveMiscellany|Shavaran}"
+            ]
+          ]
+        }
       ]
     }
   ]
