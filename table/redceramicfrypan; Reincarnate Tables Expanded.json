@@ -18,7 +18,7 @@
       }
     ],
     "dateAdded": 1602555207,
-    "dateLastModified": 1611449040
+    "dateLastModified": 1612376364
   },
   "table": [
     {
@@ -232,7 +232,7 @@
             }
           },
           "{@race Shifter|ERLW}",
-          "Choose or {@dice 1d4|roll|Subrace (alphabetical)} subrace"
+          "Choose or {@table Reincarnate: Shifter|redceramicfrypanReincarnate|roll} subrace"
         ],
         [
           {
@@ -734,6 +734,60 @@
     },
     {
       "source": "redceramicfrypanReincarnate",
+      "page": "2",
+      "name": "Reincarnate: Shifter",
+      "colLabels": [
+        "{@dice d100}",
+        "Subrace"
+      ],
+      "colStyles": [
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "1",
+              "max": "25"
+            }
+          },
+          "{@race shifter (beasthide)|ERLW|Beasthide}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "26",
+              "max": "50"
+            }
+          },
+          "{@race shifter (longtooth)|ERLW|Longhide}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "51",
+              "max": "75"
+            }
+          },
+          "{@race shifter (swiftstride)|ERLW|Swiftstride}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "76",
+              "max": "100"
+            }
+          },
+          "{@race shifter (wildhunt)|ERLW|Wildhunt}"
+        ]
+      ]
+    },
+    {
+      "source": "redceramicfrypanReincarnate",
       "page": "1",
       "name": "Reincarnate: Aasimar",
       "colLabels": [
@@ -1041,7 +1095,7 @@
         "In the event an original is listed in an unused source, its Eberron replacement can be drawn from active sources instead.",
         {
           "type": "table",
-          "page": "1",
+          "page": "2",
           "caption": "Eberron: Rising from the Last War",
           "colLabels": [
             "Original",
@@ -1064,11 +1118,11 @@
               "{@race elf (mark of shadow)|ERLW|Mark of Shadow}"
             ],
             [
-              "Halfling, {@race halfling (lotusden)|PHB|Lotusden}",
+              "Halfling, {@race halfling (lotusden)|EGW|Lotusden}",
               "{@race halfling (mark of healing)|ERLW|Mark of Healing}"
             ],
             [
-              "Halfling, {@race halfling (ghostwise)|PHB|Ghostwise}",
+              "Halfling, {@race halfling (ghostwise)|SCAG|Ghostwise}",
               "{@race halfling (mark of hospitality)|ERLW|Mark of Hospitality}"
             ],
             [
@@ -1139,7 +1193,7 @@
       "outro": [
         {
           "type": "table",
-          "page": "1",
+          "page": "2",
           "caption": "Morgrave Miscellany",
           "colLabels": [
             "Original",
