@@ -19,7 +19,7 @@
       }
     ],
     "dateAdded": 1602284622,
-    "dateLastModified": 1604099575
+    "dateLastModified": 1612541863
   },
   "book": [
     {
@@ -318,9 +318,10 @@
   ],
   "adventure": [
     {
-      "name": "Rolled & Told: Hoist the Jolly Gobbler!",
+      "name": "Rolled & Told #1: Hoist the Jolly Gobbler!",
       "id": "JollyGobbler",
       "source": "RolledTold1",
+      "storyline": "Rolled & Told",
       "coverUrl": "https://m.media-amazon.com/images/I/51eDL3x1SPL.jpg",
       "contents": [
         {
@@ -353,9 +354,10 @@
       "published": "2018/09/26"
     },
     {
-      "name": "Rolled & Told: Pull Your Weight",
+      "name": "Rolled & Told #1: Pull Your Weight",
       "id": "PullUrWeight",
       "source": "RolledTold1",
+      "storyline": "Rolled & Told",
       "coverUrl": "https://m.media-amazon.com/images/I/51eDL3x1SPL.jpg",
       "contents": [
         {
