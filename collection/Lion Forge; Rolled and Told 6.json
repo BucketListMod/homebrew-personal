@@ -19,7 +19,7 @@
       }
     ],
     "dateAdded": 1603904881,
-    "dateLastModified": 1604104440
+    "dateLastModified": 1612542075
   },
   "item": [
     {
@@ -1108,9 +1108,10 @@
   ],
   "adventure": [
     {
-      "name": "Rolled & Told: The Lady of Lasting Kisses",
+      "name": "Rolled & Told #6: The Lady of Lasting Kisses",
       "id": "LadyLastingKisses",
       "source": "RolledTold6",
+      "storyline": "Rolled & Told",
       "published": "2019/02/27",
       "coverUrl": "https://m.media-amazon.com/images/I/51jb8xKKhgL.jpg",
       "contents": [
@@ -1155,9 +1156,10 @@
       }
     },
     {
-      "name": "Rolled & Told: Ghosts in the Night",
+      "name": "Rolled & Told #6: Ghosts in the Night",
       "id": "GhostsInTheNight",
       "source": "RolledTold6",
+      "storyline": "Rolled & Told",
       "published": "2019/02/27",
       "coverUrl": "https://m.media-amazon.com/images/I/51jb8xKKhgL.jpg",
       "contents": [
