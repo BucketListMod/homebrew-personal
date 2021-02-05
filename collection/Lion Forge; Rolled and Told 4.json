@@ -19,7 +19,7 @@
       }
     ],
     "dateAdded": 1602284622,
-    "dateLastModified": 1604962855
+    "dateLastModified": 1612541993
   },
   "item": [
     {
@@ -1769,9 +1769,10 @@
   ],
   "adventure": [
     {
-      "name": "Rolled & Told: Mama Yum-Yum's Big Ole Birthday BBQ",
+      "name": "Rolled & Told #4: Mama Yum-Yum's Big Ole Birthday BBQ",
       "id": "MamaYumYum",
       "source": "RolledTold4",
+      "storyline": "Rolled & Told",
       "coverUrl": "https://m.media-amazon.com/images/I/512Ky0E6hdL.jpg",
       "contents": [
         {
@@ -1816,9 +1817,10 @@
       "published": "2018/12/19"
     },
     {
-      "name": "Rolled & Told: The Case of the Brutal Brunch",
+      "name": "Rolled & Told #4: The Case of the Brutal Brunch",
       "id": "BrutalBrunch",
       "source": "RolledTold4",
+      "storyline": "Rolled & Told",
       "coverUrl": "https://m.media-amazon.com/images/I/512Ky0E6hdL.jpg",
       "contents": [
         {
