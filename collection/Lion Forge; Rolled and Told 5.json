@@ -19,7 +19,7 @@
       }
     ],
     "dateAdded": 1603930108,
-    "dateLastModified": 1604962541
+    "dateLastModified": 1612541246
   },
   "monster": [
     {
@@ -1838,10 +1838,11 @@
   ],
   "adventure": [
     {
-      "name": "Rolled & Told: The Cold Truth",
+      "name": "Rolled & Told 5: The Cold Truth",
       "id": "TheColdTruth",
       "source": "RolledTold5",
       "published": "2019/01/23",
+      "storyline": "Rolled & Told",
       "coverUrl": "https://m.media-amazon.com/images/I/51LnZWnZCIL.jpg",
       "contents": [
         {
@@ -1878,10 +1879,11 @@
       }
     },
     {
-      "name": "Rolled & Told: Temple of the Frozen Heart",
+      "name": "Rolled & Told 5: Temple of the Frozen Heart",
       "id": "TempleFrozenHeart",
       "source": "RolledTold5",
       "published": "2019/01/23",
+      "storyline": "Rolled & Told",
       "coverUrl": "https://m.media-amazon.com/images/I/51LnZWnZCIL.jpg",
       "contents": [
         {
@@ -2027,7 +2029,7 @@
                 },
                 {
                   "type": "entries",
-                  "name": "The Old Watchtower",
+                  "name": "The Old Watchtower ",
                   "entries": [
                     "The Watchtower is built upon a high pinnacle, only accessible by a winding and narrow stair carved from the mountain. The tower was originally the Northernmost watch/signal tower for the Craghearth distress beacon. It was converted to keep watch over the pass once the new mine was established. It was normally manned by six dwarves for three-month stints at a time. No word has been heard from the tower for over a month, just prior to when the first supply train went missing. An Intelligence ({@skill History}) {@dc 10} reveals this."
                   ]
@@ -2571,7 +2573,7 @@
                   "type": "list",
                   "name": "Threat",
                   "items": [
-                    "2 {@creature yeti cub|RolledTold5|yeti cubs} (see {@adventure New Monster Stat Blocks|TempleFrozenHeart|3}"
+                    "2 {@creature yeti cub|RolledTold5|yeti cubs} (see {@adventure New Monster Stat Blocks|TempleFrozenHeart|3})"
                   ]
                 },
                 "On the far side of the cave is the entrance leading to the Temple of the Frozen Heart.",
