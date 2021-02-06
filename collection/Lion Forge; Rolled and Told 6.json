@@ -19,7 +19,7 @@
       }
     ],
     "dateAdded": 1603904881,
-    "dateLastModified": 1612542075
+    "dateLastModified": 1612648009
   },
   "item": [
     {
@@ -325,13 +325,7 @@
         {
           "name": "Snow Camouflage",
           "entries": [
-            "The wolf has advantage on Dexterity (Stealth) checks made to hide in snowy terrain."
-          ]
-        },
-        {
-          "name": "Pack Leader",
-          "entries": [
-            "As a Bonus Action, the Alpha can grant any single ally with Pack Tactics to take an immediate {@action Dash}, {@action Disengage}, or {@action Attack} Action, as long as they can see or hear the Alpha."
+            "The wolf has advantage on Dexterity ({@skill Stealth}) checks made to hide in snowy terrain."
           ]
         }
       ],
@@ -411,6 +405,14 @@
       },
       "actionTags": [
         "Multiattack"
+      ],
+      "bonus": [
+        {
+          "name": "Pack Leader",
+          "entries": [
+            "As a Bonus Action, the Alpha can grant any single ally with Pack Tactics to take an immediate {@action Dash}, {@action Disengage}, or {@action Attack} Action, as long as they can see or hear the Alpha."
+          ]
+        }
       ]
     },
     {
@@ -868,7 +870,7 @@
         {
           "name": "Infernal Legacy",
           "entries": [
-            "Nija knows the thaumaturgy cantrip. She can also cast hellish rebuke as a 2nd level spell (Dexterity saving throw 16) and darkness once per long rest. Charisma is her spellcasting ability for those spells."
+            "Nija knows the {@spell thaumaturgy} cantrip. She can also cast {@spell hellish rebuke} as a 2nd level spell (Dexterity saving throw 16) and {@spell darkness} once per long rest. Charisma is her spellcasting ability for those spells."
           ]
         },
         {
