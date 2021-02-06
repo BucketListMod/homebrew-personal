@@ -19,7 +19,7 @@
       }
     ],
     "dateAdded": 1603930108,
-    "dateLastModified": 1612541246
+    "dateLastModified": 1612645788
   },
   "monster": [
     {
@@ -94,13 +94,13 @@
         {
           "name": "Dwarvan Resiliance",
           "entries": [
-            "Golda has advantage on saving throws against poison and has resistance against poison damage."
+            "Golda has advantage on saving throws against {@condition poisoned||poison} and has resistance against poison damage."
           ]
         },
         {
           "name": "Keen Hearing and Sight",
           "entries": [
-            "Golda has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+            "Golda has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
           ]
         }
       ],
@@ -250,7 +250,7 @@
         {
           "name": "Dwarvan Resilience",
           "entries": [
-            "Orewick has advantage on saving throws against poison and has resistance against poison damage."
+            "Orewick has advantage on saving throws against {@condition poisoned||poison} and has resistance against poison damage."
           ]
         },
         {
@@ -397,7 +397,7 @@
         {
           "name": "Dwarven Resilience",
           "entries": [
-            "The hammer guard has advantage on saving throws against poison and has resistance against poison damage."
+            "The hammer guard has advantage on saving throws against {@condition poisoned||poison} and has resistance against poison damage."
           ]
         }
       ],
@@ -685,7 +685,7 @@
       "name": "Orc Frost Shaman",
       "shortName": true,
       "source": "RolledTold5",
-      "page": "32",
+      "page": 32,
       "size": "M",
       "type": {
         "type": "humanoid",
@@ -765,14 +765,6 @@
           },
           "ability": "wis",
           "type": "spellcasting"
-        }
-      ],
-      "trait": [
-        {
-          "name": "Aggressive",
-          "entries": [
-            "As a bonus action, the orc frost shaman can move up to its speed towards a hostile creature that it can see."
-          ]
         }
       ],
       "action": [
@@ -884,13 +876,21 @@
             }
           }
         ]
-      }
+      },
+      "bonus": [
+        {
+          "name": "Aggressive",
+          "entries": [
+            "As a bonus action, the orc frost shaman can move up to its speed towards a hostile creature that it can see."
+          ]
+        }
+      ]
     },
     {
       "name": "Orc Hunter",
       "shortName": true,
       "source": "RolledTold5",
-      "page": "32",
+      "page": 32,
       "size": "M",
       "type": {
         "type": "humanoid",
@@ -938,12 +938,6 @@
       ],
       "cr": "1/2",
       "trait": [
-        {
-          "name": "Aggressive",
-          "entries": [
-            "As a bonus action, the orc hunter can move up to its speed towards a hostile creature that it can see."
-          ]
-        },
         {
           "name": "Opening Volley",
           "entries": [
@@ -1066,7 +1060,15 @@
             }
           }
         ]
-      }
+      },
+      "bonus": [
+        {
+          "name": "Aggressive",
+          "entries": [
+            "As a bonus action, the orc hunter can move up to its speed towards a hostile creature that it can see."
+          ]
+        }
+      ]
     },
     {
       "name": "Nordak Silverquill",
@@ -1175,13 +1177,13 @@
         {
           "name": "Dwarven Resilience",
           "entries": [
-            "Nordak has advantage on saving throws against poison, and resistance against poison damage."
+            "Nordak has advantage on saving throws against {@condition poisoned||poison}, and resistance against poison damage."
           ]
         },
         {
           "name": "Tool Proficiency.",
           "entries": [
-            "Nordak is proficient with mason's tools."
+            "Nordak is proficient with {@item mason's tools|PHB}."
           ]
         },
         {
@@ -1197,34 +1199,28 @@
           ]
         },
         {
+          "name": "Eldritch Invocations",
+          "entries": [
+            "Eldritch Sight. Nordak can cast {@spell detect magic} at will, without expending a spell slot.",
+            "Repelling Blast. When Nordak hits a creature with {@spell eldritch blast}, he can push the creature up to 10 feet away from him in a straight line.",
+            "Silent Image. Nordak can cast {@spell silent image} at will, without expending a spell slot or material components.",
+            "Thirsting Blade. Nordak can attack with his pact weapon twice, instead of once, whenever he takes the Attack action on his turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Pact Boon: Pact of the Blade",
+          "entries": [
+            "Nordak can use his action to summon his {@item ice biter handaxe|RolledTol{@dice d5}|frost axe +1} into his empty hand. The weapon disappears if it is more than 5 ft. away from him for one minute. It also disappears if he dismisses it (no action required). The magic weapon appears at his feet if he dies."
+          ]
+        },
+        {
           "name": "Fey Presence",
           "entries": [
             "Nordak's patron bestows the ability to project the beguiling and fearsome presence of the fey. As an action, he can cause each creature in a 10-foot cube centered on him to make a Wisdom saving throw {@dc 14}. Creatures that fail are {@condition charmed} or {@condition frightened} (his choice) until the end of his next turn. It can't be used again until he finishes a short or long rest."
           ]
         },
-        {
-          "name": "Misty Escape",
-          "entries": [
-            "Nordak can vanish in a puff of mist in response to harm. When he takes damage, Nordak can use his reaction to turn {@condition invisible} and teleport up to 60 ft. to an unoccupied space he can see. He remains {@condition invisible} until the start of his next turn or until he attacks or casts a spell. Once he uses this feature, Nordak can't use it again until he finishes a short or long rest."
-          ]
-        },
-        {
-          "name": "Eldritch Invocations",
-          "entries": [
-            "Eldritch Sight. Nordak can cast detect magic at will, without expending a spell slot.",
-            "Repelling Blast. When Nordak hits a creature with eldritch blast, he can push the creature up to 10 feet away from him in a straight line.",
-            "Silent Image. Nordak can cast silent image at will, without expending a spell slot or material components.",
-            "Thirsting Blade. Nordak can attack with his pact weapon twice, instead of once, whenever he takes the Attack action on his turn."
-          ]
-        },
-        {
-          "name": "Pact Boon.",
-          "entries": [
-            "Pact of the Blade. Nordak can use his action to summon his frost axe +1 into his empty hand. The weapon disappears if it is more than 5 ft. away from him for one minute. It also disappears if he dismisses it (no action required). The magic weapon appears at his feet if he dies."
-          ]
-        }
-      ],
-      "action": [
         {
           "name": "Multiattack",
           "entries": [
@@ -1310,7 +1306,15 @@
         "RW",
         "THW"
       ],
-      "tokenUrl": "https://raw.githubusercontent.com/BucketListMod/homebrew-personal/main/_img/Rolled%20and%20Told/Nordak%20Silverquill.png"
+      "tokenUrl": "https://raw.githubusercontent.com/BucketListMod/homebrew-personal/main/_img/Rolled%20and%20Told/Nordak%20Silverquill.png",
+      "reaction": [
+        {
+          "name": "Misty Escape",
+          "entries": [
+            "Nordak can vanish in a puff of mist in response to harm. When he takes damage, Nordak can use his reaction to turn {@condition invisible} and teleport up to 60 ft. to an unoccupied space he can see. He remains {@condition invisible} until the start of his next turn or until he attacks or casts a spell. Once he uses this feature, Nordak can't use it again until he finishes a short or long rest."
+          ]
+        }
+      ]
     },
     {
       "name": "Yeti Cub",
@@ -1370,13 +1374,13 @@
         {
           "name": "Keen Smell",
           "entries": [
-            "The yeti cub has advantage on Wisdom (Perception) checks that rely on smell."
+            "The yeti cub has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
           ]
         },
         {
           "name": "Snow Camouflage",
           "entries": [
-            "The yeti cub has advantage on Dexterity (Stealth) checks made in snow or icy terrain."
+            "The yeti cub has advantage on Dexterity ({@skill Stealth}) checks made in snow or icy terrain."
           ]
         }
       ],
@@ -1503,7 +1507,7 @@
         {
           "name": "Snow Camouflage",
           "entries": [
-            "The vicious yeti has advantage on Dexterity (Stealth) checks made to hide in snowy terrain."
+            "The vicious yeti has advantage on Dexterity ({@skill Stealth}) checks made to hide in snowy terrain."
           ]
         },
         {
@@ -1768,7 +1772,9 @@
       "source": "RolledTold5",
       "requires": [
         {
-          "axe": true,
+          "axe": true
+        },
+        {
           "sword": true
         }
       ],
