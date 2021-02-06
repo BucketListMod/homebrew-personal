@@ -795,7 +795,7 @@
         {
           "name": "Wizard Spellcasting",
           "headerEntries": [
-            "Nija is an 11th level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 15}, +7 to hit with spell attacks). Ninja regains her expended spell slots when she finishes a long rest. Ninja's arcane focus is a bone wand. Below are the spells she has prepared. Nija has an additional 12 spells of various levels written in her spellbook of the DM's choice."
+            "Nija is an 11th level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 15}, {@hit +7} to hit with spell attacks). Ninja regains her expended spell slots when she finishes a long rest. Ninja's arcane focus is a bone wand. Below are the spells she has prepared. Nija has an additional 12 spells of various levels written in her spellbook of the DM's choice."
           ],
           "spells": {
             "0": {
@@ -896,7 +896,7 @@
           "entries": [
             "When Nija casts animate dead she can target one additional corpse or pile of bones, creating another zombie or skeleton. Nija's undead created using necromancy have the following additional benefits:",
             "-Maximum hit points increase by 11",
-            "-The creature adds her proficiency bonus (+4) to its weapon damage rolls"
+            "-The creature adds her proficiency bonus ({@hit +4}) to its weapon damage rolls"
           ]
         },
         {
