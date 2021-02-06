@@ -1033,7 +1033,7 @@
         {
           "name": "Spellcasting",
           "headerEntries": [
-            "The wizard is a 4th-level spellcaster who uses Intelligence as their spellcasting ability (spell save {@dc 13}; +5 to hit with spell attacks). The wizard has the following wizard spells prepared:"
+            "The wizard is a 4th-level spellcaster who uses Intelligence as their spellcasting ability (spell save {@dc 13}; {@hit +5} to hit with spell attacks). The wizard has the following wizard spells prepared:"
           ],
           "spells": {
             "0": {
