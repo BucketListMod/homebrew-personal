@@ -19,7 +19,7 @@
       }
     ],
     "dateAdded": 1602284622,
-    "dateLastModified": 1612541863
+    "dateLastModified": 1612646713
   },
   "book": [
     {
@@ -1254,7 +1254,7 @@
       "name": "Goblin Brute",
       "shortName": true,
       "source": "RolledTold1",
-      "page": "22",
+      "page": 22,
       "size": "S",
       "type": {
         "type": "humanoid",
@@ -1306,12 +1306,6 @@
           "entries": [
             "A melee weapon deals one extra die of damage when the goblin brute hits with it (included in the attack)."
           ]
-        },
-        {
-          "name": "Nimble Escape",
-          "entries": [
-            "The goblin brute can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
-          ]
         }
       ],
       "action": [
@@ -1352,6 +1346,14 @@
       ],
       "miscTags": [
         "MW"
+      ],
+      "bonus": [
+        {
+          "name": "Nimble Escape",
+          "entries": [
+            "The goblin brute can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+          ]
+        }
       ]
     },
     {
@@ -1572,7 +1574,7 @@
       "name": "Goblin Hedge Witch",
       "shortName": true,
       "source": "RolledTold1",
-      "page": "22",
+      "page": 22,
       "size": "S",
       "type": {
         "type": "humanoid",
@@ -1650,14 +1652,6 @@
           "type": "spellcasting"
         }
       ],
-      "trait": [
-        {
-          "name": "Nimble Escape",
-          "entries": [
-            "The goblin hedge witch can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
-          ]
-        }
-      ],
       "action": [
         {
           "name": "Hate Eye {@recharge 5}",
@@ -1694,6 +1688,14 @@
       ],
       "miscTags": [
         "MW"
+      ],
+      "bonus": [
+        {
+          "name": "Nimble Escape",
+          "entries": [
+            "The goblin hedge witch can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+          ]
+        }
       ]
     },
     {
@@ -1776,13 +1778,13 @@
         {
           "name": "Tool Profieciencies",
           "entries": [
-            "The gnome has proficiency in any 2 tool sets of the DM's choice, and can add its proficiency bonus (+4 total) to any check made with them."
+            "The gnome has proficiency in any 2 tool sets of the DM's choice, and can add its proficiency bonus ({@hit +4} total) to any check made with them."
           ]
         },
         {
           "name": "Artificier's Lore",
           "entries": [
-            "The gnome has advantage on ANY Intelligence (History) checks related to magic items, alchemical objects, or technological devices and can add double proficiency (+6 total) on such checks."
+            "The gnome has advantage on ANY Intelligence ({@skill History}) checks related to magic items, alchemical objects, or technological devices and can add double proficiency ({@hit +6} total) on such checks."
           ]
         },
         {
@@ -1822,7 +1824,7 @@
       "shortName": "Noobay",
       "isNpc": true,
       "source": "RolledTold1",
-      "page": "56",
+      "page": 56,
       "size": "M",
       "type": "humanoid",
       "alignment": [
@@ -1871,12 +1873,6 @@
       ],
       "cr": "3",
       "trait": [
-        {
-          "name": "Cunning Action",
-          "entries": [
-            "On each of her turns, Noobay can use a bonus action to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
-          ]
-        },
         {
           "name": "Sneak Attack (1/Turn)",
           "entries": [
@@ -1967,6 +1963,14 @@
         "MW",
         "RW",
         "THW"
+      ],
+      "bonus": [
+        {
+          "name": "Cunning Action",
+          "entries": [
+            "On each of her turns, Noobay can use a bonus action to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+          ]
+        }
       ]
     },
     {
@@ -2209,15 +2213,9 @@
       "cr": "0",
       "trait": [
         {
-					"name": "Minion",
-					"entries": [
-						"The goblin whelp never suffers damage on an attack that causes half damage on a successful saving throw."
-					]
-				},
-        {
-          "name": "Nimble Escape",
+          "name": "Minion",
           "entries": [
-            "The goblin whelp can take the Disengage or Hide action as a bonus action on each of its turns."
+            "The goblin whelp never suffers damage on an attack that causes half damage on a successful saving throw."
           ]
         }
       ],
@@ -2331,7 +2329,15 @@
             }
           }
         ]
-      }
+      },
+      "bonus": [
+        {
+          "name": "Nimble Escape",
+          "entries": [
+            "The goblin whelp can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+          ]
+        }
+      ]
     }
   ],
   "vehicle": [
