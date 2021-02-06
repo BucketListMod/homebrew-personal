@@ -19,7 +19,7 @@
       }
     ],
     "dateAdded": 1602284622,
-    "dateLastModified": 1612541993
+    "dateLastModified": 1612647719
   },
   "item": [
     {
@@ -66,7 +66,7 @@
       "name": "Ogre Matron",
       "shortName": "ogre matron",
       "source": "RolledTold4",
-      "page": "22",
+      "page": 22,
       "size": "L",
       "type": "giant",
       "alignment": [
@@ -107,14 +107,6 @@
         "Giant"
       ],
       "cr": "5",
-      "trait": [
-        {
-          "name": "Big Mama Bellow {@recharge}",
-          "entries": [
-            "As a bonus action the ogre matron lets loose a fearsome bellow, and any non-ally creature within 100 ft. must make a {@dc 13} Wisdom saving throw. Creatures that fail are {@condition stunned} until the end of her next turn; those that succeed are {@condition frightened} until the end of their next turn."
-          ]
-        }
-      ],
       "action": [
         {
           "name": "Multiattack",
@@ -191,13 +183,21 @@
       ],
       "conditionInflict": [
         "prone"
+      ],
+      "bonus": [
+        {
+          "name": "Big Mama Bellow {@recharge}",
+          "entries": [
+            "As a bonus action the ogre matron lets loose a fearsome bellow, and any non-ally creature within 100 ft. must make a {@dc 13} Wisdom saving throw. Creatures that fail are {@condition stunned} until the end of her next turn; those that succeed are {@condition frightened} until the end of their next turn."
+          ]
+        }
       ]
     },
     {
       "name": "Ogre Maniac",
       "shortName": true,
       "source": "RolledTold4",
-      "page": "23",
+      "page": 23,
       "size": "L",
       "type": "giant",
       "alignment": [
@@ -235,12 +235,6 @@
       ],
       "cr": "3",
       "trait": [
-        {
-          "name": "Aggressive",
-          "entries": [
-            "As a bonus action, the ogre maniac can move up to its speed towards a hostile creature that it can see."
-          ]
-        },
         {
           "name": "Reckless",
           "entries": [
@@ -292,6 +286,14 @@
       ],
       "miscTags": [
         "MW"
+      ],
+      "bonus": [
+        {
+          "name": "Aggressive",
+          "entries": [
+            "As a bonus action, the ogre maniac can move up to its speed towards a hostile creature that it can see."
+          ]
+        }
       ]
     },
     {
@@ -506,7 +508,7 @@
         {
           "name": "Stout Resillience",
           "entries": [
-            "Deputy Grubbs has advantage on saving throws against poison, and he has resistance against poison damage."
+            "Deputy Grubbs has advantage on saving throws against {@condition poisoned||poison}, and he has resistance against poison damage."
           ]
         }
       ],
@@ -658,7 +660,7 @@
         {
           "name": "Naturally Stealthy",
           "entries": [
-            "Opossum can attempt to hide even when he is only obscured by a creature that is at least one size larger than him."
+            "Opossum can attempt to {@action hide} even when he is only obscured by a creature that is at least one size larger than him."
           ]
         },
         {
@@ -802,7 +804,7 @@
         {
           "name": "Antimagic Susceptibility",
           "entries": [
-            "The animated ice sculpture is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the ice sculpture must succeed on a Constitution saving throw against the caster's spell DC or fall unconscious for 1 minute."
+            "The animated ice sculpture is {@condition incapacitated} while in the area of an antimagic field. If targeted by dispel magic, the ice sculpture must succeed on a Constitution saving throw against the caster's spell DC or fall {@condition unconscious} for 1 minute."
           ]
         },
         {
@@ -914,7 +916,7 @@
           "name": "Berserk",
           "entries": [
             "When the golem starts it turn with 15 hit points or fewer, roll a {@dice d6}. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its hit points.",
-            "The golem's creator, if within 60 feet of the berserk golem, can try to calm it by speaking firmly and persuasively. The golem must be able to hear its creator, who must take an action to make a {@dc 15} Charisma (Persuasion) check. If the check succeeds, the golem ceases being berserk. If it takes damage while still at 15 hit points or fewer, the golem might go berserk again."
+            "The golem's creator, if within 60 feet of the berserk golem, can try to calm it by speaking firmly and persuasively. The golem must be able to hear its creator, who must take an action to make a {@dc 15} Charisma ({@skill Persuasion}) check. If the check succeeds, the golem ceases being berserk. If it takes damage while still at 15 hit points or fewer, the golem might go berserk again."
           ]
         },
         {
