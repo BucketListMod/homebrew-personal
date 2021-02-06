@@ -515,7 +515,7 @@
         {
           "name": "Innate Spellcaster",
           "headerEntries": [
-            "Both Gelid and Frost can innately cast three sorcerer spells of 2nd level or lower 1 per day each, requiring no material components. They both use Charisma as their casting ability (spell to hit +6, spell save {@dc 14})."
+            "Both Gelid and Frost can innately cast three sorcerer spells of 2nd level or lower 1 per day each, requiring no material components. They both use Charisma as their casting ability (spell to hit {@hit +6}, spell save {@dc 14})."
           ],
           "ability": "cha",
           "type": "spellcasting"
@@ -738,7 +738,7 @@
         {
           "name": "Spellcasting",
           "headerEntries": [
-            "The orc frost shaman is a 3rd level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 12}, +4 to hit with spell attacks)."
+            "The orc frost shaman is a 3rd level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 12}, {@hit +4} to hit with spell attacks)."
           ],
           "spells": {
             "0": {
@@ -1141,7 +1141,7 @@
         {
           "name": "Warlock Spellcasting",
           "headerEntries": [
-            "Nordak is a 7th level spellcaster. His spellcasting ability is Charisma (spell save {@dc 14}, +6 to hit with spell attacks). Nordak regains his expended spell slots when he finishes a short or long rest. Nordak's arcane focus is an ice crystal."
+            "Nordak is a 7th level spellcaster. His spellcasting ability is Charisma (spell save {@dc 14}, {@hit +6} to hit with spell attacks). Nordak regains his expended spell slots when he finishes a short or long rest. Nordak's arcane focus is an ice crystal."
           ],
           "spells": {
             "0": {
