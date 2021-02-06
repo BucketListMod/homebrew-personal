@@ -1189,7 +1189,7 @@
         {
           "name": "Stonecunning",
           "entries": [
-            "Nordak is considered proficient with Intelligence ({@skill History}) checks related to the origin of stonework, and adds double proficiency (+9 total) to such checks."
+            "Nordak is considered proficient with Intelligence ({@skill History}) checks related to the origin of stonework, and adds double proficiency ({@hit +9} total) to such checks."
           ]
         },
         {
