@@ -1212,7 +1212,7 @@
         {
           "name": "Pact Boon: Pact of the Blade",
           "entries": [
-            "Nordak can use his action to summon his {@item ice biter handaxe|RolledTol{@dice d5}|frost axe +1} into his empty hand. The weapon disappears if it is more than 5 ft. away from him for one minute. It also disappears if he dismisses it (no action required). The magic weapon appears at his feet if he dies."
+            "Nordak can use his action to summon his {@item ice biter handaxe|RolledTold5|frost axe +1} into his empty hand. The weapon disappears if it is more than 5 ft. away from him for one minute. It also disappears if he dismisses it (no action required). The magic weapon appears at his feet if he dies."
           ]
         },
         {
