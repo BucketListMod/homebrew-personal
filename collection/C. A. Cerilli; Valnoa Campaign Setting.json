@@ -15,7 +15,7 @@
       }
     ],
     "dateAdded": 1602344563,
-    "dateLastModified": 1605899624
+    "dateLastModified": 1615497481
   },
   "baseitem": [
     {
@@ -674,6 +674,211 @@
       "level": 1,
       "entries": [
         "As an extra tenant to your pact, none of the spells added to your Warlock spell list count against your number of known spells."
+      ]
+    }
+  ],
+  "class": [
+    {
+      "name": "Psionic Soul",
+      "shortName": "Psionic Soul",
+      "source": "Valnoa",
+      "page": 5,
+      "subclassFeatures": [
+        "Psionic Soul|Sorcerer||Psionic Soul|Valnoa|1",
+        "Psychic Strike|Sorcerer||Psionic Soul|Valnoa|6",
+        "Mind Over Body|Sorcerer||Psionic Soul|Valnoa|14",
+        "Psychic Aura|Sorcerer||Psionic Soul|Valnoa|18"
+      ]
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Psionic Soul",
+      "source": "Valnoa",
+      "page": 5,
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Psionic Soul",
+      "subclassSource": "Valnoa",
+      "level": 1,
+      "entries": [
+        "One day a light blazed forth within you—the illumination of psionic power. Your mind now simmers with this power, the full extent of which you won't fully grasp for years to come. You can touch other minds with it and alter the world around you by using it to control the magical energy of the multiverse. Will this power shine from you as a hopeful beacon to others? Or will you be a source of terror to those who feel the stab of your mind and witness the strange manifestations of your might?",
+        "Among githyanki and githzerai, the powers of Psionic Soul sorcerers are revered and marshaled on both sides of the gith war. In Eberron, many kalashtar dream of discovering this origin's abilities within themselves, and in Athas, more sorcerers are born with a Psionic Soul than with any other source of power. In the glades of primeval woods touched by the Feywild, children sometimes awaken to the wonders of psionic power. And in communities that survive Far Realm incursions, some folk are mutated into horrific aberrations, while a lucky few not only remain themselves, but also discover that psionic energy now suffuses their minds.",
+        "As a Psionic Soul sorcerer, you decide how you acquired your powers. Were you born with them, and did they manifest throughout childhood? Or did an extraordinary event later in life leave you shining with psionic awareness? Consult the Psionic Origins table for a possible origin of your power.",
+        {
+          "type": "table",
+          "caption": "Psionic Origins",
+          "colLabels": [
+            "d10",
+            "Origin"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              1,
+              "You were exposed to the Far Realm's warping influence. You can now use your mind in ways you never thought possible, and you're also convinced that a tendril is growing upon you."
+            ],
+            [
+              2,
+              "A psychic wind from the Astral Plane carried psionic energy into your being. When you use your powers now, faint motes of light sparkle around you."
+            ],
+            [
+              3,
+              "You or your ancestor were trained by a githzerai monk to unlock the psionic potential within yourself."
+            ],
+            [
+              4,
+              "A spirit haunts your mind, lending incredible power to your thoughts. When you sleep, the spirit's memories invade your dreams."
+            ],
+            [
+              5,
+              "Deep in a forest touched by the Feywild, you drank from a glimmering stream, and now your mind shines with power. Beasts and fey creatures are often now friendly to you, as if they can sense the light within you."
+            ],
+            [
+              6,
+              "Upon recovering from a near-fatal injury, you found yourself with psionic powers. Whenever you use them, your old wound tingles."
+            ],
+            [
+              7,
+              "You were implanted with a mind flayer tadpole, but the ceremorphosis never completed. And now the psionic power is yours. When you use it, your flesh shines with a strange mucus."
+            ],
+            [
+              8,
+              "As a child, you had an imaginary friend that looked like a flumph or a strange platypuslike creature. One day, it gifted you with psionic powers, which have ended up being not so imaginary."
+            ],
+            [
+              9,
+              "Your nightmares whisper the truth to you: your psionic powers are not your own. You draw them from your vestigial twin!"
+            ],
+            [
+              10,
+              "You grew up near the lair of a sapphire dragon, and now your eyes glow with sapphire light when you use your newfound powers."
+            ]
+          ]
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Psionic Power|Sorcerer||Psionic Soul|Valnoa|1"
+        }
+      ]
+    },
+    {
+      "name": "Psionic Power",
+      "source": "Valnoa",
+      "page": 5,
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Psionic Soul",
+      "subclassSource": "Valnoa",
+      "level": 1,
+      "header": 1,
+      "entries": [
+        "{@i 1st-level Psionic Soul feature}",
+        "You harbor a wellspring of psionic energy within yourself. This energy is represented by your Psionic Energy dice, which are each a {@dice d6}. You have a number of these dice equal to twice your proficiency bonus, and they fuel various psionic powers you have, which are detailed below.",
+        "Some of your powers expend the Psionic Energy die they use, as specified in a power's description, and you can't use a power if it requires you to use a die when your dice are all expended. You regain all your expended Psionic Energy dice when you finish a long rest. In addition, as a bonus action, you can regain one expended Psionic Energy die, but you can't do so again until you finish a short or long rest.",
+        "When you reach certain levels in this class, the size of your Psionic Energy dice increases: at 5th level ({@dice d8}), 11th level ({@dice d10}), and 17th level ({@dice d12}).",
+        "The powers below use your Psionic Energy dice.",
+        {
+          "type": "entries",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Psionic Discovery.",
+              "entries": [
+                "You can unlock the ability to cast a mind-oriented sorcerer spell you don't already know. After meditating for 10 minutes (which can be done during a rest), expend one Psionic Energy die, roll the die, and choose a sorcerer spell of a level for which you have spell slots and that is {@filter a divination or an enchantment spell from the sorcerer, warlock, or wizard spell list|spells|class=sorcerer;warlock;wizard|school=D;E|level=1;2;3;4;5}. You know the chosen spell for a number of hours equal to the number you rolled."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Psychic Sorcery.",
+              "entries": [
+                "When you cast a spell, you can use your mind to form it, rather than relying on words, gestures, and materials. To do so, expend one Psionic Energy die and roll it. The spell then requires no verbal component, and if you rolled the level of the spell or higher, the spell doesn't require somatic or material components either."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Telepathic Speech.",
+              "entries": [
+                "You can form a telepathic connection between your mind and the mind of another. As a bonus action, choose one creature you can see, and roll your Psionic Energy die. For a number of hours equal to the number you rolled, you and the chosen creature can speak telepathically with each other while the two of you are within a number of miles of each other equal to the number you rolled. To understand each other, you each must speak mentally in a language the other knows. The telepathic connection ends early if you use this ability to form a connection with a different creature.",
+                "The first time you use this power after each long rest, you don't expend the Psionic Energy die. All other times you use the power, you expend the die."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Psychic Strike",
+      "source": "Valnoa",
+      "page": 5,
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Psionic Soul",
+      "subclassSource": "Valnoa",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "{@i 6th-level Psionic Soul feature}",
+        "You have learned to channel additional psychic energy into your spells. Immediately after you deal damage to a creature with a sorcerer spell for which you expend a spell slot, you can expend one Psionic Energy die and also deal psychic damage to that creature equal to the number rolled. You can deal this extra damage only once per turn."
+      ]
+    },
+    {
+      "name": "Psionic Defense",
+      "source": "Valnoa",
+      "page": 5,
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Psionic Soul",
+      "subclassSource": "Valnoa",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "{@i 6th-level Psionic Soul feature}",
+        "You gain resistance to psychic damage, and you have advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+      ]
+    },
+    {
+      "name": "Mind Over Body",
+      "source": "Valnoa",
+      "page": 5,
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Psionic Soul",
+      "subclassSource": "Valnoa",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "{@i 14th-level Psionic Soul feature}",
+        "You can now use the psi that flows through you to give your body extraordinary abilities. As a bonus action, you can spend 1 or more sorcery points to magically transform your body for 10 minutes. For each sorcery point you spend, you can gain one of the following benefits of your choice, the effects of which last until the transformation ends:",
+        {
+          "type": "list",
+          "items": [
+            "You can see any {@condition invisible} creature within 60 feet of you, provided it isn't behind total cover.",
+            "You gain a flying speed equal to your walking speed, and you can hover.",
+            "You gain a swimming speed equal to twice your walking speed, and you can breathe underwater.",
+            "Your body, along with any equipment you are wearing or carrying, becomes pliable. You can move through any space as narrow as 1 inch without squeezing, and you can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Psychic Aura",
+      "source": "Valnoa",
+      "page": 5,
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Psionic Soul",
+      "subclassSource": "Valnoa",
+      "level": 18,
+      "header": 2,
+      "entries": [
+        "{@i 18th-level Psionic Soul feature}",
+        "You can unleash your psionic power in a crackling aura of psychic energy; as a bonus action, you can magically radiate this transparent, 30-foot-radius aura for 1 minute or until you're {@condition incapacitated}.",
+        "Whenever a creature starts its turn in the aura or moves into it for the first time on a turn, you can deal psychic damage to the creature, equaling {@damage 1d12} plus your Charisma modifier. If the creature takes any of this damage, its speed is halved until the start of its next turn.",
+        "Once you use this feature, you can't do so again until you finish a long rest, unless you expend three Psionic Energy dice to use it again."
       ]
     }
   ]
