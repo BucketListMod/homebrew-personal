@@ -677,7 +677,7 @@
       ]
     }
   ],
-  "class": [
+  "subclass": [
     {
       "name": "Psionic Soul",
       "shortName": "Psionic Soul",
