@@ -680,6 +680,8 @@
   "subclass": [
     {
       "name": "Psionic Soul",
+			"className": "Sorcerer",
+			"classSource": "PHB",
       "shortName": "Psionic Soul",
       "source": "Valnoa",
       "page": 5,
