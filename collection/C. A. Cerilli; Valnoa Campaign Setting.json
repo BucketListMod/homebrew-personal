@@ -15,7 +15,7 @@
       }
     ],
     "dateAdded": 1602344563,
-    "dateLastModified": 1615497481
+    "dateLastModified": 1618188992
   },
   "baseitem": [
     {
@@ -474,7 +474,9 @@
     {
       "name": "Changeling",
       "source": "Valnoa",
-      "size": "M",
+      "size": [
+        "M"
+      ],
       "speed": 30,
       "ability": [
         {
@@ -680,8 +682,8 @@
   "subclass": [
     {
       "name": "Psionic Soul",
-			"className": "Sorcerer",
-			"classSource": "PHB",
+      "className": "Sorcerer",
+      "classSource": "PHB",
       "shortName": "Psionic Soul",
       "source": "Valnoa",
       "page": 5,
