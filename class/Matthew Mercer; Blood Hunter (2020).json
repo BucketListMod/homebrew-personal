@@ -20,7 +20,7 @@
 			}
 		],
 		"dateAdded": 1580617082,
-		"dateLastModified": 1611956616
+		"dateLastModified": 1583537902
 	},
 	"class": [
 		{
@@ -288,7 +288,7 @@
 				"armor": [
 					"light",
 					"medium",
-					"shields"
+					"{@item shield|phb|shields}"
 				],
 				"weapons": [
 					"simple",
@@ -377,7 +377,7 @@
 					"armor": [
 						"light",
 						"medium",
-						"shields"
+						"{@item shield|phb|shields}"
 					],
 					"weapons": [
 						"simple",
@@ -474,8 +474,8 @@
 					"casterProgression": "pact",
 					"subclassSpells": [
 						{
-							"class": "Warlock",
-							"source": "PHB"
+							"className": "Warlock",
+							"classSource": "PHB"
 						}
 					],
 					"subclassTableGroups": [
