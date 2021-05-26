@@ -7,18 +7,18 @@
         "full": "Reincarnate Tables Expanded",
         "authors": [
           "u/redceramicfrypan",
-          "Rebekah McCue"
+          "BucketListMod"
         ],
         "convertedBy": [
           "BucketListMod#8973"
         ],
         "version": "1.0",
         "url": "https://www.reddit.com/r/UnearthedArcana/comments/9no3je/my_custom_reincarnate_table_with_all_published_pc/",
-        "targetSchema": "1.0.0"
+        "targetSchema": "1.2.0"
       }
     ],
     "dateAdded": 1602555207,
-    "dateLastModified": 1612376364
+    "dateLastModified": 1622057060
   },
   "table": [
     {
@@ -32,8 +32,7 @@
       ],
       "colStyles": [
         "col-1 text-center",
-        "col-5-5",
-        "col-5-5"
+        "col-2"
       ],
       "rows": [
         [
@@ -45,7 +44,7 @@
             }
           },
           "{@race Human (base)||Human}",
-          "Choose {@race human||Standard} or {@race human (variant)||Variant}"
+          "Choose {@race human||Standard} or {@race human (variant)||Variant} | EBERRON: Roll on {@table Reincarnate: Human Dragonmark|redceramicfrypanReincarnate}"
         ],
         [
           {
@@ -122,7 +121,7 @@
             }
           },
           "{@race Half-Orc}",
-          "—"
+          "— | EBERRON: {@chance 50|Flip coin|Has mark} for {@race half-orc (mark of finding)|ERLW|Mark of Finding}"
         ],
         [
           {
@@ -329,7 +328,7 @@
               "max": "100"
             }
           },
-          "{@race Dwarf (Duergar)|MTF|Grey}"
+          "{@race Dwarf (Duergar)|MTF|Grey} | EBERRON: {@race dwarf (mark of warding)|ERLW|Mark of Warding}"
         ]
       ]
     },
@@ -396,7 +395,7 @@
               "max": "94"
             }
           },
-          "{@race elf (pallid)|EGW|Pallid}"
+          "{@race elf (pallid)|EGW|Pallid} | EBERRON: {@race elf (mark of shadow)|ERLW|Mark of Shadow}"
         ],
         [
           {
@@ -406,7 +405,7 @@
               "max": "97"
             }
           },
-          "{@race elf (Eladrin)|MTF|Eladrin}"
+          "{@race elf (Eladrin)|MTF|Eladrin} | EBERRON: (Half-Elf) {@race half-elf (variant; mark of detection)|ERLW|Mark of Detection}"
         ],
         [
           {
@@ -416,7 +415,7 @@
               "max": "100"
             }
           },
-          "{@race elf (shadar-kai)|MTF|Shadar-kai}"
+          "{@race elf (shadar-kai)|MTF|Shadar-kai} | EBERRON: (Half-Elf) {@race half-elf (variant; mark of storm)|ERLW|Mark of Storm}"
         ]
       ]
     },
@@ -460,7 +459,7 @@
               "max": "90"
             }
           },
-          "{@race halfling (lotusden)|EGW|Lotusden}"
+          "{@race halfling (lotusden)|EGW|Lotusden} | EBERRON: {@race halfling (mark of healing)|ERLW|Mark of Healing}"
         ],
         [
           {
@@ -470,7 +469,7 @@
               "max": "100"
             }
           },
-          "{@race halfling (ghostwise)|SCAG|Ghostwise}"
+          "{@race halfling (ghostwise)|SCAG|Ghostwise} | EBERRON: {@race halfling (mark of hospitality)|ERLW|Mark of Hospitality}"
         ]
       ]
     },
@@ -674,7 +673,7 @@
               "max": "100"
             }
           },
-          "{@race gnome (deep)|MTF|Deep}"
+          "{@race gnome (deep)|MTF|Deep} | EBERRON: {@race gnome (mark of scribing)|ERLW|Mark of Scribing}"
         ]
       ]
     },
@@ -729,6 +728,80 @@
             }
           },
           "{@race genasi (water)|EEPC|Water}"
+        ]
+      ]
+    },
+    {
+      "source": "redceramicfrypanReincarnate",
+      "page": "2",
+      "name": "Reincarnate: Human Dragonmark",
+      "colLabels": [
+        "{@dice d100}",
+        "Dragonmark"
+      ],
+      "colStyles": [
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "1",
+              "max": "50"
+            }
+          },
+          "No Mark"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "51",
+              "max": "60"
+            }
+          },
+          "{@race human (mark of finding)|ERLW|Mark of Finding}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "61",
+              "max": "70"
+            }
+          },
+          "{@race human (mark of handling)|ERLW|Mark of Handling}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "71",
+              "max": "80"
+            }
+          },
+          "{@race human (mark of making)|ERLW|Mark of Making}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "81",
+              "max": "90"
+            }
+          },
+          "{@race human (mark of passage)|ERLW|Mark of Passage}"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": "91",
+              "max": "100"
+            }
+          },
+          "{@race human (mark of sentinel)|ERLW|Mark of Sentinel}"
         ]
       ]
     },
@@ -1089,61 +1162,7 @@
     {
       "source": "redceramicfrypanReincarnate",
       "page": "2",
-      "name": "Eberron Conversions",
-      "intro": [
-        "All conversions optional.",
-        "In the event an original is listed in an unused source, its Eberron replacement can be drawn from active sources instead.",
-        {
-          "type": "table",
-          "page": "2",
-          "caption": "Eberron: Rising from the Last War",
-          "colLabels": [
-            "Original",
-            "Eberron"
-          ],
-          "colStyles": [
-            "col-6"
-          ],
-          "rows": [
-            [
-              "{@race human (base)|PHB|Human}",
-              "Roll {@dice 1d6} for Mark (alphabetical, 1 is no mark)"
-            ],
-            [
-              "Dwarf, {@race dwarf (hill)|PHB|Hill} or {@race dwarf (mountain)|PHB|Mountain}",
-              "{@race dwarf (mark of warding)|ERLW|Mark of Warding}"
-            ],
-            [
-              "Elf, {@race elf (pallid)|EGW|Pallid}",
-              "{@race elf (mark of shadow)|ERLW|Mark of Shadow}"
-            ],
-            [
-              "Halfling, {@race halfling (lotusden)|EGW|Lotusden}",
-              "{@race halfling (mark of healing)|ERLW|Mark of Healing}"
-            ],
-            [
-              "Halfling, {@race halfling (ghostwise)|SCAG|Ghostwise}",
-              "{@race halfling (mark of hospitality)|ERLW|Mark of Hospitality}"
-            ],
-            [
-              "Gnome, {@race gnome (deep)|MTF|Deep}",
-              "{@race gnome (mark of scribing)|ERLW|Mark of Scribing}"
-            ],
-            [
-              "{@race half-elf (variant)|PHB|Half-Elf}, Pallid or Eladrin (<96)",
-              "{@race half-elf (variant; mark of detection)|ERLW|Mark of Detection}"
-            ],
-            [
-              "{@race half-elf (variant)|PHB|Half-Elf}, Shadar-kai or Eladrin (>96)",
-              "{@race half-elf (variant; mark of storm)|ERLW|Mark of Storm}"
-            ],
-            [
-              "{@race Half-Orc|PHB}",
-              "{@chance 50|Flip coin|Has mark} for {@race half-orc (mark of finding)|ERLW|Mark of Finding}"
-            ]
-          ]
-        }
-      ],
+      "name": "Popular Eberron Homebrew: Conversions",
       "caption": "Exploring Eberron",
       "colLabels": [
         "Original",
@@ -1167,7 +1186,7 @@
         ],
         [
           "Aasimar, {@race aasimar (scourge)|VGM|Scourge}",
-          "{@race aasimar (scourge variant; fernian)|ExploringEberron|Fernian} or {@race aasimar (seeker)|ExploringEberron|Seeker}"
+          "Choose {@race aasimar (scourge variant; fernian)|ExploringEberron|Fernian} or {@race aasimar (seeker)|ExploringEberron|Seeker}"
         ],
         [
           "Aasimar, {@race aasimar (fallen)|VGM|Fallen}",
@@ -1179,15 +1198,15 @@
         ],
         [
           "{@race Goblin|ERLW}",
-          "{@chance 50|Flip coin|Dhakaani} for {@race goblin (Dhakaani Golin'dar)|ExploringEberron|Dhakaani}"
+          "Choose or {@chance 50|flip coin|Dhakaani} for {@race goblin (Dhakaani Golin'dar)|ExploringEberron|Dhakaani}"
         ],
         [
           "{@race Hobgoblin|ERLW}",
-          "{@chance 50|Flip coin|Dhakaani} for {@race hobgoblin (Dhakaani Ghaal'dar)|ExploringEberron|Dhakaani}"
+          "Choose or {@chance 50|flip coin|Dhakaani} for {@race hobgoblin (Dhakaani Ghaal'dar)|ExploringEberron|Dhakaani}"
         ],
         [
           "{@race Bugbear|ERLW}",
-          "{@chance 50|Flip coin|Dhakaani} for {@race bugbear (Dhakaani Guul'dar)|ExploringEberron|Dhakaani}"
+          "Choose or {@chance 50|flip coin|Dhakaani} for {@race bugbear (Dhakaani Guul'dar)|ExploringEberron|Dhakaani}"
         ]
       ],
       "outro": [
