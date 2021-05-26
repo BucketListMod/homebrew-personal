@@ -218,7 +218,7 @@
         }
       ],
       "damageInflict": [
-        "lightning"
+        "fire"
       ],
       "savingThrow": [
         "dexterity"
