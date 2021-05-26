@@ -1,0 +1,250 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "McCueDruidic",
+        "abbreviation": "DL",
+        "full": "Druidic Language",
+        "authors": [
+          "Bekah McCue"
+        ],
+        "convertedBy": [
+          "BucketListMod#8973"
+        ],
+        "version": "1.0.0",
+        "url": "https://homebrewery.naturalcrit.com/share/PufRu5QO8",
+        "targetSchema": "1.0.0"
+      }
+    ],
+    "dateAdded": 1602442076,
+    "dateLastModified": 1602445289
+  },
+  "variantrule": [
+    {
+      "name": "Druidic Language",
+      "source": "McCueDruidic",
+      "page": 1,
+      "ruleType": "VO",
+      "entries": [
+        {
+          "type": "section",
+          "entries": [
+            "Traveling over a frozen mountain, a halfling spots a stack of stones on the trail before her. Counting three tall and then seeing one to the left, she turns that direction and continues on her way. She'll never know how close she was to the den of an ice troll.",
+            "A human whistles a call on his pan flute, then waits patiently for the reply. A tone comes from his right, and following it he finds the injured stranger he heard signaling for help.",
+            "A young elf lights two fires in the desert, each sixty feet apart. He paces between them nervously, waiting five minutes. Ten. Then suddenly a half-orc comes from one of the hills of sand, offering a friendly smile and directions to the nearest town.",
+            {
+              "type": "entries",
+              "name": "Signals in the Natural World",
+              "entries": [
+                "Whether solitary or living in circle groups, druids weave among the natural world in order to maintain balance between it and the humanoid races. One of the tools they use to achieve this is the Druidic, a secret language used to communicate over large gaps of space and time."
+              ]
+            },
+            {
+              "type": "section",
+              "name": "I Spy…",
+              "entries": [
+                "The primary aspect of druidic is visual rather than audible. Long-lasting signals are useful to local druids to steer visitors safely through the area. Long-distance signals help those traveling alone to seek help from the others in the area. Either way, these signals serve to quickly communicate important information for safety and survival.",
+                {
+                  "type": "entries",
+                  "name": "Part of Your Environment",
+                  "entries": [
+                    "Druidic trail markers are simple enough that they can be adapted to any environment without drawing attention or significantly wounding the land. They are based on numbers and direction, usually requiring no contact between the sender and the recipient.",
+                    "There are three typical signals that can be created in any environment:",
+                    {
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Go Straight/Safety",
+                          "entries": [
+                            "A single marker that doesn't point in a direction indicates you are on a safe path through the area. Examples of this are two stones stacked on top of each other, a single broken branch on a bush, or a section of grass tied in a knot."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "Turn Right/Left",
+                          "entries": [
+                            "A single marker that points in a direction indicates the safest or quickest path turns in that direction. This is often a modified \"safety\" marker. Examples are a stack of two stones with a third to one side, a twig placed on the ground with its leaves pointing one way, or a section of grass tied and bent to one side."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "Danger/Warning",
+                          "entries": [
+                            "A marker that appears as a group of three and doesn't indicate a direction means there is danger in the area. Examples are a stack of three stones, three twigs tied together as a tripod, or three bundles of grass knotted right next to each other."
+                          ]
+                        }
+                      ]
+                    },
+                    "The danger marker is notable for often being accompanied by other communications. For example, danger combined with a turn marker indicates the quickest and safest way to avoid the threat. The druid may have also mentioned to a nearby plant or animal what the danger is and ask them to pass this information along should a traveler use {@spell Speak with Plants} or {@spell Speak with Animals}.",
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://i0.wp.com/www.lostwitandwisdom.com/wp-content/uploads/2017/07/signals.jpg?w=700&ssl=1"
+                      }
+                    },
+                    {
+                      "type": "inset",
+                      "name": "Druidic & Druidcraft",
+                      "entries": [
+                        "In order to communicate more information via Druidic, consider the ways druids may use {@spell Druidcraft} to augment their messages, and what they may mean when paired with certain markers.",
+                        "Some examples include:",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Making flowers bloom near a turn marker may indicate a meadow or farming town in that direction.",
+                            "An odor of rot and decay left with a danger marker may indicate the area is poisoned or that undead roam there.",
+                            "Leaving a specific seed pod to be opened by another druid may signal to keep on the lookout for that plant, either as a rendezvous point or because it's poisonous."
+                          ]
+                        },
+                        "Also consider how {@spell Druidcraft} on its own may constitute a Druidic message. For example, a flower blooming out-of-season or in an area it isn't naturally found. These messages are likely more personal in nature: for example, a form of identification or threat for an individual, or a shared code used within a specific circle."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Send Up a Flare",
+                  "entries": [
+                    "While most druidic communication is not time-sensitive, occasionally there is need to send important messages quickly. For this purpose, druidic employs the use of smoke signals in order to send word across long distances. The number of fires used communicates different messages.",
+                    {
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "One Fire",
+                          "entries": [
+                            "A single fire is a simple indication of \"I am here.\" While many druids do not seek contact for a single fire, they may check to see who is in their area or take note that travelers are passing through."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "Two Fires",
+                          "entries": [
+                            "Two fires spread approximately 60 feet apart indicates the person setting them is lost. Friendly druids may come and offer assistance for free, while others may ask for a favor or coin in compensation."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "Three Fires",
+                          "entries": [
+                            "Three fires spread 60 feet apart is used to communicate good news. This is often used when a search party was organized and the subject was found safely. Generally, only druids who know what the good news might be will respond to this signal."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "Four Fires",
+                          "entries": [
+                            "Four fires spread 60 feet apart is a request for direct contact or an area-wide meeting. All druids in the area will usually at least check to see what's happening, though not all of them will make themselves known to strangers."
+                          ]
+                        }
+                      ]
+                    },
+                    "Spells and cantrips that manipulate the wind may also be used to change the shape of the smoke cloud for more detailed messaging. This can be a simple shape or a complex shadow play, depending on the skill of the spellcaster."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Whistling on the Wind",
+              "page": 2,
+              "entries": [
+                "Visual signals are useful to facilitate a meet-up or ensure you never need one. However, they are largely one-way. When a task at hand requires a dialogue instead, Druidic employs auditory cues that can be used as both initiation and response.",
+                {
+                  "type": "entries",
+                  "name": "A Little Birdy Told Me",
+                  "entries": [
+                    "While any local animal that lives in family groups may be the basis of auditory Druidic, the most common derivative is bird calls because of their ability to pierce long distances. Using instruments or vocals, there are several types of calls used to communicated through Druidic.",
+                    {
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Flight Calls",
+                          "entries": [
+                            "Also called \"formation calls,\" this call helps communicate where you are in relation to other druids. This can be used to keep certain distances apart for search parties, long-distance travel, or battle formations."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "Contact Calls",
+                          "entries": [
+                            "These calls are used to keep in contact with other druids when formation is not important. It is used to arrange meet-ups with strangers or keep tabs on friends."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "Separation Calls",
+                          "entries": [
+                            "Used to locate someone who has become lost from their group or traveling companions. Unless you know who's sending it, it's {@i faux pas}  to respond; they are looking for a specific person, not general assistance."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "Begging Calls",
+                          "entries": [
+                            "This call is used by lone druids who are lost or injured, essentially sending an S.O.S. to the locals."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "Alarm Calls",
+                          "entries": [
+                            "Alarm calls are warnings to other druids that danger has been spotted, and the best course of action is to lie low and avoid it."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "Rallying Calls",
+                          "entries": [
+                            "Similar to alarm calls, rallying calls indicate danger. However, a rally call is used to organize a group to attack the threat and remove it, rather than simply avoid it."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "inset",
+                      "name": "Your Circle and Your Calls",
+                      "entries": [
+                        "If a druid is part of a specific druid circle, consider that circle and what animal it would base its druidic calls on.",
+                        "For example, the {@class druid|phb|Circle of the Moon|Moon} may prefer to use the calls of predators and raptors to communicate with each other. Druids that operate mostly at night (such as the {@class druid|phb|Circle of the Stars|Stars|TCE}) will be more likely to use nocturnal animals than diurnal ones.",
+                        "Even without a specific circle, druid players and DMs should work together to determine the specific culture that they from and how their druidic calls reflect it."
+                      ]
+                    },
+                    "While the exact sound of each call varies by the animal being mimicked, they are often close enough in volume and tone to identify their purpose. In this way, even visiting druids can communicate audibly without knowing the local animals."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Example Use of Druidic Calls",
+                  "entries": [
+                    "A druid who belongs to the Circle of the Coast climbs over bluffs and crags, surveying driftwood left behind by a recent storm. A friend has agreed to meet with her here, but she hasn't found them yet.",
+                    "Pulling out her flute, the young lady mimics the {@i contact call}  of a gull. The sound of the instrument differs enough from the birds that they won't respond, but if her friend hears her, they might.",
+                    "While listening for the reply, she hears a different noise she didn't expect. It sounds like a {@i begging call} , but of a bird she doesn't recognize. Something from the forest, maybe? But the nearest forest is dozens of miles from here.",
+                    "Starting in the direction she heard the noise, she plays her flute again with a {@i separation call}. She hopes whoever's listening will be able to connect the dots as she did. The begging call sounds back again, and she responds as she follows it slowly down the cliff.",
+                    "Rounding a corner as she prepares to play her call again, the druid stops short at the sight of a man, ragged and soaked. He cups his hands around his mouth and sounds the begging call again, to which she replies and catches his attention. Jogging close, she sees his leg is pinned by a boulder and surrounded by flotsam; he must have been shipwrecked in the previous bad weather.",
+                    "The stone is large and slick, something she can't move by herself. Reaching for her flute again, she begins a {@i contact call}  before she sees her friend silhouetted at the top of the cliff. They pull out their shawm and respond in kind, waving before they transform into a hawk and fly down to assist the stranger."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "homebrew by Bekah McCue",
+              "entries": [
+                "Inspiration/Information Credits:",
+                {
+                  "type": "list",
+                  "items": [
+                    "Dael Kingsmill/MonarchsFactory, {@link How I'd Run the Druidic Language|https://www.youtube.com/watch?v=DWw6nGFI57A}.",
+                    "{@i The Book of Woodcraft and Indian Lore.} Ernest Thompson Seton, 1912.",
+                    "Template by {@link Homebrewery|https://homebrewery.naturalcrit.com/}."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
