@@ -11,13 +11,13 @@
         "convertedBy": [
           "BucketListMod#8973"
         ],
-        "version": "1.0.0",
+        "version": "2.0.0",
         "url": "https://brewskis-dnd-homebrewery.tumblr.com/post/175512834473/thoughts-prayers",
-        "targetSchema": "1.0.0"
+        "targetSchema": "2.0.0"
       }
     ],
     "dateAdded": 1602342993,
-    "dateLastModified": 1605898885
+    "dateLastModified": 1623029810
   },
   "item": [
     {
@@ -25,7 +25,7 @@
       "source": "BrewskiThoughtsPrayers",
       "page": "1",
       "type": "M",
-      "rarity": "rare",
+      "rarity": "legendary",
       "reqAttune": true,
       "weight": 1,
       "weaponCategory": "simple",
@@ -42,38 +42,29 @@
         {
           "type": "list",
           "items": [
-            "You regenerate {@dice 1d4} Hit Points at the start of each turn.",
-            "Whenever you succeed on a melee attack using Prayers, it deals an additional {@damage 2d6} radiant damage."
+            "Whenever you succeed on a melee attack against a creature using Prayers, you regain {@damage 1d4} HP.",
+            "Whenever you succeed on a melee attack using Prayers, it deals an additional {@damage 1d4} radiant damage."
           ]
         },
-        "Additionally, Prayers contains 6 charges. You can use an action to expend 2 or more charges to cast one of the following spells at level 5 (save {@dc 18}) from it:",
-        {
-          "type": "list",
-          "items": [
-            "{@spell Wall of Light|XGE} (3 charges)",
-            "{@spell Guiding Bolt} (2 charges)"
-          ]
-        },
-        "Prayers regains {@dice 1d4 + 2} expended charges daily at dawn.",
+        "Once per long rest, while attuned, Prayers allows you to supercharge an attack by casting {@spell Blinding Smite} as a bonus action (save {@dc 18}).",
         {
           "type": "entries",
           "name": "When Used Together",
           "entries": [
-            "While wearing and attuned to both weapons, the damage dice used when calculating psychic/radiant damage as a result of a melee attack becomes {@damage 4d6}. Additionally, each weapon gains +2 to its maximum charges and you may make 1 extra attack each time you take the {@action Attack} action on your turn."
+            "While wearing and attuned to both weapons, the dice used when calculating psychic/radiant damage as a result of a melee attack becomes {@damage 1d6}. Make sure you declare which weapon you are attacking with before making your attack roll."
           ]
         },
         {
           "type": "entries",
           "name": "Special",
           "entries": [
-            "If you class does not have special rules for handling unarmed strikes, each weapon functions as a light weapon for you, dealing bludgeoning damage equal to {@damage 1d6} + your strength modifier + your proficiency bonus while you area ttuned to it. While unattuned, it instead gives you +1 to unarmed strike damage.",
-            "If your class has special rules for handling unarmed strikes, each weapon provides +3 to your unarmed strike damage roles, only while you are attuned to it."
+            "If your class has special rules for handling unarmed strikes (such as the {@class Monk} class), you are not considered armed while wearing these weapons. Each weapon gives you +1 to unarmed strike damage roles.",
+            "If you class does not have special rules for handling unarmed strikes, each weapon functions as a simple, light weapon for you, dealing bludgeoning damage equal to {@damage 1d6} + your strength modifier."
           ]
         }
       ],
       "attachedSpells": [
-        "wall of light|xge",
-        "guiding bolt"
+        "blinding smite"
       ],
       "fluff": {
         "images": [
@@ -86,7 +77,7 @@
           }
         ],
         "entries": [
-          "Thoughts & Prayers are a pair of twin {@item knuckleduster|Valnoa|knuckledusters}. Each is molded from the same type of metal but, whereas Thoughts is almost fully black in color, Prayers is almost white. Each can be used independently of the other, however they are more powerful when used together by a single creature."
+          "Thoughts & Prayers are a pair of twin knuckledusters. Each is molded from the same type of metal but, whereas Thoughts is almost fully black in color, Prayers is almost white. Each can be used independently of the other, however they are more powerful when used together by a single creature."
         ]
       }
     },
@@ -95,7 +86,7 @@
       "source": "BrewskiThoughtsPrayers",
       "page": "1",
       "type": "M",
-      "rarity": "rare",
+      "rarity": "legendary",
       "reqAttune": true,
       "weight": 1,
       "weaponCategory": "simple",
@@ -114,37 +105,28 @@
           "type": "list",
           "items": [
             "You get +2 to Wisdom saving throws.",
-            "Whenever you succeed on a melee attack using Thoughts, it deals an additional {@damage 2d6} psychic damage."
+            "Whenever you succeed on a melee attack using Thoughts, it deals an additional {@damage 1d4} psychic damage."
           ]
         },
-        "Additionally, Thoughts contains 6 charges. You can use an action to expend 2 or more charges to cast one of the following spells at level 5 (save {@dc 18}) from it:",
-        {
-          "type": "list",
-          "items": [
-            "{@spell Dissonant Whispers} (3 charges)",
-            "{@spell Vicious Mockery} (2 charges)"
-          ]
-        },
-        "Thoughts regains {@dice 1d4 + 2} expended charges daily at dawn.",
+        "Once per long rest, while attuned, Thoughts allows you to supercharge an attack by casting {@spell Staggering Smite} as a bonus action (save {@dc 18}).",
         {
           "type": "entries",
           "name": "When Used Together",
           "entries": [
-            "While wearing and attuned to both weapons, the damage dice used when calculating psychic/radiant damage as a result of a melee attack becomes {@damage 4d6}. Additionally, each weapon gains +2 to its maximum charges and you may make 1 extra attack each time you take the {@action Attack} action on your turn."
+            "While wearing and attuned to both weapons, the dice used when calculating psychic/radiant damage as a result of a melee attack becomes {@damage 1d6}. Make sure you declare which weapon you are attacking with before making your attack roll."
           ]
         },
         {
           "type": "entries",
           "name": "Special",
           "entries": [
-            "If you class does not have special rules for handling unarmed strikes, each weapon functions as a light weapon for you, dealing bludgeoning damage equal to {@damage 1d6} + your strength modifier + your proficiency bonus while you area ttuned to it. While unattuned, it instead gives you +1 to unarmed strike damage.",
-            "If your class has special rules for handling unarmed strikes, each weapon provides +3 to your unarmed strike damage roles, only while you are attuned to it."
+            "If your class has special rules for handling unarmed strikes (such as the {@class Monk} class), you are not considered armed while wearing these weapons. Each weapon gives you +1 to unarmed strike damage roles.",
+            "If you class does not have special rules for handling unarmed strikes, each weapon functions as a simple, light weapon for you, dealing bludgeoning damage equal to {@damage 1d6} + your strength modifier."
           ]
         }
       ],
       "attachedSpells": [
-        "dissonant whispers",
-        "vicious mockery"
+        "staggering smite"
       ],
       "fluff": {
         "images": [
@@ -157,7 +139,7 @@
           }
         ],
         "entries": [
-          "Thoughts & Prayers are a pair of twin {@item knuckleduster|Valnoa|knuckledusters}. Each is molded from the same type of metal but, whereas Thoughts is almost fully black in color, Prayers is almost white. Each can be used independently of the other, however they are more powerful when used together by a single creature."
+          "Thoughts & Prayers are a pair of twin knuckledusters. Each is molded from the same type of metal but, whereas Thoughts is almost fully black in color, Prayers is almost white. Each can be used independently of the other, however they are more powerful when used together by a single creature."
         ]
       }
     }
